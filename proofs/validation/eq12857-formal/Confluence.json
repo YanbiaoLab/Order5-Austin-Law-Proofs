@@ -2,8 +2,8 @@
   "module": "Confluence",
   "status": "passed",
   "exit_code": 0,
-  "elapsed_seconds": 1.664,
-  "peak_rss_mib": 609.94,
+  "elapsed_seconds": 0.413,
+  "peak_rss_mib": 601.44,
   "source": "proofs/Equation12857/Lean/Confluence.lean",
   "sha256": "460d7f7788a5cf7827f06e9b39f656d684654406f43ea56f24718ebaa80398de",
   "lean_version": "leanprover/lean4:v4.33.1",
@@ -22,6 +22,8 @@
     "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857/Confluence.olean",
     "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12857/Lean/Confluence.lean"
   ],
-  "lean_path": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857"
+  ],
   "log": "proofs/validation/eq12857-formal/Confluence.log"
 }

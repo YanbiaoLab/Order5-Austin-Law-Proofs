@@ -9,8 +9,14 @@
       "formula": "x = y ◇ (x ◇ (x ◇ (y ◇ (z ◇ z))))",
       "dual": "Equation41082",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation4916/FiniteTrivial.lean",
+        "sha256": "2565e43483350edb4d395d3cd4c64ecf52147ebeed5bfff365601d6e7bb6454c",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation4916/InfiniteModel.lean",
         "sha256": "a4106c269953231f6e49a02d212113f377abe72bff765cf9742c87edf453bac3",
@@ -41,6 +47,27 @@
         },
         "elapsed_seconds": 2.081,
         "sampled_peak_rss_mib": 429.78
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "2565e43483350edb4d395d3cd4c64ecf52147ebeed5bfff365601d6e7bb6454c",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation4916.log",
+        "log_sha256": "8447b1bed3e8d7297a5a9dd461662023eb93efb572df9b378997047352d3a4ce",
+        "axioms": {
+          "finite_trivial": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 4.569,
+        "sampled_peak_rss_mib": 1235.94
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -48,8 +75,14 @@
       "formula": "x = ((((y ◇ y) ◇ z) ◇ x) ◇ x) ◇ z",
       "dual": "Equation4916",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation41082/FiniteTrivial.lean",
+        "sha256": "a61734d45d8af3213f04ed3702f4af89dc7de18c2fd747acb30673f637645834",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial_dual"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation41082/InfiniteModel.lean",
         "sha256": "bd86b917f359e75f77370e6b3d662c2be93371281fb1fa41a73b1cf9c0299d44",
@@ -80,6 +113,27 @@
         },
         "elapsed_seconds": 2.067,
         "sampled_peak_rss_mib": 438.42
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "a61734d45d8af3213f04ed3702f4af89dc7de18c2fd747acb30673f637645834",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation41082.log",
+        "log_sha256": "a8b48203a1e36e93ac1d0d141c16286709126c3e8ed8c4b68455890682895a7b",
+        "axioms": {
+          "finite_trivial_dual": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 5.831,
+        "sampled_peak_rss_mib": 1249.3
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -87,8 +141,14 @@
       "formula": "x = y ◇ (((x ◇ (z ◇ z)) ◇ y) ◇ y)",
       "dual": "Equation30591",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation15535/FiniteTrivial.lean",
+        "sha256": "fa126f01f6a33b6c5b5eaef93581de59e27b027dafff562d79443f666724dcd6",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation15535/InfiniteModel.lean",
         "sha256": "000c038e1f3e388f151c485e3d81a8320f375822ed19c7016d9010002fa2e058",
@@ -119,6 +179,27 @@
         },
         "elapsed_seconds": 14.512,
         "sampled_peak_rss_mib": 522.59
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "fa126f01f6a33b6c5b5eaef93581de59e27b027dafff562d79443f666724dcd6",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation15535.log",
+        "log_sha256": "8447b1bed3e8d7297a5a9dd461662023eb93efb572df9b378997047352d3a4ce",
+        "axioms": {
+          "finite_trivial": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.831,
+        "sampled_peak_rss_mib": 1240.91
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -126,8 +207,14 @@
       "formula": "x = (y ◇ (y ◇ ((z ◇ z) ◇ x))) ◇ y",
       "dual": "Equation15535",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation30591/FiniteTrivial.lean",
+        "sha256": "7ce0b142131e1eed87d8eeebbcc8d6143a2bfb9e5fb6edbbe29763db0de5339b",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial_dual"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation30591/InfiniteModel.lean",
         "sha256": "f7a72d83f00c572c0f3c2aba4682a1d3215ed2c93154381341a5be1b3f52a3c6",
@@ -158,6 +245,27 @@
         },
         "elapsed_seconds": 16.164,
         "sampled_peak_rss_mib": 515.11
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "7ce0b142131e1eed87d8eeebbcc8d6143a2bfb9e5fb6edbbe29763db0de5339b",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation30591.log",
+        "log_sha256": "a8b48203a1e36e93ac1d0d141c16286709126c3e8ed8c4b68455890682895a7b",
+        "axioms": {
+          "finite_trivial_dual": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 1.04,
+        "sampled_peak_rss_mib": 1197.97
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -165,8 +273,14 @@
       "formula": "x = (y ◇ z) ◇ (x ◇ (z ◇ (z ◇ z)))",
       "dual": "Equation28770",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation17522/FiniteTrivial.lean",
+        "sha256": "985be952e46f2dec9b9e36beb5ca1955ecd0e1b381e9d47a87ccda94f62b7c51",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial_dual"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation17522/InfiniteModel.lean",
         "sha256": "5653c0f6156f621dac54a415f055fb4ad8a7cca09072dbbd7d97326a6a4db765",
@@ -199,6 +313,27 @@
         },
         "elapsed_seconds": 0.824,
         "sampled_peak_rss_mib": 420.77
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "985be952e46f2dec9b9e36beb5ca1955ecd0e1b381e9d47a87ccda94f62b7c51",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation17522.log",
+        "log_sha256": "a8b48203a1e36e93ac1d0d141c16286709126c3e8ed8c4b68455890682895a7b",
+        "axioms": {
+          "finite_trivial_dual": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 1.033,
+        "sampled_peak_rss_mib": 1194.95
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -261,6 +396,10 @@
         },
         "elapsed_seconds": 0.833,
         "sampled_peak_rss_mib": 1208.98
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -268,8 +407,14 @@
       "formula": "x = (y ◇ y) ◇ ((z ◇ (x ◇ x)) ◇ z)",
       "dual": "Equation25964",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation20034/FiniteTrivial.lean",
+        "sha256": "1fae0ea9aefa541594d02716e9ed18c12eada1386b009450221ddcb64838c5c8",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation20034/InfiniteModel.lean",
         "sha256": "2f0ab52deee96952effcafe28e1b5503f9109d8e9e7891a9351c0dd6cc607259",
@@ -300,6 +445,27 @@
         },
         "elapsed_seconds": 0.624,
         "sampled_peak_rss_mib": 417.66
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "1fae0ea9aefa541594d02716e9ed18c12eada1386b009450221ddcb64838c5c8",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation20034.log",
+        "log_sha256": "8447b1bed3e8d7297a5a9dd461662023eb93efb572df9b378997047352d3a4ce",
+        "axioms": {
+          "finite_trivial": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 4.151,
+        "sampled_peak_rss_mib": 1264.88
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -307,8 +473,14 @@
       "formula": "x = (y ◇ ((x ◇ x) ◇ y)) ◇ (z ◇ z)",
       "dual": "Equation20034",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation25964/FiniteTrivial.lean",
+        "sha256": "567528a5ffeb7952181f5a846d6ca56fe12b857ca41d71734b5065b9cb20f6e5",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial_dual"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation25964/InfiniteModel.lean",
         "sha256": "e86ca61b5736c0cdaebd296ae960873cd452819136fc23addffd37762b7f718f",
@@ -339,6 +511,27 @@
         },
         "elapsed_seconds": 0.623,
         "sampled_peak_rss_mib": 417.75
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "567528a5ffeb7952181f5a846d6ca56fe12b857ca41d71734b5065b9cb20f6e5",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation25964.log",
+        "log_sha256": "a8b48203a1e36e93ac1d0d141c16286709126c3e8ed8c4b68455890682895a7b",
+        "axioms": {
+          "finite_trivial_dual": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 1.042,
+        "sampled_peak_rss_mib": 1265.44
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -346,8 +539,14 @@
       "formula": "x = (y ◇ (x ◇ x)) ◇ ((y ◇ z) ◇ y)",
       "dual": "Equation22818",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation22455/FiniteTrivial.lean",
+        "sha256": "a63613da55be5d1e07ca290c0e656b19aebdc5472b5ce21838b7686ab831ad53",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation22455/InfiniteModel.lean",
         "sha256": "161b6dca1c8ab85d567db46f8ef56aae936c4e9e6b7eb5430abca2e596fcf3b7",
@@ -378,6 +577,27 @@
         },
         "elapsed_seconds": 1.039,
         "sampled_peak_rss_mib": 426.27
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "a63613da55be5d1e07ca290c0e656b19aebdc5472b5ce21838b7686ab831ad53",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation22455.log",
+        "log_sha256": "8447b1bed3e8d7297a5a9dd461662023eb93efb572df9b378997047352d3a4ce",
+        "axioms": {
+          "finite_trivial": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 1.037,
+        "sampled_peak_rss_mib": 1192.95
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -385,8 +605,14 @@
       "formula": "x = (y ◇ (z ◇ y)) ◇ ((x ◇ x) ◇ y)",
       "dual": "Equation22455",
       "table": "20.1",
-      "finite_math": "仅平凡（Blueprint）",
-      "finite_proof": null,
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation22818/FiniteTrivial.lean",
+        "sha256": "3eec14b02880da6c91ca8acc871094f8d36fced111997577c1ab9d7d452be26c",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "origin": "finite130_table20_1",
+        "theorem": "finite_trivial_dual"
+      },
       "infinite_model_proof": {
         "path": "proofs/Equation22818/InfiniteModel.lean",
         "sha256": "8bddd7c1a6a58ae72d379463b7045fa1c7d4fa46b51b5034b4f1d23ddc1aaa30",
@@ -417,6 +643,27 @@
         },
         "elapsed_seconds": 1.454,
         "sampled_peak_rss_mib": 443.16
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "3eec14b02880da6c91ca8acc871094f8d36fced111997577c1ab9d7d452be26c",
+        "version": "4.33.1",
+        "log": "proofs/validation/finite130/Equation22818.log",
+        "log_sha256": "a8b48203a1e36e93ac1d0d141c16286709126c3e8ed8c4b68455890682895a7b",
+        "axioms": {
+          "finite_trivial_dual": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 1.247,
+        "sampled_peak_rss_mib": 1265.09
+      },
+      "finite_judge": {
+        "status": "pending_finite_capable_endpoint",
+        "required_goal": "forall G [Magma G] [Finite G], EquationN G -> Equation2 G",
+        "contract_evidence": "proofs/validation/finite130/remote-contract/result.json"
       }
     },
     {
@@ -2063,13 +2310,74 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation12857/InfiniteModel.lean",
+        "sha256": "101ab0fbaa898fd4c92aa89a4fc9764df188fe982b910aab2a2cfd7e311aeced",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Independent square-symbol rewriting construction in this repository",
+        "goal": "EquationLHS does not imply Equation2; explicit Nat injection also proved",
+        "dependencies": {
+          "proofs/Equation12857/Lean/Audit.lean": "dc2b5789ee01cc5923207244e16e298151399873136e2af4dcbd153580bd9f28",
+          "proofs/Equation12857/Lean/Basic.lean": "a8e76d6d25f8b52021f2916a551bfc259ba1b5c0181235e5ee4ea443967a90df",
+          "proofs/Equation12857/Lean/Confluence.lean": "460d7f7788a5cf7827f06e9b39f656d684654406f43ea56f24718ebaa80398de",
+          "proofs/Equation12857/Lean/Model.lean": "dcbcc53e33ae8a4ca9dabfdb8deb59723a3c20e7e789a8a79acd00b3fa56bf11",
+          "proofs/Equation12857/Lean/Peak1.lean": "b483ad16343492f0a7d6dc72874ca5080c98220d63cb74545da3ebbc24cb7e9a",
+          "proofs/Equation12857/Lean/Peak10.lean": "71b04c704913baa4b71f299b2098b04a403dd495647bf5119536040b6ccabc0f",
+          "proofs/Equation12857/Lean/Peak2.lean": "c85c86565472cf3c477c7fd42f96e153c71786ac34a589b0b45b70f2ad71cdfe",
+          "proofs/Equation12857/Lean/Peak3.lean": "f174e05d4bc9a2aa38b3592d32d3830ec4519ce832a14bb6036c3126a8fdcb7c",
+          "proofs/Equation12857/Lean/Peak4.lean": "818664f6d15262aa4a4649475a868984778ae4c9bd0e630523f7fd33460cb517",
+          "proofs/Equation12857/Lean/Peak5.lean": "b09058c5c764888856e18c1603322e1c302ece4bdfd89176e88636ca97bee85b",
+          "proofs/Equation12857/Lean/Peak6.lean": "78ecb561768c5d89a78760ed42015f77cd95e2731da96607ef3f32fbd8363364",
+          "proofs/Equation12857/Lean/Peak7.lean": "18d1dd891fea1cc1c0d968c48180a76dc199d5627347771b09e89f2241b28dab",
+          "proofs/Equation12857/Lean/Peak8.lean": "6329d910a27374d0a917d48539eb23021b40897b3df52e7844ca909e5df674c7",
+          "proofs/Equation12857/Lean/Peak9.lean": "c6f8c02d3eb920af071a04dc070a77dac1b994ecfd79f38bd000b6f42d26376c",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation12857/JudgeProblem.lean": "9b186110aea651ba37d8bd7330ace64691a190bcf8c0f5fce19cbb6d6ecda9aa"
+        },
+        "report": "proofs/validation/eq12857-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "本仓已有[数学构造与 Python 检查](../../docs/Equation12857-model.md)，尚无对应 Lean 文件。"
-      ]
+        "独立重写模型现已形式化：原等式、规范形唯一性和 Nat 单射均通过 Lean 4.33.1。",
+        "历史 timeout 状态保留；本地新证明不冒充历史 Judge accepted。",
+        "有限侧继续使用 Blueprint 的已知数学分类，本次未新增有限坍缩 Lean 定理。"
+      ],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "101ab0fbaa898fd4c92aa89a4fc9764df188fe982b910aab2a2cfd7e311aeced",
+        "log": "proofs/validation/eq12857-formal/Equation12857-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "ac74b0624b668c5ed2cf4c05f4077e3889cde93ffdc805058000378d1ca1aac4",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.418,
+        "sampled_peak_rss_mib": 606.39,
+        "dependency_manifest": "proofs/validation/eq12857-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "f343d53fdad6449cb0162cbcdb71a8dc",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation12857/attempt02/certificate.lean",
+        "certificate_sha256": "299d7af9373bcf656b705dcf69852c9e9aa185bf0c90e2e49df67568deaecb24",
+        "result": "proofs/validation/aurora/Equation12857/attempt02/latest.json",
+        "result_sha256": "ac955d043217e3143775f5b8116e82fbe2b9a5bab21edd7ee262be6fc9827eca",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788878838.9800336
+      }
     },
     {
       "equation": "Equation33436",
@@ -2078,13 +2386,74 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation33436/InfiniteModel.lean",
+        "sha256": "f110dc9594697300692bd11200e1e30069a33f25bff182d05893dc73d831cfad",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Independent square-symbol rewriting construction in this repository",
+        "goal": "EquationLHS does not imply Equation2; explicit Nat injection also proved",
+        "dependencies": {
+          "proofs/Equation12857/Lean/Audit.lean": "dc2b5789ee01cc5923207244e16e298151399873136e2af4dcbd153580bd9f28",
+          "proofs/Equation12857/Lean/Basic.lean": "a8e76d6d25f8b52021f2916a551bfc259ba1b5c0181235e5ee4ea443967a90df",
+          "proofs/Equation12857/Lean/Confluence.lean": "460d7f7788a5cf7827f06e9b39f656d684654406f43ea56f24718ebaa80398de",
+          "proofs/Equation12857/Lean/Model.lean": "dcbcc53e33ae8a4ca9dabfdb8deb59723a3c20e7e789a8a79acd00b3fa56bf11",
+          "proofs/Equation12857/Lean/Peak1.lean": "b483ad16343492f0a7d6dc72874ca5080c98220d63cb74545da3ebbc24cb7e9a",
+          "proofs/Equation12857/Lean/Peak10.lean": "71b04c704913baa4b71f299b2098b04a403dd495647bf5119536040b6ccabc0f",
+          "proofs/Equation12857/Lean/Peak2.lean": "c85c86565472cf3c477c7fd42f96e153c71786ac34a589b0b45b70f2ad71cdfe",
+          "proofs/Equation12857/Lean/Peak3.lean": "f174e05d4bc9a2aa38b3592d32d3830ec4519ce832a14bb6036c3126a8fdcb7c",
+          "proofs/Equation12857/Lean/Peak4.lean": "818664f6d15262aa4a4649475a868984778ae4c9bd0e630523f7fd33460cb517",
+          "proofs/Equation12857/Lean/Peak5.lean": "b09058c5c764888856e18c1603322e1c302ece4bdfd89176e88636ca97bee85b",
+          "proofs/Equation12857/Lean/Peak6.lean": "78ecb561768c5d89a78760ed42015f77cd95e2731da96607ef3f32fbd8363364",
+          "proofs/Equation12857/Lean/Peak7.lean": "18d1dd891fea1cc1c0d968c48180a76dc199d5627347771b09e89f2241b28dab",
+          "proofs/Equation12857/Lean/Peak8.lean": "6329d910a27374d0a917d48539eb23021b40897b3df52e7844ca909e5df674c7",
+          "proofs/Equation12857/Lean/Peak9.lean": "c6f8c02d3eb920af071a04dc070a77dac1b994ecfd79f38bd000b6f42d26376c",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation33436/JudgeProblem.lean": "60d090600073bff5620f1d0dca246a9a079fbaf3199159e4f4a95314473421ef"
+        },
+        "report": "proofs/validation/eq12857-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "本仓已有[数学构造与 Python 检查](../../docs/Equation12857-model.md)，尚无对应 Lean 文件。"
-      ]
+        "独立重写模型现已形式化：原等式、规范形唯一性和 Nat 单射均通过 Lean 4.33.1。",
+        "历史 timeout 状态保留；本地新证明不冒充历史 Judge accepted。",
+        "有限侧继续使用 Blueprint 的已知数学分类，本次未新增有限坍缩 Lean 定理。"
+      ],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "f110dc9594697300692bd11200e1e30069a33f25bff182d05893dc73d831cfad",
+        "log": "proofs/validation/eq12857-formal/Equation33436-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "ac74b0624b668c5ed2cf4c05f4077e3889cde93ffdc805058000378d1ca1aac4",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.417,
+        "sampled_peak_rss_mib": 607.0,
+        "dependency_manifest": "proofs/validation/eq12857-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "30f2f241005a49849b4e416111c52582",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation33436/certificate.lean",
+        "certificate_sha256": "114bd9921105a083b02ad282f35dfc7e4a0aba7e47afd5a3ce1303d3537952b4",
+        "result": "proofs/validation/aurora/Equation33436/latest.json",
+        "result_sha256": "b0e3b7b4de205b4d33d99e84115c98f4836556c77ef15f1dd4f4184ecb752960",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788878913.9904037
+      }
     },
     {
       "equation": "Equation12883",
@@ -2810,7 +3179,7 @@
     }
   ],
   "archived_files": {
-    "docs/Equation12857-model.md": "9967863de2c9d47186bc2123e9f81390c6bef5d90ac36cc416e2f6580217cabe",
+    "docs/Equation12857-model.md": "2f96a3537f98863125f2d4d6f150b63d9802e356d9e852623409630ae87c83e4",
     "proofs/provenance/effective-results-index.jsonl": "f7651fc41081bf3442d5572b0e99bb1822046d884ece37a90bdedcfa1bd27ef3",
     "proofs/provenance/summary.json": "147e5d8fc2aee65bf0fddb68eac6d88926c2a5bb4bad6ca8d649c57194fa26e8",
     "proofs/provenance/validation-report.md": "c698672f1abb982239ce27d984fe6c8dae72d8bdcd4dd8af16a756e77352a740",
@@ -2825,35 +3194,35 @@
     "proofs/provenance/InfModel.lean": "74ef7c7075a160f44b602f416a6b0618aff6edc97402671f5a93734ceea0e1be",
     "proofs/Equation4916/InfiniteModel.lean": "a4106c269953231f6e49a02d212113f377abe72bff765cf9742c87edf453bac3",
     "proofs/Equation4916/JudgeProblem.lean": "b40529920e8ae02ad7fbe84f503d8e22472be93fb08f0b35bd28bc14d1e8774c",
-    "proofs/Equation4916/README.md": "197a00aa1fe50412f0fa9d77086dda9ab4ea3270cb006155d8324a5e175e4156",
+    "proofs/Equation4916/README.md": "30d661bed8972bdf67bb7b347f2e1990160250c5a1cd5e4f7c47dbe66fbc9279",
     "proofs/Equation41082/InfiniteModel.lean": "bd86b917f359e75f77370e6b3d662c2be93371281fb1fa41a73b1cf9c0299d44",
     "proofs/Equation41082/JudgeProblem.lean": "64b658e2de1e0409713d82cada6f8cc50e0bc070d48e46975f9675a86f7c3d66",
-    "proofs/Equation41082/README.md": "5e40820b04ab6526bfad903d9580d5b0614f8da5ae5e2e83f1b90c7abe627ecc",
+    "proofs/Equation41082/README.md": "bb4677d70ad7be92b4cdbd5b5c36f0e198070880e65b81bc44884dc5b505c171",
     "proofs/Equation15535/InfiniteModel.lean": "000c038e1f3e388f151c485e3d81a8320f375822ed19c7016d9010002fa2e058",
     "proofs/Equation15535/JudgeProblem.lean": "8d2c40c206ca8f2bb73bbae3aa0921d0bcc9ad64bf5392bce42cfaf4110833aa",
-    "proofs/Equation15535/README.md": "2193f3f6ab986300f85455b831ab06102e5d7c4ac137b5f714bd8ae94ed1936b",
+    "proofs/Equation15535/README.md": "43f1d0ed699f20189e4cfe434b41cd08ccb202c834828045c5310bfcd1726b8b",
     "proofs/Equation30591/InfiniteModel.lean": "f7a72d83f00c572c0f3c2aba4682a1d3215ed2c93154381341a5be1b3f52a3c6",
     "proofs/Equation30591/JudgeProblem.lean": "bb69521697ad6676e529ef2b377615581199d0ba50d803010639b0b837b72822",
-    "proofs/Equation30591/README.md": "f4dde4e202590f3453d925447c427613109b231c7a25c65f6f3a7516981c26ec",
+    "proofs/Equation30591/README.md": "2adc56d154a2757438346926c2ccf820a2f8412a5d7824e4a7a34a8dc5e9df78",
     "proofs/Equation17522/InfiniteModel.lean": "5653c0f6156f621dac54a415f055fb4ad8a7cca09072dbbd7d97326a6a4db765",
     "proofs/Equation17522/JudgeProblem.lean": "e647ef7b173e8c1ee95001dcfa65c37927d6470ddb04b903acd9eee7484c275b",
-    "proofs/Equation17522/README.md": "3f7f3ec193046f4705a16413f8c6f947139c3591a2eab9b6e2ae03b7a132f4f2",
+    "proofs/Equation17522/README.md": "071bb53209d7ef12efc1f1f8b213d3d67b64e2b4d843e72220d9e18c4b05376a",
     "proofs/Equation28770/FiniteTrivial.lean": "8977fab6c4a5e3deecbdf75190b257f845613337ca25c8ccf7795ebd4d2d73a9",
     "proofs/Equation28770/InfiniteModel.lean": "5bf1357b80e910b9fdfbafc19d0ee6387dff9128014225808c05c32bcb9adf7b",
     "proofs/Equation28770/JudgeProblem.lean": "b9e92ddcf2669613b2133dbecb9693379f79e4670815b69c21738235bce7eb89",
     "proofs/Equation28770/README.md": "107971c8c9e2dca805c229a00b07915b9ea1ce85efd98c614198d99685915365",
     "proofs/Equation20034/InfiniteModel.lean": "2f0ab52deee96952effcafe28e1b5503f9109d8e9e7891a9351c0dd6cc607259",
     "proofs/Equation20034/JudgeProblem.lean": "0a7ff384bc3badd400e057087edc588ea3ad4665e1fd25ee4459bc9240f960fc",
-    "proofs/Equation20034/README.md": "325f57c0164180bfaa5fcd35a3fa687369a88352b6b2593f4cbd94c321a202ac",
+    "proofs/Equation20034/README.md": "baf338a60a14d56680aeb610466b148cb5e095c77adf863f2376b597dc4a0687",
     "proofs/Equation25964/InfiniteModel.lean": "e86ca61b5736c0cdaebd296ae960873cd452819136fc23addffd37762b7f718f",
     "proofs/Equation25964/JudgeProblem.lean": "942839f94fb58c824f50d207a7ebf5988f2482bcd7520c8aea716483a542824d",
-    "proofs/Equation25964/README.md": "7c794c2c1f96c09d944dc83527e97560597e7dea7b9241996bfb6ea7f92d2a7e",
+    "proofs/Equation25964/README.md": "0c9f8b320f4c2c1d65b6e2bb7ab427d18f1a1b527c804727639a8cd32fda737f",
     "proofs/Equation22455/InfiniteModel.lean": "161b6dca1c8ab85d567db46f8ef56aae936c4e9e6b7eb5430abca2e596fcf3b7",
     "proofs/Equation22455/JudgeProblem.lean": "f666820ca5670a07133b0073ec32fcb2655fde63a7d9184c6a9f7fefb2cccb2e",
-    "proofs/Equation22455/README.md": "ff331425a1c4948585fe6f4ce394d0d0802d93f5f8d616c6d80f5dec57d4ef7a",
+    "proofs/Equation22455/README.md": "7551e2748e683a3db4891faadb85205b7a73cc468476b62a6d6534ddace5ec77",
     "proofs/Equation22818/InfiniteModel.lean": "8bddd7c1a6a58ae72d379463b7045fa1c7d4fa46b51b5034b4f1d23ddc1aaa30",
     "proofs/Equation22818/JudgeProblem.lean": "f64387e4a0bdb42c27cc964b53f480dd437ee0cc56eb87d8014759b011a42b9b",
-    "proofs/Equation22818/README.md": "e8a56f80d27c4af5401b22cb219a193287e2a8d98297b6635e5ab4a662ec9371",
+    "proofs/Equation22818/README.md": "de6bab0f2ff3aff477b79600d254a6859097612cf83bb4428c21e27d97cf53f6",
     "proofs/Equation4952/InfiniteModel.lean": "a79d6bb769ff487649821f3ce61a9d7a7696cd59bb12d6c7b66e2b5efbe5671c",
     "proofs/Equation4952/JudgeProblem.lean": "72d192650a6ff87d474e902834266e649e206a41661a7921d1949b6a9e894cfd",
     "proofs/Equation4952/README.md": "2ddc65236e4f9dde4bf91dadabd250b80a2c17fff483646dd8ab680afbc0d368",
@@ -2985,8 +3354,8 @@
     "proofs/Equation33884/README.md": "a943f3fb9a9c08ad61eebea53efbd1bb73acab44ff60627095e9d617ae1f0bbe",
     "proofs/Equation12234/README.md": "ba82d0260326fb77a70e69f57e1f080d325cef2453f514cb17c92d091738fde4",
     "proofs/Equation33883/README.md": "8aa846d3bd01a23113a8bff6b677a53981c40133d2d8832d48da1ad8b1bd470e",
-    "proofs/Equation12857/README.md": "4ba16d834d4e606c78f290e969ecb6ec61aa32784b9b82d0ccdbd50a9c7c26b0",
-    "proofs/Equation33436/README.md": "4f5696f63970c35b991d7ed4bf51be7a2b4211bc707d3109a8f7f80972dd20f7",
+    "proofs/Equation12857/README.md": "0107f4071debad6418815c807a36f9e67001c9cc3e3cb2f4a638a916e501f6b6",
+    "proofs/Equation33436/README.md": "42d0a58a48fb206deebcfbd645272946d01217096e47e1324563309155ff55b7",
     "proofs/Equation12883/README.md": "75d61967b069df92524cd7b45a121b913f735061bff8d6b7cdf2b5bf6d50cca0",
     "proofs/Equation33020/README.md": "29ad58adbfcf205486e33bc6452c37cd5d5a44a1bd2e1e7a7e5ee1856be4c674",
     "proofs/Equation13764/README.md": "75e75896d1fa501c8f8a78f7ddf6fc195adc22d865dc76c918e11a864fcac8c7",
@@ -3040,7 +3409,16 @@
     "proofs/Equation23357/README.md": "f7dd1276e0eb5608697b0d0f011cc6805639f50c08c194eb4985942613f7b4b1",
     "proofs/Equation23653/README.md": "31ed4899d11805012cecf702d6bb2141713a5dc2c9389d7a50eae73a21b5908f",
     "proofs/provenance/Equation22619-InfiniteModel.original.lean": "96d8e090592510bbaa322cd3959d4adea9274ef338e7af250b334714c608e91f",
-    "proofs/provenance/Equation22634-InfiniteModel.original.lean": "2d07322dd8d3b5a6d41bebe4e5333cad32486b582fd263e7c1d860c01b1998c3"
+    "proofs/provenance/Equation22634-InfiniteModel.original.lean": "2d07322dd8d3b5a6d41bebe4e5333cad32486b582fd263e7c1d860c01b1998c3",
+    "proofs/Equation4916/FiniteTrivial.lean": "2565e43483350edb4d395d3cd4c64ecf52147ebeed5bfff365601d6e7bb6454c",
+    "proofs/Equation41082/FiniteTrivial.lean": "a61734d45d8af3213f04ed3702f4af89dc7de18c2fd747acb30673f637645834",
+    "proofs/Equation15535/FiniteTrivial.lean": "fa126f01f6a33b6c5b5eaef93581de59e27b027dafff562d79443f666724dcd6",
+    "proofs/Equation30591/FiniteTrivial.lean": "7ce0b142131e1eed87d8eeebbcc8d6143a2bfb9e5fb6edbbe29763db0de5339b",
+    "proofs/Equation17522/FiniteTrivial.lean": "985be952e46f2dec9b9e36beb5ca1955ecd0e1b381e9d47a87ccda94f62b7c51",
+    "proofs/Equation20034/FiniteTrivial.lean": "1fae0ea9aefa541594d02716e9ed18c12eada1386b009450221ddcb64838c5c8",
+    "proofs/Equation25964/FiniteTrivial.lean": "567528a5ffeb7952181f5a846d6ca56fe12b857ca41d71734b5065b9cb20f6e5",
+    "proofs/Equation22455/FiniteTrivial.lean": "a63613da55be5d1e07ca290c0e656b19aebdc5472b5ce21838b7686ab831ad53",
+    "proofs/Equation22818/FiniteTrivial.lean": "3eec14b02880da6c91ca8acc871094f8d36fced111997577c1ab9d7d452be26c"
   },
   "lean_recompilation": {
     "date": "2026-09-08",
@@ -3048,5 +3426,29 @@
     "models_passed": 42,
     "finite_passed": 2,
     "report": "proofs/validation/2026-09-08/README.md"
+  },
+  "local_formalizations": {
+    "eq12857": {
+      "status": "passed",
+      "equations": [
+        "Equation12857",
+        "Equation33436"
+      ],
+      "version": "4.33.1",
+      "report": "proofs/validation/eq12857-formal/README.md",
+      "manifest": "proofs/validation/eq12857-formal/summary.json",
+      "manifest_sha256": "2c56e7a7f160f856c3a9057b60b95c42d9b1d6ae2e03c408d911cf1efb98dcbe"
+    }
+  },
+  "finite_campaign": {
+    "goal": "All 130 finite-trivial certificates and Aurora judge-v3-repl acceptance, table order 20.1/20.2/20.3",
+    "status": "active",
+    "local_by_table": {
+      "20.1": 10,
+      "20.2": 1,
+      "20.3": 0
+    },
+    "cloud_finite_accepted": 0,
+    "report": "proofs/validation/finite130/README.md"
   }
 }

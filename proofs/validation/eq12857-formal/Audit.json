@@ -3,7 +3,7 @@
   "status": "passed",
   "exit_code": 0,
   "elapsed_seconds": 0.418,
-  "peak_rss_mib": 631.45,
+  "peak_rss_mib": 572.33,
   "source": "proofs/Equation12857/Lean/Audit.lean",
   "sha256": "dc2b5789ee01cc5923207244e16e298151399873136e2af4dcbd153580bd9f28",
   "lean_version": "leanprover/lean4:v4.33.1",
@@ -22,6 +22,38 @@
     "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857/Audit.olean",
     "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12857/Lean/Audit.lean"
   ],
-  "lean_path": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857",
-  "log": "proofs/validation/eq12857-formal/Audit.log"
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857"
+  ],
+  "log": "proofs/validation/eq12857-formal/Audit.log",
+  "axioms": {
+    "Austin12857.infinite_model": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12857.equation12857": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12857.equation33436": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12857.embed_injective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12857.confluent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12857.step_decreases": [
+      "propext",
+      "Quot.sound"
+    ]
+  }
 }

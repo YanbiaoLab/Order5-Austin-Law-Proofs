@@ -21,7 +21,8 @@ proofs/
 当前快照包含：
 
 - 130 条方程与 65 个对偶对，原表计数为 10 / 96 / 24。
-- 42 份 `InfiniteModel.lean`，全部在本仓重新编译通过。40 份保持历史证书原样；Equation22619、Equation22634 仅将整库 Mathlib 导入缩小为 `Mathlib.Data.Nat.Basic`，证明正文不变，历史原件及哈希保存在 `provenance/`。历史目标是“不蕴含 Equation2”。其中 14 份另含 `tower_injective`，也已重新编译并检查公理；其余 28 份未单列无限性定理。
+- 42 份历史 `InfiniteModel.lean`，全部在本仓重新编译通过。40 份保持历史证书原样；Equation22619、Equation22634 仅将整库 Mathlib 导入缩小为 `Mathlib.Data.Nat.Basic`，证明正文不变，历史原件及哈希保存在 `provenance/`。历史目标是“不蕴含 Equation2”。其中 14 份另含 `tower_injective`，也已重新编译并检查公理；其余 28 份未单列无限性定理。
+- 另新增 Equation12857、Equation33436 两份独立形式化模型证书，均含 Nat 单射；共享重写系统、汇合性和模型证明已在 Lean 4.33.1 内核检查通过。库存共有 44 份模型证书，其中 16 份单列无限性证明；新证明保留原历史 timeout 元数据。详见[新增形式化报告](validation/eq12857-formal/README.md)。
 - Equation5093、Equation28770 的 `FiniteTrivial.lean`，定理正文从上游 `InfModel.lean` 提取，保留命名空间。使用最小 Mathlib 导入及显式等价方程定义，已在本仓编译通过。原始完整文件及 Apache-2.0 许可证保存在 `provenance/`；依赖调整与前后哈希记录在 `index.json`。
 - 每份模型证书配套的 `JudgeProblem.lean` 根据归档方程重新生成，其 `Goal` 为非平凡模型存在性。这些目标文件没有冒充历史 Judge 的原始模块。
 
@@ -49,3 +50,14 @@ python3 scripts/build_index.py --check
 修改证明后须重新验证，再更新 `index.json` 中的文件哈希、验证状态和证据来源。不得只更新 README 的勾选状态。新增无限性定理也须明确区分“写出了源码”和“已通过 Lean 内核检查”。
 
 `provenance/` 的历史索引保留来源仓库内的原始路径；本仓可用路径见 `index.json` 的 `path` 字段。来源仓库的未决/超时状态只是当时运行结果，不是数学不可解结论。
+
+
+E12857／E33436 新增模块的复跑与索引记录独立于上述历史批次：
+
+```sh
+python3 scripts/check_12857_lean.py
+python3 scripts/record_12857_formal.py
+python3 scripts/build_index.py --check
+```
+
+这批不依赖 Mathlib，串行运行，Lean 上限 768 MiB、RSS 采样停止线 1024 MiB。共享模块、两题各自的精确 Goal 包装和公理审计共 19 个编译单元，源码哈希及日志记录在 `validation/eq12857-formal/`。历史批次脚本跳过这两份本地模块证书，由此处的专用脚本完整重建依赖。

@@ -2,8 +2,8 @@
   "module": "Peak7",
   "status": "passed",
   "exit_code": 0,
-  "elapsed_seconds": 0.416,
-  "peak_rss_mib": 630.45,
+  "elapsed_seconds": 0.412,
+  "peak_rss_mib": 585.33,
   "source": "proofs/Equation12857/Lean/Peak7.lean",
   "sha256": "18d1dd891fea1cc1c0d968c48180a76dc199d5627347771b09e89f2241b28dab",
   "lean_version": "leanprover/lean4:v4.33.1",
@@ -22,6 +22,8 @@
     "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857/Peak7.olean",
     "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12857/Lean/Peak7.lean"
   ],
-  "lean_path": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857"
+  ],
   "log": "proofs/validation/eq12857-formal/Peak7.log"
 }

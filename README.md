@@ -14,26 +14,26 @@
 
 “无限侧证明”须构造满足源方程的模型并证明载体无限，例如给出 `Nat` 到载体的单射。Judge 的 `EquationN ↛ Equation2` 目标只直接要求非平凡性。“非平凡无限 Lean 证书”列链接已归档的模型证书；是否另含显式无限性定理，在方程详情页说明。
 
-本次归档：42 份历史 Judge 已接受的非平凡模型证书（10 / 30 / 2），其中 14 份包含 `tower_injective`；其余 28 份使用无限归纳树载体，但未单列无限性定理。另收录 2 份上游有限坍缩定理源码。这些是指定来源的已核实库存，未穷尽所有历史分支；未收录不等于不存在证明。
+本次归档：42 份历史 Judge 已接受的非平凡模型证书（10 / 30 / 2），其中 14 份包含 `tower_injective`；其余 28 份使用无限归纳树载体，但未单列无限性定理。现收录 11 份有限坍缩 Lean 证书。这些是指定来源的已核实库存，未穷尽所有历史分支；未收录不等于不存在证明。
 
-已用 Lean 4.33.1 串行重新编译：模型证书 42/42，有限坍缩定理 2/2 通过。目标与公理依赖检查见 [编译报告](proofs/validation/2026-09-08/README.md)。历史验收、上游源码、未形式化数学论证分别记录；不把缺少 Lean 文件标为数学上未知。表 20.3 的两份已接受证书只完成非平凡模型侧，有限侧仍未知，不能据此确认为 Austin 律。
+已用 Lean 4.33.1 串行重新编译：模型证书 42/42，有限坍缩定理 2/2 通过。目标与公理依赖检查见 [编译报告](proofs/validation/2026-09-08/README.md)。有限侧补证工作已将表 20.1 的本地证书补至 10/10；极光云有限目标验收仍待接口支持，见[有限侧工作报告](proofs/validation/finite130/README.md)。历史验收、上游源码、未形式化数学论证分别记录；不把缺少 Lean 文件标为数学上未知。表 20.3 的两份已接受证书只完成非平凡模型侧，有限侧仍未知，不能据此确认为 Austin 律。
 
-已有 Equation12857／Equation33436 的重写模型论证保存在 [构造笔记](docs/Equation12857-model.md)，尚未形式化。
+Equation12857／Equation33436 的重写模型已在 Lean 4.33.1 完成形式化：两条原等式、规范形唯一性和 Nat 单射全部通过内核检查。这是本仓新增的两份证明，历史 timeout 记录保留；见[形式化报告](proofs/validation/eq12857-formal/README.md)和[构造笔记](docs/Equation12857-model.md)。 本仓新增远程验证记录：2 条获极光云 judge-v3-repl accepted，见[远程验收](proofs/validation/aurora/README.md)。
 
 每条方程的公式、对偶、来源与缺口见下表的方程链接。库存数据为 [index.json](proofs/index.json)，归档和验证方式见 [proofs/README.md](proofs/README.md)。
 
 | 方程 | 对偶方程 | 原表 | 平凡有限状态 | 平凡有限 Lean 证书 | 非平凡无限状态 | 非平凡无限 Lean 证书 |
 |---|---|---|---|---|---|---|
-| [Equation4916](proofs/Equation4916/README.md) | Equation41082 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation4916/InfiniteModel.lean) |
-| [Equation41082](proofs/Equation41082/README.md) | Equation4916 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation41082/InfiniteModel.lean) |
-| [Equation15535](proofs/Equation15535/README.md) | Equation30591 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation15535/InfiniteModel.lean) |
-| [Equation30591](proofs/Equation30591/README.md) | Equation15535 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation30591/InfiniteModel.lean) |
-| [Equation17522](proofs/Equation17522/README.md) | Equation28770 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation17522/InfiniteModel.lean) |
+| [Equation4916](proofs/Equation4916/README.md) | Equation41082 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation4916/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation4916/InfiniteModel.lean) |
+| [Equation41082](proofs/Equation41082/README.md) | Equation4916 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation41082/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation41082/InfiniteModel.lean) |
+| [Equation15535](proofs/Equation15535/README.md) | Equation30591 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation15535/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation15535/InfiniteModel.lean) |
+| [Equation30591](proofs/Equation30591/README.md) | Equation15535 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation30591/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation30591/InfiniteModel.lean) |
+| [Equation17522](proofs/Equation17522/README.md) | Equation28770 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation17522/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation17522/InfiniteModel.lean) |
 | [Equation28770](proofs/Equation28770/README.md) | Equation17522 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation28770/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation28770/InfiniteModel.lean) |
-| [Equation20034](proofs/Equation20034/README.md) | Equation25964 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation20034/InfiniteModel.lean) |
-| [Equation25964](proofs/Equation25964/README.md) | Equation20034 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation25964/InfiniteModel.lean) |
-| [Equation22455](proofs/Equation22455/README.md) | Equation22818 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation22455/InfiniteModel.lean) |
-| [Equation22818](proofs/Equation22818/README.md) | Equation22455 | 20.1 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation22818/InfiniteModel.lean) |
+| [Equation20034](proofs/Equation20034/README.md) | Equation25964 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation20034/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation20034/InfiniteModel.lean) |
+| [Equation25964](proofs/Equation25964/README.md) | Equation20034 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation25964/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation25964/InfiniteModel.lean) |
+| [Equation22455](proofs/Equation22455/README.md) | Equation22818 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation22455/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation22455/InfiniteModel.lean) |
+| [Equation22818](proofs/Equation22818/README.md) | Equation22455 | 20.1 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation22818/FiniteTrivial.lean) | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation22818/InfiniteModel.lean) |
 | [Equation4952](proofs/Equation4952/README.md) | Equation41252 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation4952/InfiniteModel.lean) |
 | [Equation41252](proofs/Equation41252/README.md) | Equation4952 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation41252/InfiniteModel.lean) |
 | [Equation4957](proofs/Equation4957/README.md) | Equation40914 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation4957/InfiniteModel.lean) |
@@ -112,8 +112,8 @@
 | [Equation33884](proofs/Equation33884/README.md) | Equation12087 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation12234](proofs/Equation12234/README.md) | Equation33883 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation33883](proofs/Equation33883/README.md) | Equation12234 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation12857](proofs/Equation12857/README.md) | Equation33436 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation33436](proofs/Equation33436/README.md) | Equation12857 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation12857](proofs/Equation12857/README.md) | Equation33436 | 20.2 | 仅平凡（Blueprint） | 未收录 | Aurora accepted | [InfiniteModel.lean](proofs/Equation12857/InfiniteModel.lean) |
+| [Equation33436](proofs/Equation33436/README.md) | Equation12857 | 20.2 | 仅平凡（Blueprint） | 未收录 | Aurora accepted | [InfiniteModel.lean](proofs/Equation33436/InfiniteModel.lean) |
 | [Equation12883](proofs/Equation12883/README.md) | Equation33020 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation33020](proofs/Equation33020/README.md) | Equation12883 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation13764](proofs/Equation13764/README.md) | Equation32294 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
