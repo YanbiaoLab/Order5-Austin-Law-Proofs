@@ -1,0 +1,29 @@
+{
+  "module": "Peak19Roots06",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.417,
+  "peak_rss_mib": 616.72,
+  "source": "proofs/Equation5837/Lean/Peak19Roots06.lean",
+  "sha256": "80a7cd2b667b58360403960d53a0d1baac71f4e51f97e245ff8ae8e880bf28ba",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq5837/Peak19Roots06.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation5837/Lean/Peak19Roots06.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq5837"
+  ],
+  "log": "proofs/validation/eq5837-formal/Peak19Roots06.log"
+}

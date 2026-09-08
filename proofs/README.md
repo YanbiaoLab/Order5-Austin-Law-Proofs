@@ -61,3 +61,5 @@ python3 scripts/build_index.py --check
 ```
 
 这批不依赖 Mathlib，串行运行，Lean 上限 768 MiB、RSS 采样停止线 1024 MiB。共享模块、两题各自的精确 Goal 包装和公理审计共 19 个编译单元，源码哈希及日志记录在 `validation/eq12857-formal/`。历史批次脚本跳过这两份本地模块证书，由此处的专用脚本完整重建依赖。
+
+有限侧补证进度：表 20.1 10/10、表 20.2 96/96、表 20.3 8/24 份本地 Lean 证书通过。极光云有限目标验收仍待接口支持，详见[有限侧工作报告](validation/finite130/README.md)。

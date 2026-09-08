@@ -1,0 +1,38 @@
+[
+  {
+    "equation": "Equation12294",
+    "status": "bounded_search_no_proof",
+    "proof_found": false,
+    "seconds_limit": 10,
+    "memory_limit_mib": 128,
+    "input": "proofs/validation/finite130/table20_3-search/Equation12294.in",
+    "input_sha256": "415c96fe0ce1d06c298f66f94561c21844ba7f3620076fed2fec6c89a25b7634",
+    "full_search_output_sha256": "2eac723597c81e1f58b109234f9b4a3073892cbbf12db3a9a3dece11e227abe2",
+    "full_search_output_bytes": 52773,
+    "output_tail": "proofs/validation/finite130/table20_3-search/Equation12294-tail.log"
+  },
+  {
+    "equation": "Equation13102",
+    "status": "bounded_search_no_proof",
+    "proof_found": false,
+    "seconds_limit": 10,
+    "memory_limit_mib": 128,
+    "input": "proofs/validation/finite130/table20_3-search/Equation13102.in",
+    "input_sha256": "12a458a1e2b1ef2e6b2bc9e0edecbe468b579c5a5c9876498666267fcabf7e80",
+    "full_search_output_sha256": "d5cfc46be38b333350198ef18eb482bdf786a89d662a5119026ab4532739f24b",
+    "full_search_output_bytes": 52422,
+    "output_tail": "proofs/validation/finite130/table20_3-search/Equation13102-tail.log"
+  },
+  {
+    "equation": "Equation20911",
+    "status": "bounded_search_no_proof",
+    "proof_found": false,
+    "seconds_limit": 10,
+    "memory_limit_mib": 128,
+    "input": "proofs/validation/finite130/table20_3-search/Equation20911.in",
+    "input_sha256": "a11283dcb9a46edb1c67be911224aeada62f54f1e6b0bf32879248ef264813e9",
+    "full_search_output_sha256": "38022aa2e3e9717c681be9ae9b8fbe00a2e813b84ef33224ece52517dc16e3f9",
+    "full_search_output_bytes": 114611,
+    "output_tail": "proofs/validation/finite130/table20_3-search/Equation20911-tail.log"
+  }
+]

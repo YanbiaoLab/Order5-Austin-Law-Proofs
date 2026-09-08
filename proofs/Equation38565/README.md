@@ -3,12 +3,19 @@
 - 对偶：[Equation7763](../Equation7763/README.md)
 - 原表：20.2
 - 方程：`x = ((y ◇ ((z ◇ x) ◇ z)) ◇ y) ◇ y`
-- 有限侧数学状态：仅平凡（Blueprint）
+- 无限侧：本地 Lean 4.33.1 检查通过，含自然数单射；远程结果单独记录。
+- 有限侧：已证仅平凡（Lean）；已归档 [FiniteTrivial.lean](FiniteTrivial.lean)。
 
-有限侧 Lean：未收录。预留文件名 `FiniteTrivial.lean`，仅在有完整证明时创建。
+[InfiniteModel.lean](InfiniteModel.lean) 证明本目录精确的 [Goal](JudgeProblem.lean)。
+共享的[模型定义及无限性证明](../Equation7763/Lean/Model.lean)使用互归纳定义的 Step/Code 关系构造。
+Equation38565 使用相同载体上的反向乘法。`submission.CM.tower_injective` 是显式无限性证书。
 
-无限侧 Lean：未收录。预留文件名 `InfiniteModel.lean`；历史批次超时不构成不存在模型的证明。
+没有 `sorry` 或自定义公理；最终定理仅依赖 `propext`、`Classical.choice`、`Quot.sound` 的子集。
+详见[构造笔记](../../docs/Trace-tree-models.md)及[编译报告](../validation/eq7763-formal/README.md)。
 
+复跑：在仓库根目录运行 `python3 scripts/trace_models.py check 7763`。
+历史 timeout 记录保留；每次本地、远程验证各有源码哈希和日志。
 
+<!-- aurora-accepted -->
 
-来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。
+随后已通过极光云 **judge-v3-repl** 实际验证，结果为 **accepted**。任务 ID：`609c63203f4c4bdeb36d26297b69cc8b`。见[完整结果](../validation/aurora/Equation38565/latest.json)和[实际提交的单文件证书](../validation/aurora/Equation38565/certificate.lean)。原来的本地编译记录和历史验收状态保留。

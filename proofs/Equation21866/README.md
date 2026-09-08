@@ -3,12 +3,14 @@
 - 对偶：[Equation24201](../Equation24201/README.md)
 - 原表：20.3
 - 方程：`x = (y ◇ (z ◇ x)) ◇ (x ◇ (x ◇ w))`
-- 有限侧数学状态：未知
+- 有限侧数学状态：已证仅平凡（Lean）
 
-有限侧 Lean：未收录。预留文件名 `FiniteTrivial.lean`，仅在有完整证明时创建。
+有限侧：[FiniteTrivial.lean](FiniteTrivial.lean) 在 `[Finite G]` 下推出 Equation2，已通过 Lean 4.33.1 本地编译与公理检查。
 
 无限侧 Lean：未收录。预留文件名 `InfiniteModel.lean`；历史批次超时不构成不存在模型的证明。
 
-非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。
+有限侧已由 Lean 证明仅有平凡模型；是否为 Austin 律，还需非平凡无限模型证书。
 
-来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。
+来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条有限侧已有可重新编译的 Lean 证书。
+
+有限侧极光云验收尚未完成：当前服务缺少有限目标接口，见[本批报告](../validation/finite130/README.md)。

@@ -1,0 +1,5 @@
+'left_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'right_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'common_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'common_square_right_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'orbit_identities' depends on axioms: [propext, Classical.choice, Quot.sound]

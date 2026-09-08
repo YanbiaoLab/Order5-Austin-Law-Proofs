@@ -1,0 +1,30 @@
+============================== PROOF =================================
+
+% Proof 1 at 0.00 (+ 0.00) seconds.
+% Length of proof is 20.
+% Level of proof is 8.
+% Maximum clause weight is 13.000.
+% Given clauses 36.
+
+1 f(x,f(c,f(c,x))) = f(c,f(c,x)) # label(non_clause) # label(goal).  [goal].
+2 f(c,f(f(f(x,y),y),x)) = y.  [assumption].
+3 f(x,x) = c.  [assumption].
+5 d(x,f(x,y)) = y.  [assumption].
+6 f(r(x,y),y) = x.  [assumption].
+7 r(f(x,y),y) = x.  [assumption].
+8 f(c1,f(c,f(c,c1))) != f(c,f(c,c1)).  [deny(1)].
+10 f(c,f(f(c,x),x)) = x.  [para(3(a,1),2(a,1,2,1,1))].
+14 f(c,f(f(x,y),r(x,y))) = y.  [para(6(a,1),2(a,1,2,1,1))].
+17 r(c,x) = x.  [para(3(a,1),7(a,1,1))].
+29 d(c,x) = f(f(c,x),x).  [para(10(a,1),5(a,1,2))].
+44 f(f(c,f(c,x)),f(c,x)) = x.  [para(29(a,1),5(a,1))].
+45 f(c,f(c,r(x,x))) = x.  [para(3(a,1),14(a,1,2,1))].
+48 f(c,f(x,r(r(x,y),y))) = y.  [para(6(a,1),14(a,1,2,1))].
+49 f(c,r(x,x)) = f(f(c,x),x).  [para(45(a,1),5(a,1,2)),rewrite([29(2)]),flip(a)].
+63 r(x,x) = f(x,f(f(c,x),x)).  [para(48(a,1),44(a,1,1)),rewrite([17(3),49(3),17(6)]),flip(a)].
+67 f(f(x,f(f(c,x),x)),x) = x.  [para(63(a,1),6(a,1,1))].
+75 f(f(f(c,x),x),f(c,x)) = f(c,x).  [para(44(a,1),67(a,1,1,2))].
+107 f(x,f(c,f(c,x))) = f(c,f(c,x)).  [para(44(a,1),75(a,1,1))].
+108 $F.  [resolve(107,a,8,a)].
+
+============================== end of proof ==========================

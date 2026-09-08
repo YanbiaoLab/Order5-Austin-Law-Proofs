@@ -1,0 +1,15 @@
+{
+  "upstream_commit": "bbeedf38e0898869fc3b7c009e1ea877b46204e4",
+  "lean_version": "4.33.1",
+  "custom_main": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/src/judge_v3/lean/REPL/Main.lean",
+  "custom_main_sha256": "bebe7421d8f2d77b51a71ea70665d63d1a70222842a4c0620955016877e9fcb2",
+  "mode": "native_custom_staged_v2",
+  "wrapper": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/lean-repl/repl-local",
+  "env_file": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/lean-repl/repl.env",
+  "lean_modules": 8,
+  "build_peak_rss_mib": 1299.44,
+  "native_binary_sha256": "ef86b18c8ef0435920af0a7795f6745f2aaa097fc75cbbfe53777725fbb29d47",
+  "runtime_rss_stop_mib": 3072,
+  "native_build": "native-build.json",
+  "wrapper_sha256": "7e62c3918c25094d8114393af58c79e9c7e5be2de0a51bf185b9abef0887ba9a"
+}

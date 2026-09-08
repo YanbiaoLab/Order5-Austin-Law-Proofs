@@ -1,0 +1,26 @@
+{
+  "case": "Equation5093-all",
+  "expected_accepted": false,
+  "request_sha256": "1e3b5dd36c00499c2543edcb94db714d424d4b3ba01da320b3128e740dd86a70",
+  "http_status": 200,
+  "elapsed_seconds": 1.02,
+  "result": {
+    "status": "incorrect",
+    "error_code": "LEAN_REJECTED",
+    "message": "failed to synthesize instance of type class\n  Finite G\n\nHint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.",
+    "verdict": "true",
+    "artifact_path": null,
+    "direct_declarations": [],
+    "axioms": [],
+    "stdout": "",
+    "stderr": "",
+    "rejection_source": "lean_response",
+    "model_domain": "all",
+    "elapsed_ms": 1018,
+    "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+    "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+    "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+  },
+  "local_only": true,
+  "submitted_to_aurora": false
+}

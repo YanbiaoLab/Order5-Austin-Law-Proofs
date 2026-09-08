@@ -1,0 +1,424 @@
+{"label": "Equation4916-finite-goal", "status": "passed", "elapsed_seconds": 0.853, "peak_rss_mib": 564.03}
+{"label": "Equation4916-finite-submission", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1190.34}
+{"label": "Equation4916-finite-audit", "status": "passed", "elapsed_seconds": 1.909, "peak_rss_mib": 1562.38}
+CASE PASS: Equation4916-finite checked 1 / 106
+{"label": "Equation41082-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 525.94}
+{"label": "Equation41082-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1261.89}
+{"label": "Equation41082-finite-audit", "status": "passed", "elapsed_seconds": 1.071, "peak_rss_mib": 1404.17}
+CASE PASS: Equation41082-finite checked 2 / 106
+{"label": "Equation15535-finite-goal", "status": "passed", "elapsed_seconds": 0.432, "peak_rss_mib": 361.73}
+{"label": "Equation15535-finite-submission", "status": "passed", "elapsed_seconds": 0.846, "peak_rss_mib": 1258.67}
+{"label": "Equation15535-finite-audit", "status": "passed", "elapsed_seconds": 1.069, "peak_rss_mib": 1435.03}
+CASE PASS: Equation15535-finite checked 3 / 106
+{"label": "Equation30591-finite-goal", "status": "passed", "elapsed_seconds": 0.432, "peak_rss_mib": 273.45}
+{"label": "Equation30591-finite-submission", "status": "passed", "elapsed_seconds": 0.839, "peak_rss_mib": 1256.11}
+{"label": "Equation30591-finite-audit", "status": "passed", "elapsed_seconds": 1.068, "peak_rss_mib": 1452.67}
+CASE PASS: Equation30591-finite checked 4 / 106
+{"label": "Equation17522-finite-goal", "status": "passed", "elapsed_seconds": 0.432, "peak_rss_mib": 376.06}
+{"label": "Equation17522-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1261.11}
+{"label": "Equation17522-finite-audit", "status": "passed", "elapsed_seconds": 1.071, "peak_rss_mib": 1403.97}
+CASE PASS: Equation17522-finite checked 5 / 106
+{"label": "Equation28770-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 301.34}
+{"label": "Equation28770-finite-submission", "status": "passed", "elapsed_seconds": 0.837, "peak_rss_mib": 1249.72}
+{"label": "Equation28770-finite-audit", "status": "passed", "elapsed_seconds": 1.069, "peak_rss_mib": 1432.72}
+CASE PASS: Equation28770-finite checked 6 / 106
+{"label": "Equation20034-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 279.12}
+{"label": "Equation20034-finite-submission", "status": "passed", "elapsed_seconds": 0.845, "peak_rss_mib": 1253.95}
+{"label": "Equation20034-finite-audit", "status": "passed", "elapsed_seconds": 1.061, "peak_rss_mib": 1605.67}
+CASE PASS: Equation20034-finite checked 7 / 106
+{"label": "Equation25964-finite-goal", "status": "passed", "elapsed_seconds": 0.634, "peak_rss_mib": 467.42}
+{"label": "Equation25964-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1247.22}
+{"label": "Equation25964-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1595.17}
+CASE PASS: Equation25964-finite checked 8 / 106
+{"label": "Equation22455-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 458.3}
+{"label": "Equation22455-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1240.05}
+{"label": "Equation22455-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1606.62}
+CASE PASS: Equation22455-finite checked 9 / 106
+{"label": "Equation22818-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 458.91}
+{"label": "Equation22818-finite-submission", "status": "passed", "elapsed_seconds": 0.85, "peak_rss_mib": 1239.47}
+{"label": "Equation22818-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1606.61}
+CASE PASS: Equation22818-finite checked 10 / 106
+{"label": "Equation4952-finite-goal", "status": "passed", "elapsed_seconds": 0.633, "peak_rss_mib": 445.95}
+{"label": "Equation4952-finite-submission", "status": "passed", "elapsed_seconds": 0.842, "peak_rss_mib": 1236.88}
+{"label": "Equation4952-finite-audit", "status": "passed", "elapsed_seconds": 1.046, "peak_rss_mib": 1605.38}
+CASE PASS: Equation4952-finite checked 11 / 106
+{"label": "Equation41252-finite-goal", "status": "passed", "elapsed_seconds": 0.632, "peak_rss_mib": 460.16}
+{"label": "Equation41252-finite-submission", "status": "passed", "elapsed_seconds": 0.847, "peak_rss_mib": 1223.2}
+{"label": "Equation41252-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1606.72}
+CASE PASS: Equation41252-finite checked 12 / 106
+{"label": "Equation4957-finite-goal", "status": "passed", "elapsed_seconds": 0.639, "peak_rss_mib": 401.95}
+{"label": "Equation4957-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1239.86}
+{"label": "Equation4957-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1607.67}
+CASE PASS: Equation4957-finite checked 13 / 106
+{"label": "Equation40914-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 449.72}
+{"label": "Equation40914-finite-submission", "status": "passed", "elapsed_seconds": 0.849, "peak_rss_mib": 1243.62}
+{"label": "Equation40914-finite-audit", "status": "passed", "elapsed_seconds": 1.055, "peak_rss_mib": 1605.59}
+CASE PASS: Equation40914-finite checked 14 / 106
+{"label": "Equation5012-finite-goal", "status": "passed", "elapsed_seconds": 0.639, "peak_rss_mib": 417.16}
+{"label": "Equation5012-finite-submission", "status": "passed", "elapsed_seconds": 1.06, "peak_rss_mib": 1285.47}
+{"label": "Equation5012-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1606.72}
+CASE PASS: Equation5012-finite checked 15 / 106
+{"label": "Equation41253-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 454.11}
+{"label": "Equation41253-finite-submission", "status": "passed", "elapsed_seconds": 1.054, "peak_rss_mib": 1286.16}
+{"label": "Equation41253-finite-audit", "status": "passed", "elapsed_seconds": 1.061, "peak_rss_mib": 1607.41}
+CASE PASS: Equation41253-finite checked 16 / 106
+{"label": "Equation5066-finite-goal", "status": "passed", "elapsed_seconds": 0.639, "peak_rss_mib": 442.42}
+{"label": "Equation5066-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1246.95}
+{"label": "Equation5066-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1606.75}
+CASE PASS: Equation5066-finite checked 17 / 106
+{"label": "Equation41239-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 439.77}
+{"label": "Equation41239-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1235.17}
+{"label": "Equation41239-finite-audit", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1606.86}
+CASE PASS: Equation41239-finite checked 18 / 106
+{"label": "Equation5093-finite-goal", "status": "passed", "elapsed_seconds": 0.631, "peak_rss_mib": 429.23}
+{"label": "Equation5093-finite-submission", "status": "passed", "elapsed_seconds": 0.849, "peak_rss_mib": 1242.47}
+{"label": "Equation5093-finite-audit", "status": "passed", "elapsed_seconds": 1.054, "peak_rss_mib": 1606.3}
+CASE PASS: Equation5093-finite checked 19 / 106
+{"label": "Equation41179-finite-goal", "status": "passed", "elapsed_seconds": 0.634, "peak_rss_mib": 377.89}
+{"label": "Equation41179-finite-submission", "status": "passed", "elapsed_seconds": 0.843, "peak_rss_mib": 1215.19}
+{"label": "Equation41179-finite-audit", "status": "passed", "elapsed_seconds": 1.06, "peak_rss_mib": 1581.22}
+CASE PASS: Equation41179-finite checked 20 / 106
+{"label": "Equation5107-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 432.17}
+{"label": "Equation5107-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1246.48}
+{"label": "Equation5107-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1606.62}
+CASE PASS: Equation5107-finite checked 21 / 106
+{"label": "Equation40951-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 441.28}
+{"label": "Equation40951-finite-submission", "status": "passed", "elapsed_seconds": 0.845, "peak_rss_mib": 1240.11}
+{"label": "Equation40951-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1607.5}
+CASE PASS: Equation40951-finite checked 22 / 106
+{"label": "Equation5141-finite-goal", "status": "passed", "elapsed_seconds": 0.63, "peak_rss_mib": 456.52}
+{"label": "Equation5141-finite-submission", "status": "passed", "elapsed_seconds": 0.848, "peak_rss_mib": 1239.06}
+{"label": "Equation5141-finite-audit", "status": "passed", "elapsed_seconds": 1.064, "peak_rss_mib": 1606.08}
+CASE PASS: Equation5141-finite checked 23 / 106
+{"label": "Equation40917-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 441.94}
+{"label": "Equation40917-finite-submission", "status": "passed", "elapsed_seconds": 0.848, "peak_rss_mib": 1239.73}
+{"label": "Equation40917-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1606.78}
+CASE PASS: Equation40917-finite checked 24 / 106
+{"label": "Equation5295-finite-goal", "status": "passed", "elapsed_seconds": 0.639, "peak_rss_mib": 443.47}
+{"label": "Equation5295-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1244.77}
+{"label": "Equation5295-finite-audit", "status": "passed", "elapsed_seconds": 1.052, "peak_rss_mib": 1607.44}
+CASE PASS: Equation5295-finite checked 25 / 106
+{"label": "Equation40909-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 481.27}
+{"label": "Equation40909-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.95}
+{"label": "Equation40909-finite-audit", "status": "passed", "elapsed_seconds": 1.061, "peak_rss_mib": 1607.52}
+CASE PASS: Equation40909-finite checked 26 / 106
+{"label": "Equation5833-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 482.59}
+{"label": "Equation5833-finite-submission", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1287.73}
+{"label": "Equation5833-finite-audit", "status": "passed", "elapsed_seconds": 1.056, "peak_rss_mib": 1607.44}
+CASE PASS: Equation5833-finite checked 27 / 106
+{"label": "Equation40070-finite-goal", "status": "passed", "elapsed_seconds": 0.645, "peak_rss_mib": 238.78}
+{"label": "Equation40070-finite-submission", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1288.27}
+{"label": "Equation40070-finite-audit", "status": "passed", "elapsed_seconds": 1.068, "peak_rss_mib": 1613.67}
+CASE PASS: Equation40070-finite checked 28 / 106
+{"label": "Equation5834-finite-goal", "status": "passed", "elapsed_seconds": 0.645, "peak_rss_mib": 255.05}
+{"label": "Equation5834-finite-submission", "status": "passed", "elapsed_seconds": 1.274, "peak_rss_mib": 1329.89}
+{"label": "Equation5834-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1398.64}
+CASE PASS: Equation5834-finite checked 29 / 106
+{"label": "Equation40037-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 437.25}
+{"label": "Equation40037-finite-submission", "status": "passed", "elapsed_seconds": 1.446, "peak_rss_mib": 1330.52}
+{"label": "Equation40037-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1607.44}
+CASE PASS: Equation40037-finite checked 30 / 106
+{"label": "Equation5837-finite-goal", "status": "passed", "elapsed_seconds": 0.645, "peak_rss_mib": 280.81}
+{"label": "Equation5837-finite-submission", "status": "passed", "elapsed_seconds": 1.066, "peak_rss_mib": 1284.25}
+{"label": "Equation5837-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1605.62}
+CASE PASS: Equation5837-finite checked 31 / 106
+{"label": "Equation40221-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 419.44}
+{"label": "Equation40221-finite-submission", "status": "passed", "elapsed_seconds": 1.066, "peak_rss_mib": 1284.47}
+{"label": "Equation40221-finite-audit", "status": "passed", "elapsed_seconds": 1.054, "peak_rss_mib": 1606.81}
+CASE PASS: Equation40221-finite checked 32 / 106
+{"label": "Equation5947-finite-goal", "status": "passed", "elapsed_seconds": 0.643, "peak_rss_mib": 313.92}
+{"label": "Equation5947-finite-submission", "status": "passed", "elapsed_seconds": 1.276, "peak_rss_mib": 1319.86}
+{"label": "Equation5947-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1607.64}
+CASE PASS: Equation5947-finite checked 33 / 106
+{"label": "Equation40057-finite-goal", "status": "passed", "elapsed_seconds": 0.636, "peak_rss_mib": 189.0}
+{"label": "Equation40057-finite-submission", "status": "passed", "elapsed_seconds": 1.277, "peak_rss_mib": 1320.61}
+{"label": "Equation40057-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1606.95}
+CASE PASS: Equation40057-finite checked 34 / 106
+{"label": "Equation5951-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 344.56}
+{"label": "Equation5951-finite-submission", "status": "passed", "elapsed_seconds": 0.825, "peak_rss_mib": 1217.2}
+{"label": "Equation5951-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1413.86}
+CASE PASS: Equation5951-finite checked 35 / 106
+{"label": "Equation40208-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 411.09}
+{"label": "Equation40208-finite-submission", "status": "passed", "elapsed_seconds": 0.85, "peak_rss_mib": 1248.92}
+{"label": "Equation40208-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1614.42}
+CASE PASS: Equation40208-finite checked 36 / 106
+{"label": "Equation6820-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 435.17}
+{"label": "Equation6820-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.03}
+{"label": "Equation6820-finite-audit", "status": "passed", "elapsed_seconds": 1.068, "peak_rss_mib": 1611.77}
+CASE PASS: Equation6820-finite checked 37 / 106
+{"label": "Equation39485-finite-goal", "status": "passed", "elapsed_seconds": 0.645, "peak_rss_mib": 248.7}
+{"label": "Equation39485-finite-submission", "status": "passed", "elapsed_seconds": 0.85, "peak_rss_mib": 1234.33}
+{"label": "Equation39485-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1613.67}
+CASE PASS: Equation39485-finite checked 38 / 106
+{"label": "Equation6878-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 315.03}
+{"label": "Equation6878-finite-submission", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1306.25}
+{"label": "Equation6878-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1404.97}
+CASE PASS: Equation6878-finite checked 39 / 106
+{"label": "Equation39126-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 437.66}
+{"label": "Equation39126-finite-submission", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1306.95}
+{"label": "Equation39126-finite-audit", "status": "passed", "elapsed_seconds": 1.064, "peak_rss_mib": 1400.66}
+CASE PASS: Equation39126-finite checked 40 / 106
+{"label": "Equation6895-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 437.94}
+{"label": "Equation6895-finite-submission", "status": "passed", "elapsed_seconds": 0.855, "peak_rss_mib": 1248.84}
+{"label": "Equation6895-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1606.83}
+CASE PASS: Equation6895-finite checked 41 / 106
+{"label": "Equation39163-finite-goal", "status": "passed", "elapsed_seconds": 0.431, "peak_rss_mib": 457.53}
+{"label": "Equation39163-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.66}
+{"label": "Equation39163-finite-audit", "status": "passed", "elapsed_seconds": 1.061, "peak_rss_mib": 1613.11}
+CASE PASS: Equation39163-finite checked 42 / 106
+{"label": "Equation6912-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 474.61}
+{"label": "Equation6912-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.98}
+{"label": "Equation6912-finite-audit", "status": "passed", "elapsed_seconds": 1.057, "peak_rss_mib": 1611.53}
+CASE PASS: Equation6912-finite checked 43 / 106
+{"label": "Equation39214-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 412.3}
+{"label": "Equation39214-finite-submission", "status": "passed", "elapsed_seconds": 0.843, "peak_rss_mib": 1248.7}
+{"label": "Equation39214-finite-audit", "status": "passed", "elapsed_seconds": 1.056, "peak_rss_mib": 1613.61}
+CASE PASS: Equation39214-finite checked 44 / 106
+{"label": "Equation7587-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 420.89}
+{"label": "Equation7587-finite-submission", "status": "passed", "elapsed_seconds": 1.488, "peak_rss_mib": 1340.7}
+{"label": "Equation7587-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1606.45}
+CASE PASS: Equation7587-finite checked 45 / 106
+{"label": "Equation38316-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 387.17}
+{"label": "Equation38316-finite-submission", "status": "passed", "elapsed_seconds": 1.477, "peak_rss_mib": 1341.3}
+{"label": "Equation38316-finite-audit", "status": "passed", "elapsed_seconds": 1.061, "peak_rss_mib": 1606.89}
+CASE PASS: Equation38316-finite checked 46 / 106
+{"label": "Equation7701-finite-goal", "status": "passed", "elapsed_seconds": 0.636, "peak_rss_mib": 331.72}
+{"label": "Equation7701-finite-submission", "status": "passed", "elapsed_seconds": 0.849, "peak_rss_mib": 1230.61}
+{"label": "Equation7701-finite-audit", "status": "passed", "elapsed_seconds": 1.07, "peak_rss_mib": 1612.59}
+CASE PASS: Equation7701-finite checked 47 / 106
+{"label": "Equation38303-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 427.42}
+{"label": "Equation38303-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.8}
+{"label": "Equation38303-finite-audit", "status": "passed", "elapsed_seconds": 1.064, "peak_rss_mib": 1607.64}
+CASE PASS: Equation38303-finite checked 48 / 106
+{"label": "Equation7755-finite-goal", "status": "passed", "elapsed_seconds": 0.644, "peak_rss_mib": 278.97}
+{"label": "Equation7755-finite-submission", "status": "passed", "elapsed_seconds": 0.847, "peak_rss_mib": 1215.7}
+{"label": "Equation7755-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1407.47}
+CASE PASS: Equation7755-finite checked 49 / 106
+{"label": "Equation38249-finite-goal", "status": "passed", "elapsed_seconds": 0.422, "peak_rss_mib": 467.86}
+{"label": "Equation38249-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.95}
+{"label": "Equation38249-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1612.83}
+CASE PASS: Equation38249-finite checked 50 / 106
+{"label": "Equation7763-finite-goal", "status": "passed", "elapsed_seconds": 0.644, "peak_rss_mib": 319.0}
+{"label": "Equation7763-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1239.05}
+{"label": "Equation7763-finite-audit", "status": "passed", "elapsed_seconds": 1.057, "peak_rss_mib": 1612.81}
+CASE PASS: Equation7763-finite checked 51 / 106
+{"label": "Equation38565-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 447.25}
+{"label": "Equation38565-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.14}
+{"label": "Equation38565-finite-audit", "status": "passed", "elapsed_seconds": 1.057, "peak_rss_mib": 1607.55}
+CASE PASS: Equation38565-finite checked 52 / 106
+{"label": "Equation8485-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 432.28}
+{"label": "Equation8485-finite-submission", "status": "passed", "elapsed_seconds": 1.278, "peak_rss_mib": 1312.67}
+{"label": "Equation8485-finite-audit", "status": "passed", "elapsed_seconds": 1.071, "peak_rss_mib": 1606.95}
+CASE PASS: Equation8485-finite checked 53 / 106
+{"label": "Equation37519-finite-goal", "status": "passed", "elapsed_seconds": 0.629, "peak_rss_mib": 314.41}
+{"label": "Equation37519-finite-submission", "status": "passed", "elapsed_seconds": 1.273, "peak_rss_mib": 1313.78}
+{"label": "Equation37519-finite-audit", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1606.8}
+CASE PASS: Equation37519-finite checked 54 / 106
+{"label": "Equation9337-finite-goal", "status": "passed", "elapsed_seconds": 0.644, "peak_rss_mib": 309.12}
+{"label": "Equation9337-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1236.2}
+{"label": "Equation9337-finite-audit", "status": "passed", "elapsed_seconds": 1.066, "peak_rss_mib": 1607.45}
+CASE PASS: Equation9337-finite checked 55 / 106
+{"label": "Equation36867-finite-goal", "status": "passed", "elapsed_seconds": 0.644, "peak_rss_mib": 322.09}
+{"label": "Equation36867-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1232.23}
+{"label": "Equation36867-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1607.39}
+CASE PASS: Equation36867-finite checked 56 / 106
+{"label": "Equation9345-finite-goal", "status": "passed", "elapsed_seconds": 0.641, "peak_rss_mib": 308.27}
+{"label": "Equation9345-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1241.33}
+{"label": "Equation9345-finite-audit", "status": "passed", "elapsed_seconds": 1.056, "peak_rss_mib": 1392.95}
+CASE PASS: Equation9345-finite checked 57 / 106
+{"label": "Equation36713-finite-goal", "status": "passed", "elapsed_seconds": 0.42, "peak_rss_mib": 472.09}
+{"label": "Equation36713-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.02}
+{"label": "Equation36713-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1612.92}
+CASE PASS: Equation36713-finite checked 58 / 106
+{"label": "Equation9384-finite-goal", "status": "passed", "elapsed_seconds": 0.636, "peak_rss_mib": 290.05}
+{"label": "Equation9384-finite-submission", "status": "passed", "elapsed_seconds": 0.854, "peak_rss_mib": 1239.73}
+{"label": "Equation9384-finite-audit", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1402.0}
+CASE PASS: Equation9384-finite checked 59 / 106
+{"label": "Equation36714-finite-goal", "status": "passed", "elapsed_seconds": 0.425, "peak_rss_mib": 348.42}
+{"label": "Equation36714-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.05}
+{"label": "Equation36714-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1614.27}
+CASE PASS: Equation36714-finite checked 60 / 106
+{"label": "Equation9603-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 380.44}
+{"label": "Equation9603-finite-submission", "status": "passed", "elapsed_seconds": 1.695, "peak_rss_mib": 1383.3}
+{"label": "Equation9603-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1403.91}
+CASE PASS: Equation9603-finite checked 61 / 106
+{"label": "Equation36514-finite-goal", "status": "passed", "elapsed_seconds": 0.635, "peak_rss_mib": 784.53}
+{"label": "Equation36514-finite-submission", "status": "passed", "elapsed_seconds": 1.703, "peak_rss_mib": 1384.56}
+{"label": "Equation36514-finite-audit", "status": "passed", "elapsed_seconds": 1.05, "peak_rss_mib": 1613.7}
+CASE PASS: Equation36514-finite checked 62 / 106
+{"label": "Equation9663-finite-goal", "status": "passed", "elapsed_seconds": 0.424, "peak_rss_mib": 400.94}
+{"label": "Equation9663-finite-submission", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1307.64}
+{"label": "Equation9663-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1411.25}
+CASE PASS: Equation9663-finite checked 63 / 106
+{"label": "Equation36487-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 441.5}
+{"label": "Equation36487-finite-submission", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1308.22}
+{"label": "Equation36487-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1612.55}
+CASE PASS: Equation36487-finite checked 64 / 106
+{"label": "Equation9667-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 481.47}
+{"label": "Equation9667-finite-submission", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1284.47}
+{"label": "Equation9667-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1606.97}
+CASE PASS: Equation9667-finite checked 65 / 106
+{"label": "Equation36638-finite-goal", "status": "passed", "elapsed_seconds": 0.634, "peak_rss_mib": 240.95}
+{"label": "Equation36638-finite-submission", "status": "passed", "elapsed_seconds": 1.069, "peak_rss_mib": 1286.25}
+{"label": "Equation36638-finite-audit", "status": "passed", "elapsed_seconds": 1.06, "peak_rss_mib": 1606.81}
+CASE PASS: Equation36638-finite checked 66 / 106
+{"label": "Equation9680-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 409.94}
+{"label": "Equation9680-finite-submission", "status": "passed", "elapsed_seconds": 0.846, "peak_rss_mib": 1247.23}
+{"label": "Equation9680-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1614.19}
+CASE PASS: Equation9680-finite checked 67 / 106
+{"label": "Equation36524-finite-goal", "status": "passed", "elapsed_seconds": 0.636, "peak_rss_mib": 428.09}
+{"label": "Equation36524-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1244.42}
+{"label": "Equation36524-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1606.75}
+CASE PASS: Equation36524-finite checked 68 / 106
+{"label": "Equation10218-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 430.72}
+{"label": "Equation10218-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.0}
+{"label": "Equation10218-finite-audit", "status": "passed", "elapsed_seconds": 1.057, "peak_rss_mib": 1613.33}
+CASE PASS: Equation10218-finite checked 69 / 106
+{"label": "Equation35685-finite-goal", "status": "passed", "elapsed_seconds": 0.424, "peak_rss_mib": 469.38}
+{"label": "Equation35685-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.11}
+{"label": "Equation35685-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1399.73}
+CASE PASS: Equation35685-finite checked 70 / 106
+{"label": "Equation10222-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 469.69}
+{"label": "Equation10222-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1247.66}
+{"label": "Equation10222-finite-audit", "status": "passed", "elapsed_seconds": 1.064, "peak_rss_mib": 1607.45}
+CASE PASS: Equation10222-finite checked 71 / 106
+{"label": "Equation35836-finite-goal", "status": "passed", "elapsed_seconds": 0.639, "peak_rss_mib": 338.89}
+{"label": "Equation35836-finite-submission", "status": "passed", "elapsed_seconds": 0.854, "peak_rss_mib": 1247.17}
+{"label": "Equation35836-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1607.47}
+CASE PASS: Equation35836-finite checked 72 / 106
+{"label": "Equation11081-finite-goal", "status": "passed", "elapsed_seconds": 0.423, "peak_rss_mib": 427.36}
+{"label": "Equation11081-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.03}
+{"label": "Equation11081-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1607.45}
+CASE PASS: Equation11081-finite checked 73 / 106
+{"label": "Equation35036-finite-goal", "status": "passed", "elapsed_seconds": 0.644, "peak_rss_mib": 294.83}
+{"label": "Equation35036-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1216.73}
+{"label": "Equation35036-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1597.42}
+CASE PASS: Equation35036-finite checked 74 / 106
+{"label": "Equation11082-finite-goal", "status": "passed", "elapsed_seconds": 0.642, "peak_rss_mib": 237.84}
+{"label": "Equation11082-finite-submission", "status": "passed", "elapsed_seconds": 0.844, "peak_rss_mib": 1221.05}
+{"label": "Equation11082-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1611.14}
+CASE PASS: Equation11082-finite checked 75 / 106
+{"label": "Equation34889-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 472.53}
+{"label": "Equation34889-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1249.84}
+{"label": "Equation34889-finite-audit", "status": "passed", "elapsed_seconds": 1.069, "peak_rss_mib": 1615.52}
+CASE PASS: Equation34889-finite checked 76 / 106
+{"label": "Equation11116-finite-goal", "status": "passed", "elapsed_seconds": 0.642, "peak_rss_mib": 284.7}
+{"label": "Equation11116-finite-submission", "status": "passed", "elapsed_seconds": 0.849, "peak_rss_mib": 1237.73}
+{"label": "Equation11116-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1613.08}
+CASE PASS: Equation11116-finite checked 77 / 106
+{"label": "Equation34888-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 362.48}
+{"label": "Equation34888-finite-submission", "status": "passed", "elapsed_seconds": 0.84, "peak_rss_mib": 1241.0}
+{"label": "Equation34888-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1613.8}
+CASE PASS: Equation34888-finite checked 78 / 106
+{"label": "Equation11205-finite-goal", "status": "passed", "elapsed_seconds": 0.641, "peak_rss_mib": 301.95}
+{"label": "Equation11205-finite-submission", "status": "passed", "elapsed_seconds": 0.857, "peak_rss_mib": 1218.16}
+{"label": "Equation11205-finite-audit", "status": "passed", "elapsed_seconds": 1.068, "peak_rss_mib": 1613.19}
+CASE PASS: Equation11205-finite checked 79 / 106
+{"label": "Equation35100-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 376.98}
+{"label": "Equation35100-finite-submission", "status": "passed", "elapsed_seconds": 0.849, "peak_rss_mib": 1248.02}
+{"label": "Equation35100-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1607.47}
+CASE PASS: Equation35100-finite checked 80 / 106
+{"label": "Equation11280-finite-goal", "status": "passed", "elapsed_seconds": 0.643, "peak_rss_mib": 335.08}
+{"label": "Equation11280-finite-submission", "status": "passed", "elapsed_seconds": 0.854, "peak_rss_mib": 1222.33}
+{"label": "Equation11280-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1605.31}
+CASE PASS: Equation11280-finite checked 81 / 106
+{"label": "Equation34778-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 379.66}
+{"label": "Equation34778-finite-submission", "status": "passed", "elapsed_seconds": 0.844, "peak_rss_mib": 1248.61}
+{"label": "Equation34778-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1607.61}
+CASE PASS: Equation34778-finite checked 82 / 106
+{"label": "Equation12073-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 339.67}
+{"label": "Equation12073-finite-submission", "status": "passed", "elapsed_seconds": 0.85, "peak_rss_mib": 1248.83}
+{"label": "Equation12073-finite-audit", "status": "passed", "elapsed_seconds": 1.064, "peak_rss_mib": 1613.05}
+CASE PASS: Equation12073-finite checked 83 / 106
+{"label": "Equation33998-finite-goal", "status": "passed", "elapsed_seconds": 0.633, "peak_rss_mib": 394.3}
+{"label": "Equation33998-finite-submission", "status": "passed", "elapsed_seconds": 0.85, "peak_rss_mib": 1226.09}
+{"label": "Equation33998-finite-audit", "status": "passed", "elapsed_seconds": 1.045, "peak_rss_mib": 1607.41}
+CASE PASS: Equation33998-finite checked 84 / 106
+{"label": "Equation12087-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 434.78}
+{"label": "Equation12087-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.64}
+{"label": "Equation12087-finite-audit", "status": "passed", "elapsed_seconds": 1.067, "peak_rss_mib": 1614.27}
+CASE PASS: Equation12087-finite checked 85 / 106
+{"label": "Equation33884-finite-goal", "status": "passed", "elapsed_seconds": 0.43, "peak_rss_mib": 376.25}
+{"label": "Equation33884-finite-submission", "status": "passed", "elapsed_seconds": 0.841, "peak_rss_mib": 1247.03}
+{"label": "Equation33884-finite-audit", "status": "passed", "elapsed_seconds": 1.066, "peak_rss_mib": 1613.56}
+CASE PASS: Equation33884-finite checked 86 / 106
+{"label": "Equation12234-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 334.12}
+{"label": "Equation12234-finite-submission", "status": "passed", "elapsed_seconds": 1.694, "peak_rss_mib": 1367.91}
+{"label": "Equation12234-finite-audit", "status": "passed", "elapsed_seconds": 1.068, "peak_rss_mib": 1607.41}
+CASE PASS: Equation12234-finite checked 87 / 106
+{"label": "Equation33883-finite-goal", "status": "passed", "elapsed_seconds": 0.643, "peak_rss_mib": 183.64}
+{"label": "Equation33883-finite-submission", "status": "passed", "elapsed_seconds": 1.675, "peak_rss_mib": 1368.14}
+{"label": "Equation33883-finite-audit", "status": "passed", "elapsed_seconds": 1.062, "peak_rss_mib": 1606.86}
+CASE PASS: Equation33883-finite checked 88 / 106
+{"label": "Equation12857-finite-goal", "status": "passed", "elapsed_seconds": 0.431, "peak_rss_mib": 313.06}
+{"label": "Equation12857-finite-submission", "status": "passed", "elapsed_seconds": 0.845, "peak_rss_mib": 1246.67}
+{"label": "Equation12857-finite-audit", "status": "passed", "elapsed_seconds": 1.066, "peak_rss_mib": 1614.09}
+CASE PASS: Equation12857-finite checked 89 / 106
+{"label": "Equation33436-finite-goal", "status": "passed", "elapsed_seconds": 0.626, "peak_rss_mib": 337.23}
+{"label": "Equation33436-finite-submission", "status": "passed", "elapsed_seconds": 0.85, "peak_rss_mib": 1229.44}
+{"label": "Equation33436-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1400.05}
+CASE PASS: Equation33436-finite checked 90 / 106
+{"label": "Equation12883-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 434.25}
+{"label": "Equation12883-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.81}
+{"label": "Equation12883-finite-audit", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1611.19}
+CASE PASS: Equation12883-finite checked 91 / 106
+{"label": "Equation33020-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 445.44}
+{"label": "Equation33020-finite-submission", "status": "passed", "elapsed_seconds": 0.842, "peak_rss_mib": 1245.81}
+{"label": "Equation33020-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1587.53}
+CASE PASS: Equation33020-finite checked 92 / 106
+{"label": "Equation13764-finite-goal", "status": "passed", "elapsed_seconds": 0.64, "peak_rss_mib": 451.55}
+{"label": "Equation13764-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1227.39}
+{"label": "Equation13764-finite-audit", "status": "passed", "elapsed_seconds": 1.059, "peak_rss_mib": 1607.44}
+CASE PASS: Equation13764-finite checked 93 / 106
+{"label": "Equation32294-finite-goal", "status": "passed", "elapsed_seconds": 0.423, "peak_rss_mib": 469.66}
+{"label": "Equation32294-finite-submission", "status": "passed", "elapsed_seconds": 0.852, "peak_rss_mib": 1248.92}
+{"label": "Equation32294-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1577.34}
+CASE PASS: Equation32294-finite checked 94 / 106
+{"label": "Equation13849-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 429.02}
+{"label": "Equation13849-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1247.62}
+{"label": "Equation13849-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1614.36}
+CASE PASS: Equation13849-finite checked 95 / 106
+{"label": "Equation32281-finite-goal", "status": "passed", "elapsed_seconds": 0.426, "peak_rss_mib": 376.69}
+{"label": "Equation32281-finite-submission", "status": "passed", "elapsed_seconds": 0.845, "peak_rss_mib": 1226.22}
+{"label": "Equation32281-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1418.95}
+CASE PASS: Equation32281-finite checked 96 / 106
+{"label": "Equation13992-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 434.94}
+{"label": "Equation13992-finite-submission", "status": "passed", "elapsed_seconds": 0.842, "peak_rss_mib": 1248.98}
+{"label": "Equation13992-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1411.84}
+CASE PASS: Equation13992-finite checked 97 / 106
+{"label": "Equation32280-finite-goal", "status": "passed", "elapsed_seconds": 0.644, "peak_rss_mib": 261.8}
+{"label": "Equation32280-finite-submission", "status": "passed", "elapsed_seconds": 0.854, "peak_rss_mib": 1232.22}
+{"label": "Equation32280-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1607.66}
+CASE PASS: Equation32280-finite checked 98 / 106
+{"label": "Equation18137-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 388.64}
+{"label": "Equation18137-finite-submission", "status": "passed", "elapsed_seconds": 1.278, "peak_rss_mib": 1318.06}
+{"label": "Equation18137-finite-audit", "status": "passed", "elapsed_seconds": 1.074, "peak_rss_mib": 1607.47}
+CASE PASS: Equation18137-finite checked 99 / 106
+{"label": "Equation27863-finite-goal", "status": "passed", "elapsed_seconds": 0.641, "peak_rss_mib": 339.19}
+{"label": "Equation27863-finite-submission", "status": "passed", "elapsed_seconds": 1.283, "peak_rss_mib": 1315.7}
+{"label": "Equation27863-finite-audit", "status": "passed", "elapsed_seconds": 1.069, "peak_rss_mib": 1565.83}
+CASE PASS: Equation27863-finite checked 100 / 106
+{"label": "Equation18212-finite-goal", "status": "passed", "elapsed_seconds": 0.641, "peak_rss_mib": 188.89}
+{"label": "Equation18212-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1218.81}
+{"label": "Equation18212-finite-audit", "status": "passed", "elapsed_seconds": 1.058, "peak_rss_mib": 1606.83}
+CASE PASS: Equation18212-finite checked 101 / 106
+{"label": "Equation27859-finite-goal", "status": "passed", "elapsed_seconds": 0.631, "peak_rss_mib": 430.83}
+{"label": "Equation27859-finite-submission", "status": "passed", "elapsed_seconds": 0.855, "peak_rss_mib": 1240.05}
+{"label": "Equation27859-finite-audit", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1606.34}
+CASE PASS: Equation27859-finite checked 102 / 106
+{"label": "Equation19966-finite-goal", "status": "passed", "elapsed_seconds": 0.427, "peak_rss_mib": 456.72}
+{"label": "Equation19966-finite-submission", "status": "passed", "elapsed_seconds": 0.851, "peak_rss_mib": 1248.03}
+{"label": "Equation19966-finite-audit", "status": "passed", "elapsed_seconds": 1.04, "peak_rss_mib": 1606.56}
+CASE PASS: Equation19966-finite checked 103 / 106
+{"label": "Equation26105-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 417.34}
+{"label": "Equation26105-finite-submission", "status": "passed", "elapsed_seconds": 0.846, "peak_rss_mib": 1247.69}
+{"label": "Equation26105-finite-audit", "status": "passed", "elapsed_seconds": 1.066, "peak_rss_mib": 1607.5}
+CASE PASS: Equation26105-finite checked 104 / 106
+{"label": "Equation22619-finite-goal", "status": "passed", "elapsed_seconds": 0.429, "peak_rss_mib": 386.16}
+{"label": "Equation22619-finite-submission", "status": "passed", "elapsed_seconds": 0.848, "peak_rss_mib": 1246.92}
+{"label": "Equation22619-finite-audit", "status": "passed", "elapsed_seconds": 1.065, "peak_rss_mib": 1613.75}
+CASE PASS: Equation22619-finite checked 105 / 106
+{"label": "Equation22634-finite-goal", "status": "passed", "elapsed_seconds": 0.428, "peak_rss_mib": 399.0}
+{"label": "Equation22634-finite-submission", "status": "passed", "elapsed_seconds": 0.848, "peak_rss_mib": 1249.05}
+{"label": "Equation22634-finite-audit", "status": "passed", "elapsed_seconds": 1.063, "peak_rss_mib": 1607.12}
+CASE PASS: Equation22634-finite checked 106 / 106

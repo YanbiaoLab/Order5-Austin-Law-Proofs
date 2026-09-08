@@ -1,0 +1,56 @@
+import Mathlib.Data.Fintype.Card
+import JudgeMagma.Magma
+
+@[reducible] def Equation2 (G : Type _) [Magma G] : Prop := ∀ (x y : G), x = y
+@[reducible] def Equation9667 (G : Type _) [Magma G] : Prop := ∀ (x y z : G), x = y ◇ ((z ◇ y) ◇ (x ◇ (y ◇ y)))
+
+theorem finite_trivial (G : Type*) [Magma G] [Finite G] (h : Equation9667 G) : Equation2 G := by
+  intro a b
+  have ls (y : G) : Function.Surjective (fun t : G => y ◇ t) := by
+    intro x
+    exact ⟨((a ◇ y) ◇ (x ◇ (y ◇ y))), (h x y a).symm⟩
+  have li (y : G) : Function.Injective (fun t : G => y ◇ t) :=
+    Finite.injective_iff_surjective.mpr (ls y)
+  let d (x y : G) : G := Classical.choose (ls x y)
+  have ld1 (x y : G) : x ◇ d x y = y := Classical.choose_spec (ls x y)
+  have ld2 (x y : G) : d x (x ◇ y) = y := li x (ld1 x (x ◇ y))
+  have p2 (x y z : G) : (x ◇ ((y ◇ x) ◇ (z ◇ (x ◇ x)))) = z := by
+    exact (h z x y).symm
+  have p4 (x y : G) : (d x (x ◇ y)) = y := by
+    exact (ld2 x y)
+  have p6 (u x y z : G) : (((x ◇ y) ◇ (z ◇ (y ◇ y))) ◇ (z ◇ (u ◇ (((x ◇ y) ◇ (z ◇ (y ◇ y))) ◇ ((x ◇ y) ◇ (z ◇ (y ◇ y))))))) = u := by
+    exact (((congrArg (fun _t : G => (((x ◇ y) ◇ (z ◇ (y ◇ y))) ◇ (_t ◇ (u ◇ (((x ◇ y) ◇ (z ◇ (y ◇ y))) ◇ ((x ◇ y) ◇ (z ◇ (y ◇ y)))))))) ((p2 y x z)))).symm).trans ((p2 ((x ◇ y) ◇ (z ◇ (y ◇ y))) y u))
+  have p8 (x y z : G) : (d x y) = ((z ◇ x) ◇ (y ◇ (x ◇ x))) := by
+    exact (((congrArg (fun _t : G => (d x _t)) ((p2 x z y)))).symm).trans ((p4 x ((z ◇ x) ◇ (y ◇ (x ◇ x)))))
+  have p13 (x y z : G) : ((x ◇ x) ◇ ((y ◇ (x ◇ x)) ◇ x)) = (z ◇ x) := by
+    exact (((congrArg (fun _t : G => ((x ◇ x) ◇ ((y ◇ (x ◇ x)) ◇ _t))) ((p4 x x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ x) ◇ ((y ◇ (x ◇ x)) ◇ _t))) (((p8 x (x ◇ x) z)).symm))).symm).trans ((p2 (x ◇ x) y (z ◇ x))))
+  have p15 (x y z : G) : ((x ◇ y) ◇ ((y ◇ z) ◇ (y ◇ y))) = z := by
+    exact (((p8 y (y ◇ z) x)).symm).trans ((p4 y z))
+  have p17 (u w x y z : G) : (((d x y) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (z ◇ (u ◇ ((((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))))))) = u := by
+    exact (((congrArg (fun _t : G => ((_t ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (z ◇ (u ◇ ((((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x)))))))))) (((p8 x y w)).symm))).symm).trans ((p6 u (w ◇ x) (y ◇ (x ◇ x)) z))
+  have p39 (x y : G) : ((x ◇ (y ◇ y)) ◇ y) = y := by
+    exact (((congrArg (fun _t : G => ((x ◇ (y ◇ y)) ◇ _t)) ((p4 y y)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ (y ◇ y)) ◇ _t)) (((p8 y (y ◇ y) (y ◇ y))).symm))).symm).trans ((p15 x (y ◇ y) y)))
+  have p45 (x y : G) : ((x ◇ x) ◇ x) = (y ◇ x) := by
+    exact (((congrArg (fun _t : G => ((x ◇ x) ◇ _t)) ((p39 a x)))).symm).trans ((p13 x a y))
+  have p51 (x y : G) : (d x y) = (x ◇ (y ◇ (x ◇ x))) := by
+    exact ((p8 x y (a ◇ (x ◇ x)))).trans ((congrArg (fun _t : G => (_t ◇ (y ◇ (x ◇ x)))) ((p39 a x))))
+  have p57 (x : G) : ((x ◇ x) ◇ x) = x := by
+    exact (((congrArg (fun _t : G => (_t ◇ x)) ((p39 a (x ◇ x))))).symm).trans ((p39 (a ◇ ((x ◇ x) ◇ (x ◇ x))) x))
+  have p67 (u w x y z : G) : (((x ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (z ◇ (u ◇ ((((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))))))) = u := by
+    exact (((congrArg (fun _t : G => ((_t ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (z ◇ (u ◇ ((((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x))))) ◇ (((w ◇ x) ◇ (y ◇ (x ◇ x))) ◇ (z ◇ ((y ◇ (x ◇ x)) ◇ (y ◇ (x ◇ x)))))))))) ((p51 x y)))).symm).trans ((p17 u w x y z))
+  have p74 (x y : G) : (x ◇ y) = y := by
+    exact ((((p57 y)).symm).trans ((p45 y x))).symm
+  have p75 (x y : G) : x = y := by
+    exact (((p74 x x)).symm).trans ((((congrArg (fun _t : G => (x ◇ _t)) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ _t))) ((p74 y x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ _t)))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ _t))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (x ◇ _t)))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (x ◇ (a ◇ _t))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (x ◇ (a ◇ (x ◇ _t)))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (x ◇ (a ◇ (x ◇ (a ◇ _t))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (x ◇ (a ◇ (_t ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (x ◇ (a ◇ ((a ◇ _t) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ (_t ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ ((x ◇ _t) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ ((x ◇ (a ◇ _t)) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (x ◇ ((_t ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (_t ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((x ◇ _t) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((x ◇ (a ◇ _t)) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((x ◇ (a ◇ (x ◇ _t))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((x ◇ (a ◇ (x ◇ (a ◇ _t)))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((x ◇ (a ◇ (_t ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((x ◇ (a ◇ ((a ◇ _t) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ ((_t ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (((x ◇ _t) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (((x ◇ (a ◇ _t)) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (x ◇ (a ◇ (y ◇ (((_t ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (_t ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ _t) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ (a ◇ _t)) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ (a ◇ (x ◇ _t))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ (a ◇ (x ◇ (a ◇ _t)))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ (a ◇ (_t ◇ (a ◇ (x ◇ x))))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => ((x ◇ (a ◇ ((a ◇ _t) ◇ (a ◇ (x ◇ x))))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => ((_t ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((((congrArg (fun _t : G => (((x ◇ _t) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 a x)))).symm).trans ((((congrArg (fun _t : G => (((x ◇ (a ◇ _t)) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (a ◇ (y ◇ ((((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x))))) ◇ (((a ◇ x) ◇ (a ◇ (x ◇ x))) ◇ (a ◇ ((a ◇ (x ◇ x)) ◇ (a ◇ (x ◇ x)))))))))) ((p74 x x)))).symm).trans ((p67 y a x a a)))))))))))))))))))))))))))))))))))))
+  exact (p75 a a).trans (p75 b a).symm
+
+@[reducible] def Equation36638 (G : Type _) [Magma G] : Prop := ∀ (x y z : G), x = (((y ◇ y) ◇ x) ◇ (y ◇ z)) ◇ y
+
+theorem finite_trivial_dual (G : Type*) [Magma G] [Finite G] (h : Equation36638 G) : Equation2 G := by
+  let opposite : Magma G := ⟨fun x y => y ◇ x⟩
+  have hd : @ Equation9667 G opposite := by
+    intro x y z
+    exact h x y z
+  exact @ finite_trivial G opposite inferInstance hd
+
+#print axioms finite_trivial_dual

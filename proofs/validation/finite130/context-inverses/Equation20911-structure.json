@@ -1,0 +1,67 @@
+{
+  "label": "Equation20911-structure",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.851,
+  "peak_rss_mib": 1255.59,
+  "source": ".build/finite130/context-inverses/Equation20911-structure.lean",
+  "source_sha256": "cc1e1d5b4efb089f974bddef21cccfc0ae4039e88c20853b60c07b3af7112973",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-DwarningAsError=true",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/finite130/context-inverses/Equation20911-structure.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/finite130/context-inverses",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/finite130/context-inverses/Equation20911-structure.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072,
+  "certificate_path": "proofs/Equation20911/FiniteStructure.lean",
+  "certificate_sha256": "cc1e1d5b4efb089f974bddef21cccfc0ae4039e88c20853b60c07b3af7112973",
+  "proves_equation2": false,
+  "axioms_checked": true,
+  "axioms": {
+    "left_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "right_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "common_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "common_square_right_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "orbit_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

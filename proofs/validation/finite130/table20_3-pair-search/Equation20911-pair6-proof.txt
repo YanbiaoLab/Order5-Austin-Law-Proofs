@@ -1,0 +1,21 @@
+============================== PROOF =================================
+
+% Proof 1 at 0.00 (+ 0.00) seconds.
+% Length of proof is 11.
+% Level of proof is 4.
+% Maximum clause weight is 17.000.
+% Given clauses 13.
+
+1 a = c # label(non_clause) # label(goal).  [goal].
+2 f(f(x,x),f(f(f(y,z),z),y)) = z.  [assumption].
+4 d0(x,f(f(x,x),y)) = y.  [assumption].
+9 f(f(b,b),a) = f(f(d,d),c).  [assumption].
+10 f(f(d,d),c) = f(f(b,b),a).  [copy(9),flip(a)].
+11 c != a.  [deny(1)].
+15 d0(x,y) = f(f(f(z,y),y),z).  [para(2(a,1),4(a,1,2))].
+23 d0(d,f(f(b,b),a)) = c.  [para(10(a,1),4(a,1,2))].
+42 f(f(f(x,f(f(y,y),z)),f(f(y,y),z)),x) = z.  [para(15(a,1),4(a,1))].
+55 c = a.  [para(15(a,1),23(a,1)),rewrite([42(13)]),flip(a)].
+56 $F.  [resolve(55,a,11,a)].
+
+============================== end of proof ==========================

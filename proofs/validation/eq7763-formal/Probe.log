@@ -1,0 +1,16 @@
+submission.Austin7763.Code.rec {motive_1 : (a a_1 a_2 : T) → Code a a_1 a_2 → Prop}
+  {motive_2 : (a a_1 a_2 : T) → Step a a_1 a_2 → Prop}
+  (law :
+    ∀ (x y z h₀ h₁ : T) (s₀ : Step x z h₀) (s₁ : Step (z.p h₀) y h₁),
+      motive_2 x z h₀ s₀ → motive_2 (z.p h₀) y h₁ s₁ → motive_1 y (y.p h₁) x ⋯)
+  (raw : ∀ (a b : T), motive_2 a b (a.p b) ⋯)
+  (hit : ∀ {a b o : T} (h : Code a b o), motive_1 a b o h → motive_2 a b o ⋯) {a✝ a✝¹ a✝² : T} (t : Code a✝ a✝¹ a✝²) :
+  motive_1 a✝ a✝¹ a✝² t
+submission.Austin7763.Step.rec {motive_1 : (a a_1 a_2 : T) → Code a a_1 a_2 → Prop}
+  {motive_2 : (a a_1 a_2 : T) → Step a a_1 a_2 → Prop}
+  (law :
+    ∀ (x y z h₀ h₁ : T) (s₀ : Step x z h₀) (s₁ : Step (z.p h₀) y h₁),
+      motive_2 x z h₀ s₀ → motive_2 (z.p h₀) y h₁ s₁ → motive_1 y (y.p h₁) x ⋯)
+  (raw : ∀ (a b : T), motive_2 a b (a.p b) ⋯)
+  (hit : ∀ {a b o : T} (h : Code a b o), motive_1 a b o h → motive_2 a b o ⋯) {a✝ a✝¹ a✝² : T} (t : Step a✝ a✝¹ a✝²) :
+  motive_2 a✝ a✝¹ a✝² t

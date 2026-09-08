@@ -1,0 +1,2 @@
+JUDGE_REPORT {"axioms":["propext","Classical.choice","Quot.sound"],"direct_declarations":["EquationLHS","Finite","Goal","Magma","submission.InfModel.Finite.Equation5093_implies_Equation2"],"nonce":"ffffffffffffffffffffffffffffffff","target":"submission"}
+JUDGE_REPORT {"axioms":["propext","Classical.choice","Quot.sound"],"direct_declarations":["Goal","submission"],"nonce":"ffffffffffffffffffffffffffffffff","target":"_judge_checked_ffffffffffffffffffffffffffffffff"}

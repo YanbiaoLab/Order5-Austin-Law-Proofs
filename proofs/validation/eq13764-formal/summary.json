@@ -1,0 +1,727 @@
+{
+  "status": "passed",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "modules_checked": 22,
+  "peak_rss_mib": 677.92,
+  "total_seconds": 9.143,
+  "source_hashes": {
+    "proofs/Equation13764/Lean/Basic.lean": "ea562645bbee1a959ceb8c0fe0c0935f9a8abfce1e9db865a1a686a243f10f09",
+    "proofs/Equation13764/Lean/Peak1.lean": "4932e646fb55694c73b236bbc109dc02dc8e5340aaac1eb97a0d99a8370e44de",
+    "proofs/Equation13764/Lean/Peak2.lean": "d797d0e774de6f1634d638baeba6a7bc4b4d7a5b7ee843892bd0db3dcd490e13",
+    "proofs/Equation13764/Lean/Peak3.lean": "654a9615b852ae1234a340f0e4c72830e8c2798b0184c71688294819bc4d5f0f",
+    "proofs/Equation13764/Lean/Peak4.lean": "38c3b733c183020762dc37ba857af1a1ba594fbade2df1a148f752b2b831fe14",
+    "proofs/Equation13764/Lean/Peak5.lean": "5588c5dbc16fa365c51c5e7550c4ee69593b642b778ee3ad8bfed2a314b7074a",
+    "proofs/Equation13764/Lean/Peak6.lean": "133d25ecda61be19941ad11c9b8cbe3a67958c669fa311cbfe01f9e8bf625194",
+    "proofs/Equation13764/Lean/Peak7.lean": "6f85af1d2bc23484fa696941922205a25f87ab925e8f39aa6c431367e8732472",
+    "proofs/Equation13764/Lean/Peak8.lean": "67ff3629e0858faa7568f13007e57a4b162025ed91f65d5559887d3e8f7d1ec4",
+    "proofs/Equation13764/Lean/Peak9.lean": "8d5233a2911b41f3c8173b26b59d3951ab8cb03dd2e389917f339d2fbdf40cf0",
+    "proofs/Equation13764/Lean/Peak10.lean": "2e8e9aa5c8d40c6e55f8cd8022dc453f5b692a16299751fa3b96c00bed62a6af",
+    "proofs/Equation13764/Lean/Peak11.lean": "9f2672af77dbe57e99947ae3417c2748e0623afc2d01d31e28633c03b6270104",
+    "proofs/Equation13764/Lean/Peak12.lean": "3beb89b9c5b78c1c71b61b93d0f9e827429c8461bd20bd38ebc3f0f953ca2016",
+    "proofs/Equation13764/Lean/Peak13.lean": "437e8a5fea6fb5a13d50cdcea5d70256ed7c18876cb3fab924952d127042e7b3",
+    "proofs/Equation13764/Lean/Confluence.lean": "f67a276db71b73ee0815b477c3a17f5c5cc01f5b856a1bc1990b6113b0131a4c",
+    "proofs/Equation13764/Lean/Model.lean": "1695fc0a2c89185b02fec0da11d4292a7fff1ed81ee7ab1c4c7e8a3c497ca339",
+    "proofs/Equation13764/Lean/Audit.lean": "06fbc8635338555e3650379e0253ae22f75de39aa9a92d0dcebacef0471fe01e",
+    "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+    "proofs/Equation13764/JudgeProblem.lean": "019f76c3a00e7adbf1377b1c793fc1ae02afc0d81adf1a794d2883855a4273c6",
+    "proofs/Equation13764/InfiniteModel.lean": "fe1b65d0fc87fa1f37834225fb3e3b88b95a5cc7cb1f557a3b29dfba8402d536",
+    "proofs/Equation32294/JudgeProblem.lean": "0a78eb28a152ac62981e3d1d4fd2b26c3a472eb9f624a3ded643a34cc2901a2a",
+    "proofs/Equation32294/InfiniteModel.lean": "89719702f8f0bf1aede4b6ca52b18b4163abbf8be0aa2306925c0810f17a541f"
+  },
+  "results": [
+    {
+      "module": "Basic",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.631,
+      "peak_rss_mib": 671.8,
+      "source": "proofs/Equation13764/Lean/Basic.lean",
+      "sha256": "ea562645bbee1a959ceb8c0fe0c0935f9a8abfce1e9db865a1a686a243f10f09",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Basic.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Basic.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Basic.log"
+    },
+    {
+      "module": "Peak1",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.421,
+      "peak_rss_mib": 643.53,
+      "source": "proofs/Equation13764/Lean/Peak1.lean",
+      "sha256": "4932e646fb55694c73b236bbc109dc02dc8e5340aaac1eb97a0d99a8370e44de",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak1.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak1.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak1.log"
+    },
+    {
+      "module": "Peak2",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.42,
+      "peak_rss_mib": 637.09,
+      "source": "proofs/Equation13764/Lean/Peak2.lean",
+      "sha256": "d797d0e774de6f1634d638baeba6a7bc4b4d7a5b7ee843892bd0db3dcd490e13",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak2.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak2.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak2.log"
+    },
+    {
+      "module": "Peak3",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.417,
+      "peak_rss_mib": 642.69,
+      "source": "proofs/Equation13764/Lean/Peak3.lean",
+      "sha256": "654a9615b852ae1234a340f0e4c72830e8c2798b0184c71688294819bc4d5f0f",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak3.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak3.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak3.log"
+    },
+    {
+      "module": "Peak4",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.426,
+      "peak_rss_mib": 642.36,
+      "source": "proofs/Equation13764/Lean/Peak4.lean",
+      "sha256": "38c3b733c183020762dc37ba857af1a1ba594fbade2df1a148f752b2b831fe14",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak4.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak4.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak4.log"
+    },
+    {
+      "module": "Peak5",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.425,
+      "peak_rss_mib": 642.75,
+      "source": "proofs/Equation13764/Lean/Peak5.lean",
+      "sha256": "5588c5dbc16fa365c51c5e7550c4ee69593b642b778ee3ad8bfed2a314b7074a",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak5.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak5.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak5.log"
+    },
+    {
+      "module": "Peak6",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.422,
+      "peak_rss_mib": 636.48,
+      "source": "proofs/Equation13764/Lean/Peak6.lean",
+      "sha256": "133d25ecda61be19941ad11c9b8cbe3a67958c669fa311cbfe01f9e8bf625194",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak6.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak6.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak6.log"
+    },
+    {
+      "module": "Peak7",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.429,
+      "peak_rss_mib": 635.97,
+      "source": "proofs/Equation13764/Lean/Peak7.lean",
+      "sha256": "6f85af1d2bc23484fa696941922205a25f87ab925e8f39aa6c431367e8732472",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak7.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak7.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak7.log"
+    },
+    {
+      "module": "Peak8",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.428,
+      "peak_rss_mib": 642.84,
+      "source": "proofs/Equation13764/Lean/Peak8.lean",
+      "sha256": "67ff3629e0858faa7568f13007e57a4b162025ed91f65d5559887d3e8f7d1ec4",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak8.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak8.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak8.log"
+    },
+    {
+      "module": "Peak9",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.427,
+      "peak_rss_mib": 644.8,
+      "source": "proofs/Equation13764/Lean/Peak9.lean",
+      "sha256": "8d5233a2911b41f3c8173b26b59d3951ab8cb03dd2e389917f339d2fbdf40cf0",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak9.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak9.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak9.log"
+    },
+    {
+      "module": "Peak10",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.427,
+      "peak_rss_mib": 643.98,
+      "source": "proofs/Equation13764/Lean/Peak10.lean",
+      "sha256": "2e8e9aa5c8d40c6e55f8cd8022dc453f5b692a16299751fa3b96c00bed62a6af",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak10.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak10.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak10.log"
+    },
+    {
+      "module": "Peak11",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.42,
+      "peak_rss_mib": 637.61,
+      "source": "proofs/Equation13764/Lean/Peak11.lean",
+      "sha256": "9f2672af77dbe57e99947ae3417c2748e0623afc2d01d31e28633c03b6270104",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak11.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak11.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak11.log"
+    },
+    {
+      "module": "Peak12",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.426,
+      "peak_rss_mib": 643.48,
+      "source": "proofs/Equation13764/Lean/Peak12.lean",
+      "sha256": "3beb89b9c5b78c1c71b61b93d0f9e827429c8461bd20bd38ebc3f0f953ca2016",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak12.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak12.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak12.log"
+    },
+    {
+      "module": "Peak13",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.64,
+      "peak_rss_mib": 677.92,
+      "source": "proofs/Equation13764/Lean/Peak13.lean",
+      "sha256": "437e8a5fea6fb5a13d50cdcea5d70256ed7c18876cb3fab924952d127042e7b3",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Peak13.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Peak13.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Peak13.log"
+    },
+    {
+      "module": "Confluence",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.424,
+      "peak_rss_mib": 635.23,
+      "source": "proofs/Equation13764/Lean/Confluence.lean",
+      "sha256": "f67a276db71b73ee0815b477c3a17f5c5cc01f5b856a1bc1990b6113b0131a4c",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Confluence.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Confluence.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Confluence.log"
+    },
+    {
+      "module": "Model",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.426,
+      "peak_rss_mib": 649.77,
+      "source": "proofs/Equation13764/Lean/Model.lean",
+      "sha256": "1695fc0a2c89185b02fec0da11d4292a7fff1ed81ee7ab1c4c7e8a3c497ca339",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Model.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Model.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Model.log"
+    },
+    {
+      "module": "Audit",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.432,
+      "peak_rss_mib": 622.17,
+      "source": "proofs/Equation13764/Lean/Audit.lean",
+      "sha256": "06fbc8635338555e3650379e0253ae22f75de39aa9a92d0dcebacef0471fe01e",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Audit.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/Lean/Audit.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Audit.log",
+      "axioms": {
+        "submission.Austin13764.infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Austin13764.equation13764": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Austin13764.equation32294": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Austin13764.embed_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "submission.Austin13764.confluent": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Austin13764.step_decreases": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "JudgeMagma",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.213,
+      "peak_rss_mib": 4.38,
+      "source": "proofs/support/JudgeMagma/Magma.lean",
+      "sha256": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/JudgeMagma/Magma.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/support/JudgeMagma/Magma.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/JudgeMagma.log"
+    },
+    {
+      "module": "Equation13764-Goal",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.215,
+      "peak_rss_mib": 3.19,
+      "source": "proofs/Equation13764/JudgeProblem.lean",
+      "sha256": "019f76c3a00e7adbf1377b1c793fc1ae02afc0d81adf1a794d2883855a4273c6",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation13764/JudgeProblem.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/JudgeProblem.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation13764",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Equation13764-Goal.log"
+    },
+    {
+      "module": "Equation13764-Submission",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.427,
+      "peak_rss_mib": 646.45,
+      "source": "proofs/Equation13764/InfiniteModel.lean",
+      "sha256": "fe1b65d0fc87fa1f37834225fb3e3b88b95a5cc7cb1f557a3b29dfba8402d536",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation13764/InfiniteModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13764/InfiniteModel.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation13764",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Equation13764-Submission.log",
+      "axioms": {
+        "submission": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.CM.tower_injective": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "Equation32294-Goal",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.22,
+      "peak_rss_mib": 4.25,
+      "source": "proofs/Equation32294/JudgeProblem.lean",
+      "sha256": "0a78eb28a152ac62981e3d1d4fd2b26c3a472eb9f624a3ded643a34cc2901a2a",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation32294/JudgeProblem.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation32294/JudgeProblem.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation32294",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Equation32294-Goal.log"
+    },
+    {
+      "module": "Equation32294-Submission",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.427,
+      "peak_rss_mib": 632.56,
+      "source": "proofs/Equation32294/InfiniteModel.lean",
+      "sha256": "89719702f8f0bf1aede4b6ca52b18b4163abbf8be0aa2306925c0810f17a541f",
+      "lean_version": "leanprover/lean4:v4.33.1",
+      "memory_limit_mib": 768,
+      "rss_limit_mib": 1024,
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M768",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.unusedSimpArgs=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation32294/InfiniteModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation32294/InfiniteModel.lean"
+      ],
+      "lean_path": [
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764/Equation32294",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13764"
+      ],
+      "log": "proofs/validation/eq13764-formal/Equation32294-Submission.log",
+      "axioms": {
+        "submission": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.CM.tower_injective": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

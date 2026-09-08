@@ -1,0 +1,30 @@
+{
+  "label": "REPL.JSON",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.63,
+  "peak_rss_mib": 509.38,
+  "source": ".build/judge-finite-extension/lean-repl/REPL/JSON.lean",
+  "source_sha256": "f4f37d31381cff6ac626c414187f610fee59a50e8a4f778f167e3c9cf432d6d6",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-DwarningAsError=true",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/lean-repl/.lake/build/lib/lean/REPL/JSON.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/lean-repl/REPL/JSON.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/lean-repl",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/lean-repl/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/finite130/judge-extension/repl-build/REPL.JSON.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072
+}

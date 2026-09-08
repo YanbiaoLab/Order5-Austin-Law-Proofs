@@ -1,0 +1,23 @@
+============================== PROOF =================================
+
+% Proof 1 at 0.00 (+ 0.00) seconds.
+% Length of proof is 13.
+% Level of proof is 7.
+% Maximum clause weight is 23.000.
+% Given clauses 5.
+
+1 a = b # label(non_clause) # label(goal).  [goal].
+2 f(f(x,f(y,z)),f(z,f(z,u))) = z.  [assumption].
+3 f(f(x,y),f(f(x,y),f(y,x))) = y.  [assumption].
+4 b != a.  [deny(1)].
+5 f(f(x,y),f(f(y,f(y,z)),f(f(y,f(y,z)),u))) = f(y,f(y,z)).  [para(2(a,1),2(a,1,1,2))].
+13 f(x,f(x,f(f(f(y,x),f(x,y)),f(y,x)))) = f(f(y,x),f(x,y)).  [para(3(a,1),3(a,1,1)),rewrite([3(5)])].
+24 f(f(x,y),f(y,z)) = f(y,f(y,z)).  [para(3(a,1),5(a,1,2))].
+31 f(x,f(x,f(f(x,f(x,y)),f(y,x)))) = f(x,f(x,y)).  [back_rewrite(13),rewrite([24(3),24(9)])].
+32 f(x,f(x,f(x,y))) = x.  [back_rewrite(3),rewrite([24(4),24(4)])].
+35 f(f(x,f(y,z)),z) = z.  [para(32(a,1),2(a,1,2))].
+36 f(x,f(y,z)) = z.  [para(2(a,1),32(a,1,2,2)),rewrite([35(5),35(3)]),flip(a)].
+38 x = y.  [back_rewrite(31),rewrite([36(2),36(2),36(2),36(2)])].
+39 $F.  [resolve(38,a,4,a)].
+
+============================== end of proof ==========================

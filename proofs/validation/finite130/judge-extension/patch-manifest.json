@@ -1,0 +1,54 @@
+{
+  "status": "tested_proposal_not_applied_not_deployed",
+  "patch": "finite-domain.patch",
+  "patch_sha256": "0e6de2c27fa26619d105940946a8901d80c57d5354f83b149a79526e7dc53b2a",
+  "files": [
+    {
+      "path": "src/judge_v3/judge_v3_repl/common/models.py",
+      "before_sha256": "961da62edbe422f099221b305ea91a4835cc61a6cf8dafb873d05b91c4e8b59f",
+      "after_sha256": "4db5d862dcf7380bb73802ed1194da080a9ec7b34bce2dddd991823b31cd74c8"
+    },
+    {
+      "path": "src/judge_v3/judge_v3_repl/common/proof_policy.py",
+      "before_sha256": "5866e840224888a28aaed0e947306fd2dd4da483314b77a835f10eb04ca0eddd",
+      "after_sha256": "6f03943ed50422a4a1a0e6f643d58a379f71448e51237990514cfc07be0dc8f7"
+    },
+    {
+      "path": "src/judge_v3/judge_v3_repl/control/runtime.py",
+      "before_sha256": "d089ea19a02f115ad9eeb4cdf86174fa9069f29544f5f8d5051fd02a12a9673d",
+      "after_sha256": "4fcfb148762bc177d6814f4333817d7c8ee2d2164c8068eb5330be65478e0b9e"
+    },
+    {
+      "path": "src/judge_v3/judge_v3_repl/runtime.py",
+      "before_sha256": "1466c1bae31c42be3bdd5ef5d57d5113886bd2e92c927b2a61401e4d03baf99d",
+      "after_sha256": "db56505dbc4908449d9e4431c56406a6ff4ad8ccc602bb123564c053271eb93d"
+    },
+    {
+      "path": "src/judge_v3/judge_v3_repl/verifier.py",
+      "before_sha256": "4feeaf9b6a23a612184b6979d325e9b96e2cbf5a10f4f030b7a11c641be421a0",
+      "after_sha256": "8b4f5aca9ecd9bc7d9ed01eb7972bc5706de6615384a40c4d6029bf94cf7ef9f"
+    },
+    {
+      "path": "src/judge_v3/tests/test_finite_domain.py",
+      "before_sha256": null,
+      "after_sha256": "6dffc783909990589aec27d267aafdbe45262fa8f949727ed0d2102a53ece917"
+    }
+  ],
+  "service_repository_head": "736b560c3a1cbd401cab960b88b46d0d5de6e75e",
+  "service_base_manifest_sha256": "fa874f9028a53d70c6e55eee503e48dc3f0cb7746d3a3d607600489eb043bbf1",
+  "git_apply_check": "passed",
+  "python_tests_passed": 80,
+  "python_tests_log_sha256": "0e2fa5015e907a34232440bede70e104e8857ac4993124ff0c2a9d46f9a5efee",
+  "finite_kernel_and_policy_checks_passed": 114,
+  "finite_kernel_summary_sha256": "bfa4206a4f6d05b7e6f37e15591ead8554e74a0d36321c0e93d612005d00c7d8",
+  "controls_passed": 3,
+  "controls_summary_sha256": "3522b9edfb239039c6beaa9eb52156279573b84cb346466daafef057c650ff0e",
+  "lean_memory_limit_mib": 2048,
+  "sampled_rss_stop_mib": 3072,
+  "sampled_peak_rss_mib": 1653.86,
+  "full_custom_repl_integration_checked": true,
+  "native_worker_repl_cases_passed": 14,
+  "native_repl_build_manifest_sha256": "64871e5b39b7da681b3ce3df3c177bb2903d638e69b79be7a57aa2cd100d4dce",
+  "native_worker_repl_summary_sha256": "575aa89b3f6670ae1d28a8d8589423391bc27eec0aecca3745ff0cd4b6b64a9f",
+  "aurora_finite_accepted": 0
+}

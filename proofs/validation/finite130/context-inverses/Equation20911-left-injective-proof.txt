@@ -1,0 +1,28 @@
+============================== PROOF =================================
+
+% Proof 1 at 0.15 (+ 0.01) seconds.
+% Length of proof is 18.
+% Level of proof is 9.
+% Maximum clause weight is 19.000.
+% Given clauses 172.
+
+1 b = c # label(non_clause) # label(goal).  [goal].
+2 f(f(x,x),f(f(f(y,z),z),y)) = z.  [assumption].
+4 d0(x,f(f(x,x),y)) = y.  [assumption].
+6 r0(f(x,y),y) = x.  [assumption].
+7 f(a,b) = f(a,c).  [assumption].
+8 f(a,c) = f(a,b).  [copy(7),flip(a)].
+9 c != b.  [deny(1)].
+13 d0(x,y) = f(f(f(z,y),y),z).  [para(2(a,1),4(a,1,2))].
+18 r0(f(a,b),c) = a.  [para(8(a,1),6(a,1,1))].
+37 r0(d0(x,y),z) = f(f(z,y),y).  [para(13(a,2),6(a,1,1))].
+48 d0(x,y) = d0(z,y).  [para(13(a,2),13(a,2))].
+57 d0(x,f(f(y,y),z)) = z.  [para(48(a,1),4(a,1))].
+154 r0(x,y) = f(f(y,f(f(z,z),x)),f(f(z,z),x)).  [para(57(a,1),37(a,1,1))].
+1148 r0(r0(x,y),f(f(z,z),x)) = f(y,f(f(z,z),x)).  [para(154(a,2),6(a,1,1))].
+1586 r0(x,f(f(y,y),f(x,z))) = f(z,f(f(y,y),f(x,z))).  [para(6(a,1),1148(a,1,1))].
+1587 f(c,f(f(x,x),f(a,b))) = f(b,f(f(x,x),f(a,b))).  [para(18(a,1),1148(a,1,1)),rewrite([1586(7)]),flip(a)].
+3757 c = b.  [para(1587(a,1),6(a,1,1)),rewrite([6(13)]),flip(a)].
+3758 $F.  [resolve(3757,a,9,a)].
+
+============================== end of proof ==========================

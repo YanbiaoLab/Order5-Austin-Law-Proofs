@@ -1,0 +1,483 @@
+[
+  {
+    "case": "Equation4916-finite",
+    "expected_accepted": true,
+    "request_sha256": "79bd4e59571ad6428b48db9312bb809e412ac610c568c3a6f0d6f327f1b5ed81",
+    "http_status": 200,
+    "elapsed_seconds": 5.605,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 5602,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation5093-finite",
+    "expected_accepted": true,
+    "request_sha256": "93fc17df2ce37e0fc3898d2cc1040a0af888854873804ead7dddf51ab5847e26",
+    "http_status": 200,
+    "elapsed_seconds": 1.695,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.InfModel.Finite.Equation5093_implies_Equation2"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 1693,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation18137-finite",
+    "expected_accepted": true,
+    "request_sha256": "5051b5568194c28f8e8cadead23d59ec87e62c0dd11a236c479ef8fedda10ca9",
+    "http_status": 200,
+    "elapsed_seconds": 2.787,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 2785,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation5093-all",
+    "expected_accepted": false,
+    "request_sha256": "1e3b5dd36c00499c2543edcb94db714d424d4b3ba01da320b3128e740dd86a70",
+    "http_status": 200,
+    "elapsed_seconds": 1.02,
+    "result": {
+      "status": "incorrect",
+      "error_code": "LEAN_REJECTED",
+      "message": "failed to synthesize instance of type class\n  Finite G\n\nHint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [],
+      "axioms": [],
+      "stdout": "",
+      "stderr": "",
+      "rejection_source": "lean_response",
+      "model_domain": "all",
+      "elapsed_ms": 1018,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation5093-finite-unrelated",
+    "expected_accepted": false,
+    "request_sha256": "16d9c481a70022672bab589deacd05747941d293ac18a0e763b75833b3918c38",
+    "http_status": 200,
+    "elapsed_seconds": 1.432,
+    "result": {
+      "status": "incorrect",
+      "error_code": "LEAN_REJECTED",
+      "message": "Application type mismatch: The argument\n  h\nhas type\n  EquationLHS G\nbut is expected to have type\n  submission.Equation5093 G\nin the application\n  submission.InfModel.Finite.Equation5093_implies_Equation2 G h",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [],
+      "axioms": [],
+      "stdout": "",
+      "stderr": "",
+      "rejection_source": "lean_response",
+      "model_domain": "finite",
+      "elapsed_ms": 1431,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "finite-false-Bool",
+    "expected_accepted": true,
+    "request_sha256": "bb732ff055df3c16956afdefad4c80f3d3e12501a362d92b7f4f4a07f1abdac9",
+    "http_status": 200,
+    "elapsed_seconds": 1.632,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "false",
+      "artifact_path": null,
+      "direct_declarations": [
+        "Goal",
+        "submission",
+        "submission.finite_bool_model"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 1630,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:f3bd8e79b27c4853b73b3bb350a46df2c6b43d9215b13982f5d5162e9eb5f10e"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation21714-finite",
+    "expected_accepted": true,
+    "request_sha256": "e947ad299ab51f14641202861df0cf78aa6eec6a4a639af797e50e13b462e95d",
+    "http_status": 200,
+    "elapsed_seconds": 4.5,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 4498,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation24200-finite",
+    "expected_accepted": true,
+    "request_sha256": "75f6de64475a20c66fa8ad343fd251674b90e168bb6147b25bd322069c8e5127",
+    "http_status": 200,
+    "elapsed_seconds": 2.072,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial_dual"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 2069,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation21864-finite",
+    "expected_accepted": true,
+    "request_sha256": "81a4039a64260d3b0de88ca4fe7a4be04a62a9671967361058e02c85a50d1261",
+    "http_status": 200,
+    "elapsed_seconds": 4.381,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 4379,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation24199-finite",
+    "expected_accepted": true,
+    "request_sha256": "bfe3883fa88d54cc8fa8b8a0f8bb57a59bf435ea9cc1ab006cd1b0ca6a3c93de",
+    "http_status": 200,
+    "elapsed_seconds": 4.397,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial_dual"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 4395,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation21865-finite",
+    "expected_accepted": true,
+    "request_sha256": "6ca6875d6662bac080bc86b397c141b7d68abecb5ccb8e1302319cd02c92eb04",
+    "http_status": 200,
+    "elapsed_seconds": 2.519,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 2517,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation24197-finite",
+    "expected_accepted": true,
+    "request_sha256": "c44d36193ec3d1be4d8d7936f7b53d16e7826ebdc2374522ec492a06cfaab3d7",
+    "http_status": 200,
+    "elapsed_seconds": 2.563,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial_dual"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 2561,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation21866-finite",
+    "expected_accepted": true,
+    "request_sha256": "561d074f5feb0fbb2352966a02b895ef36141ea0a093551cd5d65033b7320a3f",
+    "http_status": 200,
+    "elapsed_seconds": 1.826,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 1824,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  },
+  {
+    "case": "Equation24201-finite",
+    "expected_accepted": true,
+    "request_sha256": "2eb47cd6d756e2c2c18f2f21e0a366dbef5c427f6c58e319b463dc6fe06620ad",
+    "http_status": 200,
+    "elapsed_seconds": 1.826,
+    "result": {
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "message": "certificate accepted",
+      "verdict": "true",
+      "artifact_path": null,
+      "direct_declarations": [
+        "EquationLHS",
+        "Finite",
+        "Goal",
+        "Magma",
+        "submission",
+        "submission.finite_trivial_dual"
+      ],
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "stdout": "",
+      "stderr": "",
+      "model_domain": "finite",
+      "elapsed_ms": 1825,
+      "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+      "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+      "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+    },
+    "local_only": true,
+    "submitted_to_aurora": false
+  }
+]

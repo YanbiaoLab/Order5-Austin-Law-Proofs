@@ -1,0 +1,46 @@
+[
+  {
+    "case": "Equation5093-all",
+    "expected_compile_success": false,
+    "submission_status": "failed",
+    "target_source": "import JudgeMagma.Magma\n\n@[reducible] def EquationLHS (G : Type _) [Magma G] : Prop := ∀ (x : G) (y : G) (z : G), x = y ◇ (y ◇ (y ◇ (x ◇ (z ◇ y))))\n@[reducible] def EquationRHS (G : Type _) [Magma G] : Prop := ∀ (x : G) (y : G), x = y\n\n-- Target type for this verify (verdict-specific, judge-controlled).\nabbrev Goal : Prop := ∀ (G : Type) [Magma G], EquationLHS G → EquationRHS G\n",
+    "finite_certificate": "proofs/Equation5093/FiniteTrivial.lean",
+    "finite_certificate_sha256": "9fe46e3b1dc8e63fe18f51ca32f1f79efa4f726a2f0cbad578533bacd32e5e5b",
+    "request": "proofs/validation/finite130/judge-extension/requests/Equation5093-all.json",
+    "request_sha256": "5981fd42c903baa80e6659cacdc56ed3faf0fa30fc27751e04fdc77eb4105740",
+    "submission_sha256": "bf00cc81d241d66670a0dfea2697bf455747d6d880f2987048b8b1883aea4ba8",
+    "submitted_to_aurora": false,
+    "rejection_log": "proofs/validation/finite130/judge-extension/kernel/Equation5093-all-submission.log"
+  },
+  {
+    "case": "Equation5093-finite-unrelated",
+    "expected_compile_success": false,
+    "submission_status": "failed",
+    "target_source": "import JudgeMagma.Magma\nimport Mathlib.Data.Finite.Defs\n\n@[reducible] def EquationLHS (G : Type _) [Magma G] : Prop := ∀ (x : G), x = x\n@[reducible] def EquationRHS (G : Type _) [Magma G] : Prop := ∀ (x : G) (y : G), x = y\n\n-- Target type for this verify (verdict-specific, judge-controlled).\nabbrev Goal : Prop := ∀ (G : Type) [Magma G] [Finite G], EquationLHS G → EquationRHS G\n",
+    "finite_certificate": "proofs/Equation5093/FiniteTrivial.lean",
+    "finite_certificate_sha256": "9fe46e3b1dc8e63fe18f51ca32f1f79efa4f726a2f0cbad578533bacd32e5e5b",
+    "request": "proofs/validation/finite130/judge-extension/requests/Equation5093-finite-unrelated.json",
+    "request_sha256": "47f0d743b5aacc9a185583c78077784ef525a4d135d67965f76189acf48556f9",
+    "submission_sha256": "d4bf0d9dc488665c06c8ed5d8e6d05d0f89532ce21ccfbf7d93209c2245ecb4a",
+    "submitted_to_aurora": false,
+    "rejection_log": "proofs/validation/finite130/judge-extension/kernel/Equation5093-finite-unrelated-submission.log"
+  },
+  {
+    "case": "finite-false-Bool",
+    "status": "passed",
+    "verdict": "false",
+    "model_domain": "finite",
+    "target_source": "import JudgeMagma.Magma\nimport Mathlib.Data.Finite.Defs\n\n@[reducible] def EquationLHS (G : Type _) [Magma G] : Prop := ∀ (x : G), x = x\n@[reducible] def EquationRHS (G : Type _) [Magma G] : Prop := ∀ (x : G) (y : G), x = y\n\n-- Target type for this verify (verdict-specific, judge-controlled).\nabbrev Goal : Prop := ∃ (G : Type) (_ : Magma G) (_ : Finite G), EquationLHS G ∧ ¬ EquationRHS G\n",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "direct_declarations": [
+      "Goal",
+      "submission",
+      "submission.finite_bool_model"
+    ],
+    "submitted_to_aurora": false
+  }
+]

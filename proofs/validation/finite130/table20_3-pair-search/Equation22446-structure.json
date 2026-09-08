@@ -1,0 +1,48 @@
+{
+  "label": "Equation22446-structure",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.852,
+  "peak_rss_mib": 1249.67,
+  "source": ".build/finite130/table20_3-pairs/Equation22446-structure.lean",
+  "source_sha256": "86c8aec8b83e5fb7f8fc7b5c028a42794ab18878047c9922c3b5b8c0b1a22f28",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-DwarningAsError=true",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/finite130/table20_3-pairs/Equation22446-structure.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/finite130/table20_3-pairs",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/finite130/table20_3-pair-search/Equation22446-structure.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072,
+  "certificate_path": "proofs/Equation22446/FiniteStructure.lean",
+  "certificate_sha256": "86c8aec8b83e5fb7f8fc7b5c028a42794ab18878047c9922c3b5b8c0b1a22f28",
+  "proves_equation2": false,
+  "axioms_checked": true,
+  "axioms": {
+    "square_injective": [],
+    "square_bijective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

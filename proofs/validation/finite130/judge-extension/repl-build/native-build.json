@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "peak_group_rss_mib": 1381.140625,
+  "elapsed_seconds": 6.630193458,
+  "threads": 1,
+  "lean_memory_limit_mib": 2048,
+  "group_rss_stop_mib": 3072
+}

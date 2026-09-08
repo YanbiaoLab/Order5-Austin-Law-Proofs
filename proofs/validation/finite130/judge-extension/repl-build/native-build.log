@@ -1,0 +1,20 @@
+✔ [1/4] Built REPL.JSON (436ms)
+✔ [2/5] Built REPL.Frontend (288ms)
+✔ [3/5] Built REPL.Lean.ContextInfo (485ms)
+✔ [5/18] Built REPL.Lean.InfoTree (653ms)
+✔ [6/18] Built REPL.Util.Pickle (161ms)
+✔ [7/18] Built REPL.JSON:c.o (616ms)
+✔ [8/18] Built REPL.Frontend:c.o (86ms)
+✔ [9/18] Built REPL.Lean.ContextInfo:c.o (36ms)
+✔ [10/18] Built REPL.Lean.InfoTree:c.o (314ms)
+✔ [11/18] Built REPL.Util.Pickle:c.o (51ms)
+✔ [12/18] Built REPL.Lean.Replay (146ms)
+✔ [13/18] Built REPL.Lean.Replay:c.o (44ms)
+✔ [14/18] Built REPL.Snapshots (431ms)
+✔ [15/18] Built REPL.Snapshots:c.o (382ms)
+✔ [16/18] Built REPL.Main (732ms)
+✔ [17/18] Built REPL.Main:c.o (389ms)
+ℹ [18/18] Built repl:exe (1.2s)
+info: stderr:
+ld64.lld: warning: directory not found for option -L/usr/local/lib
+Build completed successfully (18 jobs).

@@ -1,0 +1,8 @@
+/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/kernel/Equation5093-finite-unrelated/Submission.lean:46:68: error: Application type mismatch: The argument
+  h
+has type
+  EquationLHS G
+but is expected to have type
+  submission.Equation5093 G
+in the application
+  submission.InfModel.Finite.Equation5093_implies_Equation2 G h

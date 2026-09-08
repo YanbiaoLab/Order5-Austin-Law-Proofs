@@ -1,0 +1,6 @@
+'submission.Austin13764.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.Austin13764.equation13764' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.Austin13764.equation32294' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.Austin13764.embed_injective' depends on axioms: [propext, Quot.sound]
+'submission.Austin13764.confluent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.Austin13764.step_decreases' depends on axioms: [propext, Quot.sound]

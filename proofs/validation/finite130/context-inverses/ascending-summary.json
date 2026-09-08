@@ -1,0 +1,54 @@
+[
+  {
+    "label": "Equation20911-ascending-seed",
+    "proof_hint_found": true,
+    "proof_length": 20,
+    "exit_code": 0,
+    "seconds_limit": 4,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 0.012,
+    "input": ".build/finite130/context-inverses/Equation20911-ascending-seed.in",
+    "input_sha256": "94b4ffcc6b087a5d580b9ed70896bc5330cfe8c65f40c8c2911124ebe5b6076b",
+    "output_sha256": "a4b176be8585d5ff29dd7dcc2f351fef1894aa5de0a87d3872d0946e8952df94",
+    "output_tail": "\n============================== end of search =========================\n\nTHEOREM PROVED\n\nTHEOREM PROVED\n\nExiting with 1 proof.\n\n------ process 63958 exit (max_proofs) ------\n\u0007\nProcess 63958 exit (max_proofs) Wed Sep  9 00:45:03 2026\n"
+  },
+  {
+    "label": "Equation20911-ascending-step",
+    "proof_hint_found": false,
+    "proof_length": null,
+    "exit_code": 3,
+    "seconds_limit": 4,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 3.656,
+    "input": ".build/finite130/context-inverses/Equation20911-ascending-step.in",
+    "input_sha256": "40d1919cb9a4df99a3129582352a5afc471a9cf14f5312db26dd2aee9c8287e2",
+    "output_sha256": "8f9a338b16cfcad66fcd3d16a73e50fb0c05368b9fcbcf9a8756bae3d5a6ddf6",
+    "output_tail": "         A          1        low        age       8070         77\n         F          4        low     weight          0          0\n         T          4        low     weight       8070        308\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 63959 exit (max_megs) ------\n\u0007\nProcess 63959 exit (max_megs) Wed Sep  9 00:45:07 2026\n"
+  },
+  {
+    "label": "Equation20911-ascending-transitive",
+    "proof_hint_found": false,
+    "proof_length": null,
+    "exit_code": 3,
+    "seconds_limit": 4,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 3.103,
+    "input": ".build/finite130/context-inverses/Equation20911-ascending-transitive.in",
+    "input_sha256": "3ec55561a957f78daf4bb376eef52b312e9ce3b95adac655615f11903190d8ba",
+    "output_sha256": "742e32d701fe30d0cc6ba96eb9c7655928fc516bf6e00769d7298e5bf59f6d84",
+    "output_tail": "         A          1        low        age       7169         88\n         F          4        low     weight          0          0\n         T          4        low     weight       7169        352\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 63970 exit (max_megs) ------\n\u0007\nProcess 63970 exit (max_megs) Wed Sep  9 00:45:10 2026\n"
+  },
+  {
+    "label": "Equation20911-left-c-automorphism",
+    "proof_hint_found": false,
+    "proof_length": null,
+    "exit_code": 3,
+    "seconds_limit": 4,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 3.898,
+    "input": ".build/finite130/context-inverses/Equation20911-left-c-automorphism.in",
+    "input_sha256": "c21da19bd6802b5301c5b734545b7e8359d9e650c195cea8ad1ee4ffa1c5ea88",
+    "output_sha256": "05be7cc9811328bdfd508e2fd2da44c16132fd28c2dad4de384dbde5cda8e444",
+    "output_tail": "         A          1        low        age       6965         58\n         F          4        low     weight          0          0\n         T          4        low     weight       6965        232\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 63981 exit (max_megs) ------\n\u0007\nProcess 63981 exit (max_megs) Wed Sep  9 00:45:14 2026\n"
+  }
+]
