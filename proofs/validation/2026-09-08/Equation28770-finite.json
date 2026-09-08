@@ -1,0 +1,37 @@
+{
+  "label": "Equation28770-finite",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.833,
+  "peak_rss_mib": 1208.98,
+  "source": ".build/recompile/Equation28770/FiniteReplay.lean",
+  "source_sha256": "8977fab6c4a5e3deecbdf75190b257f845613337ca25c8ccf7795ebd4d2d73a9",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-DwarningAsError=true",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28770/FiniteReplay.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28770/FiniteReplay.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28770",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/2026-09-08/Equation28770-finite.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072
+}

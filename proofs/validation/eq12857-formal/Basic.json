@@ -1,0 +1,27 @@
+{
+  "module": "Basic",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.415,
+  "peak_rss_mib": 614.47,
+  "source": "proofs/Equation12857/Lean/Basic.lean",
+  "sha256": "a8e76d6d25f8b52021f2916a551bfc259ba1b5c0181235e5ee4ea443967a90df",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857/Basic.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12857/Lean/Basic.lean"
+  ],
+  "lean_path": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857",
+  "log": "proofs/validation/eq12857-formal/Basic.log"
+}

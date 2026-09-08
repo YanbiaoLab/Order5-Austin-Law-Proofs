@@ -1,0 +1,29 @@
+{
+  "label": "Equation19966-problem",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.208,
+  "peak_rss_mib": 4.47,
+  "source": ".build/recompile/Equation19966/JudgeProblem.lean",
+  "source_sha256": "488d433437bb4365cfb3fb9fcf367933724c2e0ade3a418d8339a7b6775dae51",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-DwarningAsError=true",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation19966/JudgeProblem.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation19966/JudgeProblem.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation19966",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation19966",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support"
+  ],
+  "log": "proofs/validation/2026-09-08/Equation19966-problem.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072
+}

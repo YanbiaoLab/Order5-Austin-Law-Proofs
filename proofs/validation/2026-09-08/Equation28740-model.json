@@ -1,0 +1,29 @@
+{
+  "label": "Equation28740-model",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.826,
+  "peak_rss_mib": 420.81,
+  "source": ".build/recompile/Equation28740/Check.lean",
+  "source_sha256": "06563c1bdc5de216d2507e5d1dc1709a61a667353d739fd27a41ed5e27067fd4",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-DwarningAsError=true",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28740/Check.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28740/Check.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28740",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation28740",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support"
+  ],
+  "log": "proofs/validation/2026-09-08/Equation28740-model.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072
+}

@@ -1,0 +1,39 @@
+{
+  "label": "Equation22634-problem",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.206,
+  "peak_rss_mib": 4.44,
+  "source": ".build/recompile/Equation22634/JudgeProblem.lean",
+  "source_sha256": "85f148da53bd00139433548d5aa45ef5f11bc2d0b6b6d467bae9b4809b4d59ad",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-DwarningAsError=true",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation22634/JudgeProblem.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation22634/JudgeProblem.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation22634",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/Equation22634",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/2026-09-08/Equation22634-problem.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072
+}
