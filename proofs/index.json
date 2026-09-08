@@ -1,0 +1,3052 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-09-08",
+  "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
+  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems",
+  "equations": [
+    {
+      "equation": "Equation4916",
+      "formula": "x = y ◇ (x ◇ (x ◇ (y ◇ (z ◇ z))))",
+      "dual": "Equation41082",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation4916/InfiniteModel.lean",
+        "sha256": "a4106c269953231f6e49a02d212113f377abe72bff765cf9742c87edf453bac3",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation4916-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "a4106c269953231f6e49a02d212113f377abe72bff765cf9742c87edf453bac3",
+        "log": "proofs/validation/2026-09-08/Equation4916-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 2.081,
+        "sampled_peak_rss_mib": 429.78
+      }
+    },
+    {
+      "equation": "Equation41082",
+      "formula": "x = ((((y ◇ y) ◇ z) ◇ x) ◇ x) ◇ z",
+      "dual": "Equation4916",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation41082/InfiniteModel.lean",
+        "sha256": "bd86b917f359e75f77370e6b3d662c2be93371281fb1fa41a73b1cf9c0299d44",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation41082-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "bd86b917f359e75f77370e6b3d662c2be93371281fb1fa41a73b1cf9c0299d44",
+        "log": "proofs/validation/2026-09-08/Equation41082-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 2.067,
+        "sampled_peak_rss_mib": 438.42
+      }
+    },
+    {
+      "equation": "Equation15535",
+      "formula": "x = y ◇ (((x ◇ (z ◇ z)) ◇ y) ◇ y)",
+      "dual": "Equation30591",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation15535/InfiniteModel.lean",
+        "sha256": "000c038e1f3e388f151c485e3d81a8320f375822ed19c7016d9010002fa2e058",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation15535-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "000c038e1f3e388f151c485e3d81a8320f375822ed19c7016d9010002fa2e058",
+        "log": "proofs/validation/2026-09-08/Equation15535-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 14.512,
+        "sampled_peak_rss_mib": 522.59
+      }
+    },
+    {
+      "equation": "Equation30591",
+      "formula": "x = (y ◇ (y ◇ ((z ◇ z) ◇ x))) ◇ y",
+      "dual": "Equation15535",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation30591/InfiniteModel.lean",
+        "sha256": "f7a72d83f00c572c0f3c2aba4682a1d3215ed2c93154381341a5be1b3f52a3c6",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation30591-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "f7a72d83f00c572c0f3c2aba4682a1d3215ed2c93154381341a5be1b3f52a3c6",
+        "log": "proofs/validation/2026-09-08/Equation30591-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 16.164,
+        "sampled_peak_rss_mib": 515.11
+      }
+    },
+    {
+      "equation": "Equation17522",
+      "formula": "x = (y ◇ z) ◇ (x ◇ (z ◇ (z ◇ z)))",
+      "dual": "Equation28770",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation17522/InfiniteModel.lean",
+        "sha256": "5653c0f6156f621dac54a415f055fb4ad8a7cca09072dbbd7d97326a6a4db765",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation17522-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [
+        "其对偶已收录有限坍缩 Lean 源码；数学上可由相反运算转移，但本方程尚未收录 Lean 转移证明。"
+      ],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "5653c0f6156f621dac54a415f055fb4ad8a7cca09072dbbd7d97326a6a4db765",
+        "log": "proofs/validation/2026-09-08/Equation17522-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.824,
+        "sampled_peak_rss_mib": 420.77
+      }
+    },
+    {
+      "equation": "Equation28770",
+      "formula": "x = (((y ◇ y) ◇ y) ◇ x) ◇ (y ◇ z)",
+      "dual": "Equation17522",
+      "table": "20.1",
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation28770/FiniteTrivial.lean",
+        "sha256": "8977fab6c4a5e3deecbdf75190b257f845613337ca25c8ccf7795ebd4d2d73a9",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "proofs/provenance/InfModel.lean",
+        "original_archive_sha256": "95757388ccbc5f51ce41d65a20a7d4344d7c18da54a75692645cd5d03d174975",
+        "dependency_adaptation": "Minimal Mathlib import and explicit equivalent equation definitions; upstream theorem body unchanged."
+      },
+      "infinite_model_proof": {
+        "path": "proofs/Equation28770/InfiniteModel.lean",
+        "sha256": "5bf1357b80e910b9fdfbafc19d0ee6387dff9128014225808c05c32bcb9adf7b",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation28770-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "5bf1357b80e910b9fdfbafc19d0ee6387dff9128014225808c05c32bcb9adf7b",
+        "log": "proofs/validation/2026-09-08/Equation28770-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 1.04,
+        "sampled_peak_rss_mib": 425.5
+      },
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "8977fab6c4a5e3deecbdf75190b257f845613337ca25c8ccf7795ebd4d2d73a9",
+        "log": "proofs/validation/2026-09-08/Equation28770-finite.log",
+        "version": "4.33.1",
+        "log_sha256": "96039317fcc6d83e476dcc2dccb1047d9b5710e304bcc4a41b5b010e3ccb1d5a",
+        "axioms": {
+          "InfModel.Finite.Equation28770_implies_Equation2": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.833,
+        "sampled_peak_rss_mib": 1208.98
+      }
+    },
+    {
+      "equation": "Equation20034",
+      "formula": "x = (y ◇ y) ◇ ((z ◇ (x ◇ x)) ◇ z)",
+      "dual": "Equation25964",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation20034/InfiniteModel.lean",
+        "sha256": "2f0ab52deee96952effcafe28e1b5503f9109d8e9e7891a9351c0dd6cc607259",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation20034-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "2f0ab52deee96952effcafe28e1b5503f9109d8e9e7891a9351c0dd6cc607259",
+        "log": "proofs/validation/2026-09-08/Equation20034-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 417.66
+      }
+    },
+    {
+      "equation": "Equation25964",
+      "formula": "x = (y ◇ ((x ◇ x) ◇ y)) ◇ (z ◇ z)",
+      "dual": "Equation20034",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation25964/InfiniteModel.lean",
+        "sha256": "e86ca61b5736c0cdaebd296ae960873cd452819136fc23addffd37762b7f718f",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation25964-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "e86ca61b5736c0cdaebd296ae960873cd452819136fc23addffd37762b7f718f",
+        "log": "proofs/validation/2026-09-08/Equation25964-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.623,
+        "sampled_peak_rss_mib": 417.75
+      }
+    },
+    {
+      "equation": "Equation22455",
+      "formula": "x = (y ◇ (x ◇ x)) ◇ ((y ◇ z) ◇ y)",
+      "dual": "Equation22818",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation22455/InfiniteModel.lean",
+        "sha256": "161b6dca1c8ab85d567db46f8ef56aae936c4e9e6b7eb5430abca2e596fcf3b7",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation22455-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "161b6dca1c8ab85d567db46f8ef56aae936c4e9e6b7eb5430abca2e596fcf3b7",
+        "log": "proofs/validation/2026-09-08/Equation22455-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 1.039,
+        "sampled_peak_rss_mib": 426.27
+      }
+    },
+    {
+      "equation": "Equation22818",
+      "formula": "x = (y ◇ (z ◇ y)) ◇ ((x ◇ x) ◇ y)",
+      "dual": "Equation22455",
+      "table": "20.1",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation22818/InfiniteModel.lean",
+        "sha256": "8bddd7c1a6a58ae72d379463b7045fa1c7d4fa46b51b5034b4f1d23ddc1aaa30",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation22818-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "8bddd7c1a6a58ae72d379463b7045fa1c7d4fa46b51b5034b4f1d23ddc1aaa30",
+        "log": "proofs/validation/2026-09-08/Equation22818-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 1.454,
+        "sampled_peak_rss_mib": 443.16
+      }
+    },
+    {
+      "equation": "Equation4952",
+      "formula": "x = y ◇ (x ◇ (y ◇ (y ◇ (z ◇ y))))",
+      "dual": "Equation41252",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation4952/InfiniteModel.lean",
+        "sha256": "a79d6bb769ff487649821f3ce61a9d7a7696cd59bb12d6c7b66e2b5efbe5671c",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation4952-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "a79d6bb769ff487649821f3ce61a9d7a7696cd59bb12d6c7b66e2b5efbe5671c",
+        "log": "proofs/validation/2026-09-08/Equation4952-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 682.45
+      }
+    },
+    {
+      "equation": "Equation41252",
+      "formula": "x = ((((y ◇ z) ◇ y) ◇ y) ◇ x) ◇ y",
+      "dual": "Equation4952",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation41252/InfiniteModel.lean",
+        "sha256": "094f552aeebcf81b621fd21610188e21bfbf190f8b2e7c481232a4f6dcaf3243",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation41252-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "094f552aeebcf81b621fd21610188e21bfbf190f8b2e7c481232a4f6dcaf3243",
+        "log": "proofs/validation/2026-09-08/Equation41252-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.625,
+        "sampled_peak_rss_mib": 694.11
+      }
+    },
+    {
+      "equation": "Equation4957",
+      "formula": "x = y ◇ (x ◇ (y ◇ (z ◇ (x ◇ z))))",
+      "dual": "Equation40914",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation4957/InfiniteModel.lean",
+        "sha256": "c21ca1fd4f2d1f73484d3d3c6e4459c35ab4fd05b6dfd8e2968ab848ceaddbcf",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation4957-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "c21ca1fd4f2d1f73484d3d3c6e4459c35ab4fd05b6dfd8e2968ab848ceaddbcf",
+        "log": "proofs/validation/2026-09-08/Equation4957-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 684.64
+      }
+    },
+    {
+      "equation": "Equation40914",
+      "formula": "x = ((((y ◇ x) ◇ y) ◇ z) ◇ x) ◇ z",
+      "dual": "Equation4957",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation40914/InfiniteModel.lean",
+        "sha256": "ae0cec5bc6da4dd69b5ebc7263d04b1cf2cd65ed6ab66cdb40ad65ea862552df",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation40914-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "ae0cec5bc6da4dd69b5ebc7263d04b1cf2cd65ed6ab66cdb40ad65ea862552df",
+        "log": "proofs/validation/2026-09-08/Equation40914-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.62,
+        "sampled_peak_rss_mib": 683.8
+      }
+    },
+    {
+      "equation": "Equation5012",
+      "formula": "x = y ◇ (x ◇ (z ◇ (z ◇ (y ◇ z))))",
+      "dual": "Equation41253",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation5012/InfiniteModel.lean",
+        "sha256": "b82476601e1613e15fd85f8d8832da002082dc4bac7c4c0ae70b518cac86c2e7",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation5012-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "b82476601e1613e15fd85f8d8832da002082dc4bac7c4c0ae70b518cac86c2e7",
+        "log": "proofs/validation/2026-09-08/Equation5012-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 673.91
+      }
+    },
+    {
+      "equation": "Equation41253",
+      "formula": "x = ((((y ◇ z) ◇ y) ◇ y) ◇ x) ◇ z",
+      "dual": "Equation5012",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation41253/InfiniteModel.lean",
+        "sha256": "406df04047362e6dfe067bc1b7a0a9a8773387d7b714df5e830be373ed98d130",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation41253-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "406df04047362e6dfe067bc1b7a0a9a8773387d7b714df5e830be373ed98d130",
+        "log": "proofs/validation/2026-09-08/Equation41253-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.62,
+        "sampled_peak_rss_mib": 662.3
+      }
+    },
+    {
+      "equation": "Equation5066",
+      "formula": "x = y ◇ (y ◇ (x ◇ (y ◇ (z ◇ y))))",
+      "dual": "Equation41239",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation5066/InfiniteModel.lean",
+        "sha256": "117f0a08c346466e032617b96f74008c79cd9d7b88b1a49bd9f6c2754d649e47",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation5066-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "117f0a08c346466e032617b96f74008c79cd9d7b88b1a49bd9f6c2754d649e47",
+        "log": "proofs/validation/2026-09-08/Equation5066-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.626,
+        "sampled_peak_rss_mib": 607.47
+      }
+    },
+    {
+      "equation": "Equation41239",
+      "formula": "x = ((((y ◇ z) ◇ y) ◇ x) ◇ y) ◇ y",
+      "dual": "Equation5066",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation41239/InfiniteModel.lean",
+        "sha256": "e989c0250bdf1833adabfe75ad6e9caec2860f5b8e4c76917d74946c0c3520c5",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation41239-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "e989c0250bdf1833adabfe75ad6e9caec2860f5b8e4c76917d74946c0c3520c5",
+        "log": "proofs/validation/2026-09-08/Equation41239-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.623,
+        "sampled_peak_rss_mib": 606.03
+      }
+    },
+    {
+      "equation": "Equation5093",
+      "formula": "x = y ◇ (y ◇ (y ◇ (x ◇ (z ◇ y))))",
+      "dual": "Equation41179",
+      "table": "20.2",
+      "finite_math": "已证仅平凡（Lean）",
+      "finite_proof": {
+        "path": "proofs/Equation5093/FiniteTrivial.lean",
+        "sha256": "9fe46e3b1dc8e63fe18f51ca32f1f79efa4f726a2f0cbad578533bacd32e5e5b",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "proofs/provenance/InfModel.lean",
+        "original_archive_sha256": "837d0be3666b0822f3cd1824bde082a0b09fc8256c2b983e0678fd6808a45cc1",
+        "dependency_adaptation": "Minimal Mathlib import and explicit equivalent equation definitions; upstream theorem body unchanged."
+      },
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "finite_compilation": {
+        "status": "passed",
+        "checked_sha256": "9fe46e3b1dc8e63fe18f51ca32f1f79efa4f726a2f0cbad578533bacd32e5e5b",
+        "log": "proofs/validation/2026-09-08/Equation5093-finite.log",
+        "version": "4.33.1",
+        "log_sha256": "9bd7fea6ead513292b51b62f28c1ac9c74fd0f539ef13b4d03dfd3cd5247362e",
+        "axioms": {
+          "InfModel.Finite.Equation5093_implies_Equation2": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.83,
+        "sampled_peak_rss_mib": 1205.53
+      }
+    },
+    {
+      "equation": "Equation41179",
+      "formula": "x = ((((y ◇ z) ◇ x) ◇ y) ◇ y) ◇ y",
+      "dual": "Equation5093",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "其对偶已收录有限坍缩 Lean 源码；数学上可由相反运算转移，但本方程尚未收录 Lean 转移证明。"
+      ]
+    },
+    {
+      "equation": "Equation5107",
+      "formula": "x = y ◇ (y ◇ (y ◇ (z ◇ (x ◇ y))))",
+      "dual": "Equation40951",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation40951",
+      "formula": "x = ((((y ◇ x) ◇ z) ◇ y) ◇ y) ◇ y",
+      "dual": "Equation5107",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation5141",
+      "formula": "x = y ◇ (y ◇ (z ◇ (y ◇ (x ◇ y))))",
+      "dual": "Equation40917",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation5141/InfiniteModel.lean",
+        "sha256": "8b29cea48b42b96ec7fa36e4f9955cc3bf3f0563329b56e9b6e69503a9ed4e8b",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation5141-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "8b29cea48b42b96ec7fa36e4f9955cc3bf3f0563329b56e9b6e69503a9ed4e8b",
+        "log": "proofs/validation/2026-09-08/Equation5141-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.621,
+        "sampled_peak_rss_mib": 684.02
+      }
+    },
+    {
+      "equation": "Equation40917",
+      "formula": "x = ((((y ◇ x) ◇ y) ◇ z) ◇ y) ◇ y",
+      "dual": "Equation5141",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation40917/InfiniteModel.lean",
+        "sha256": "c87e71495b0582c566e2bb0d001f3092dfa6957bcca8ffd61c7531a3398517aa",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation40917-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "c87e71495b0582c566e2bb0d001f3092dfa6957bcca8ffd61c7531a3398517aa",
+        "log": "proofs/validation/2026-09-08/Equation40917-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 686.14
+      }
+    },
+    {
+      "equation": "Equation5295",
+      "formula": "x = y ◇ (z ◇ (y ◇ (y ◇ (x ◇ y))))",
+      "dual": "Equation40909",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation5295/InfiniteModel.lean",
+        "sha256": "eeb94842e1d87dd16472106648ea3e2e2c680fee0313f0c5576ce3476a906d10",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation5295-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "eeb94842e1d87dd16472106648ea3e2e2c680fee0313f0c5576ce3476a906d10",
+        "log": "proofs/validation/2026-09-08/Equation5295-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.623,
+        "sampled_peak_rss_mib": 686.78
+      }
+    },
+    {
+      "equation": "Equation40909",
+      "formula": "x = ((((y ◇ x) ◇ y) ◇ y) ◇ z) ◇ y",
+      "dual": "Equation5295",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation40909/InfiniteModel.lean",
+        "sha256": "92a5176426af1de5888861add5eea25f9a5d7b679f295ae5d352f9a4571c94be",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation40909-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "92a5176426af1de5888861add5eea25f9a5d7b679f295ae5d352f9a4571c94be",
+        "log": "proofs/validation/2026-09-08/Equation40909-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 686.23
+      }
+    },
+    {
+      "equation": "Equation5833",
+      "formula": "x = y ◇ (x ◇ (y ◇ ((z ◇ x) ◇ y)))",
+      "dual": "Equation40070",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation40070",
+      "formula": "x = (((y ◇ (x ◇ z)) ◇ y) ◇ x) ◇ y",
+      "dual": "Equation5833",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation5834",
+      "formula": "x = y ◇ (x ◇ (y ◇ ((z ◇ x) ◇ z)))",
+      "dual": "Equation40037",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation40037",
+      "formula": "x = (((y ◇ (x ◇ y)) ◇ z) ◇ x) ◇ z",
+      "dual": "Equation5834",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation5837",
+      "formula": "x = y ◇ (x ◇ (y ◇ ((z ◇ y) ◇ y)))",
+      "dual": "Equation40221",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation40221",
+      "formula": "x = (((y ◇ (y ◇ z)) ◇ y) ◇ x) ◇ y",
+      "dual": "Equation5837",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation5947",
+      "formula": "x = y ◇ (y ◇ (x ◇ ((z ◇ x) ◇ y)))",
+      "dual": "Equation40057",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation40057",
+      "formula": "x = (((y ◇ (x ◇ z)) ◇ x) ◇ y) ◇ y",
+      "dual": "Equation5947",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation5951",
+      "formula": "x = y ◇ (y ◇ (x ◇ ((z ◇ y) ◇ y)))",
+      "dual": "Equation40208",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation40208",
+      "formula": "x = (((y ◇ (y ◇ z)) ◇ x) ◇ y) ◇ y",
+      "dual": "Equation5951",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation6820",
+      "formula": "x = y ◇ (y ◇ ((x ◇ y) ◇ (z ◇ y)))",
+      "dual": "Equation39485",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation39485",
+      "formula": "x = (((y ◇ z) ◇ (y ◇ x)) ◇ y) ◇ y",
+      "dual": "Equation6820",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation6878",
+      "formula": "x = y ◇ (y ◇ ((z ◇ x) ◇ (x ◇ y)))",
+      "dual": "Equation39126",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation39126",
+      "formula": "x = (((y ◇ x) ◇ (x ◇ z)) ◇ y) ◇ y",
+      "dual": "Equation6878",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation6895",
+      "formula": "x = y ◇ (y ◇ ((z ◇ y) ◇ (x ◇ y)))",
+      "dual": "Equation39163",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation39163",
+      "formula": "x = (((y ◇ x) ◇ (y ◇ z)) ◇ y) ◇ y",
+      "dual": "Equation6895",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation6912",
+      "formula": "x = y ◇ (y ◇ ((z ◇ z) ◇ (x ◇ y)))",
+      "dual": "Equation39214",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation39214",
+      "formula": "x = (((y ◇ x) ◇ (z ◇ z)) ◇ y) ◇ y",
+      "dual": "Equation6912",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation7587",
+      "formula": "x = y ◇ (x ◇ ((y ◇ (z ◇ x)) ◇ y))",
+      "dual": "Equation38316",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation38316",
+      "formula": "x = ((y ◇ ((x ◇ z) ◇ y)) ◇ x) ◇ y",
+      "dual": "Equation7587",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation7701",
+      "formula": "x = y ◇ (y ◇ ((x ◇ (z ◇ x)) ◇ y))",
+      "dual": "Equation38303",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation7701/InfiniteModel.lean",
+        "sha256": "3626fc200f9d7099806bfc3ffa10ba405e3dfdbdec42875b1162f0979752fc1f",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation7701-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "3626fc200f9d7099806bfc3ffa10ba405e3dfdbdec42875b1162f0979752fc1f",
+        "log": "proofs/validation/2026-09-08/Equation7701-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.414,
+        "sampled_peak_rss_mib": 605.88
+      }
+    },
+    {
+      "equation": "Equation38303",
+      "formula": "x = ((y ◇ ((x ◇ z) ◇ x)) ◇ y) ◇ y",
+      "dual": "Equation7701",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation38303/InfiniteModel.lean",
+        "sha256": "011682087873c7b12e786f0e40f6df72d32b3103b2c76b5ca73e1b636ca15754",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation38303-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "011682087873c7b12e786f0e40f6df72d32b3103b2c76b5ca73e1b636ca15754",
+        "log": "proofs/validation/2026-09-08/Equation38303-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.413,
+        "sampled_peak_rss_mib": 602.38
+      }
+    },
+    {
+      "equation": "Equation7755",
+      "formula": "x = y ◇ (y ◇ ((z ◇ (x ◇ x)) ◇ y))",
+      "dual": "Equation38249",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation7755/InfiniteModel.lean",
+        "sha256": "7f6e8f62e4028e9b88ecec593b282c3d986803d940776fe6d006ac675db8c10d",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation7755-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "7f6e8f62e4028e9b88ecec593b282c3d986803d940776fe6d006ac675db8c10d",
+        "log": "proofs/validation/2026-09-08/Equation7755-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.417,
+        "sampled_peak_rss_mib": 607.41
+      }
+    },
+    {
+      "equation": "Equation38249",
+      "formula": "x = ((y ◇ ((x ◇ x) ◇ z)) ◇ y) ◇ y",
+      "dual": "Equation7755",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation38249/InfiniteModel.lean",
+        "sha256": "31e24c071f8ca6cf6c7fd5f0c60fc0fc469b1629e0bc5e2999fd87e8d2b1215e",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation38249-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "31e24c071f8ca6cf6c7fd5f0c60fc0fc469b1629e0bc5e2999fd87e8d2b1215e",
+        "log": "proofs/validation/2026-09-08/Equation38249-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.626,
+        "sampled_peak_rss_mib": 611.75
+      }
+    },
+    {
+      "equation": "Equation7763",
+      "formula": "x = y ◇ (y ◇ ((z ◇ (x ◇ z)) ◇ y))",
+      "dual": "Equation38565",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation38565",
+      "formula": "x = ((y ◇ ((z ◇ x) ◇ z)) ◇ y) ◇ y",
+      "dual": "Equation7763",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation8485",
+      "formula": "x = y ◇ (x ◇ (((z ◇ x) ◇ y) ◇ y))",
+      "dual": "Equation37519",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation37519",
+      "formula": "x = ((y ◇ (y ◇ (x ◇ z))) ◇ x) ◇ y",
+      "dual": "Equation8485",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation9337",
+      "formula": "x = y ◇ ((x ◇ y) ◇ (y ◇ (z ◇ y)))",
+      "dual": "Equation36867",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation36867",
+      "formula": "x = (((y ◇ z) ◇ y) ◇ (y ◇ x)) ◇ y",
+      "dual": "Equation9337",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation9345",
+      "formula": "x = y ◇ ((x ◇ y) ◇ (z ◇ (y ◇ y)))",
+      "dual": "Equation36713",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation9345/InfiniteModel.lean",
+        "sha256": "8011715a2ffb3070cea1f366cc7428cf05e0dca9e1bfe7de20cd97963dce32af",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation9345-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "8011715a2ffb3070cea1f366cc7428cf05e0dca9e1bfe7de20cd97963dce32af",
+        "log": "proofs/validation/2026-09-08/Equation9345-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.622,
+        "sampled_peak_rss_mib": 685.19
+      }
+    },
+    {
+      "equation": "Equation36713",
+      "formula": "x = (((y ◇ y) ◇ z) ◇ (y ◇ x)) ◇ y",
+      "dual": "Equation9345",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation36713/InfiniteModel.lean",
+        "sha256": "2f6ab32700072f844c555cc3fb0f6ae54db412db689ba97f87380858d3394bbc",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation36713-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "2f6ab32700072f844c555cc3fb0f6ae54db412db689ba97f87380858d3394bbc",
+        "log": "proofs/validation/2026-09-08/Equation36713-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 682.86
+      }
+    },
+    {
+      "equation": "Equation9384",
+      "formula": "x = y ◇ ((x ◇ z) ◇ (y ◇ (z ◇ z)))",
+      "dual": "Equation36714",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation9384/InfiniteModel.lean",
+        "sha256": "a0ace7da67cee9d108b089380cf2dd777742a259bc5b495ca2ecd2667cb0993c",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation9384-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "a0ace7da67cee9d108b089380cf2dd777742a259bc5b495ca2ecd2667cb0993c",
+        "log": "proofs/validation/2026-09-08/Equation9384-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 602.25
+      }
+    },
+    {
+      "equation": "Equation36714",
+      "formula": "x = (((y ◇ y) ◇ z) ◇ (y ◇ x)) ◇ z",
+      "dual": "Equation9384",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation36714/InfiniteModel.lean",
+        "sha256": "e599d31e042b0fc43b38ff3548b070604f9f0df40e9552b5e71e54fa7eb78631",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation36714-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "e599d31e042b0fc43b38ff3548b070604f9f0df40e9552b5e71e54fa7eb78631",
+        "log": "proofs/validation/2026-09-08/Equation36714-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.417,
+        "sampled_peak_rss_mib": 604.69
+      }
+    },
+    {
+      "equation": "Equation9603",
+      "formula": "x = y ◇ ((z ◇ x) ◇ (y ◇ (x ◇ y)))",
+      "dual": "Equation36514",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation36514",
+      "formula": "x = (((y ◇ x) ◇ y) ◇ (x ◇ z)) ◇ y",
+      "dual": "Equation9603",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation9663",
+      "formula": "x = y ◇ ((z ◇ y) ◇ (x ◇ (x ◇ y)))",
+      "dual": "Equation36487",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation36487",
+      "formula": "x = (((y ◇ x) ◇ x) ◇ (y ◇ z)) ◇ y",
+      "dual": "Equation9663",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation9667",
+      "formula": "x = y ◇ ((z ◇ y) ◇ (x ◇ (y ◇ y)))",
+      "dual": "Equation36638",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation9667/InfiniteModel.lean",
+        "sha256": "b3934371cbc4c9b49dbb860800246f108a07a621c2867f8bf6014f3029888a2d",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation9667-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "b3934371cbc4c9b49dbb860800246f108a07a621c2867f8bf6014f3029888a2d",
+        "log": "proofs/validation/2026-09-08/Equation9667-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 684.36
+      }
+    },
+    {
+      "equation": "Equation36638",
+      "formula": "x = (((y ◇ y) ◇ x) ◇ (y ◇ z)) ◇ y",
+      "dual": "Equation9667",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation36638/InfiniteModel.lean",
+        "sha256": "cd71154b6e9e51140c21a7fe372b513131abafdb372122b9ef89787cb4c4fde5",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation36638-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "cd71154b6e9e51140c21a7fe372b513131abafdb372122b9ef89787cb4c4fde5",
+        "log": "proofs/validation/2026-09-08/Equation36638-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.625,
+        "sampled_peak_rss_mib": 610.34
+      }
+    },
+    {
+      "equation": "Equation9680",
+      "formula": "x = y ◇ ((z ◇ y) ◇ (y ◇ (x ◇ y)))",
+      "dual": "Equation36524",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation36524",
+      "formula": "x = (((y ◇ x) ◇ y) ◇ (y ◇ z)) ◇ y",
+      "dual": "Equation9680",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation10218",
+      "formula": "x = y ◇ ((x ◇ y) ◇ ((z ◇ x) ◇ y))",
+      "dual": "Equation35685",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation35685",
+      "formula": "x = ((y ◇ (x ◇ z)) ◇ (y ◇ x)) ◇ y",
+      "dual": "Equation10218",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation10222",
+      "formula": "x = y ◇ ((x ◇ y) ◇ ((z ◇ y) ◇ y))",
+      "dual": "Equation35836",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation35836",
+      "formula": "x = ((y ◇ (y ◇ z)) ◇ (y ◇ x)) ◇ y",
+      "dual": "Equation10222",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation11081",
+      "formula": "x = y ◇ ((x ◇ (y ◇ x)) ◇ (z ◇ y))",
+      "dual": "Equation35036",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation11081/InfiniteModel.lean",
+        "sha256": "1aa5250b553c95a9aeccd2a0903fe210975b5004ad263ec636cf44b4ccafc9ed",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation11081-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "1aa5250b553c95a9aeccd2a0903fe210975b5004ad263ec636cf44b4ccafc9ed",
+        "log": "proofs/validation/2026-09-08/Equation11081-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.826,
+        "sampled_peak_rss_mib": 690.78
+      }
+    },
+    {
+      "equation": "Equation35036",
+      "formula": "x = ((y ◇ z) ◇ ((x ◇ y) ◇ x)) ◇ y",
+      "dual": "Equation11081",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation35036/InfiniteModel.lean",
+        "sha256": "18f8130585c1586ddf65806632744256ed6de4e1dfcba85505d9b653456d4a12",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation35036-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "18f8130585c1586ddf65806632744256ed6de4e1dfcba85505d9b653456d4a12",
+        "log": "proofs/validation/2026-09-08/Equation35036-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.824,
+        "sampled_peak_rss_mib": 662.84
+      }
+    },
+    {
+      "equation": "Equation11082",
+      "formula": "x = y ◇ ((x ◇ (y ◇ x)) ◇ (z ◇ z))",
+      "dual": "Equation34889",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation34889",
+      "formula": "x = ((y ◇ y) ◇ ((x ◇ z) ◇ x)) ◇ z",
+      "dual": "Equation11082",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation11116",
+      "formula": "x = y ◇ ((x ◇ (z ◇ x)) ◇ (y ◇ y))",
+      "dual": "Equation34888",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation11116/InfiniteModel.lean",
+        "sha256": "fa846f50219e80ec758d647dd33141707e7cf717e9cde65c4135b10da4871bcd",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation11116-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "fa846f50219e80ec758d647dd33141707e7cf717e9cde65c4135b10da4871bcd",
+        "log": "proofs/validation/2026-09-08/Equation11116-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.415,
+        "sampled_peak_rss_mib": 611.83
+      }
+    },
+    {
+      "equation": "Equation34888",
+      "formula": "x = ((y ◇ y) ◇ ((x ◇ z) ◇ x)) ◇ y",
+      "dual": "Equation11116",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation34888/InfiniteModel.lean",
+        "sha256": "0dee10079b8df63d33873752feff37bfb4e3c459715720496c63b27b204c5dc4",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation34888-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "0dee10079b8df63d33873752feff37bfb4e3c459715720496c63b27b204c5dc4",
+        "log": "proofs/validation/2026-09-08/Equation34888-model.log",
+        "version": "4.33.1",
+        "log_sha256": "1194d2b9bdc76a1969406b8dfb1b6f74f2fba00c7c2fef496916541b1b2bb103",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.624,
+        "sampled_peak_rss_mib": 688.3
+      }
+    },
+    {
+      "equation": "Equation11205",
+      "formula": "x = y ◇ ((y ◇ (x ◇ y)) ◇ (z ◇ y))",
+      "dual": "Equation35100",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation35100",
+      "formula": "x = ((y ◇ z) ◇ ((y ◇ x) ◇ y)) ◇ y",
+      "dual": "Equation11205",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation11280",
+      "formula": "x = y ◇ ((y ◇ (z ◇ y)) ◇ (x ◇ y))",
+      "dual": "Equation34778",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation34778",
+      "formula": "x = ((y ◇ x) ◇ ((y ◇ z) ◇ y)) ◇ y",
+      "dual": "Equation11280",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation12073",
+      "formula": "x = y ◇ (((y ◇ x) ◇ x) ◇ (z ◇ z))",
+      "dual": "Equation33998",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation33998",
+      "formula": "x = ((y ◇ y) ◇ (x ◇ (x ◇ z))) ◇ z",
+      "dual": "Equation12073",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation12087",
+      "formula": "x = y ◇ (((y ◇ x) ◇ z) ◇ (x ◇ z))",
+      "dual": "Equation33884",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation33884",
+      "formula": "x = ((y ◇ x) ◇ (y ◇ (x ◇ z))) ◇ z",
+      "dual": "Equation12087",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation12234",
+      "formula": "x = y ◇ (((z ◇ x) ◇ y) ◇ (x ◇ y))",
+      "dual": "Equation33883",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation33883",
+      "formula": "x = ((y ◇ x) ◇ (y ◇ (x ◇ z))) ◇ y",
+      "dual": "Equation12234",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation12857",
+      "formula": "x = y ◇ ((x ◇ (y ◇ (z ◇ z))) ◇ y)",
+      "dual": "Equation33436",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "本仓已有[数学构造与 Python 检查](../../docs/Equation12857-model.md)，尚无对应 Lean 文件。"
+      ]
+    },
+    {
+      "equation": "Equation33436",
+      "formula": "x = (y ◇ (((z ◇ z) ◇ y) ◇ x)) ◇ y",
+      "dual": "Equation12857",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "本仓已有[数学构造与 Python 检查](../../docs/Equation12857-model.md)，尚无对应 Lean 文件。"
+      ]
+    },
+    {
+      "equation": "Equation12883",
+      "formula": "x = y ◇ ((x ◇ (z ◇ (y ◇ x))) ◇ y)",
+      "dual": "Equation33020",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation33020",
+      "formula": "x = (y ◇ (((x ◇ y) ◇ z) ◇ x)) ◇ y",
+      "dual": "Equation12883",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation13764",
+      "formula": "x = y ◇ ((x ◇ ((z ◇ y) ◇ y)) ◇ y)",
+      "dual": "Equation32294",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation32294",
+      "formula": "x = (y ◇ ((y ◇ (y ◇ z)) ◇ x)) ◇ y",
+      "dual": "Equation13764",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation13849",
+      "formula": "x = y ◇ ((y ◇ ((x ◇ z) ◇ z)) ◇ z)",
+      "dual": "Equation32281",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation32281",
+      "formula": "x = (y ◇ ((y ◇ (y ◇ x)) ◇ z)) ◇ z",
+      "dual": "Equation13849",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation13992",
+      "formula": "x = y ◇ ((z ◇ ((x ◇ y) ◇ y)) ◇ y)",
+      "dual": "Equation32280",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation32280",
+      "formula": "x = (y ◇ ((y ◇ (y ◇ x)) ◇ z)) ◇ y",
+      "dual": "Equation13992",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation18137",
+      "formula": "x = (y ◇ x) ◇ (z ◇ ((x ◇ z) ◇ z))",
+      "dual": "Equation27863",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation27863",
+      "formula": "x = ((y ◇ (y ◇ x)) ◇ y) ◇ (x ◇ z)",
+      "dual": "Equation18137",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation18212",
+      "formula": "x = (y ◇ y) ◇ (x ◇ ((x ◇ z) ◇ z))",
+      "dual": "Equation27859",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation27859",
+      "formula": "x = ((y ◇ (y ◇ x)) ◇ x) ◇ (z ◇ z)",
+      "dual": "Equation18212",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": []
+    },
+    {
+      "equation": "Equation19966",
+      "formula": "x = (y ◇ y) ◇ ((x ◇ (x ◇ z)) ◇ z)",
+      "dual": "Equation26105",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation19966/InfiniteModel.lean",
+        "sha256": "0e1e14dbed48b5fbabbb690d21d7186cd004b253df08706a34b75cd38d984419",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/heavy/certificates/Equation19966-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "0e1e14dbed48b5fbabbb690d21d7186cd004b253df08706a34b75cd38d984419",
+        "log": "proofs/validation/2026-09-08/Equation19966-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 57.06,
+        "sampled_peak_rss_mib": 659.52
+      }
+    },
+    {
+      "equation": "Equation26105",
+      "formula": "x = (y ◇ ((y ◇ x) ◇ x)) ◇ (z ◇ z)",
+      "dual": "Equation19966",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation26105/InfiniteModel.lean",
+        "sha256": "a146e099576e34f204424c21705d50b6597e85707d83c0122a6b1551aca6a069",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/heavy/certificates/Equation26105-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "a146e099576e34f204424c21705d50b6597e85707d83c0122a6b1551aca6a069",
+        "log": "proofs/validation/2026-09-08/Equation26105-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 53.93,
+        "sampled_peak_rss_mib": 611.78
+      }
+    },
+    {
+      "equation": "Equation22619",
+      "formula": "x = (y ◇ (y ◇ x)) ◇ ((z ◇ z) ◇ z)",
+      "dual": "Equation22634",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation22619/InfiniteModel.lean",
+        "sha256": "5d65a6b6320334aff5df1f9b3a2050004ca970797cf3c4e6070fc0563e128e11",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation22619-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2",
+        "historical_certificate_sha256": "96d8e090592510bbaa322cd3959d4adea9274ef338e7af250b334714c608e91f",
+        "historical_certificate_path": "proofs/provenance/Equation22619-InfiniteModel.original.lean",
+        "dependency_adaptation": "Only import Mathlib changed to import Mathlib.Data.Nat.Basic; proof body unchanged."
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "5d65a6b6320334aff5df1f9b3a2050004ca970797cf3c4e6070fc0563e128e11",
+        "log": "proofs/validation/2026-09-08/Equation22619-model.log",
+        "version": "4.33.1",
+        "log_sha256": "5308182ba678f1579d64cff33d430d316e597b11c2bb8720d214328dffc78c2a",
+        "axioms": {
+          "submission": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 1.25,
+        "sampled_peak_rss_mib": 795.28
+      }
+    },
+    {
+      "equation": "Equation22634",
+      "formula": "x = (y ◇ (y ◇ y)) ◇ ((x ◇ z) ◇ z)",
+      "dual": "Equation22619",
+      "table": "20.2",
+      "finite_math": "仅平凡（Blueprint）",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation22634/InfiniteModel.lean",
+        "sha256": "2d3111eed3c1aaaaa24b65a250f3a2e7f3004515fe2e77af744f246e274de54d",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation22634-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2",
+        "historical_certificate_sha256": "2d07322dd8d3b5a6d41bebe4e5333cad32486b582fd263e7c1d860c01b1998c3",
+        "historical_certificate_path": "proofs/provenance/Equation22634-InfiniteModel.original.lean",
+        "dependency_adaptation": "Only import Mathlib changed to import Mathlib.Data.Nat.Basic; proof body unchanged."
+      },
+      "explicit_infinity": false,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "2d3111eed3c1aaaaa24b65a250f3a2e7f3004515fe2e77af744f246e274de54d",
+        "log": "proofs/validation/2026-09-08/Equation22634-model.log",
+        "version": "4.33.1",
+        "log_sha256": "5308182ba678f1579d64cff33d430d316e597b11c2bb8720d214328dffc78c2a",
+        "axioms": {
+          "submission": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 1.042,
+        "sampled_peak_rss_mib": 796.55
+      }
+    },
+    {
+      "equation": "Equation12294",
+      "formula": "x = y ◇ (((z ◇ y) ◇ x) ◇ (x ◇ y))",
+      "dual": "Equation33856",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation33856",
+      "formula": "x = ((y ◇ x) ◇ (x ◇ (y ◇ z))) ◇ y",
+      "dual": "Equation12294",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation13102",
+      "formula": "x = y ◇ ((z ◇ (x ◇ (x ◇ z))) ◇ y)",
+      "dual": "Equation33273",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "已有[上游分段线性无限模型数学记录](../provenance/Equation13102-commentary.md)（对偶由相反运算转移）；本次没有收录 Lean 证书，有限侧仍未知。",
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation33273",
+      "formula": "x = (y ◇ (((z ◇ x) ◇ x) ◇ z)) ◇ y",
+      "dual": "Equation13102",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "已有[上游分段线性无限模型数学记录](../provenance/Equation13102-commentary.md)（对偶由相反运算转移）；本次没有收录 Lean 证书，有限侧仍未知。",
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation17260",
+      "formula": "x = (y ◇ x) ◇ (z ◇ (x ◇ (z ◇ z)))",
+      "dual": "Equation28740",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation17260/InfiniteModel.lean",
+        "sha256": "c282fcb31dd5f3e7fa8edf8e091823f68edc8022b178e5d9366d0cbb1e779cb3",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation17260-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "c282fcb31dd5f3e7fa8edf8e091823f68edc8022b178e5d9366d0cbb1e779cb3",
+        "log": "proofs/validation/2026-09-08/Equation17260-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.832,
+        "sampled_peak_rss_mib": 420.67
+      }
+    },
+    {
+      "equation": "Equation28740",
+      "formula": "x = (((y ◇ y) ◇ x) ◇ y) ◇ (x ◇ z)",
+      "dual": "Equation17260",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation28740/InfiniteModel.lean",
+        "sha256": "beb1c4183486fb3ed80ae21afd0ed98cb23bdef7a263feb7d0255aa8af4c7041",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/shards/light/certificates/Equation28740-to-Equation2-false.lean",
+        "historical_run": "2026-09-03 solo_v9_v1",
+        "goal": "EquationLHS does not imply Equation2"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "passed_for_archived_proofs",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ],
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "beb1c4183486fb3ed80ae21afd0ed98cb23bdef7a263feb7d0255aa8af4c7041",
+        "log": "proofs/validation/2026-09-08/Equation28740-model.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.826,
+        "sampled_peak_rss_mib": 420.81
+      }
+    },
+    {
+      "equation": "Equation17286",
+      "formula": "x = (y ◇ x) ◇ (z ◇ (z ◇ (x ◇ z)))",
+      "dual": "Equation28626",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation28626",
+      "formula": "x = (((y ◇ x) ◇ y) ◇ y) ◇ (x ◇ z)",
+      "dual": "Equation17286",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation20911",
+      "formula": "x = (y ◇ y) ◇ (((z ◇ x) ◇ x) ◇ z)",
+      "dual": "Equation25087",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation25087",
+      "formula": "x = (y ◇ (x ◇ (x ◇ y))) ◇ (z ◇ z)",
+      "dual": "Equation20911",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation21714",
+      "formula": "x = (y ◇ (y ◇ x)) ◇ (x ◇ (x ◇ z))",
+      "dual": "Equation24200",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation24200",
+      "formula": "x = ((y ◇ x) ◇ x) ◇ ((x ◇ z) ◇ z)",
+      "dual": "Equation21714",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation21864",
+      "formula": "x = (y ◇ (z ◇ x)) ◇ (x ◇ (x ◇ y))",
+      "dual": "Equation24199",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation24199",
+      "formula": "x = ((y ◇ x) ◇ x) ◇ ((x ◇ z) ◇ y)",
+      "dual": "Equation21864",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation21865",
+      "formula": "x = (y ◇ (z ◇ x)) ◇ (x ◇ (x ◇ z))",
+      "dual": "Equation24197",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation24197",
+      "formula": "x = ((y ◇ x) ◇ x) ◇ ((x ◇ y) ◇ z)",
+      "dual": "Equation21865",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation21866",
+      "formula": "x = (y ◇ (z ◇ x)) ◇ (x ◇ (x ◇ w))",
+      "dual": "Equation24201",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation24201",
+      "formula": "x = ((y ◇ x) ◇ x) ◇ ((x ◇ z) ◇ w)",
+      "dual": "Equation21866",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation22446",
+      "formula": "x = (y ◇ (x ◇ x)) ◇ ((x ◇ z) ◇ z)",
+      "dual": "Equation22591",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation22591",
+      "formula": "x = (y ◇ (y ◇ x)) ◇ ((x ◇ x) ◇ z)",
+      "dual": "Equation22446",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation23337",
+      "formula": "x = ((y ◇ x) ◇ x) ◇ (z ◇ (x ◇ z))",
+      "dual": "Equation23354",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation23354",
+      "formula": "x = ((y ◇ x) ◇ y) ◇ (x ◇ (x ◇ z))",
+      "dual": "Equation23337",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation23357",
+      "formula": "x = ((y ◇ x) ◇ y) ◇ (x ◇ (y ◇ z))",
+      "dual": "Equation23653",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    },
+    {
+      "equation": "Equation23653",
+      "formula": "x = ((y ◇ z) ◇ x) ◇ (z ◇ (x ◇ z))",
+      "dual": "Equation23357",
+      "table": "20.3",
+      "finite_math": "未知",
+      "finite_proof": null,
+      "infinite_model_proof": null,
+      "explicit_infinity": false,
+      "historical_status": "timeout",
+      "local_lean_validation": "not_run",
+      "notes": [
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+      ]
+    }
+  ],
+  "archived_files": {
+    "docs/Equation12857-model.md": "9967863de2c9d47186bc2123e9f81390c6bef5d90ac36cc416e2f6580217cabe",
+    "proofs/provenance/effective-results-index.jsonl": "f7651fc41081bf3442d5572b0e99bb1822046d884ece37a90bdedcfa1bd27ef3",
+    "proofs/provenance/summary.json": "147e5d8fc2aee65bf0fddb68eac6d88926c2a5bb4bad6ca8d649c57194fa26e8",
+    "proofs/provenance/validation-report.md": "c698672f1abb982239ce27d984fe6c8dae72d8bdcd4dd8af16a756e77352a740",
+    "proofs/provenance/artifact-manifest.json": "50fd2b394ff5897d7bf51b3599d88eedbc5fe47e9dd525f64e277f54e005a02b",
+    "proofs/provenance/blueprint_rows.json": "9103e79be756502e748f532cf93669302bf8c6ab1b441c501d16acb7d0b5314f",
+    "proofs/provenance/dual_map.json": "3dbfee34e9333fc537b3a168c12aedaab22af8a10caac88d67ef7ae54675f3f1",
+    "proofs/provenance/equational_theories-LICENSE": "c6be243aa954228fc83b68a08e769bf3c561a64fb515cbbd470046d006c18bbf",
+    "proofs/provenance/upstream-lean-toolchain": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2",
+    "proofs/provenance/judge-lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+    "proofs/provenance/Equation13102-commentary.md": "2a6eec41dd047d7b33b1b115ff56b0a28786256bbdf3b560b1588389853d6d6d",
+    "proofs/provenance/InfModel.lean": "74ef7c7075a160f44b602f416a6b0618aff6edc97402671f5a93734ceea0e1be",
+    "proofs/Equation4916/InfiniteModel.lean": "a4106c269953231f6e49a02d212113f377abe72bff765cf9742c87edf453bac3",
+    "proofs/Equation4916/JudgeProblem.lean": "b40529920e8ae02ad7fbe84f503d8e22472be93fb08f0b35bd28bc14d1e8774c",
+    "proofs/Equation4916/README.md": "197a00aa1fe50412f0fa9d77086dda9ab4ea3270cb006155d8324a5e175e4156",
+    "proofs/Equation41082/InfiniteModel.lean": "bd86b917f359e75f77370e6b3d662c2be93371281fb1fa41a73b1cf9c0299d44",
+    "proofs/Equation41082/JudgeProblem.lean": "64b658e2de1e0409713d82cada6f8cc50e0bc070d48e46975f9675a86f7c3d66",
+    "proofs/Equation41082/README.md": "5e40820b04ab6526bfad903d9580d5b0614f8da5ae5e2e83f1b90c7abe627ecc",
+    "proofs/Equation15535/InfiniteModel.lean": "000c038e1f3e388f151c485e3d81a8320f375822ed19c7016d9010002fa2e058",
+    "proofs/Equation15535/JudgeProblem.lean": "8d2c40c206ca8f2bb73bbae3aa0921d0bcc9ad64bf5392bce42cfaf4110833aa",
+    "proofs/Equation15535/README.md": "2193f3f6ab986300f85455b831ab06102e5d7c4ac137b5f714bd8ae94ed1936b",
+    "proofs/Equation30591/InfiniteModel.lean": "f7a72d83f00c572c0f3c2aba4682a1d3215ed2c93154381341a5be1b3f52a3c6",
+    "proofs/Equation30591/JudgeProblem.lean": "bb69521697ad6676e529ef2b377615581199d0ba50d803010639b0b837b72822",
+    "proofs/Equation30591/README.md": "f4dde4e202590f3453d925447c427613109b231c7a25c65f6f3a7516981c26ec",
+    "proofs/Equation17522/InfiniteModel.lean": "5653c0f6156f621dac54a415f055fb4ad8a7cca09072dbbd7d97326a6a4db765",
+    "proofs/Equation17522/JudgeProblem.lean": "e647ef7b173e8c1ee95001dcfa65c37927d6470ddb04b903acd9eee7484c275b",
+    "proofs/Equation17522/README.md": "3f7f3ec193046f4705a16413f8c6f947139c3591a2eab9b6e2ae03b7a132f4f2",
+    "proofs/Equation28770/FiniteTrivial.lean": "8977fab6c4a5e3deecbdf75190b257f845613337ca25c8ccf7795ebd4d2d73a9",
+    "proofs/Equation28770/InfiniteModel.lean": "5bf1357b80e910b9fdfbafc19d0ee6387dff9128014225808c05c32bcb9adf7b",
+    "proofs/Equation28770/JudgeProblem.lean": "b9e92ddcf2669613b2133dbecb9693379f79e4670815b69c21738235bce7eb89",
+    "proofs/Equation28770/README.md": "107971c8c9e2dca805c229a00b07915b9ea1ce85efd98c614198d99685915365",
+    "proofs/Equation20034/InfiniteModel.lean": "2f0ab52deee96952effcafe28e1b5503f9109d8e9e7891a9351c0dd6cc607259",
+    "proofs/Equation20034/JudgeProblem.lean": "0a7ff384bc3badd400e057087edc588ea3ad4665e1fd25ee4459bc9240f960fc",
+    "proofs/Equation20034/README.md": "325f57c0164180bfaa5fcd35a3fa687369a88352b6b2593f4cbd94c321a202ac",
+    "proofs/Equation25964/InfiniteModel.lean": "e86ca61b5736c0cdaebd296ae960873cd452819136fc23addffd37762b7f718f",
+    "proofs/Equation25964/JudgeProblem.lean": "942839f94fb58c824f50d207a7ebf5988f2482bcd7520c8aea716483a542824d",
+    "proofs/Equation25964/README.md": "7c794c2c1f96c09d944dc83527e97560597e7dea7b9241996bfb6ea7f92d2a7e",
+    "proofs/Equation22455/InfiniteModel.lean": "161b6dca1c8ab85d567db46f8ef56aae936c4e9e6b7eb5430abca2e596fcf3b7",
+    "proofs/Equation22455/JudgeProblem.lean": "f666820ca5670a07133b0073ec32fcb2655fde63a7d9184c6a9f7fefb2cccb2e",
+    "proofs/Equation22455/README.md": "ff331425a1c4948585fe6f4ce394d0d0802d93f5f8d616c6d80f5dec57d4ef7a",
+    "proofs/Equation22818/InfiniteModel.lean": "8bddd7c1a6a58ae72d379463b7045fa1c7d4fa46b51b5034b4f1d23ddc1aaa30",
+    "proofs/Equation22818/JudgeProblem.lean": "f64387e4a0bdb42c27cc964b53f480dd437ee0cc56eb87d8014759b011a42b9b",
+    "proofs/Equation22818/README.md": "e8a56f80d27c4af5401b22cb219a193287e2a8d98297b6635e5ab4a662ec9371",
+    "proofs/Equation4952/InfiniteModel.lean": "a79d6bb769ff487649821f3ce61a9d7a7696cd59bb12d6c7b66e2b5efbe5671c",
+    "proofs/Equation4952/JudgeProblem.lean": "72d192650a6ff87d474e902834266e649e206a41661a7921d1949b6a9e894cfd",
+    "proofs/Equation4952/README.md": "2ddc65236e4f9dde4bf91dadabd250b80a2c17fff483646dd8ab680afbc0d368",
+    "proofs/Equation41252/InfiniteModel.lean": "094f552aeebcf81b621fd21610188e21bfbf190f8b2e7c481232a4f6dcaf3243",
+    "proofs/Equation41252/JudgeProblem.lean": "69067d982db922a996ff57c53ba68dc5cf0c017377ade11c2aea267a61b10ff5",
+    "proofs/Equation41252/README.md": "e24e437e915aff9756b4559b5f0b3e38f8ce6b0851d62c2a8866e33069b2edb5",
+    "proofs/Equation4957/InfiniteModel.lean": "c21ca1fd4f2d1f73484d3d3c6e4459c35ab4fd05b6dfd8e2968ab848ceaddbcf",
+    "proofs/Equation4957/JudgeProblem.lean": "489eb8f7733ef445f63183379e9a1a45845572f700ec2e6fa54ecce42d573104",
+    "proofs/Equation4957/README.md": "90e70d4599ce8565e012d88804991a182e9a3abb2cecc827c3963ceb2b0b04c2",
+    "proofs/Equation40914/InfiniteModel.lean": "ae0cec5bc6da4dd69b5ebc7263d04b1cf2cd65ed6ab66cdb40ad65ea862552df",
+    "proofs/Equation40914/JudgeProblem.lean": "984761134111a8a8f4232d79f6f2c82fe2e5d2d9c1c7e0a4fc5acf8f15ed94b0",
+    "proofs/Equation40914/README.md": "b6c1761090161f2ae08bf4e0b216926970c33d1b043cc701284b31df65e93f16",
+    "proofs/Equation5012/InfiniteModel.lean": "b82476601e1613e15fd85f8d8832da002082dc4bac7c4c0ae70b518cac86c2e7",
+    "proofs/Equation5012/JudgeProblem.lean": "fdfb87bfe992cbffcbe71c59b67c1c16b1fd4174ad7975a0f8687637f719695c",
+    "proofs/Equation5012/README.md": "6c5b4e56aa18bcfc876786366bd9ec10299106be63ae1617f10c0df73e8f12ac",
+    "proofs/Equation41253/InfiniteModel.lean": "406df04047362e6dfe067bc1b7a0a9a8773387d7b714df5e830be373ed98d130",
+    "proofs/Equation41253/JudgeProblem.lean": "8583b7e8613a0268e2d9c9092875cbbc453053c2e927645fae0bf6a26675bd09",
+    "proofs/Equation41253/README.md": "dd176ffdac00f0b93be6ac6e828236c43fb04a736bfb733d6026ae12fe88ae03",
+    "proofs/Equation5066/InfiniteModel.lean": "117f0a08c346466e032617b96f74008c79cd9d7b88b1a49bd9f6c2754d649e47",
+    "proofs/Equation5066/JudgeProblem.lean": "bf6d09a690ec8e2202d3ffece81653053acd4d323ba1d7355ea2a459d984f5b5",
+    "proofs/Equation5066/README.md": "97ded61c7f6f358f82b4fddb8a1f204e6175b9a2e7c94ccab7a211d7b1587737",
+    "proofs/Equation41239/InfiniteModel.lean": "e989c0250bdf1833adabfe75ad6e9caec2860f5b8e4c76917d74946c0c3520c5",
+    "proofs/Equation41239/JudgeProblem.lean": "b660d68824638153bb63d628c9bb2d5de4cd27608240d8268cb13e1101e83c04",
+    "proofs/Equation41239/README.md": "5d5c6c28880a603ea4bc9bd9cc8012e8a282cd22884469e66d094c259ec0cd4b",
+    "proofs/Equation5093/FiniteTrivial.lean": "9fe46e3b1dc8e63fe18f51ca32f1f79efa4f726a2f0cbad578533bacd32e5e5b",
+    "proofs/Equation5093/README.md": "bf28c6b14d155787532b1add55f07e1c72850a4c02c1fff284889cd45f754098",
+    "proofs/Equation41179/README.md": "77961b3afb74e6593bb7c7998be742dc9c882e1da5f8e505245d21d450344fba",
+    "proofs/Equation5107/README.md": "ab797951773221a9143311551e73836e5be859b89eea56a39f6a3579347a3d70",
+    "proofs/Equation40951/README.md": "d3a8d0ca496d82fbad11af4d37ffdd00ab1f24b5c1ddf04ca1fe9eb69c522780",
+    "proofs/Equation5141/InfiniteModel.lean": "8b29cea48b42b96ec7fa36e4f9955cc3bf3f0563329b56e9b6e69503a9ed4e8b",
+    "proofs/Equation5141/JudgeProblem.lean": "043deef6df46d43d6ada9de27682130c83673dc911b7953048037e538d376d1c",
+    "proofs/Equation5141/README.md": "cdaf89ac967093e6d7ce649ad8d8d65da6c0e25e98826d7d6ddd3fe80e63c2cd",
+    "proofs/Equation40917/InfiniteModel.lean": "c87e71495b0582c566e2bb0d001f3092dfa6957bcca8ffd61c7531a3398517aa",
+    "proofs/Equation40917/JudgeProblem.lean": "9aa635e9696e0aa04b876acd5ad784dce7cbeb612c6c849d058298ce57e20725",
+    "proofs/Equation40917/README.md": "875bedd0b5951ea9b2acd4bbeb0d691df4145ecb4c9b607e48536eb358894a28",
+    "proofs/Equation5295/InfiniteModel.lean": "eeb94842e1d87dd16472106648ea3e2e2c680fee0313f0c5576ce3476a906d10",
+    "proofs/Equation5295/JudgeProblem.lean": "8a7ea8b81b76a44317e4914c3f52313903c080626ea98fa64c37d0321b8b9d54",
+    "proofs/Equation5295/README.md": "74a5ce6852a077ac4ff14ef240e33909c037a4437931687157ca010c2c26a9c5",
+    "proofs/Equation40909/InfiniteModel.lean": "92a5176426af1de5888861add5eea25f9a5d7b679f295ae5d352f9a4571c94be",
+    "proofs/Equation40909/JudgeProblem.lean": "4aa924e1b4a0f3f832117414f181f5461a1969e8620bbfce9a1abb538dcf3a0a",
+    "proofs/Equation40909/README.md": "c2ff09bff2abe0f289ba9f765f8e7a8b402538d9f9c72367b34f6cbcd10cab20",
+    "proofs/Equation5833/README.md": "1739b69dc74e449f4a8d5939c6c468f6b3cfa6bf5de0f9602e32c3a00b8f4160",
+    "proofs/Equation40070/README.md": "690204303527dc64555ba06a46f33867548aed55a703efe45b34dbdc84be0c03",
+    "proofs/Equation5834/README.md": "bd112d6100e1c7104132ad3351d8dcf5a797e0cce81cbd20d30dad450d39908f",
+    "proofs/Equation40037/README.md": "cbd6a7a6a73b2f8ba814a3465d095b45d08b97877efdfe280852dc17103423d3",
+    "proofs/Equation5837/README.md": "2cd784a11e73c052814f68de53a6f355fe9a3c93e7af9dd131f92177bab3d6da",
+    "proofs/Equation40221/README.md": "76eb2bdfcee64afd60048c87418615c9d9d7100211415c83e5614195e2f8ee84",
+    "proofs/Equation5947/README.md": "b353f42c0299a1e9a5a64ac4bc41a47b2d29b63dcca940b8964e5dd9e9ad6a40",
+    "proofs/Equation40057/README.md": "93750254089a4740acbcca2a7adb59f9c5f75375b60cf69176d4922c8fc96100",
+    "proofs/Equation5951/README.md": "0073f8a9365f98cab1d847e3c9d1acc0e52242de0d37856d9bb9c58bba15fa88",
+    "proofs/Equation40208/README.md": "74d96b8fd93e4ec7335f9caa65ce62ff29965995ee4c90f6d0ba5d660ad482c0",
+    "proofs/Equation6820/README.md": "51a83b2037fcf4228942d7e36093187e88ec74d323de96b100ee8317644286b7",
+    "proofs/Equation39485/README.md": "7069b7a160365c74f7d8e91b7327fe9ac95024788c71d7797cadd2a0e928d933",
+    "proofs/Equation6878/README.md": "ace0c9c2449d7723c4189b4dd85a2e8348dd43ce81abd5b166324b941f9901b2",
+    "proofs/Equation39126/README.md": "1ea10f68cfc077743745ada03d63b68fe0f655ca9936cae8392b491e5a361e54",
+    "proofs/Equation6895/README.md": "3209f5ce09ff4de364f34833092f6e278624df4f8aa0d0eaf046790a8daf88a5",
+    "proofs/Equation39163/README.md": "e39afb4f71f12354621a81f896a2328a8db6fb2358b39a84f1960deb10c9fc21",
+    "proofs/Equation6912/README.md": "2adb3625b9f66b9b7d1ca558b077e9c0a580ab1402be4503eaad4eedd1c6f1cd",
+    "proofs/Equation39214/README.md": "8770d5cff779798c09c984b3fc775eb01826f8125375a583fb978cb8530b6072",
+    "proofs/Equation7587/README.md": "0da4efd96ee55c680881f7e1ac45670b5e9350252436e41a8152c7f6f921e9af",
+    "proofs/Equation38316/README.md": "834b2d0c0edfdf4d41b593e5aaed34eafc2ff50ebfa99434c5aa78a97ff58d94",
+    "proofs/Equation7701/InfiniteModel.lean": "3626fc200f9d7099806bfc3ffa10ba405e3dfdbdec42875b1162f0979752fc1f",
+    "proofs/Equation7701/JudgeProblem.lean": "e68195a99a4a78bb003b7003261910e5ee1f05fb5bf764e758aa4fef3f4af5c9",
+    "proofs/Equation7701/README.md": "b4a1a5dd77cd213d92f46d0af190f61c041e2d04289ced6f9b0ac38c7124141f",
+    "proofs/Equation38303/InfiniteModel.lean": "011682087873c7b12e786f0e40f6df72d32b3103b2c76b5ca73e1b636ca15754",
+    "proofs/Equation38303/JudgeProblem.lean": "4d77a37a3338200846dfadd50daac94a42816fb384fdf3abf7726f794700206c",
+    "proofs/Equation38303/README.md": "5ead1ebd7081c8e10323290e6fb2ff75b5d36b86374e936e0b34ad5ecc6c7540",
+    "proofs/Equation7755/InfiniteModel.lean": "7f6e8f62e4028e9b88ecec593b282c3d986803d940776fe6d006ac675db8c10d",
+    "proofs/Equation7755/JudgeProblem.lean": "89ea6025549ad95c9e4f1070374cda4acd440fbad266c8e699c9d83cfdc21ec1",
+    "proofs/Equation7755/README.md": "b0ce65e83864c383d89241e1fb82b3846f9351df0500803fed9f5ebb77bf71c1",
+    "proofs/Equation38249/InfiniteModel.lean": "31e24c071f8ca6cf6c7fd5f0c60fc0fc469b1629e0bc5e2999fd87e8d2b1215e",
+    "proofs/Equation38249/JudgeProblem.lean": "dbc3cce251a3fee7d944fe936c025ed75586b4b0e888223df5183b3f59bd13f3",
+    "proofs/Equation38249/README.md": "7525f21d36af7e543d9c03a39e576782d67c55a496b0e683bcb0f8c964ebb5f3",
+    "proofs/Equation7763/README.md": "54a7acae882134aa4c2e1b172af3cd7e4f5cb15e08738bcff1fc302fae64e403",
+    "proofs/Equation38565/README.md": "54abb5836b558b4bf9e21379ad53c5f468354b56b5a3467b14cbc6b7f1b53676",
+    "proofs/Equation8485/README.md": "26b0cf4bb12d094da2116c01bd51316a7f07cf407ba36ff7f48d31b89c5a431e",
+    "proofs/Equation37519/README.md": "ce942e9845dd0338f28e4356551a7b9b326b8bc8b0bd662ff3fc4ef760b7ad8f",
+    "proofs/Equation9337/README.md": "6ce22a3d83186fa004c6e93674819d12b91063d68170ee99afe1a8f9f71404ac",
+    "proofs/Equation36867/README.md": "fceda171ba83a76a23b8ba6810b4f910b0735fb8a29891d8b1bb8bc5aac9aad3",
+    "proofs/Equation9345/InfiniteModel.lean": "8011715a2ffb3070cea1f366cc7428cf05e0dca9e1bfe7de20cd97963dce32af",
+    "proofs/Equation9345/JudgeProblem.lean": "d824f4113cc9a9f9456c94e8e1c352a4897400ac64ae0877148d2b76dc16cc6e",
+    "proofs/Equation9345/README.md": "fc66824030b5d45c51cb2c6b62cd3059ae0b3c49cda9149be532dcff9a6e13b3",
+    "proofs/Equation36713/InfiniteModel.lean": "2f6ab32700072f844c555cc3fb0f6ae54db412db689ba97f87380858d3394bbc",
+    "proofs/Equation36713/JudgeProblem.lean": "c3681c3396c97d0b7b601ea48e2a63dbf4fcee8d1dad9f3db3e463f7a4ff894b",
+    "proofs/Equation36713/README.md": "d5cb57227856a305791698868db14bc579ad36ff0cdb8548a6a32da9eb914fc0",
+    "proofs/Equation9384/InfiniteModel.lean": "a0ace7da67cee9d108b089380cf2dd777742a259bc5b495ca2ecd2667cb0993c",
+    "proofs/Equation9384/JudgeProblem.lean": "234f9f8d82a3a208c3274cfab0483d6c4f3cbab902a37638fe64cc7cde67fb9f",
+    "proofs/Equation9384/README.md": "36fa3009b1ab9465a81e445b90a621faeb2f250a5cacbb439c72ea047e2cd45d",
+    "proofs/Equation36714/InfiniteModel.lean": "e599d31e042b0fc43b38ff3548b070604f9f0df40e9552b5e71e54fa7eb78631",
+    "proofs/Equation36714/JudgeProblem.lean": "8ea16dae01f1f4566911f2dbf822522b3e2d1e162757848ec32d798bd73ca5de",
+    "proofs/Equation36714/README.md": "e81a7ee2084ab996516bdc1f6cf253cab9e2c7a31a0ed8b0d9c71253971361d9",
+    "proofs/Equation9603/README.md": "239c94b20dd4ee6a49b940bf14aba5ae0debeb33b74524b7fde2ded0150889d2",
+    "proofs/Equation36514/README.md": "a35fea3d06b8c59eaa44c7e63a6e859891a08dc47483e13622622ee5da8b61f6",
+    "proofs/Equation9663/README.md": "dc1ccaea3b92aac0b5f9c0eb8b0eab13868369c623ecfc2b901be6e200e300e4",
+    "proofs/Equation36487/README.md": "7c210f7f44bc74309150525d3fede0aad1ea99cc05d1f6634780a542a3ef01d8",
+    "proofs/Equation9667/InfiniteModel.lean": "b3934371cbc4c9b49dbb860800246f108a07a621c2867f8bf6014f3029888a2d",
+    "proofs/Equation9667/JudgeProblem.lean": "e12daf4f3db5df67b47c560d69ad11bcef442aba06bcc3ece7baabcb0b3b70b0",
+    "proofs/Equation9667/README.md": "c8e9bbb81002f84a85caf4bca59f473de4b13ec49d7581eb674ccc2419a07661",
+    "proofs/Equation36638/InfiniteModel.lean": "cd71154b6e9e51140c21a7fe372b513131abafdb372122b9ef89787cb4c4fde5",
+    "proofs/Equation36638/JudgeProblem.lean": "e5e9ce40361e5295625ac294ec602a64b3785391acd61089de7ff7046e67784f",
+    "proofs/Equation36638/README.md": "d2503197342ce03b660157058fba64f61378b887cefd47c981de40fe56fab61f",
+    "proofs/Equation9680/README.md": "2f1d806f3a9b6d077f69f824fbc8694ea2ec374336eedace9e4cdb876302ebdb",
+    "proofs/Equation36524/README.md": "eb755c8dba9f06feb3a20e486657374298b567e057392c560fa1c0913df55b2e",
+    "proofs/Equation10218/README.md": "fdd827e205d9eec7bd58d6118f90a964483b33880a80485a265e1fc4a39b220f",
+    "proofs/Equation35685/README.md": "87651240ad7ba674554f87b2a8349f9e579b817776979067f97f62f76b31d3a3",
+    "proofs/Equation10222/README.md": "90fb30e3ad03880499efd341eed6dd573f2b0ebda888f2656af9a515b91b4f3b",
+    "proofs/Equation35836/README.md": "f6a194c6caf52449c96873043aeb31d07256d94e63897a654aa7f3c4716ee83a",
+    "proofs/Equation11081/InfiniteModel.lean": "1aa5250b553c95a9aeccd2a0903fe210975b5004ad263ec636cf44b4ccafc9ed",
+    "proofs/Equation11081/JudgeProblem.lean": "a1d35f42995f7a218d9d3658e7a9eaed0b228d597c414bc48072f692379d9304",
+    "proofs/Equation11081/README.md": "6647bd83a41d1a626b89df37bd56c3aa4af3f0c2b24482ccfd1d972a28421ed5",
+    "proofs/Equation35036/InfiniteModel.lean": "18f8130585c1586ddf65806632744256ed6de4e1dfcba85505d9b653456d4a12",
+    "proofs/Equation35036/JudgeProblem.lean": "61a094ee3708b599aa0fb4af5813a20d613847edd34b2b0bffabcebccf18b8ff",
+    "proofs/Equation35036/README.md": "92e7e7484953732e90e7811bc4612305394eefd5edf562cc4a1710e711c62f23",
+    "proofs/Equation11082/README.md": "cfd7dab4a541a4d895883ed809d05405308ffc730a0634b95e5e30cd0b4b38a7",
+    "proofs/Equation34889/README.md": "4ccc977b8430e34859848fa348d6dcf4aca779818dc4d8cd07fc06a68b8f12f1",
+    "proofs/Equation11116/InfiniteModel.lean": "fa846f50219e80ec758d647dd33141707e7cf717e9cde65c4135b10da4871bcd",
+    "proofs/Equation11116/JudgeProblem.lean": "fbd0b3bf49a531b3fadf6aa667c95d830a59c4b4f10ec2fe0dbf20d4e142d462",
+    "proofs/Equation11116/README.md": "2533404d445cb6cd66811f6a2af08b7b867088a36fc0ab79995c700310f5834d",
+    "proofs/Equation34888/InfiniteModel.lean": "0dee10079b8df63d33873752feff37bfb4e3c459715720496c63b27b204c5dc4",
+    "proofs/Equation34888/JudgeProblem.lean": "0cfdf3b5c6d9f244d84fbaa3a5e282fc09cdbc8ba81f7e063ac16be4b05aaa3e",
+    "proofs/Equation34888/README.md": "ff62ad66bec3eea460dcb2a508acbaa5ad99b0ce1093aef8a07bdccbe2d03910",
+    "proofs/Equation11205/README.md": "62bc924b1743efacbe03fb3ea0ad0f3ae479b071b9170c03afc24e04bd274344",
+    "proofs/Equation35100/README.md": "4b6609925a7885e8d1600e5ca34b282214c8a1677e24994bb1fdcb4a10fb57a4",
+    "proofs/Equation11280/README.md": "234767defd96b6b6d3b106d36653bd7d99271cba574daf23ddbd0ad0e7f29b4f",
+    "proofs/Equation34778/README.md": "e41cb22078f3070d4932f4370fe6c7a611bce6ac33177fc1d5853f5fb3a9fa64",
+    "proofs/Equation12073/README.md": "49517d00c951e71c89b7fc7f47ba4f7b92b8ec33825b67dcfa91829f5e1b8326",
+    "proofs/Equation33998/README.md": "bcec0744add27f4a28e0677f361bbcefbafd2703fb411bc0f51b7f871b08bb17",
+    "proofs/Equation12087/README.md": "142df20ab590afe6e591ba9ff9c70f86aea80b015ae2ec124426bb7a90c41249",
+    "proofs/Equation33884/README.md": "a943f3fb9a9c08ad61eebea53efbd1bb73acab44ff60627095e9d617ae1f0bbe",
+    "proofs/Equation12234/README.md": "ba82d0260326fb77a70e69f57e1f080d325cef2453f514cb17c92d091738fde4",
+    "proofs/Equation33883/README.md": "8aa846d3bd01a23113a8bff6b677a53981c40133d2d8832d48da1ad8b1bd470e",
+    "proofs/Equation12857/README.md": "4ba16d834d4e606c78f290e969ecb6ec61aa32784b9b82d0ccdbd50a9c7c26b0",
+    "proofs/Equation33436/README.md": "4f5696f63970c35b991d7ed4bf51be7a2b4211bc707d3109a8f7f80972dd20f7",
+    "proofs/Equation12883/README.md": "75d61967b069df92524cd7b45a121b913f735061bff8d6b7cdf2b5bf6d50cca0",
+    "proofs/Equation33020/README.md": "29ad58adbfcf205486e33bc6452c37cd5d5a44a1bd2e1e7a7e5ee1856be4c674",
+    "proofs/Equation13764/README.md": "75e75896d1fa501c8f8a78f7ddf6fc195adc22d865dc76c918e11a864fcac8c7",
+    "proofs/Equation32294/README.md": "c4bd37692901e7821cfd8d36d82dbb2b74c2cba977b993475af4370688d3459e",
+    "proofs/Equation13849/README.md": "962b0ef564502f6d6f946c5beac3b05dc49900bda11c1871b4a9374207278266",
+    "proofs/Equation32281/README.md": "dd46a60e96bfa424f40f2a7413095d586d103f625ef2c56782304dce6e90003a",
+    "proofs/Equation13992/README.md": "826fbd263b7ab2fd46a5231a056c2af800af21701f6ae8ff1a5bb01ff113b331",
+    "proofs/Equation32280/README.md": "05d8ad5dd77a85dc678ba3b4e36a5b2ba54621c59b8999d44cf56017581df092",
+    "proofs/Equation18137/README.md": "e038701d64c35f77e2124eb4ead639636a40ffca73cc2ad555fdfcd965d0b8ed",
+    "proofs/Equation27863/README.md": "0bc696516cd9f8edaa08f36b3f1929b551d1bc424bb9a232996335b97d3db94f",
+    "proofs/Equation18212/README.md": "928b0f8df4a743d2a35342865e7273623d87c4b1947af22a450b9006dce242aa",
+    "proofs/Equation27859/README.md": "22457e15f649f44f5037d5abee2a36ffc4d06f256023b35d5b1568d99804cff1",
+    "proofs/Equation19966/InfiniteModel.lean": "0e1e14dbed48b5fbabbb690d21d7186cd004b253df08706a34b75cd38d984419",
+    "proofs/Equation19966/JudgeProblem.lean": "488d433437bb4365cfb3fb9fcf367933724c2e0ade3a418d8339a7b6775dae51",
+    "proofs/Equation19966/README.md": "b6b804dd84b43c35f78ac8fc0f4184128c2602f11928389f21ce722ea7f55f3e",
+    "proofs/Equation26105/InfiniteModel.lean": "a146e099576e34f204424c21705d50b6597e85707d83c0122a6b1551aca6a069",
+    "proofs/Equation26105/JudgeProblem.lean": "ca2db5bacf08091bb68585243e6e5a8b000bf2c5f048a949840867d60224600e",
+    "proofs/Equation26105/README.md": "13d056918dab13d15f96cf8ee94390957deb7d3de1a2675934e8bd88eecdf8fc",
+    "proofs/Equation22619/InfiniteModel.lean": "5d65a6b6320334aff5df1f9b3a2050004ca970797cf3c4e6070fc0563e128e11",
+    "proofs/Equation22619/JudgeProblem.lean": "515cccf3487b2321d954689ecbd9797eda66a91e3070de38a16e6093f305271a",
+    "proofs/Equation22619/README.md": "1aa58044c39c671a117d0bf907fb255359005731b69ac9ed75d42e34d76fa24f",
+    "proofs/Equation22634/InfiniteModel.lean": "2d3111eed3c1aaaaa24b65a250f3a2e7f3004515fe2e77af744f246e274de54d",
+    "proofs/Equation22634/JudgeProblem.lean": "85f148da53bd00139433548d5aa45ef5f11bc2d0b6b6d467bae9b4809b4d59ad",
+    "proofs/Equation22634/README.md": "c89f33b4d1dc8bf7e75a90eb4e51f67d615cd9b40f6447f8584fb628588060ef",
+    "proofs/Equation12294/README.md": "2bde7fbbd5bbbe121d496db2fae5308dbddc784c9463d0a2bb3b32997dd6eb9b",
+    "proofs/Equation33856/README.md": "5b8831148ad7e29a73428c63066ba133068b686490885b21f39dac171220fc49",
+    "proofs/Equation13102/README.md": "c9b8c8f0a7512084ca4e609bb77c96f972de56e6ccd77db108c1edc5d16797fa",
+    "proofs/Equation33273/README.md": "de5f13cf9e5d6788e64be0a90808d68e2c9c8ea3c75a130c33bd481f0b8f9375",
+    "proofs/Equation17260/InfiniteModel.lean": "c282fcb31dd5f3e7fa8edf8e091823f68edc8022b178e5d9366d0cbb1e779cb3",
+    "proofs/Equation17260/JudgeProblem.lean": "c53ee766b117069e21667833e03991025772397c5bff572f6bdaf5b70f662ab7",
+    "proofs/Equation17260/README.md": "adf4b1e052476e699359d146a0fc5f22e12c4fab472be07473fedafa84ed214e",
+    "proofs/Equation28740/InfiniteModel.lean": "beb1c4183486fb3ed80ae21afd0ed98cb23bdef7a263feb7d0255aa8af4c7041",
+    "proofs/Equation28740/JudgeProblem.lean": "0fa2a25c44c5ea947187ec7e140120f36522dff1b798e31458c98e4be6c60ae9",
+    "proofs/Equation28740/README.md": "e46a20097d2e318f1e990c7bb18ae0c8dd340a773d7cbf3b2c86960aebc775cc",
+    "proofs/Equation17286/README.md": "2834a0940f9c25020db87272fde2b508a0b1ffa6d90aa044df9d6cc68d5bda73",
+    "proofs/Equation28626/README.md": "53483d719a6bd98f1e0165a47e5663d6aab44ad0e4a3a5b25ebc0ae44287e1e0",
+    "proofs/Equation20911/README.md": "5a85a8ccb49bf25badd45aa08c7d20db71640436c2b3360e4e330ad0c31f9292",
+    "proofs/Equation25087/README.md": "c6828e030d421adf158b01a60e4f23d152817478ea33815bd292a191367ac79d",
+    "proofs/Equation21714/README.md": "eff0dd9f6820d21f98667ebfc339f7e899a6b7f79facfa6111f67af837189c59",
+    "proofs/Equation24200/README.md": "eb9c531f7350383cd3b268fd9ac9e9bbaa55508d61985bf28c8a3f2601d9ff8a",
+    "proofs/Equation21864/README.md": "3dfec357583cf8ffe3525065cb644cfcd445b8925494bfebf53593f4875513de",
+    "proofs/Equation24199/README.md": "53ac29b3224c9f978c00e6c46f6dc2445a11b47deb594ec5b12a2cd5d7696e3a",
+    "proofs/Equation21865/README.md": "39d7e6bb3454dbc429a6c6cfb924f78b1144665fb97fd655bac42a56b325464f",
+    "proofs/Equation24197/README.md": "22c091277af00395b98f85970f105742fd5aa36307594e3361529823ff41f5d1",
+    "proofs/Equation21866/README.md": "2cd08b418a27c607365d7d154b145f909dcf5774c116c66afed66bf59795fd45",
+    "proofs/Equation24201/README.md": "c4d2714e9d7c1ad7b3b1813b5e43e45b76d4a255c15d0db300bcd2930575d0c3",
+    "proofs/Equation22446/README.md": "30f3713de233e558ecc8e3a25676b0273fe24e11594c52a6a9d77402c1b7d021",
+    "proofs/Equation22591/README.md": "6b600b5d8161afef62c390bc440171feae42008c9ed5562cadae9793169a59b0",
+    "proofs/Equation23337/README.md": "d27ae0c134c7ceaa27dd1ecaea9b8779f3460ad91ef1813efa82e08cc0db4f33",
+    "proofs/Equation23354/README.md": "3b08b6bc7f19cf062d1ff81cc127525bf3d7bb6afed38335236a9b7f0a762f4f",
+    "proofs/Equation23357/README.md": "f7dd1276e0eb5608697b0d0f011cc6805639f50c08c194eb4985942613f7b4b1",
+    "proofs/Equation23653/README.md": "31ed4899d11805012cecf702d6bb2141713a5dc2c9389d7a50eae73a21b5908f",
+    "proofs/provenance/Equation22619-InfiniteModel.original.lean": "96d8e090592510bbaa322cd3959d4adea9274ef338e7af250b334714c608e91f",
+    "proofs/provenance/Equation22634-InfiniteModel.original.lean": "2d07322dd8d3b5a6d41bebe4e5333cad32486b582fd263e7c1d860c01b1998c3"
+  },
+  "lean_recompilation": {
+    "date": "2026-09-08",
+    "version": "4.33.1",
+    "models_passed": 42,
+    "finite_passed": 2,
+    "report": "proofs/validation/2026-09-08/README.md"
+  }
+}

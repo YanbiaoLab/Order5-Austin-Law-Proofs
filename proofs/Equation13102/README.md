@@ -1,0 +1,16 @@
+# Equation13102
+
+- 对偶：[Equation33273](../Equation33273/README.md)
+- 原表：20.3
+- 方程：`x = y ◇ ((z ◇ (x ◇ (x ◇ z))) ◇ y)`
+- 有限侧数学状态：未知
+
+有限侧 Lean：未收录。预留文件名 `FiniteTrivial.lean`，仅在有完整证明时创建。
+
+无限侧 Lean：未收录。预留文件名 `InfiniteModel.lean`；历史批次超时不构成不存在模型的证明。
+
+已有[上游分段线性无限模型数学记录](../provenance/Equation13102-commentary.md)（对偶由相反运算转移）；本次没有收录 Lean 证书，有限侧仍未知。
+
+非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。
+
+来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。

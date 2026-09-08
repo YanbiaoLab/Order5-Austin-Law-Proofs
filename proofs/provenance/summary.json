@@ -1,0 +1,591 @@
+{
+  "accepted": true,
+  "audit": {
+    "accepted_certificate_set_exact": true,
+    "all_accepted_attempts_are_timing_eligible_and_official": true,
+    "contract_artifact_hashes_match": true,
+    "dual_map_is_bijective_and_involutive": true,
+    "effective_index_is_in_contract_order": true,
+    "exact_130_problem_id_coverage": true,
+    "provenance_groups_cover_exact_results": true,
+    "result_metadata_matches_problem_input": true,
+    "write_policy": "write-exact; identical rerun allowed; different existing output refused"
+  },
+  "by_blueprint_table": {
+    "20.1": {
+      "accepted_false": 10,
+      "accepted_true": 0,
+      "clean_unresolved": 0,
+      "operational_failure": 0,
+      "solved": 10,
+      "total": 10
+    },
+    "20.2": {
+      "accepted_false": 30,
+      "accepted_true": 0,
+      "clean_unresolved": 66,
+      "operational_failure": 0,
+      "solved": 30,
+      "total": 96
+    },
+    "20.3": {
+      "accepted_false": 2,
+      "accepted_true": 0,
+      "clean_unresolved": 22,
+      "operational_failure": 0,
+      "solved": 2,
+      "total": 24
+    }
+  },
+  "dual": {
+    "complete_pair_count": 21,
+    "complete_pairs": [
+      [
+        "Equation4916",
+        "Equation41082"
+      ],
+      [
+        "Equation4952",
+        "Equation41252"
+      ],
+      [
+        "Equation4957",
+        "Equation40914"
+      ],
+      [
+        "Equation5012",
+        "Equation41253"
+      ],
+      [
+        "Equation5066",
+        "Equation41239"
+      ],
+      [
+        "Equation5141",
+        "Equation40917"
+      ],
+      [
+        "Equation5295",
+        "Equation40909"
+      ],
+      [
+        "Equation7701",
+        "Equation38303"
+      ],
+      [
+        "Equation7755",
+        "Equation38249"
+      ],
+      [
+        "Equation9345",
+        "Equation36713"
+      ],
+      [
+        "Equation9384",
+        "Equation36714"
+      ],
+      [
+        "Equation9667",
+        "Equation36638"
+      ],
+      [
+        "Equation11081",
+        "Equation35036"
+      ],
+      [
+        "Equation11116",
+        "Equation34888"
+      ],
+      [
+        "Equation15535",
+        "Equation30591"
+      ],
+      [
+        "Equation17260",
+        "Equation28740"
+      ],
+      [
+        "Equation17522",
+        "Equation28770"
+      ],
+      [
+        "Equation19966",
+        "Equation26105"
+      ],
+      [
+        "Equation20034",
+        "Equation25964"
+      ],
+      [
+        "Equation22455",
+        "Equation22818"
+      ],
+      [
+        "Equation22619",
+        "Equation22634"
+      ]
+    ],
+    "partial_pair_count": 0,
+    "partial_pairs": [],
+    "total_pairs": 65,
+    "unresolved_pair_count": 44,
+    "unresolved_pairs": [
+      [
+        "Equation5093",
+        "Equation41179"
+      ],
+      [
+        "Equation5107",
+        "Equation40951"
+      ],
+      [
+        "Equation5833",
+        "Equation40070"
+      ],
+      [
+        "Equation5834",
+        "Equation40037"
+      ],
+      [
+        "Equation5837",
+        "Equation40221"
+      ],
+      [
+        "Equation5947",
+        "Equation40057"
+      ],
+      [
+        "Equation5951",
+        "Equation40208"
+      ],
+      [
+        "Equation6820",
+        "Equation39485"
+      ],
+      [
+        "Equation6878",
+        "Equation39126"
+      ],
+      [
+        "Equation6895",
+        "Equation39163"
+      ],
+      [
+        "Equation6912",
+        "Equation39214"
+      ],
+      [
+        "Equation7587",
+        "Equation38316"
+      ],
+      [
+        "Equation7763",
+        "Equation38565"
+      ],
+      [
+        "Equation8485",
+        "Equation37519"
+      ],
+      [
+        "Equation9337",
+        "Equation36867"
+      ],
+      [
+        "Equation9603",
+        "Equation36514"
+      ],
+      [
+        "Equation9663",
+        "Equation36487"
+      ],
+      [
+        "Equation9680",
+        "Equation36524"
+      ],
+      [
+        "Equation10218",
+        "Equation35685"
+      ],
+      [
+        "Equation10222",
+        "Equation35836"
+      ],
+      [
+        "Equation11082",
+        "Equation34889"
+      ],
+      [
+        "Equation11205",
+        "Equation35100"
+      ],
+      [
+        "Equation11280",
+        "Equation34778"
+      ],
+      [
+        "Equation12073",
+        "Equation33998"
+      ],
+      [
+        "Equation12087",
+        "Equation33884"
+      ],
+      [
+        "Equation12234",
+        "Equation33883"
+      ],
+      [
+        "Equation12294",
+        "Equation33856"
+      ],
+      [
+        "Equation12857",
+        "Equation33436"
+      ],
+      [
+        "Equation12883",
+        "Equation33020"
+      ],
+      [
+        "Equation13102",
+        "Equation33273"
+      ],
+      [
+        "Equation13764",
+        "Equation32294"
+      ],
+      [
+        "Equation13849",
+        "Equation32281"
+      ],
+      [
+        "Equation13992",
+        "Equation32280"
+      ],
+      [
+        "Equation17286",
+        "Equation28626"
+      ],
+      [
+        "Equation18137",
+        "Equation27863"
+      ],
+      [
+        "Equation18212",
+        "Equation27859"
+      ],
+      [
+        "Equation20911",
+        "Equation25087"
+      ],
+      [
+        "Equation21714",
+        "Equation24200"
+      ],
+      [
+        "Equation21864",
+        "Equation24199"
+      ],
+      [
+        "Equation21865",
+        "Equation24197"
+      ],
+      [
+        "Equation21866",
+        "Equation24201"
+      ],
+      [
+        "Equation22446",
+        "Equation22591"
+      ],
+      [
+        "Equation23337",
+        "Equation23354"
+      ],
+      [
+        "Equation23357",
+        "Equation23653"
+      ]
+    ]
+  },
+  "ids": {
+    "clean_unresolved": [
+      "Equation5093",
+      "Equation41179",
+      "Equation5107",
+      "Equation40951",
+      "Equation5833",
+      "Equation40070",
+      "Equation5834",
+      "Equation40037",
+      "Equation5837",
+      "Equation40221",
+      "Equation5947",
+      "Equation40057",
+      "Equation5951",
+      "Equation40208",
+      "Equation6820",
+      "Equation39485",
+      "Equation6878",
+      "Equation39126",
+      "Equation6895",
+      "Equation39163",
+      "Equation6912",
+      "Equation39214",
+      "Equation7587",
+      "Equation38316",
+      "Equation7763",
+      "Equation38565",
+      "Equation8485",
+      "Equation37519",
+      "Equation9337",
+      "Equation36867",
+      "Equation9603",
+      "Equation36514",
+      "Equation9663",
+      "Equation36487",
+      "Equation9680",
+      "Equation36524",
+      "Equation10218",
+      "Equation35685",
+      "Equation10222",
+      "Equation35836",
+      "Equation11082",
+      "Equation34889",
+      "Equation11205",
+      "Equation35100",
+      "Equation11280",
+      "Equation34778",
+      "Equation12073",
+      "Equation33998",
+      "Equation12087",
+      "Equation33884",
+      "Equation12234",
+      "Equation33883",
+      "Equation12857",
+      "Equation33436",
+      "Equation12883",
+      "Equation33020",
+      "Equation13764",
+      "Equation32294",
+      "Equation13849",
+      "Equation32281",
+      "Equation13992",
+      "Equation32280",
+      "Equation18137",
+      "Equation27863",
+      "Equation18212",
+      "Equation27859",
+      "Equation12294",
+      "Equation33856",
+      "Equation13102",
+      "Equation33273",
+      "Equation17286",
+      "Equation28626",
+      "Equation20911",
+      "Equation25087",
+      "Equation21714",
+      "Equation24200",
+      "Equation21864",
+      "Equation24199",
+      "Equation21865",
+      "Equation24197",
+      "Equation21866",
+      "Equation24201",
+      "Equation22446",
+      "Equation22591",
+      "Equation23337",
+      "Equation23354",
+      "Equation23357",
+      "Equation23653"
+    ],
+    "operational_failure": [],
+    "solved": [
+      "Equation4916",
+      "Equation41082",
+      "Equation15535",
+      "Equation30591",
+      "Equation17522",
+      "Equation28770",
+      "Equation20034",
+      "Equation25964",
+      "Equation22455",
+      "Equation22818",
+      "Equation4952",
+      "Equation41252",
+      "Equation4957",
+      "Equation40914",
+      "Equation5012",
+      "Equation41253",
+      "Equation5066",
+      "Equation41239",
+      "Equation5141",
+      "Equation40917",
+      "Equation5295",
+      "Equation40909",
+      "Equation7701",
+      "Equation38303",
+      "Equation7755",
+      "Equation38249",
+      "Equation9345",
+      "Equation36713",
+      "Equation9384",
+      "Equation36714",
+      "Equation9667",
+      "Equation36638",
+      "Equation11081",
+      "Equation35036",
+      "Equation11116",
+      "Equation34888",
+      "Equation19966",
+      "Equation26105",
+      "Equation22619",
+      "Equation22634",
+      "Equation17260",
+      "Equation28740"
+    ]
+  },
+  "interpretation": {
+    "directed_implication": "Equation<ID> -> Equation2",
+    "solved_criterion": "eligible official Judge acceptance within the strict per-problem wall deadline",
+    "target": "Equation2: x = y"
+  },
+  "provenance_groups": [
+    {
+      "harness_sha256": "5aae6ff1bc9d6aa9a9eb3edfef62115f47cf507b759e3caf947c0032df8492ed",
+      "input": {
+        "bytes": 16667,
+        "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/inputs/heavy.jsonl",
+        "sha256": "0ffb5940079274dbd36aaee71d334ea7492d07a80524d236721dc9ddb21d9aef"
+      },
+      "judge_official_execution_fingerprint": "solo-v9-v1-local-official-adapter-v1:eac0d2c6bd1764544d81151454228e6ef7daeb85686a3ea36102441fc3897583",
+      "problem_count": 47,
+      "problem_ids_sha256": "f95e55dadfffe00a39cf4e0c74f1c1214aa6b29dab624372ed76621a6100db63",
+      "provenance_sha256": "5752ef00b8db514527c0c93e131f31ed83ff7475cda0bd792427a2111ca703a9",
+      "solver_sha256": "5bef0a94005cdaa910a2055dc24581686a81a7d17ae71381f347626df9f17564"
+    },
+    {
+      "harness_sha256": "5aae6ff1bc9d6aa9a9eb3edfef62115f47cf507b759e3caf947c0032df8492ed",
+      "input": {
+        "bytes": 29230,
+        "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/inputs/light.jsonl",
+        "sha256": "a9a438adc3123476fc9f8e8d2f93974047db946c6d3d42f633b3add36c2f80de"
+      },
+      "judge_official_execution_fingerprint": "solo-v9-v1-local-official-adapter-v1:eac0d2c6bd1764544d81151454228e6ef7daeb85686a3ea36102441fc3897583",
+      "problem_count": 83,
+      "problem_ids_sha256": "cfb16b27a1721eafb217a7c2febf8bb1abd644a03f380ff7cee55903a69ff575",
+      "provenance_sha256": "f4c4b41b84c4c628eab2432a942f70a2fd43a46150f0484c4380a92202787894",
+      "solver_sha256": "5bef0a94005cdaa910a2055dc24581686a81a7d17ae71381f347626df9f17564"
+    }
+  ],
+  "regression": {
+    "baseline_solved": 38,
+    "missing": 0,
+    "newly_solved": 4,
+    "passed": true,
+    "retained": 38
+  },
+  "release_gates": {
+    "Equation15535": {
+      "actual": "accepted false",
+      "passed": true,
+      "required": "accepted false"
+    },
+    "Equation30591": {
+      "actual": "accepted false",
+      "passed": true,
+      "required": "accepted false"
+    },
+    "accepted_certificate_attempt_provenance": {
+      "passed": true,
+      "requirement": "every accepted result has a matching on-disk certificate and an eligible official Judge attempt"
+    },
+    "austin_130_solved_minimum": {
+      "actual": 42,
+      "passed": true,
+      "required_minimum": 40
+    },
+    "blueprint_table_20_1": {
+      "actual": 10,
+      "passed": true,
+      "required_minimum": 10,
+      "total": 10
+    },
+    "blueprint_table_20_2": {
+      "actual": 30,
+      "passed": true,
+      "required_minimum": 28,
+      "total": 96
+    },
+    "blueprint_table_20_3": {
+      "actual": 2,
+      "passed": true,
+      "required_minimum": 2,
+      "total": 24
+    },
+    "complete_dual_pairs_minimum": {
+      "actual": 21,
+      "passed": true,
+      "required_minimum": 20,
+      "total": 65
+    },
+    "exact_austin_130_coverage": {
+      "actual": 130,
+      "passed": true,
+      "required": 130
+    },
+    "legacy_solved_retained": {
+      "actual": 38,
+      "baseline_total": 38,
+      "passed": true,
+      "required": 38
+    },
+    "operational_integrity": {
+      "failed_equation_ids": [],
+      "failure_count": 0,
+      "passed": true
+    }
+  },
+  "schema_version": "solo-v9-v1-austin130-acceptance-summary-v1",
+  "sources": {
+    "evaluation_contract": {
+      "bytes": 14831,
+      "path": "members/wubing/experiments/austin_laws/solves/versions/v1/evaluation-contract.json",
+      "sha256": "925229e2d03774a94a68bd6d421f51f3c989f10034dcf105c11d3f531c16c089"
+    },
+    "results": {
+      "bytes": 398841,
+      "count": 130,
+      "input_order_matches_contract": true,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/results.jsonl",
+      "sha256": "fcf14ee2b9fcce171b91a4f1def85c2c4aa8ea86c1e270ea0c3ec84375298dc2"
+    },
+    "run_dir": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903",
+    "run_manifest": {
+      "bytes": 6414,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/run-manifest.json",
+      "schema_version": "solo-v9-v1-austin130-local2-run-manifest-v1",
+      "sha256": "eb0aabb4aa0344580f041458985447c2294e1640fbe9c1cbf74d9a0acab76e66"
+    },
+    "run_summary": {
+      "bytes": 1847,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/summary.json",
+      "sha256": "29fb567cb2dfc6286894e1d09afa4b64843c32c067ac523119a438685b8d5aa1"
+    }
+  },
+  "timing_and_resources": {
+    "max_case_elapsed_seconds": 330.580121,
+    "max_sampled_solver_group_rss_mib": 3915.641,
+    "sum_case_elapsed_seconds": 30218.912656
+  },
+  "totals": {
+    "accepted_false": 42,
+    "accepted_true": 0,
+    "attempted": 130,
+    "certificate_count": 42,
+    "clean_unresolved": 88,
+    "operational_failure": 0,
+    "solved": 42,
+    "solved_fraction": 0.3230769230769231
+  }
+}

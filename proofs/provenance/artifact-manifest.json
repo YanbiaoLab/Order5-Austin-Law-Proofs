@@ -1,0 +1,83 @@
+{
+  "accepted": true,
+  "fixed_inputs": {
+    "baseline_results": {
+      "bytes": 56462,
+      "path": "members/wubing/experiments/austin_laws/runs/austin-order5-equation2-solo-v9-t300-escalated-aggregate-20260902/results-index.jsonl",
+      "sha256": "0c2d06e7122aa1ee5ca5cd9599a99f0715cbcc05e62abeef4696e9c971c5960f"
+    },
+    "baseline_summary": {
+      "bytes": 14464,
+      "path": "members/wubing/experiments/austin_laws/runs/austin-order5-equation2-solo-v9-t300-escalated-aggregate-20260902/summary.json",
+      "sha256": "bc6f69cbf2f0648b5d9034d4410ac4948f5d61a5d9b871f0a332d2477858f2d7"
+    },
+    "candidate_solver": {
+      "bytes": 2351797,
+      "path": "members/wubing/experiments/austin_laws/solves/versions/v1/solo_v9_v1.py",
+      "sha256": "5bef0a94005cdaa910a2055dc24581686a81a7d17ae71381f347626df9f17564"
+    },
+    "dual_map": {
+      "bytes": 89201,
+      "path": "members/wubing/experiments/austin_laws/work/dual_map.json",
+      "sha256": "3dbfee34e9333fc537b3a168c12aedaab22af8a10caac88d67ef7ae54675f3f1"
+    },
+    "evaluation_contract": {
+      "bytes": 14831,
+      "path": "members/wubing/experiments/austin_laws/solves/versions/v1/evaluation-contract.json",
+      "sha256": "925229e2d03774a94a68bd6d421f51f3c989f10034dcf105c11d3f531c16c089"
+    },
+    "problems": {
+      "bytes": 45897,
+      "path": "members/wubing/experiments/austin_laws/eval-inputs/austin-order5-equation2-solo-v9-t300-20260901/problems.jsonl",
+      "sha256": "4c58c6c4c2549d273e69aeaf9eb406f7e999a0db0e2d2d3dd4c075deb6100ab4"
+    }
+  },
+  "generated": {
+    "effective-results-index.jsonl": {
+      "bytes": 89400,
+      "count": 130,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/acceptance/effective-results-index.jsonl",
+      "sha256": "f7651fc41081bf3442d5572b0e99bb1822046d884ece37a90bdedcfa1bd27ef3"
+    },
+    "regression-vs-solo-v9.json": {
+      "bytes": 1480,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/acceptance/regression-vs-solo-v9.json",
+      "sha256": "0a84087cf371b7c3ae54bff70a4c8295d3adfec85851dcf33c1cad7e6afe361c"
+    },
+    "summary.json": {
+      "bytes": 13872,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/acceptance/summary.json",
+      "sha256": "147e5d8fc2aee65bf0fddb68eac6d88926c2a5bb4bad6ca8d649c57194fa26e8"
+    },
+    "validation-report.md": {
+      "bytes": 1287,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/acceptance/validation-report.md",
+      "sha256": "c698672f1abb982239ce27d984fe6c8dae72d8bdcd4dd8af16a756e77352a740"
+    }
+  },
+  "generator": {
+    "bytes": 70755,
+    "path": "members/wubing/experiments/austin_laws/solves/versions/v1/audit_full_run.py",
+    "sha256": "4bb9287d4c4095990627ee930cd74c7770130c256c3befe6cc15e9916dc6db5a"
+  },
+  "run_dir": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903",
+  "run_inputs": {
+    "results": {
+      "bytes": 398841,
+      "count": 130,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/results.jsonl",
+      "sha256": "fcf14ee2b9fcce171b91a4f1def85c2c4aa8ea86c1e270ea0c3ec84375298dc2"
+    },
+    "run_manifest": {
+      "bytes": 6414,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/run-manifest.json",
+      "sha256": "eb0aabb4aa0344580f041458985447c2294e1640fbe9c1cbf74d9a0acab76e66"
+    },
+    "summary": {
+      "bytes": 1847,
+      "path": "members/wubing/experiments/austin_laws/runs/solo-v9-v1-austin130-t330-rss6144-local2-20260903/summary.json",
+      "sha256": "29fb567cb2dfc6286894e1d09afa4b64843c32c067ac523119a438685b8d5aa1"
+    }
+  },
+  "schema_version": "solo-v9-v1-austin130-acceptance-artifact-manifest-v1"
+}
