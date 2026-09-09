@@ -1,0 +1,23 @@
+{
+  "record_kind": "historical_released_judge_receipt_excerpt",
+  "problem_id": "austin96::order5_austin_unknown_E36524_to_E2",
+  "eq1_id": 36524,
+  "eq2_id": 2,
+  "profile": "trace_depth_sweep_soundfix_v5",
+  "status": "accepted",
+  "verdict": "false",
+  "certificate_bytes": 43694,
+  "certificate_sha256": "f2ce1b4fabd6d6eeb42eb4cf9bcaa0c43deef20b9fe84f2bb4f3a956c161b683",
+  "problem_sha256": "1bf2267668c9d021b43ec8a2bdf96e0b431df346140923c0b10af76cdc012ee3",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "service_revision": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+  "proof_policy_revision": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+  "source_certificate": "results/certificates/trace_depth_sweep_soundfix_v5/E36524_to_E2__f2ce1b4fabd6.lean",
+  "source_receipt": "trace-tree-magmas-release-20260905/arxiv-v1/experiments/unrestricted_four_search_20260904/results/judge_receipts.jsonl",
+  "problem_hash_definition": "sha256(ASCII JSON with sorted keys eq1_id,eq2_id,equation1,equation2,id; compact separators)",
+  "note": "Historical released record, not a new Judge run. problem_sha256 was bound by the release audit script. JudgeProblem.lean is reconstructed from the frozen input; certificate bytes are unchanged."
+}

@@ -22,6 +22,8 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 
 2026-09-09 增补 **24 份历史 Judge v3 accepted 证书**：填补 22 个等式目录的缺失证明，并为 Equation12857／Equation33436 各追加一份独立证书。按原目录结构收录，不再使用根目录 ZIP。新证书经哈希与命题绑定核对，本次未重跑 Lean/Judge，不计入上述 42/42 重编译结果。详见 [增补记录](proofs/validation/2026-09-09-austin24/README.md)。
 
+2026-09-09 补齐论文旧归档遗漏的 **Equation9680／Equation36524**。论文原有 Candidate-96 结果已 **32/32 收录**；加后续 24 个不重叠编号，共 **56/96** 个已有证书条目。旧批次“30”表示当时库存，不是论文总数。本次只补录历史结果，没有新发现或新的 Lean/Judge 执行。详见 [补录审计](proofs/validation/2026-09-09-trace-tree-pair/README.md)。
+
 每条方程的公式、对偶、来源与缺口见下表的方程链接。库存数据为 [index.json](proofs/index.json)，归档和验证方式见 [proofs/README.md](proofs/README.md)。
 
 | 方程 | 对偶方程 | 原表 | 平凡有限状态 | 平凡有限 Lean 证书 | 非平凡无限状态 | 非平凡无限 Lean 证书 |
@@ -92,8 +94,8 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 | [Equation36487](proofs/Equation36487/README.md) | Equation9663 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation9667](proofs/Equation9667/README.md) | Equation36638 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation9667/InfiniteModel.lean) |
 | [Equation36638](proofs/Equation36638/README.md) | Equation9667 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation36638/InfiniteModel.lean) |
-| [Equation9680](proofs/Equation9680/README.md) | Equation36524 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation36524](proofs/Equation36524/README.md) | Equation9680 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation9680](proofs/Equation9680/README.md) | Equation36524 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation9680/InfiniteModel.lean) |
+| [Equation36524](proofs/Equation36524/README.md) | Equation9680 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation36524/InfiniteModel.lean) |
 | [Equation10218](proofs/Equation10218/README.md) | Equation35685 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation35685](proofs/Equation35685/README.md) | Equation10218 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation10222](proofs/Equation10222/README.md) | Equation35836 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |

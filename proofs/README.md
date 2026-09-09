@@ -61,3 +61,13 @@ python3 scripts/build_index.py --check
 ```powershell
 pwsh -NoProfile -File proofs/validation/2026-09-09-austin24/verify.ps1
 ```
+
+## 论文原有两题补录
+
+补入 Equation9680／Equation36524 的历史 `trace_depth_sweep_soundfix_v5` 证书，恢复论文原有 **32/32** 个 Candidate-96 编号；加后续 24 个不重叠编号，现有 **56/96** 个候选条目。旧库存的 30 不是论文总数。
+
+证书字节不变，`JudgeProblem.lean` 按冻结输入重建，非历史原始模块。证书哈希与发布包规范化题目哈希已核对，本次未重跑 Lean/Judge。详见 [补录审计](validation/2026-09-09-trace-tree-pair/README.md)。
+
+```powershell
+pwsh -NoProfile -File proofs/validation/2026-09-09-trace-tree-pair/verify.ps1
+```
