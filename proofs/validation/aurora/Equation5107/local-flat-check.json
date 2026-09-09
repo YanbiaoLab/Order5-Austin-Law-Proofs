@@ -1,0 +1,40 @@
+{
+  "module": "Equation5107-Flat-Submission",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 1.279,
+  "peak_rss_mib": 718.92,
+  "source": "proofs/validation/aurora/Equation5107/certificate.lean",
+  "sha256": "ce1bc372921c2c0a63c63ee305b28f36e150b5b0c80d031a97ceeec5b5240086",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq5107/Equation5107/certificate.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/aurora/Equation5107/certificate.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq5107/Equation5107",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq5107"
+  ],
+  "log": "proofs/validation/eq5107-formal/Equation5107-Flat-Submission.log",
+  "axioms": {
+    "submission": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.CM.tower_injective": [
+      "propext"
+    ]
+  }
+}

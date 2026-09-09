@@ -1,0 +1,20 @@
+{
+  "id": "austin96::order5_austin_unknown_E11280_to_E2",
+  "eq1_id": 11280,
+  "eq2_id": 2,
+  "equation1": "x = y * ((y * (z * y)) * (x * y))",
+  "equation2": "x = y",
+  "source_eq_id": 11280,
+  "target_eq_id": 2,
+  "source_equation": "x = y * ((y * (z * y)) * (x * y))",
+  "target_equation": "x = y",
+  "source_equation_name": "Equation11280",
+  "target_equation_name": "Equation2",
+  "answer": null,
+  "class": "order5_austin_unknown_infinite_model",
+  "selection_position": 71,
+  "selection_source": "blueprint Table 20.2",
+  "paper_dataset": "austin96",
+  "paper_dataset_position": 71,
+  "original_problem_id": "order5_austin_unknown_E11280_to_E2"
+}

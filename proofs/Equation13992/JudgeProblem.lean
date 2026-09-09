@@ -1,7 +1,10 @@
 import JudgeMagma.Magma
 
 @[reducible] def EquationLHS (G : Type _) [Magma G] : Prop :=
-  ∀ (x y z : G), x = y ◇ ((z ◇ ((x ◇ y) ◇ y)) ◇ y)
-@[reducible] def EquationRHS (G : Type _) [Magma G] : Prop := ∀ (x y : G), x = y
+  ∀ (x : G) (y : G) (z : G), x = y ◇ ((z ◇ ((x ◇ y) ◇ y)) ◇ y)
 
-abbrev Goal : Prop := ∃ (G : Type) (_ : Magma G), EquationLHS G ∧ ¬ EquationRHS G
+@[reducible] def EquationRHS (G : Type _) [Magma G] : Prop :=
+  ∀ (x : G) (y : G), x = y
+
+abbrev Goal : Prop :=
+  ∃ (G : Type) (_ : Magma G), EquationLHS G ∧ ¬ EquationRHS G

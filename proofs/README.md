@@ -10,19 +10,19 @@ proofs/
     InfiniteModel.lean               # 已有的非平凡模型证书
     JudgeProblem.lean                # 本题专用的目标定义
     FiniteTrivial.lean               # 约定名称；没有证明时不创建
+    Triviality.lean                  # 更强的全部模型平凡证明；若有，则排除 Austin
   support/JudgeMagma/Magma.lean       # Judge 证书使用的共享基础模块
   provenance/                        # 原始验收索引、分类、对偶映射、上游源码
 ```
 
-有限侧文件应证明在 `[Finite G]` 下源方程蕴含 Equation2。无限侧文件应提供运算、源方程成立的证明及载体无限性的证明。对偶模型可以复用载体并反转运算。
+有限侧文件应证明在 `[Finite G]` 下源方程蕴含 Equation2。`Triviality.lean` 则无有限性假设，证明精确 `EquationN → Equation2`，应记录在 `unrestricted_triviality_proof`，不得填入 `infinite_model_proof`。无限侧文件应提供运算、源方程成立的证明及载体无限性的证明。对偶模型可以复用载体并反转运算。
 
 `index.json` 是 README 索引的数据源。状态分别记录数学结论、是否有 Lean 源码、历史验收以及本仓重编译，不能用单个 `solved` 字段代替。未收录的 `.lean` 文件不使用 `sorry` 占位。
 
-当前快照包含：
+2026-09-08 已验证快照包含：
 
 - 130 条方程与 65 个对偶对，原表计数为 10 / 96 / 24。
-- 42 份历史 `InfiniteModel.lean`，全部在本仓重新编译通过。40 份保持历史证书原样；Equation22619、Equation22634 仅将整库 Mathlib 导入缩小为 `Mathlib.Data.Nat.Basic`，证明正文不变，历史原件及哈希保存在 `provenance/`。历史目标是“不蕴含 Equation2”。其中 14 份另含 `tower_injective`，也已重新编译并检查公理；其余 28 份未单列无限性定理。
-- 另新增 Equation12857、Equation33436 两份独立形式化模型证书，均含 Nat 单射；共享重写系统、汇合性和模型证明已在 Lean 4.33.1 内核检查通过。库存共有 44 份模型证书，其中 16 份单列无限性证明；新证明保留原历史 timeout 元数据。详见[新增形式化报告](validation/eq12857-formal/README.md)。
+- 42 份 `InfiniteModel.lean`，全部在本仓重新编译通过。40 份保持历史证书原样；Equation22619、Equation22634 仅将整库 Mathlib 导入缩小为 `Mathlib.Data.Nat.Basic`，证明正文不变，历史原件及哈希保存在 `provenance/`。历史目标是“不蕴含 Equation2”。其中 14 份另含 `tower_injective`，也已重新编译并检查公理；其余 28 份未单列无限性定理。
 - Equation5093、Equation28770 的 `FiniteTrivial.lean`，定理正文从上游 `InfModel.lean` 提取，保留命名空间。使用最小 Mathlib 导入及显式等价方程定义，已在本仓编译通过。原始完整文件及 Apache-2.0 许可证保存在 `provenance/`；依赖调整与前后哈希记录在 `index.json`。
 - 每份模型证书配套的 `JudgeProblem.lean` 根据归档方程重新生成，其 `Goal` 为非平凡模型存在性。这些目标文件没有冒充历史 Judge 的原始模块。
 
@@ -51,15 +51,29 @@ python3 scripts/build_index.py --check
 
 `provenance/` 的历史索引保留来源仓库内的原始路径；本仓可用路径见 `index.json` 的 `path` 字段。来源仓库的未决/超时状态只是当时运行结果，不是数学不可解结论。
 
+## 2026-09-09 增补
 
-E12857／E33436 新增模块的复跑与索引记录独立于上述历史批次：
+新增 24 份精确 `EquationN ↛ Equation2` 的历史 Judge v3 accepted 证书，详见 [增补记录](validation/2026-09-09-austin24/README.md)。22 个此前只有说明页的目录补入 `InfiniteModel.lean` 和原始 `JudgeProblem.lean`；Equation12857／Equation33436 原证明不变，新证书独立放在 `JudgeV3/`。
 
-```sh
-python3 scripts/check_12857_lean.py
-python3 scripts/record_12857_formal.py
-python3 scripts/build_index.py --check
+证书为 `Submission.lean` 的逐字节副本（仅改文件名），不套用旧批次重建的目标定义。每题提供脱敏历史回执与原始题目。此次只有哈希、编号及命题绑定审计，无新的 Lean/Judge 执行。历史接受不冒充本仓重编译或独立无限性定理的验证。各题须隔离编译。
+
+只读核验：
+
+```powershell
+pwsh -NoProfile -File proofs/validation/2026-09-09-austin24/verify.ps1
 ```
 
-这批不依赖 Mathlib，串行运行，Lean 上限 768 MiB、RSS 采样停止线 1024 MiB。共享模块、两题各自的精确 Goal 包装和公理审计共 19 个编译单元，源码哈希及日志记录在 `validation/eq12857-formal/`。历史批次脚本跳过这两份本地模块证书，由此处的专用脚本完整重建依赖。
+## 论文原有两题补录
 
-有限侧补证进度：表 20.1 10/10、表 20.2 96/96、表 20.3 8/24 份本地 Lean 证书通过。极光云有限目标验收仍待接口支持，详见[有限侧工作报告](validation/finite130/README.md)。
+另见本日新增的 [Twee true 证书审计](validation/2026-09-09-twee-true/README.md)：Equation5834／Equation40037 的精确 unrestricted true 命题均重新获得 Judge v3 accepted，排除这两个 Austin-96 候选。它们不是本节下述两份历史 false 证书，也不计入 56 份非平凡模型库存。
+
+补入 Equation9680／Equation36524 的历史 `trace_depth_sweep_soundfix_v5` 证书，恢复论文原有 **32/32** 个 Candidate-96 编号；加后续 24 个不重叠编号，现有 **56/96** 个候选条目。旧库存的 30 不是论文总数。
+
+证书字节不变，`JudgeProblem.lean` 按冻结输入重建，非历史原始模块。证书哈希与发布包规范化题目哈希已核对，本次未重跑 Lean/Judge。详见 [补录审计](validation/2026-09-09-trace-tree-pair/README.md)。
+
+```powershell
+pwsh -NoProfile -File proofs/validation/2026-09-09-trace-tree-pair/verify.ps1
+```
+
+
+2026-09-09 Aurora-56 增补：本次按最新 main 去重后新增 30 个模型条目，并为已有 26 个编号追加本批云端证书。累计 98 个方程有模型证书、70 个有显式无限性定理；本批 56 份均有实际 accepted 回执。原有证书保留；`explicit_infinity_proof` 指向本批显式无限性定理，`additional_model_proofs` 收录已有编号的补充证书。文件和回执的核对方式见[批次报告](validation/2026-09-09-aurora56/README.md)。

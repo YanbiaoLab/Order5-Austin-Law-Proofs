@@ -14,3 +14,7 @@
 来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。
 
 有限侧极光云验收尚未完成：当前服务缺少有限目标接口，见[本批报告](../validation/finite130/README.md)。
+
+## 本分支有限侧证书补充
+
+[FiniteTrivial.lean](FiniteTrivial.lean) 已收录；对应本地 Lean 编译与公理检查记录见 [校验日志](../../proofs/validation/finite130/Equation36487.log)。这是新增的有限侧归档记录，上文各批次的来源、模型证书和历史验证说明保留。

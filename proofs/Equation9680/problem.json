@@ -1,0 +1,29 @@
+{
+  "answer": null,
+  "class": "order5_austin_unknown_infinite_model",
+  "eq1_id": 9680,
+  "eq2_id": 2,
+  "equation1": "x = y * ((z * y) * (y * (x * y)))",
+  "equation2": "x = y",
+  "equivalence_group_id": "alpha_fc117dfe3f7e9422",
+  "equivalent_record_ids": [
+    "austin96::order5_austin_unknown_E9680_to_E2",
+    "alps4141::alps_67ff1cfa553b_to_Equation2"
+  ],
+  "id": "austin96::order5_austin_unknown_E9680_to_E2",
+  "original_problem_id": "order5_austin_unknown_E9680_to_E2",
+  "paper_dataset": "austin96",
+  "paper_dataset_position": 57,
+  "provenance_sources": [
+    "alps4141",
+    "austin96"
+  ],
+  "selection_position": 57,
+  "selection_source": "blueprint Table 20.2",
+  "source_eq_id": 9680,
+  "source_equation": "x = y * ((z * y) * (y * (x * y)))",
+  "source_equation_name": "Equation9680",
+  "target_eq_id": 2,
+  "target_equation": "x = y",
+  "target_equation_name": "Equation2"
+}
