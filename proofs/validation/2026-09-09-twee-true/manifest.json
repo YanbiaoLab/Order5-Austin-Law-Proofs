@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "eq1_id": 5834,
+      "eq2_id": 2,
+      "verdict": "true",
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "files": [
+        {
+          "path": "proofs/Equation5834/Triviality.lean",
+          "sha256": "9e1f3d00fb4e925b0cb0600a2df84a390134180afdf2a256194367f21cd59425",
+          "bytes": 671407
+        },
+        {
+          "path": "proofs/Equation5834/JudgeProblem.lean",
+          "sha256": "5046a60b87ab20e47639e367fefff07514f271fe3aadef46439c065917b97d05",
+          "bytes": 398
+        },
+        {
+          "path": "proofs/Equation5834/problem.json",
+          "sha256": "3df2388c0fd0b822c3148951fc491bc5da7c1567f3b9af5c0165c578d34703d5",
+          "bytes": 167
+        },
+        {
+          "path": "proofs/Equation5834/translation.json",
+          "sha256": "a844b68be824caf6ed1312e413714ecb8e545f19cbb6c1b451632e888b2d55b0",
+          "bytes": 567
+        },
+        {
+          "path": "proofs/Equation5834/judge_acceptance.json",
+          "sha256": "d205108b7eaa5cd6d273c264dfa85ca2dbbd2574555c92d31991d494a07a651e",
+          "bytes": 1849
+        }
+      ]
+    },
+    {
+      "eq1_id": 40037,
+      "eq2_id": 2,
+      "verdict": "true",
+      "status": "accepted",
+      "error_code": "ACCEPTED",
+      "files": [
+        {
+          "path": "proofs/Equation40037/Triviality.lean",
+          "sha256": "0fc47c164374c0fbde4dfc3cb728cb0e14e92de6fc7cc19009cfecf98ed2d6b3",
+          "bytes": 671279
+        },
+        {
+          "path": "proofs/Equation40037/JudgeProblem.lean",
+          "sha256": "1746c118fcaba529f7eaa1019621a86f40825b793338a6ee6a224c2e20dd2d07",
+          "bytes": 398
+        },
+        {
+          "path": "proofs/Equation40037/problem.json",
+          "sha256": "78c3dda9ce6030c618f368bff3328ea19b2a2401d19e7a47d8ce3005fc35fea1",
+          "bytes": 169
+        },
+        {
+          "path": "proofs/Equation40037/translation.json",
+          "sha256": "96ac33d2579298164e821d0724348fbef4326c380d8b59acba7a5c22aa71eb61",
+          "bytes": 714
+        },
+        {
+          "path": "proofs/Equation40037/judge_acceptance.json",
+          "sha256": "2234f2e4188f0c7b83662d390ed51f87d0a40dd915056ef1ed271f5d705aa420",
+          "bytes": 1851
+        }
+      ]
+    }
+  ],
+  "acceptance": "Both exact true goals freshly accepted by Judge v3 before archival",
+  "candidate96_counts": {
+    "nontrivial_model_certificates": 56,
+    "excluded_all_models_trivial": 2,
+    "not_classified_by_these_archived_results": 38
+  }
+}

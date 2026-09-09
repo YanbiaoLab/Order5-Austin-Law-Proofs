@@ -1,0 +1,7 @@
+{
+  "id": "austin96::order5_austin_unknown_E5834_to_E2",
+  "eq1_id": 5834,
+  "eq2_id": 2,
+  "equation1": "x = y * (x * (y * ((z * x) * z)))",
+  "equation2": "x = y"
+}

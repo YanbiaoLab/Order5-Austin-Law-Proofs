@@ -1,0 +1,43 @@
+{
+  "problem": {
+    "id": "austin96::order5_austin_unknown_E5834_to_E2",
+    "eq1_id": 5834,
+    "eq2_id": 2,
+    "equation1": "x = y * (x * (y * ((z * x) * z)))",
+    "equation2": "x = y"
+  },
+  "verdict": "true",
+  "certificate_sha256": "9e1f3d00fb4e925b0cb0600a2df84a390134180afdf2a256194367f21cd59425",
+  "certificate_bytes": 671407,
+  "verified_at_utc": "2026-09-09T05:55:49.132653+00:00",
+  "record_kind": "fresh_judge_v3_acceptance_excerpt",
+  "status": "accepted",
+  "error_code": "ACCEPTED",
+  "message": "certificate accepted",
+  "axioms": [],
+  "direct_declarations": [
+    "Eq",
+    "Eq.symm",
+    "Eq.trans",
+    "EquationLHS",
+    "Goal",
+    "Magma",
+    "Magma.op",
+    "congrArg",
+    "submission"
+  ],
+  "elapsed_ms": 82561,
+  "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+  "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+  "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+  "omitted_private_fields": [
+    "artifact_path",
+    "control_job_id",
+    "control_backend_url",
+    "stdout",
+    "stderr"
+  ],
+  "problem_hash_definition": "SHA-256 of UTF-8 sorted-key compact JSON containing exactly id, eq1_id, eq2_id, equation1, equation2",
+  "problem_sha256": "8e0765095dffe81b5fed4cd9fa0a69c41c9a05bd65eb89d31e22fef261658c51",
+  "judge_problem_module": "Reconstructed from exact submitted problem; not returned by service. Judge acceptance is bound to submitted problem fields and certificate bytes."
+}

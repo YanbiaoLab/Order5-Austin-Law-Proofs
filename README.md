@@ -24,6 +24,8 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 
 2026-09-09 补齐论文旧归档遗漏的 **Equation9680／Equation36524**。论文原有 Candidate-96 结果已 **32/32 收录**；加后续 24 个不重叠编号，共 **56/96** 个已有证书条目。旧批次“30”表示当时库存，不是论文总数。本次只补录历史结果，没有新发现或新的 Lean/Judge 执行。详见 [补录审计](proofs/validation/2026-09-09-trace-tree-pair/README.md)。
 
+2026-09-09 新增 **2 份已重新通过 Judge v3 的 true 证书**：[Equation5834](proofs/Equation5834/Triviality.lean)、[Equation40037](proofs/Equation40037/Triviality.lean)。精确命题均为不带有限性假设的 `EquationN → Equation2`，结果分别为 `accepted / ACCEPTED / true`，故排除这两题为 Austin law。这与 56 份非平凡模型证书不重叠：Candidate-96 当前为 **56 个有非平凡模型证书、2 个已排除、38 个未由本仓这些结果分类**。详见 [本批 Judge 审计](proofs/validation/2026-09-09-twee-true/README.md)。
+
 每条方程的公式、对偶、来源与缺口见下表的方程链接。库存数据为 [index.json](proofs/index.json)，归档和验证方式见 [proofs/README.md](proofs/README.md)。
 
 | 方程 | 对偶方程 | 原表 | 平凡有限状态 | 平凡有限 Lean 证书 | 非平凡无限状态 | 非平凡无限 Lean 证书 |
@@ -56,8 +58,8 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 | [Equation40909](proofs/Equation40909/README.md) | Equation5295 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation40909/InfiniteModel.lean) |
 | [Equation5833](proofs/Equation5833/README.md) | Equation40070 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation5833/InfiniteModel.lean) |
 | [Equation40070](proofs/Equation40070/README.md) | Equation5833 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation40070/InfiniteModel.lean) |
-| [Equation5834](proofs/Equation5834/README.md) | Equation40037 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation40037](proofs/Equation40037/README.md) | Equation5834 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation5834](proofs/Equation5834/README.md) | Equation40037 | 20.2 | 所有模型平凡（Judge v3） | [更强：Triviality.lean](proofs/Equation5834/Triviality.lean) | 不存在（true 已接受） | 不适用 |
+| [Equation40037](proofs/Equation40037/README.md) | Equation5834 | 20.2 | 所有模型平凡（Judge v3） | [更强：Triviality.lean](proofs/Equation40037/Triviality.lean) | 不存在（true 已接受） | 不适用 |
 | [Equation5837](proofs/Equation5837/README.md) | Equation40221 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation40221](proofs/Equation40221/README.md) | Equation5837 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation5947](proofs/Equation5947/README.md) | Equation40057 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |

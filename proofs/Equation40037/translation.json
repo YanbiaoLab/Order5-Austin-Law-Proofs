@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "translated_and_independently_replayed",
+  "checked_node_count": 2470,
+  "formal_statement_count": 2147,
+  "translated_formula_count": 2143,
+  "skipped_resolution_count": 1,
+  "inference_counts": {
+    "congruence": 1291,
+    "substitution": 266,
+    "symmetry": 244,
+    "transitivity": 341
+  },
+  "lean_renderer": "compact_inferred_local_theorems_v1",
+  "official_judge_used": false,
+  "test1000_access": false,
+  "certificate_sha256": "0fc47c164374c0fbde4dfc3cb728cb0e14e92de6fc7cc19009cfecf98ed2d6b3",
+  "certificate_bytes": 671279,
+  "translation_seconds": 15.344000000040978,
+  "source_stdout_sha256": "8dffdad1db8616a14cc79a0dcc082c266e50ff261e10f4caf2d9c6601c6739c3"
+}

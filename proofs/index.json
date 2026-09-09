@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_on": "2026-09-09",
   "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
-  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs)",
+  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs); 2 Austin-96 candidates excluded by fresh Judge v3 accepted unrestricted true proofs",
   "equations": [
     {
       "equation": "Equation4916",
@@ -989,7 +989,19 @@
       "explicit_infinity": false,
       "historical_status": "timeout",
       "local_lean_validation": "not_run",
-      "notes": []
+      "notes": [
+        "2026-09-09: exact unrestricted implication to Equation2 freshly accepted by Judge v3. Historical timeout is retained as history, not current mathematical status. Separate FiniteTrivial.lean is unnecessary for the stronger conclusion."
+      ],
+      "unrestricted_triviality_proof": {
+        "path": "proofs/Equation5834/Triviality.lean",
+        "sha256": "9e1f3d00fb4e925b0cb0600a2df84a390134180afdf2a256194367f21cd59425",
+        "validation": "fresh_judge_v3_accepted",
+        "verdict": "true",
+        "goal": "Equation5834 implies Equation2 without a finiteness hypothesis",
+        "receipt": "proofs/Equation5834/judge_acceptance.json",
+        "method": "Reversed-operation transfer of the accepted E40037 equality derivation, with explicit source-variable permutation; exact true goal separately freshly accepted"
+      },
+      "austin_status": "excluded_all_models_trivial"
     },
     {
       "equation": "Equation40037",
@@ -1002,7 +1014,19 @@
       "explicit_infinity": false,
       "historical_status": "timeout",
       "local_lean_validation": "not_run",
-      "notes": []
+      "notes": [
+        "2026-09-09: exact unrestricted implication to Equation2 freshly accepted by Judge v3. Historical timeout is retained as history, not current mathematical status. Separate FiniteTrivial.lean is unnecessary for the stronger conclusion."
+      ],
+      "unrestricted_triviality_proof": {
+        "path": "proofs/Equation40037/Triviality.lean",
+        "sha256": "0fc47c164374c0fbde4dfc3cb728cb0e14e92de6fc7cc19009cfecf98ed2d6b3",
+        "validation": "fresh_judge_v3_accepted",
+        "verdict": "true",
+        "goal": "Equation40037 implies Equation2 without a finiteness hypothesis",
+        "receipt": "proofs/Equation40037/judge_acceptance.json",
+        "method": "Frozen Twee TSTP translated to independently replayed equality DAG and Lean; exact true goal separately freshly accepted"
+      },
+      "austin_status": "excluded_all_models_trivial"
     },
     {
       "equation": "Equation5837",

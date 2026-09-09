@@ -10,11 +10,12 @@ proofs/
     InfiniteModel.lean               # 已有的非平凡模型证书
     JudgeProblem.lean                # 本题专用的目标定义
     FiniteTrivial.lean               # 约定名称；没有证明时不创建
+    Triviality.lean                  # 更强的全部模型平凡证明；若有，则排除 Austin
   support/JudgeMagma/Magma.lean       # Judge 证书使用的共享基础模块
   provenance/                        # 原始验收索引、分类、对偶映射、上游源码
 ```
 
-有限侧文件应证明在 `[Finite G]` 下源方程蕴含 Equation2。无限侧文件应提供运算、源方程成立的证明及载体无限性的证明。对偶模型可以复用载体并反转运算。
+有限侧文件应证明在 `[Finite G]` 下源方程蕴含 Equation2。`Triviality.lean` 则无有限性假设，证明精确 `EquationN → Equation2`，应记录在 `unrestricted_triviality_proof`，不得填入 `infinite_model_proof`。无限侧文件应提供运算、源方程成立的证明及载体无限性的证明。对偶模型可以复用载体并反转运算。
 
 `index.json` 是 README 索引的数据源。状态分别记录数学结论、是否有 Lean 源码、历史验收以及本仓重编译，不能用单个 `solved` 字段代替。未收录的 `.lean` 文件不使用 `sorry` 占位。
 
@@ -63,6 +64,8 @@ pwsh -NoProfile -File proofs/validation/2026-09-09-austin24/verify.ps1
 ```
 
 ## 论文原有两题补录
+
+另见本日新增的 [Twee true 证书审计](validation/2026-09-09-twee-true/README.md)：Equation5834／Equation40037 的精确 unrestricted true 命题均重新获得 Judge v3 accepted，排除这两个 Austin-96 候选。它们不是本节下述两份历史 false 证书，也不计入 56 份非平凡模型库存。
 
 补入 Equation9680／Equation36524 的历史 `trace_depth_sweep_soundfix_v5` 证书，恢复论文原有 **32/32** 个 Candidate-96 编号；加后续 24 个不重叠编号，现有 **56/96** 个候选条目。旧库存的 30 不是论文总数。
 
