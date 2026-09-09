@@ -1,0 +1,13 @@
+{
+  "problem": {
+    "id": "finite130-contract-canary-Equation28770-to-Equation2",
+    "eq1_id": 28770,
+    "eq2_id": 2,
+    "equation1": "x = (((y ◇ y) ◇ y) ◇ x) ◇ (y ◇ z)",
+    "equation2": "x = y"
+  },
+  "verdict": "true",
+  "code": "import Mathlib.Data.Fintype.Card\nimport JudgeProblem\n\n@[reducible] def Equation2 (G : Type _) [Magma G] : Prop := ∀ (x y : G), x = y\n@[reducible] def Equation28770 (G : Type _) [Magma G] : Prop := ∀ (x : G) (y : G) (z : G), x = (((y ◇ y) ◇ y) ◇ x) ◇ (y ◇ z)\n\nnamespace InfModel\n\ntheorem Finite.Equation28770_implies_Equation2 (G : Type*) [Magma G] [Finite G] (h : Equation28770 G) :\n    Equation2 G := by\n  have : ∀ (y z u : G), y ◇ z = y ◇ u := by\n    intro y\n    let f (x : G) := ((y ◇ y) ◇ y) ◇ x\n    let g (x : G) := x ◇ (y ◇ y)\n    have : Function.RightInverse f g := fun _ ↦ by simp [f, g, ← h]\n    apply fun _ _ ↦ this.injective _\n    obtain ⟨finv, hf⟩ := (Finite.surjective_of_injective this.injective).hasRightInverse\n    let fy := finv ((y ◇ y) ◇ y)\n    replace hf : ((y ◇ y) ◇ y) ◇ fy = (y ◇ y) ◇ y := hf _\n    have := h fy y\n    simp only [hf] at this\n    simp [f, ← this]\n  intro x u\n  have y := x\n  have z := x\n  rw [h x y z, this ((y ◇ y) ◇ y)  x u, ← this ((y ◇ y) ◇ y) u u, ← h]\n\nend InfModel\n\ntheorem submission : Goal := by\n  intro G _ h\n  exact InfModel.Finite.Equation28770_implies_Equation2 G h\n",
+  "timeout_seconds": 30,
+  "cache_mode": "off"
+}

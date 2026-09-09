@@ -3,7 +3,7 @@
   "status": "passed",
   "exit_code": 0,
   "elapsed_seconds": 0.417,
-  "peak_rss_mib": 599.64,
+  "peak_rss_mib": 607.0,
   "source": "proofs/Equation33436/InfiniteModel.lean",
   "sha256": "f110dc9594697300692bd11200e1e30069a33f25bff182d05893dc73d831cfad",
   "lean_version": "leanprover/lean4:v4.33.1",

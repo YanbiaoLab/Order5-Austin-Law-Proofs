@@ -1,0 +1,9 @@
+assign(max_seconds, 10).
+assign(max_megs, 64).
+formulas(assumptions).
+f(f(y,f(y,x)),f(x,f(x,z))) = x.
+f(f(x,y),f(f(x,y),f(y,x))) = y.
+end_of_list.
+formulas(goals).
+a = b.
+end_of_list.

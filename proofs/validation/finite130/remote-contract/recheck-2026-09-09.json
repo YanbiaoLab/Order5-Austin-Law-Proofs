@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-09-08T16:52:00.693325+00:00",
+  "base_url": "http://10.220.69.172:8900",
+  "control_health": {
+    "status": "ok",
+    "service": "judge-v3-repl-control",
+    "service_rev": null,
+    "supported_model_domains": null,
+    "execution_fingerprint": null
+  },
+  "verify_req_fields": [
+    "problem",
+    "verdict",
+    "code",
+    "timeout_seconds",
+    "cache_mode"
+  ],
+  "finite_domain_schema": null,
+  "worker_health": {
+    "status": "ok",
+    "service": "judge-v3-repl-worker",
+    "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+    "supported_model_domains": null,
+    "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "module": "Audit",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.42,
+  "peak_rss_mib": 4.48,
+  "source": "proofs/Equation13992/Lean/Audit.lean",
+  "sha256": "cd0320b4c4f066bd162a9028437abad123ce0d4b0a8b265c0858fc539b86bedc",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13992/Audit.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation13992/Lean/Audit.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq13992"
+  ],
+  "log": "proofs/validation/eq13992-formal/Audit.log",
+  "axioms": {
+    "submission.Austin13992.infinite_model": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.Austin13992.equation13992": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.Austin13992.equation32280": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.Austin13992.embed_injective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "submission.Austin13992.confluent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.Austin13992.step_decreases": [
+      "propext",
+      "Quot.sound"
+    ]
+  }
+}

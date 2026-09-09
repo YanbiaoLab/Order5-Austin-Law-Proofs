@@ -1,0 +1,24 @@
+List  16, length     189,     23.6 K
+List  32, length      52,     13.0 K
+List  64, length     111,     55.5 K
+List 128, length       8,      8.0 K
+List 202, length       2,      3.2 K
+List 256, length       2,      4.0 K
+
+============================== SELECTOR REPORT =======================
+Sos_deleted=130047, Sos_displaced=15332, Sos_size=19999
+  SELECTOR       PART   PRIORITY      ORDER       SIZE   SELECTED
+         I 2147483647       high        age          0          4
+         H          1       high     weight          0          0
+         A          1        low        age      19999         52
+         F          4        low     weight          0          0
+         T          4        low     weight      19999        208
+============================== end of selector report ================
+
+============================== end of statistics =====================
+
+Exiting with failure.
+
+------ process 46427 exit (max_megs) ------
+
+Process 46427 exit (max_megs) Tue Sep  8 23:23:11 2026

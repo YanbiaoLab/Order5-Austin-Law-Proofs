@@ -22,3 +22,7 @@
 
 
 本批 Aurora-56 补充：[另存的已验证证书](../validation/aurora/Equation13992/certificate.lean) 与[实际 accepted 回执](../validation/aurora/Equation13992/latest.json)。目标为本题源等式成立且模型非平凡；`submission.CM.tower_injective` 给出显式无限性。任务 ID：`d188d697d8cd4bcc8cda676b1f3e42dc`。本次归档核对已有验收记录，未重跑 Lean/Judge；见[批次报告](../validation/2026-09-09-aurora56/README.md)。
+
+## 本分支有限侧证书补充
+
+[FiniteTrivial.lean](FiniteTrivial.lean) 已收录；对应本地 Lean 编译与公理检查记录见 [校验日志](../../proofs/validation/finite130/Equation13992.log)。这是新增的有限侧归档记录，上文各批次的来源、模型证书和历史验证说明保留。

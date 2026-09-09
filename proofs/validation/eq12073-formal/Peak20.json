@@ -1,0 +1,29 @@
+{
+  "module": "Peak20",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.642,
+  "peak_rss_mib": 659.97,
+  "source": "proofs/Equation12073/Lean/Peak20.lean",
+  "sha256": "6364be982637c9235029911a7d22d57b74a9f2bb6e656013554562161b8cc071",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12073/Peak20.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12073/Lean/Peak20.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12073"
+  ],
+  "log": "proofs/validation/eq12073-formal/Peak20.log"
+}

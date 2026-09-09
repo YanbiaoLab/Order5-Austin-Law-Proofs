@@ -16,3 +16,7 @@
 证明来自论文 ATP 实验的 Twee 完整 TSTP 推导，经通用转换器逐步重放等式推理并生成 Lean，再独立提交 Judge；并非仅凭 ATP 的 `Theorem` 状态判定。未使用 `grind`。
 
 方法与复核见 [本批审计说明](../validation/2026-09-09-twee-true/README.md)；状态见 [index.json](../index.json)。每题须独立编译，不能把不同题的同名 `JudgeProblem` 混用。
+
+## 本分支有限侧证书补充
+
+[FiniteTrivial.lean](FiniteTrivial.lean) 已收录；对应本地 Lean 编译与公理检查记录见 [校验日志](../../proofs/validation/finite130/Equation40037.log)。这是新增的有限侧归档记录，上文各批次的来源、模型证书和历史验证说明保留。

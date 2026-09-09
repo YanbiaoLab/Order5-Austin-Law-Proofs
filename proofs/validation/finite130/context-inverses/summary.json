@@ -1,0 +1,41 @@
+[
+  {
+    "equation": "Equation12294",
+    "inverse_laws": [
+      "f(f(f(z,y),f(y,x)),f(f(y,x),y)) = x."
+    ],
+    "search": {
+      "label": "Equation12294-explicit-context-inverses",
+      "proof_hint_found": false,
+      "proof_length": null,
+      "exit_code": 3,
+      "seconds_limit": 15,
+      "memory_limit_mib": 64,
+      "elapsed_seconds": 2.092,
+      "input": ".build/finite130/context-inverses/Equation12294-explicit-context-inverses.in",
+      "input_sha256": "bb7955915f09cd72cae5d109b9ac5afccda3e55d993e46ef4e4c2d667050954d",
+      "output_sha256": "3ee04a160aec2ca291754a699ec174ab98623a233b3dbead17d3d3260f736434",
+      "output_tail": "         A          1        low        age       9155         22\n         F          4        low     weight          0          0\n         T          4        low     weight       9155         88\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 62641 exit (max_megs) ------\n\u0007\nProcess 62641 exit (max_megs) Wed Sep  9 00:38:47 2026\n"
+    }
+  },
+  {
+    "equation": "Equation20911",
+    "inverse_laws": [
+      "f(f(f(z,f(f(y,y),x)),f(f(y,y),x)),z) = x.",
+      "f(f(z,f(f(y,y),f(x,z))),f(f(y,y),f(x,z))) = x."
+    ],
+    "search": {
+      "label": "Equation20911-explicit-context-inverses",
+      "proof_hint_found": false,
+      "proof_length": null,
+      "exit_code": 3,
+      "seconds_limit": 15,
+      "memory_limit_mib": 64,
+      "elapsed_seconds": 3.871,
+      "input": ".build/finite130/context-inverses/Equation20911-explicit-context-inverses.in",
+      "input_sha256": "e25bf42a1c7b0eb29cb40956ea9e2b495277f92d638c908622443a5a8779a7a6",
+      "output_sha256": "70c68426d1dde31670771b7a87eec57f7956d16e698ea69bbe9940659bcea4d3",
+      "output_tail": "         A          1        low        age      18125         46\n         F          4        low     weight          0          0\n         T          4        low     weight      18125        182\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 62650 exit (max_megs) ------\n\u0007\nProcess 62650 exit (max_megs) Wed Sep  9 00:38:51 2026\n"
+    }
+  }
+]

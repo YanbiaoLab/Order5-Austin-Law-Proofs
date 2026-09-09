@@ -1,0 +1,1 @@
+'finite_trivial_dual' depends on axioms: [propext, Classical.choice, Quot.sound]

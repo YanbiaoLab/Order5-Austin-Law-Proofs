@@ -1,0 +1,24 @@
+Usable=713. Sos=19478. Demods=12234. Limbo=0, Disabled=15104. Hints=0.
+Kept_by_rule=0, Deleted_by_rule=155253.
+Forward_subsumed=886361. Back_subsumed=2450.
+Sos_limit_deleted=472357. Sos_displaced=1316. Sos_removed=0.
+New_demodulators=20723 (0 lex), Back_demodulated=11332. Back_unit_deleted=0.
+Demod_attempts=74579236. Demod_rewrites=6436476.
+Res_instance_prunes=0. Para_instance_prunes=0. Basic_paramod_prunes=0.
+Nonunit_fsub_feature_tests=0. Nonunit_bsub_feature_tests=0.
+Megabytes=71.70.
+User_CPU=10.00, System_CPU=0.25, Wall_clock=11.
+
+============================== end of statistics =====================
+
+============================== end of search =========================
+
+SEARCH FAILED
+
+SEARCH FAILED
+
+Exiting with failure.
+
+------ process 46472 exit (max_seconds) ------
+
+Process 46472 exit (max_seconds) Tue Sep  8 23:23:32 2026

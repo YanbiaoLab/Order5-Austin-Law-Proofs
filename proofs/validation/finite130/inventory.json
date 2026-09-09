@@ -1,0 +1,1042 @@
+[
+  {
+    "equation": "Equation4916",
+    "dual": "Equation41082",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation4916/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation41082",
+    "dual": "Equation4916",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation41082/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation15535",
+    "dual": "Equation30591",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation15535/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation30591",
+    "dual": "Equation15535",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation30591/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation17522",
+    "dual": "Equation28770",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation17522/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation28770",
+    "dual": "Equation17522",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation28770/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation20034",
+    "dual": "Equation25964",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation20034/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation25964",
+    "dual": "Equation20034",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation25964/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation22455",
+    "dual": "Equation22818",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation22455/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation22818",
+    "dual": "Equation22455",
+    "table": "20.1",
+    "finite_certificate": "proofs/Equation22818/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation4952",
+    "dual": "Equation41252",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation4952/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation41252",
+    "dual": "Equation4952",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation41252/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation4957",
+    "dual": "Equation40914",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation4957/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40914",
+    "dual": "Equation4957",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40914/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5012",
+    "dual": "Equation41253",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5012/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation41253",
+    "dual": "Equation5012",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation41253/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5066",
+    "dual": "Equation41239",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5066/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation41239",
+    "dual": "Equation5066",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation41239/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5093",
+    "dual": "Equation41179",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5093/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation41179",
+    "dual": "Equation5093",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation41179/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5107",
+    "dual": "Equation40951",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5107/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40951",
+    "dual": "Equation5107",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40951/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5141",
+    "dual": "Equation40917",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5141/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40917",
+    "dual": "Equation5141",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40917/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5295",
+    "dual": "Equation40909",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5295/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40909",
+    "dual": "Equation5295",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40909/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5833",
+    "dual": "Equation40070",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5833/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40070",
+    "dual": "Equation5833",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40070/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5834",
+    "dual": "Equation40037",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5834/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40037",
+    "dual": "Equation5834",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40037/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5837",
+    "dual": "Equation40221",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5837/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40221",
+    "dual": "Equation5837",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40221/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5947",
+    "dual": "Equation40057",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5947/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40057",
+    "dual": "Equation5947",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40057/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation5951",
+    "dual": "Equation40208",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation5951/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation40208",
+    "dual": "Equation5951",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation40208/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation6820",
+    "dual": "Equation39485",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation6820/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation39485",
+    "dual": "Equation6820",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation39485/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation6878",
+    "dual": "Equation39126",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation6878/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation39126",
+    "dual": "Equation6878",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation39126/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation6895",
+    "dual": "Equation39163",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation6895/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation39163",
+    "dual": "Equation6895",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation39163/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation6912",
+    "dual": "Equation39214",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation6912/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation39214",
+    "dual": "Equation6912",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation39214/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation7587",
+    "dual": "Equation38316",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation7587/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation38316",
+    "dual": "Equation7587",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation38316/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation7701",
+    "dual": "Equation38303",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation7701/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation38303",
+    "dual": "Equation7701",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation38303/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation7755",
+    "dual": "Equation38249",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation7755/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation38249",
+    "dual": "Equation7755",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation38249/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation7763",
+    "dual": "Equation38565",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation7763/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation38565",
+    "dual": "Equation7763",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation38565/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation8485",
+    "dual": "Equation37519",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation8485/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation37519",
+    "dual": "Equation8485",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation37519/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9337",
+    "dual": "Equation36867",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9337/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36867",
+    "dual": "Equation9337",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36867/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9345",
+    "dual": "Equation36713",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9345/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36713",
+    "dual": "Equation9345",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36713/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9384",
+    "dual": "Equation36714",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9384/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36714",
+    "dual": "Equation9384",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36714/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9603",
+    "dual": "Equation36514",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9603/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36514",
+    "dual": "Equation9603",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36514/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9663",
+    "dual": "Equation36487",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9663/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36487",
+    "dual": "Equation9663",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36487/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9667",
+    "dual": "Equation36638",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9667/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36638",
+    "dual": "Equation9667",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36638/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation9680",
+    "dual": "Equation36524",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation9680/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation36524",
+    "dual": "Equation9680",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation36524/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation10218",
+    "dual": "Equation35685",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation10218/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation35685",
+    "dual": "Equation10218",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation35685/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation10222",
+    "dual": "Equation35836",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation10222/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation35836",
+    "dual": "Equation10222",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation35836/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation11081",
+    "dual": "Equation35036",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation11081/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation35036",
+    "dual": "Equation11081",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation35036/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation11082",
+    "dual": "Equation34889",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation11082/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation34889",
+    "dual": "Equation11082",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation34889/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation11116",
+    "dual": "Equation34888",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation11116/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation34888",
+    "dual": "Equation11116",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation34888/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation11205",
+    "dual": "Equation35100",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation11205/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation35100",
+    "dual": "Equation11205",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation35100/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation11280",
+    "dual": "Equation34778",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation11280/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation34778",
+    "dual": "Equation11280",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation34778/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation12073",
+    "dual": "Equation33998",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation12073/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33998",
+    "dual": "Equation12073",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation33998/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation12087",
+    "dual": "Equation33884",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation12087/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33884",
+    "dual": "Equation12087",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation33884/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation12234",
+    "dual": "Equation33883",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation12234/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33883",
+    "dual": "Equation12234",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation33883/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation12857",
+    "dual": "Equation33436",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation12857/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33436",
+    "dual": "Equation12857",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation33436/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation12883",
+    "dual": "Equation33020",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation12883/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33020",
+    "dual": "Equation12883",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation33020/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation13764",
+    "dual": "Equation32294",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation13764/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation32294",
+    "dual": "Equation13764",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation32294/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation13849",
+    "dual": "Equation32281",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation13849/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation32281",
+    "dual": "Equation13849",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation32281/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation13992",
+    "dual": "Equation32280",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation13992/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation32280",
+    "dual": "Equation13992",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation32280/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation18137",
+    "dual": "Equation27863",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation18137/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation27863",
+    "dual": "Equation18137",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation27863/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation18212",
+    "dual": "Equation27859",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation18212/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation27859",
+    "dual": "Equation18212",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation27859/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation19966",
+    "dual": "Equation26105",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation19966/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation26105",
+    "dual": "Equation19966",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation26105/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation22619",
+    "dual": "Equation22634",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation22619/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation22634",
+    "dual": "Equation22619",
+    "table": "20.2",
+    "finite_certificate": "proofs/Equation22634/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation12294",
+    "dual": "Equation33856",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33856",
+    "dual": "Equation12294",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation13102",
+    "dual": "Equation33273",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation33273",
+    "dual": "Equation13102",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation17260",
+    "dual": "Equation28740",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation28740",
+    "dual": "Equation17260",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation17286",
+    "dual": "Equation28626",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation28626",
+    "dual": "Equation17286",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation20911",
+    "dual": "Equation25087",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation25087",
+    "dual": "Equation20911",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation21714",
+    "dual": "Equation24200",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation21714/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation24200",
+    "dual": "Equation21714",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation24200/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation21864",
+    "dual": "Equation24199",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation21864/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation24199",
+    "dual": "Equation21864",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation24199/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation21865",
+    "dual": "Equation24197",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation21865/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation24197",
+    "dual": "Equation21865",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation24197/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation21866",
+    "dual": "Equation24201",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation21866/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation24201",
+    "dual": "Equation21866",
+    "table": "20.3",
+    "finite_certificate": "proofs/Equation24201/FiniteTrivial.lean",
+    "local_status": "passed",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation22446",
+    "dual": "Equation22591",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation22591",
+    "dual": "Equation22446",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation23337",
+    "dual": "Equation23354",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation23354",
+    "dual": "Equation23337",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation23357",
+    "dual": "Equation23653",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  },
+  {
+    "equation": "Equation23653",
+    "dual": "Equation23357",
+    "table": "20.3",
+    "finite_certificate": null,
+    "local_status": "missing",
+    "aurora_finite_status": "pending_finite_capable_endpoint"
+  }
+]

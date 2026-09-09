@@ -1,0 +1,4 @@
+/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/judge-finite-extension/kernel/Equation5093-all/Submission.lean:46:8: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Finite G
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.

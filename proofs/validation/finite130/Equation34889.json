@@ -1,0 +1,45 @@
+{
+  "label": "Equation34889",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.848,
+  "peak_rss_mib": 1259.61,
+  "source": ".build/finite130/prover9_lean/Equation34889.lean",
+  "source_sha256": "2eefb7dbe33b2441699c79fcb8e7f4310f1932d90bc8c78b0c10987ea1b1859e",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-DwarningAsError=true",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/finite130/prover9_lean/Equation34889.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/finite130/Equation34889.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072,
+  "axioms_checked": true,
+  "theorem": "finite_trivial_dual",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "certificate_path": "proofs/Equation34889/FiniteTrivial.lean",
+  "certificate_sha256": "2eefb7dbe33b2441699c79fcb8e7f4310f1932d90bc8c78b0c10987ea1b1859e"
+}

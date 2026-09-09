@@ -1,0 +1,41 @@
+[
+  {
+    "label": "Equation12294-two-parameter-map",
+    "proof_hint_found": false,
+    "proof_length": null,
+    "exit_code": 3,
+    "seconds_limit": 5,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 0.982,
+    "input": ".build/finite130/context-inverses/Equation12294-two-parameter-map.in",
+    "input_sha256": "a065f35b4c5deacdd0dab5ad93bfede3eff9c3d158f88713edddebf3a3776b25",
+    "output_sha256": "ace16c24a23324b8f0bd84b929e8dd82f6e1b5012ea8ed2bf846d1795a3fd0b6",
+    "output_tail": "         A          1        low        age       8956         29\n         F          4        low     weight          0          0\n         T          4        low     weight       8956        115\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 64727 exit (max_megs) ------\n\u0007\nProcess 64727 exit (max_megs) Wed Sep  9 00:50:23 2026\n"
+  },
+  {
+    "label": "Equation12294-asymmetric-pair",
+    "proof_hint_found": false,
+    "proof_length": null,
+    "exit_code": 1,
+    "seconds_limit": 5,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 0.006,
+    "input": ".build/finite130/context-inverses/Equation12294-asymmetric-pair.in",
+    "input_sha256": "52ae3be71a06308a56e533da2938d306cd0d16aa3c51339bc9847bbe3f8eb4b2",
+    "output_sha256": "949630ca711feff6d8ea4dd1eb1814ce32b8ad3efdf331636427b62f55136009",
+    "output_tail": "\nformulas(goals).\na = c.\nend_of_list.\n\u0007\nFatal error:  The following symbols are used with multiple arities: d/0, d/2\n\n%%ERROR: The following symbols are used with multiple arities: d/0, d/2.\n\n\nFatal error:  The following symbols are used with multiple arities: d/0, d/2\n\n"
+  },
+  {
+    "label": "Equation12294-right-injective",
+    "proof_hint_found": false,
+    "proof_length": null,
+    "exit_code": 3,
+    "seconds_limit": 5,
+    "memory_limit_mib": 64,
+    "elapsed_seconds": 1.111,
+    "input": ".build/finite130/context-inverses/Equation12294-right-injective.in",
+    "input_sha256": "4cef5219ba98cd342d3fdcf5334e7737f5215a9b820630282b5c10b21196ad5d",
+    "output_sha256": "dcdadc628cfdad70ff47896ac89d3c75f52dd6cf214ed71b8db9c83b5fae720c",
+    "output_tail": "         A          1        low        age       9048         30\n         F          4        low     weight          0          0\n         T          4        low     weight       9048        117\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 64731 exit (max_megs) ------\n\u0007\nProcess 64731 exit (max_megs) Wed Sep  9 00:50:24 2026\n"
+  }
+]

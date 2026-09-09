@@ -1,0 +1,29 @@
+{
+  "module": "DraftModel",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.426,
+  "peak_rss_mib": 631.69,
+  "source": "search/candidates/Equation11205/Model.lean",
+  "sha256": "35f9bd4e3f32e9701ec5b8f55bd72a2e6129fa055260cd91ea8ce7813cea87bc",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq11205/Model.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/search/candidates/Equation11205/Model.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12857"
+  ],
+  "log": "proofs/validation/eq11205-formal/DraftModel.log"
+}

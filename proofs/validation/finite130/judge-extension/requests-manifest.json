@@ -1,0 +1,1028 @@
+[
+  {
+    "equation": "Equation4916",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation4916-finite.json",
+    "sha256": "2fe68f11269bc33440de5be319c511d69e0d5162ed5492169eaf7596329a7a32",
+    "certificate": "proofs/Equation4916/FiniteTrivial.lean",
+    "certificate_sha256": "2565e43483350edb4d395d3cd4c64ecf52147ebeed5bfff365601d6e7bb6454c"
+  },
+  {
+    "equation": "Equation15535",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation15535-finite.json",
+    "sha256": "7b84f8632eff9c9c7c885a62eb0d2a54b8b0aed49552edbb46ba355ec0e27a40",
+    "certificate": "proofs/Equation15535/FiniteTrivial.lean",
+    "certificate_sha256": "fa126f01f6a33b6c5b5eaef93581de59e27b027dafff562d79443f666724dcd6"
+  },
+  {
+    "equation": "Equation17522",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation17522-finite.json",
+    "sha256": "bda6bc65ec22f0912e09e1a9e8e59522385a4a1aba1f5ecd09e101ed54d184e2",
+    "certificate": "proofs/Equation17522/FiniteTrivial.lean",
+    "certificate_sha256": "985be952e46f2dec9b9e36beb5ca1955ecd0e1b381e9d47a87ccda94f62b7c51"
+  },
+  {
+    "equation": "Equation20034",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation20034-finite.json",
+    "sha256": "ee0bd466fefa6571de7214c9b95776b12d4384a4681743c39988b871bea76620",
+    "certificate": "proofs/Equation20034/FiniteTrivial.lean",
+    "certificate_sha256": "1fae0ea9aefa541594d02716e9ed18c12eada1386b009450221ddcb64838c5c8"
+  },
+  {
+    "equation": "Equation22455",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation22455-finite.json",
+    "sha256": "2cd56fc5cbf06590b6e798d703d28074108e4a7869c107347ea6f4f8fa18a891",
+    "certificate": "proofs/Equation22455/FiniteTrivial.lean",
+    "certificate_sha256": "a63613da55be5d1e07ca290c0e656b19aebdc5472b5ce21838b7686ab831ad53"
+  },
+  {
+    "equation": "Equation22818",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation22818-finite.json",
+    "sha256": "c4b22c6d229cea12dfe8a1145fcb91f7e127fa7e99215992f4051cd03b328b36",
+    "certificate": "proofs/Equation22818/FiniteTrivial.lean",
+    "certificate_sha256": "3eec14b02880da6c91ca8acc871094f8d36fced111997577c1ab9d7d452be26c"
+  },
+  {
+    "equation": "Equation25964",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation25964-finite.json",
+    "sha256": "4af1bd482ee74aac9835551170b86dab6443aa7ef33f7e7da7e3fdf33caaece3",
+    "certificate": "proofs/Equation25964/FiniteTrivial.lean",
+    "certificate_sha256": "567528a5ffeb7952181f5a846d6ca56fe12b857ca41d71734b5065b9cb20f6e5"
+  },
+  {
+    "equation": "Equation28770",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation28770-finite.json",
+    "sha256": "343c4a0f1035bb445a6f9f3caf69bf8d96a58db15fc3c8fea4adc239085ad27f",
+    "certificate": "proofs/Equation28770/FiniteTrivial.lean",
+    "certificate_sha256": "8977fab6c4a5e3deecbdf75190b257f845613337ca25c8ccf7795ebd4d2d73a9"
+  },
+  {
+    "equation": "Equation30591",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation30591-finite.json",
+    "sha256": "82582e3a7e51b6f491dcb3fc0a9de63fd9ac70aeac43685aa5ef968c69c3098c",
+    "certificate": "proofs/Equation30591/FiniteTrivial.lean",
+    "certificate_sha256": "7ce0b142131e1eed87d8eeebbcc8d6143a2bfb9e5fb6edbbe29763db0de5339b"
+  },
+  {
+    "equation": "Equation41082",
+    "table": "20.1",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation41082-finite.json",
+    "sha256": "15903d3cb026bdf33e664deed4974ee8410cffadf1ad94415f9045eea0a9f899",
+    "certificate": "proofs/Equation41082/FiniteTrivial.lean",
+    "certificate_sha256": "a61734d45d8af3213f04ed3702f4af89dc7de18c2fd747acb30673f637645834"
+  },
+  {
+    "equation": "Equation4952",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation4952-finite.json",
+    "sha256": "d54eccdbcfeb42dc493006152a6a68d7efe1070f131905732a10dd3feebedf49",
+    "certificate": "proofs/Equation4952/FiniteTrivial.lean",
+    "certificate_sha256": "3d20612ed281017226bc7d4f6eb4f52423d681056b263ab97430e0d560101679"
+  },
+  {
+    "equation": "Equation4957",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation4957-finite.json",
+    "sha256": "a67d75ca5f15758df685b73c02bdae2aef3a0908200dc7b06fd86969337c5b56",
+    "certificate": "proofs/Equation4957/FiniteTrivial.lean",
+    "certificate_sha256": "ca69105f4dcfccd12deadf578e98348eb0b2fe2651cab0065d5eaa3f26e7f42e"
+  },
+  {
+    "equation": "Equation5012",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5012-finite.json",
+    "sha256": "12541276f70d9d23275842a9d0e43720fd22d8fd4015943687e2ec63e5bfa68d",
+    "certificate": "proofs/Equation5012/FiniteTrivial.lean",
+    "certificate_sha256": "64edad777bb9ee3e3b68759ec19e5531e04ea1bc3c19968fdc18c48d42a1aaa3"
+  },
+  {
+    "equation": "Equation5066",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5066-finite.json",
+    "sha256": "0f26104aca89272c492c7a5ff6a3a1653dc8b69b3f976cbe710d847ef143d77b",
+    "certificate": "proofs/Equation5066/FiniteTrivial.lean",
+    "certificate_sha256": "050f948fa47e309411c7d65a15adeec90dfdbe449d22b376f6079ea41447c4dd"
+  },
+  {
+    "equation": "Equation5093",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5093-finite.json",
+    "sha256": "34a2aece1b319a9a828bc324987cbeba97b6bd512c9144fdff6252a55e47f3fd",
+    "certificate": "proofs/Equation5093/FiniteTrivial.lean",
+    "certificate_sha256": "9fe46e3b1dc8e63fe18f51ca32f1f79efa4f726a2f0cbad578533bacd32e5e5b"
+  },
+  {
+    "equation": "Equation5107",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5107-finite.json",
+    "sha256": "b9f00a5c601603d7e4a452e334306c6b332ba9953e70257cc385a47eb11fff5f",
+    "certificate": "proofs/Equation5107/FiniteTrivial.lean",
+    "certificate_sha256": "451b31648fe8ae0c8d0aa93ec9efed49692ad2f21a2d7029fa104cc084e2b5c7"
+  },
+  {
+    "equation": "Equation5141",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5141-finite.json",
+    "sha256": "58e5eabb53e7fc3be6d2a079a60b25d10c97b782ae3d8bdf71ddb5163dc8e526",
+    "certificate": "proofs/Equation5141/FiniteTrivial.lean",
+    "certificate_sha256": "6403cee78e2c8cfda7acf1b0dc3a7476707756a0e06464c570ef6fd0db5d3445"
+  },
+  {
+    "equation": "Equation5295",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5295-finite.json",
+    "sha256": "89b2aae72c7fb9b7a4a958372f41d3e9e6b6f2c5b5bb257582c663bca973a197",
+    "certificate": "proofs/Equation5295/FiniteTrivial.lean",
+    "certificate_sha256": "298aa113c7cb629fdefb149dab0fc93d30d52bf0d8831469220df0eb451c6a36"
+  },
+  {
+    "equation": "Equation5833",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5833-finite.json",
+    "sha256": "aabd1d7f96103dcf9ee90401e3a7f9157743c9315622d7c38e6e59a35edeb9f1",
+    "certificate": "proofs/Equation5833/FiniteTrivial.lean",
+    "certificate_sha256": "66f790a1eb24008dd259d1fd6690f7d57c39500901bdebe688d74b8a78c984f0"
+  },
+  {
+    "equation": "Equation5834",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5834-finite.json",
+    "sha256": "563bf948fdf72b1944a2f5d4642e3f8cb7dc8b34e69f22e54368acea9d3b9285",
+    "certificate": "proofs/Equation5834/FiniteTrivial.lean",
+    "certificate_sha256": "381cc06e81a00b9b3bef49194e110a49cd2541e5f5f823d80651405f52172ffc"
+  },
+  {
+    "equation": "Equation5837",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5837-finite.json",
+    "sha256": "c1f10d3f6a7b95d87591e936d31a3b95e2b262da21ff6e35aa0f06838b6ff250",
+    "certificate": "proofs/Equation5837/FiniteTrivial.lean",
+    "certificate_sha256": "51e78c481e3c3d874234e97bd8be77fe4fe980b26615424c29bd7a6fdeb75a4b"
+  },
+  {
+    "equation": "Equation5947",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5947-finite.json",
+    "sha256": "b268d5e1a70063031ffa87bf5543d69b55ffdb1ffd25cf546bc37d57fe96a29e",
+    "certificate": "proofs/Equation5947/FiniteTrivial.lean",
+    "certificate_sha256": "e243c441e8cec802e5b49d7ef3bf7d9132a4467afc1378622b2747c6cc639989"
+  },
+  {
+    "equation": "Equation5951",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation5951-finite.json",
+    "sha256": "13581e1aadfaa96ab9a1324e475e335f76cecc823859bdead7d9003172b60b35",
+    "certificate": "proofs/Equation5951/FiniteTrivial.lean",
+    "certificate_sha256": "291b2f1e73be3f121dac08a6a977aabd816fef6be3bc97e1b0581af8124670b4"
+  },
+  {
+    "equation": "Equation6820",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation6820-finite.json",
+    "sha256": "3ce3b0f37befdf24d59ae64c122e56972ac4d216e9985c447c96dcb5a550e12e",
+    "certificate": "proofs/Equation6820/FiniteTrivial.lean",
+    "certificate_sha256": "ecb6d13ca794a9c033ced810a73e8cd2fa441be09da8a9d54a21f0068fe7ecba"
+  },
+  {
+    "equation": "Equation6878",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation6878-finite.json",
+    "sha256": "11564d3fe30b52ec149792e92514d2b53b9fb18967d0ec27cc1caf52b18d953f",
+    "certificate": "proofs/Equation6878/FiniteTrivial.lean",
+    "certificate_sha256": "6a2e6dc14499b7eec2c7a76af4334ab38dbd3e3ccf222b88664105293cf1cb23"
+  },
+  {
+    "equation": "Equation6895",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation6895-finite.json",
+    "sha256": "a71e600422143f0e88d35601d4021eff6f4c6dd9a8987e1c52bc59a53676325a",
+    "certificate": "proofs/Equation6895/FiniteTrivial.lean",
+    "certificate_sha256": "3b383625e47f83cb1f7215951c4b2e224ba301da7f13d6caf1b7461bcb1c30b3"
+  },
+  {
+    "equation": "Equation6912",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation6912-finite.json",
+    "sha256": "376f15e22e262244f6852705012a0b8cd9cbe85680568c0648ed360758fcce17",
+    "certificate": "proofs/Equation6912/FiniteTrivial.lean",
+    "certificate_sha256": "2d49635fc3bd44a06a4d76fa21b1c98078b218a30159a541335abe25d374d796"
+  },
+  {
+    "equation": "Equation7587",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation7587-finite.json",
+    "sha256": "4402ab52c9a451b9e27f6fe7ccabda51e1bf7964a3187d43caaa3b9cdee479fa",
+    "certificate": "proofs/Equation7587/FiniteTrivial.lean",
+    "certificate_sha256": "66731dd86acfe57127fa2e2b043e628869eba78aae8c4ac4506ec163ef3a9710"
+  },
+  {
+    "equation": "Equation7701",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation7701-finite.json",
+    "sha256": "9c8cf77ce9fd2362e85aa0ff1f2675c32e5df145f33307cfd2bc8dd4b975f439",
+    "certificate": "proofs/Equation7701/FiniteTrivial.lean",
+    "certificate_sha256": "fb2f4bfffd32da5481b1e35303fb9a40f3e21906f7372e3f996d62ab3fd63b1f"
+  },
+  {
+    "equation": "Equation7755",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation7755-finite.json",
+    "sha256": "d68bc087f165fb8454d4c46e1ff7d2360cbbc164b107d0fe6098ce479e8fb574",
+    "certificate": "proofs/Equation7755/FiniteTrivial.lean",
+    "certificate_sha256": "8b610ef2cb8478ede08a62635b1c0820edb0a2def0f19abbdd094473b33a3492"
+  },
+  {
+    "equation": "Equation7763",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation7763-finite.json",
+    "sha256": "23b28518f0d76daed885fe310c12b5938bfc1ea2df9e4d4468473575f7957cac",
+    "certificate": "proofs/Equation7763/FiniteTrivial.lean",
+    "certificate_sha256": "57e73c39f64b9bc763cc189250cb3f6e390a5d4e7d789387cf6e33f43df5ef9c"
+  },
+  {
+    "equation": "Equation8485",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation8485-finite.json",
+    "sha256": "25e978b395801276c12540b34a68f48604c998a4b1eab8a35f6e7463e61194d2",
+    "certificate": "proofs/Equation8485/FiniteTrivial.lean",
+    "certificate_sha256": "458a18e5a7e531d992cba257554357f810267ab396b9fae8f0c4a089d639139b"
+  },
+  {
+    "equation": "Equation9337",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9337-finite.json",
+    "sha256": "e343bee5ed8d93ca7374b8b491019c8ada91153c251265870ae7c5f62994db69",
+    "certificate": "proofs/Equation9337/FiniteTrivial.lean",
+    "certificate_sha256": "1adfd6d029500fad8ba3988449303e011903c8be6d7a42baf27bc4004d0af461"
+  },
+  {
+    "equation": "Equation9345",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9345-finite.json",
+    "sha256": "f2d8a66b5dc4f4f5420789196711b6d940c26fd0850f57db2443e5b13368bc43",
+    "certificate": "proofs/Equation9345/FiniteTrivial.lean",
+    "certificate_sha256": "6c8e2649670660a27a3494c5305707b931207217415d012207402f9b2d3ee4f0"
+  },
+  {
+    "equation": "Equation9384",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9384-finite.json",
+    "sha256": "76090e2d8bfe6070991419a46c180bcedfebd86d5fe36bbe1d453d26d21a1bfb",
+    "certificate": "proofs/Equation9384/FiniteTrivial.lean",
+    "certificate_sha256": "ef23159ba8dc25686f521b14b41a349cf9ba8099c531d88aae37a92fd98e4471"
+  },
+  {
+    "equation": "Equation9603",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9603-finite.json",
+    "sha256": "131c175a04bd15d54b290a22bf0d3a1f4f049c61141d0c2083b13a3349ec2361",
+    "certificate": "proofs/Equation9603/FiniteTrivial.lean",
+    "certificate_sha256": "4d0591e474cfcccb52af3aa7364fcf3ffb92842a00eb7f78507ba005360328b8"
+  },
+  {
+    "equation": "Equation9663",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9663-finite.json",
+    "sha256": "93226fbc9dab1c75e4a233bb787f5a38ee3af112dfbc5c0cc361fd0007a3dad6",
+    "certificate": "proofs/Equation9663/FiniteTrivial.lean",
+    "certificate_sha256": "6c048dfa0cf9af07d9dec953cd24a237e0dd271311137e60da8d5f3fe343d5b4"
+  },
+  {
+    "equation": "Equation9667",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9667-finite.json",
+    "sha256": "b054289ecf66330ddf55b34dd3c63fe9089c521b95dad27f9ba24c44f8b09fd1",
+    "certificate": "proofs/Equation9667/FiniteTrivial.lean",
+    "certificate_sha256": "174e9147ed621f82c02ae8b15fb0c48c076e35d78f6089b49b27567837223929"
+  },
+  {
+    "equation": "Equation9680",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation9680-finite.json",
+    "sha256": "fad8db20474d023547390624a702194b433c131e1cf77e7820cee90199a68ecc",
+    "certificate": "proofs/Equation9680/FiniteTrivial.lean",
+    "certificate_sha256": "06a52a7c3b26629b23700e46d699358eccc473b4b87e990066e8e878bc3c9d5d"
+  },
+  {
+    "equation": "Equation10218",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation10218-finite.json",
+    "sha256": "cc224e3a063aa153aaf28c4fbf48e965f7af58af37a164385cc61786af4c3af6",
+    "certificate": "proofs/Equation10218/FiniteTrivial.lean",
+    "certificate_sha256": "411ac46c4092378798b12e54bf532177b5651f14e0901ad01fd1f36577f28875"
+  },
+  {
+    "equation": "Equation10222",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation10222-finite.json",
+    "sha256": "15f0fe5236936dba370a8d2750e4c00d58fdef08ef9a54453ee4004104a5bd07",
+    "certificate": "proofs/Equation10222/FiniteTrivial.lean",
+    "certificate_sha256": "9dcdba2bd4fa29efcf8681e105d5f70845bc19a01afb3c38173ce73d51a8861d"
+  },
+  {
+    "equation": "Equation11081",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation11081-finite.json",
+    "sha256": "9ab647dc72500cbf8ced222475b243acdb93bb09553ac459900c23281ccde559",
+    "certificate": "proofs/Equation11081/FiniteTrivial.lean",
+    "certificate_sha256": "7cdefab31bcf745f968baca736fb932c90756e55ccc3cdfed08fa40336943fb7"
+  },
+  {
+    "equation": "Equation11082",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation11082-finite.json",
+    "sha256": "cd035a3eb70bfcfca6e19aa264c4d71862ef0c73ae0043462ec0d0968ecd0abf",
+    "certificate": "proofs/Equation11082/FiniteTrivial.lean",
+    "certificate_sha256": "918de1197449c4eaccf961690d3d4467da7fb22f52bf2e2b8fb03ae76ebd31bc"
+  },
+  {
+    "equation": "Equation11116",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation11116-finite.json",
+    "sha256": "9b3bb2359037a70ede5f9c9877c94ce94dc27f1883ad72cde721f2055af88bc4",
+    "certificate": "proofs/Equation11116/FiniteTrivial.lean",
+    "certificate_sha256": "7d35545876a1997b5a28b11ae25ea2afdbe8b006764e41f538e92f80a6706f20"
+  },
+  {
+    "equation": "Equation11205",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation11205-finite.json",
+    "sha256": "a7584fb86f7872b4000b7dac25324509efbfa252f9e3cd59ad867d91b3aa07d4",
+    "certificate": "proofs/Equation11205/FiniteTrivial.lean",
+    "certificate_sha256": "cf2672fb5e93dbe9df1c4f1ce8dfca1e2e19ee14a7d25840cba5ddc29d8fd3d1"
+  },
+  {
+    "equation": "Equation11280",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation11280-finite.json",
+    "sha256": "a4fd018064f12b6939155446b75c1e6f322fc9a087174310cbda0e2f18355439",
+    "certificate": "proofs/Equation11280/FiniteTrivial.lean",
+    "certificate_sha256": "354717355e33ac5e30e8426c9d17d6e2af40ac4872c449956cfd01234fce1088"
+  },
+  {
+    "equation": "Equation12073",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation12073-finite.json",
+    "sha256": "a2a3eb4aa34d3a4a77c7d66d1f1ebf79b31308cd0c47c7f39284412d843f5cae",
+    "certificate": "proofs/Equation12073/FiniteTrivial.lean",
+    "certificate_sha256": "365811b7e737f11690ec44c98294037bc0410d85f2dd87d4bd67bf0f619bb2bc"
+  },
+  {
+    "equation": "Equation12087",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation12087-finite.json",
+    "sha256": "f2d077ba6d4f1d0bfe655aa39f68363c0a5b7603b8b6cca03d0876ba25ab81d3",
+    "certificate": "proofs/Equation12087/FiniteTrivial.lean",
+    "certificate_sha256": "1ab4e5a2c8c7fef146332f4e45270e8e9b9d7c2458042cec8523933da9e7d88c"
+  },
+  {
+    "equation": "Equation12234",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation12234-finite.json",
+    "sha256": "1cc3d7be260ee93c7470a717fa0c7c92b222da4afcc20285c2e6ba9e962bae95",
+    "certificate": "proofs/Equation12234/FiniteTrivial.lean",
+    "certificate_sha256": "f0e1d1ea1d20c00fc4e838139a238cbc348a79b129b0632805ac00f8d2b778eb"
+  },
+  {
+    "equation": "Equation12857",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation12857-finite.json",
+    "sha256": "1906b30ac8f19d0a6a946be351b2b7c17669bcfc8f7d1e5c82ea3fc7824210cd",
+    "certificate": "proofs/Equation12857/FiniteTrivial.lean",
+    "certificate_sha256": "a027e829e721976366dae384a64e9b31385da83bb54e8628a62ff5d4a47f05d0"
+  },
+  {
+    "equation": "Equation12883",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation12883-finite.json",
+    "sha256": "2211747b1b6ee87f73fc38cb315c70187ed7c0d0868d03f5ede2358c3da2274a",
+    "certificate": "proofs/Equation12883/FiniteTrivial.lean",
+    "certificate_sha256": "bafb1f26a125407646c8db231bae1060928d23eb62b073a37454a2bdf9dcb0ce"
+  },
+  {
+    "equation": "Equation13764",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation13764-finite.json",
+    "sha256": "910496f3038653c52b8527d7b1b3c742bd113dec804897f749b38a0a379d18be",
+    "certificate": "proofs/Equation13764/FiniteTrivial.lean",
+    "certificate_sha256": "35edb3022fa9e3645287f9136b2365a8cd9fc8eec8cd1dabe177abde51ded9a4"
+  },
+  {
+    "equation": "Equation13849",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation13849-finite.json",
+    "sha256": "42f8160902251006a26a552f1ba8fa57e92c0f711c04be321c7ea2b407e537f2",
+    "certificate": "proofs/Equation13849/FiniteTrivial.lean",
+    "certificate_sha256": "fd8f8595a1826b166bfde822c26ea7ddb0fea4533f7c8234119856a3a4af7299"
+  },
+  {
+    "equation": "Equation13992",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation13992-finite.json",
+    "sha256": "4ccf814643b844e823cb2b7768c0d9047531851821040ebc6c8ae088c0540d5b",
+    "certificate": "proofs/Equation13992/FiniteTrivial.lean",
+    "certificate_sha256": "3ef0b5aff5e37e6a3e1dcd0399bc5040e01cedff3fc73817ae8ed23b50e209fe"
+  },
+  {
+    "equation": "Equation18137",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation18137-finite.json",
+    "sha256": "8fea21bb18bb3fad65f8066773e183143e93facc76f442497b85b3997c9e3337",
+    "certificate": "proofs/Equation18137/FiniteTrivial.lean",
+    "certificate_sha256": "3aed115c473870bdbc261d0e39a891cb86af602d9c8ccc56511faf1cf5686699"
+  },
+  {
+    "equation": "Equation18212",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation18212-finite.json",
+    "sha256": "7a49876e5400c9c1a62247ce069216c01fa5835f7738e84db33ec28e451c40a4",
+    "certificate": "proofs/Equation18212/FiniteTrivial.lean",
+    "certificate_sha256": "9f27adfaae067b03b6f19f49a41ab8ff5a0d49bd32d0464ce4daeefef07c820e"
+  },
+  {
+    "equation": "Equation19966",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation19966-finite.json",
+    "sha256": "b99eebedd015408eb0251b56573fc14a46c3f8a155462a277a8dafbdddad74a4",
+    "certificate": "proofs/Equation19966/FiniteTrivial.lean",
+    "certificate_sha256": "3a234172859cc145b95a87b2fa7bdc8773e095c78d7759fda0c29d52708ae540"
+  },
+  {
+    "equation": "Equation22619",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation22619-finite.json",
+    "sha256": "6e03cb35451cd4294de1b1e9cf3c5038f37aca67611c264072887c41023c0cd0",
+    "certificate": "proofs/Equation22619/FiniteTrivial.lean",
+    "certificate_sha256": "8642bf353bd51e62259d6280a12f0020f4c67912892e4c2831abe8050cb233d7"
+  },
+  {
+    "equation": "Equation22634",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation22634-finite.json",
+    "sha256": "193d39fb69c9812f844eb5f89518a5ffdb492623715b02a4d735b0df538aa7ac",
+    "certificate": "proofs/Equation22634/FiniteTrivial.lean",
+    "certificate_sha256": "ca19e662ac8053b0e4eeefe5c38ad31caa3e4b4202a6d18db5bad8335832359b"
+  },
+  {
+    "equation": "Equation26105",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation26105-finite.json",
+    "sha256": "c9f5b7b661ff0b6488c84b57934f37598dc567b1b6e8f2cd3d5d360ccf4b6d95",
+    "certificate": "proofs/Equation26105/FiniteTrivial.lean",
+    "certificate_sha256": "900fd391799c54858cd92e460379a3949991c09cf6766223c6437891a545e3d2"
+  },
+  {
+    "equation": "Equation27859",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation27859-finite.json",
+    "sha256": "7d0799e4c6cb094add3903e170b80cc11b649fd8017a1fb928555079cbc3f855",
+    "certificate": "proofs/Equation27859/FiniteTrivial.lean",
+    "certificate_sha256": "1416bd3c2b4b79b74ca7dd0d15a943e84b2cb8c682f64af96ee85dc56c2f929d"
+  },
+  {
+    "equation": "Equation27863",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation27863-finite.json",
+    "sha256": "711fe706de0bbfb10a4d510c8c6da50c69592384aa2771fed7a5e624989331f7",
+    "certificate": "proofs/Equation27863/FiniteTrivial.lean",
+    "certificate_sha256": "f2f312702ec922839a099cd6d4b5cb179ec25c1fa4dd723ade8f4ae937018779"
+  },
+  {
+    "equation": "Equation32280",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation32280-finite.json",
+    "sha256": "ada0daf266646ceb6bcd27919351ec2686ed91a6250ef99a63ea067344913cad",
+    "certificate": "proofs/Equation32280/FiniteTrivial.lean",
+    "certificate_sha256": "3cbf0a9bfb3e91d656794192c62ca65a574cfc86e3a91e24ac554eeef6700b96"
+  },
+  {
+    "equation": "Equation32281",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation32281-finite.json",
+    "sha256": "defe52fa1e4bb7f2953d77f6dce8e26283c7f50c4e7fc4594e2049827fc98ca3",
+    "certificate": "proofs/Equation32281/FiniteTrivial.lean",
+    "certificate_sha256": "c2f607016586b225d62fdcad8f45d988b1923942844bc4eedf98361339494ea6"
+  },
+  {
+    "equation": "Equation32294",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation32294-finite.json",
+    "sha256": "9f89b84bf07130a8f22af9c52b47c393dd84f724bd237514da3a91b734050502",
+    "certificate": "proofs/Equation32294/FiniteTrivial.lean",
+    "certificate_sha256": "97b63ed35911aaeb3e867d6e6e62d74f6f52413e4b63d58cffdd3f267811932b"
+  },
+  {
+    "equation": "Equation33020",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation33020-finite.json",
+    "sha256": "02a79301f2c51c1b0de36b5d0e7bcc03975133705f8122fe97c463b92e40d6c3",
+    "certificate": "proofs/Equation33020/FiniteTrivial.lean",
+    "certificate_sha256": "dec93b48cfe2a4e4c73d629e1b74c9bb2ba42498da1c1bdea845358278ec8695"
+  },
+  {
+    "equation": "Equation33436",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation33436-finite.json",
+    "sha256": "b7ea8335ac54c28fa8ef168397c73934e9dc824a400423a4efd34b65893267ee",
+    "certificate": "proofs/Equation33436/FiniteTrivial.lean",
+    "certificate_sha256": "b90fd18ce417bba6df6af5338f216887f9f241f71e6f11800a8a90bf1ff02ebc"
+  },
+  {
+    "equation": "Equation33883",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation33883-finite.json",
+    "sha256": "04642881abaef36490f9d4c148ce97ba4ab71932550d425dcfd04f72e670f0ef",
+    "certificate": "proofs/Equation33883/FiniteTrivial.lean",
+    "certificate_sha256": "c73ce8d315a9254b0d45bdd8b3e4d6dcffb5f95448020a140bd3187f4dc5feb9"
+  },
+  {
+    "equation": "Equation33884",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation33884-finite.json",
+    "sha256": "957ac03759cba4d767ec84f27aee666b50360053728bd9ae5d843cab9dd5b46b",
+    "certificate": "proofs/Equation33884/FiniteTrivial.lean",
+    "certificate_sha256": "71bfcb25090eddb4a1dddf6cea44c3e09ff29759a854018263cd85d6595a06e6"
+  },
+  {
+    "equation": "Equation33998",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation33998-finite.json",
+    "sha256": "226c93f9c6107edcaf085d6b294d667071852392b9a768ec10295d9548df1c08",
+    "certificate": "proofs/Equation33998/FiniteTrivial.lean",
+    "certificate_sha256": "45003d2d17e35aa56df65486096b53f349b7bbda35da8a2fafa7dc00c107e3b3"
+  },
+  {
+    "equation": "Equation34778",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation34778-finite.json",
+    "sha256": "4261a955e9f5b24368b7d463bf2695c844f5f974487cc92cf7629a1072fe6f68",
+    "certificate": "proofs/Equation34778/FiniteTrivial.lean",
+    "certificate_sha256": "7271f3c655043718bcca9a9ca7493b5f75438cdde9c5f80ff76b2ec143c68b96"
+  },
+  {
+    "equation": "Equation34888",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation34888-finite.json",
+    "sha256": "c33ffe40b83d143fa94addf1e564880bb2d63c5e49153d6ac7fa0811b0a8a9d2",
+    "certificate": "proofs/Equation34888/FiniteTrivial.lean",
+    "certificate_sha256": "c07079e33669c02410f4e235197c5dad1e8a4a3e04bbe76a15dc1c8e5f9be608"
+  },
+  {
+    "equation": "Equation34889",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation34889-finite.json",
+    "sha256": "dd21591e036b69c0fbc7ac351bf4ebde28989d3893603fa2fcb6168953ee7873",
+    "certificate": "proofs/Equation34889/FiniteTrivial.lean",
+    "certificate_sha256": "2eefb7dbe33b2441699c79fcb8e7f4310f1932d90bc8c78b0c10987ea1b1859e"
+  },
+  {
+    "equation": "Equation35036",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation35036-finite.json",
+    "sha256": "656fafeaeb6afe1aa05d46552dcd9ae72506b2448cea5d9500aef3f8f94101a1",
+    "certificate": "proofs/Equation35036/FiniteTrivial.lean",
+    "certificate_sha256": "fdc93646500894137b54fea8df2a3a5f693661764744e4ecba8531ede04ad1c5"
+  },
+  {
+    "equation": "Equation35100",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation35100-finite.json",
+    "sha256": "e3d1121de1035fbc88b3aae391b992f301d717b62193d25ba2162a1a500ca61e",
+    "certificate": "proofs/Equation35100/FiniteTrivial.lean",
+    "certificate_sha256": "8ff521ce2b99289b03af9b15c413f31d14271ccb5817cf32872b918f4d463081"
+  },
+  {
+    "equation": "Equation35685",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation35685-finite.json",
+    "sha256": "e10e0df92ca9371f60196977bd848bdf74ad85a48e54bdd41d6411a209f9b761",
+    "certificate": "proofs/Equation35685/FiniteTrivial.lean",
+    "certificate_sha256": "ce20aeca4f6cd559186200fd50b72fe94b53fb60f2af40941f4d78604757bdce"
+  },
+  {
+    "equation": "Equation35836",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation35836-finite.json",
+    "sha256": "04e33ee78a6dbd4ac26d9db88a757caa47346818204995f6d18f410323bb951b",
+    "certificate": "proofs/Equation35836/FiniteTrivial.lean",
+    "certificate_sha256": "b566031c799bc7653a962a939b55a6a6a4efe9c2e8502874f2978774f9547305"
+  },
+  {
+    "equation": "Equation36487",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36487-finite.json",
+    "sha256": "50b2d74619f9a83e95ebe62d45356bcb96da3abe03487ea2b1bf476fe9413248",
+    "certificate": "proofs/Equation36487/FiniteTrivial.lean",
+    "certificate_sha256": "861a156e3b50996a0a67f089a7f16d5c96bee5771fb3ea5f9cf7f3527cc6d6cd"
+  },
+  {
+    "equation": "Equation36514",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36514-finite.json",
+    "sha256": "725d30f87f06db176bc64670f057dcde0ccd65a0a5d4e5f54ffb32917fb9cb84",
+    "certificate": "proofs/Equation36514/FiniteTrivial.lean",
+    "certificate_sha256": "4dd2c1cfcbaedcf102e1f385ec5cfbf7bc56f25bad4c3b5dee7f9015a5030d97"
+  },
+  {
+    "equation": "Equation36524",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36524-finite.json",
+    "sha256": "bb806fc634bb72c7e5f29c7f86c23652e898c3cf08a6debdec192e4936013e34",
+    "certificate": "proofs/Equation36524/FiniteTrivial.lean",
+    "certificate_sha256": "ccd15719506cc56d7743d5cd3cd272f8026d8eb39ee865cdc2f0d2ac9b5b2cd4"
+  },
+  {
+    "equation": "Equation36638",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36638-finite.json",
+    "sha256": "2eff60b95d2a4d873e02f9836691d040e95890f5b261099200b20efaef4c0d44",
+    "certificate": "proofs/Equation36638/FiniteTrivial.lean",
+    "certificate_sha256": "c3635ef07b0b9fb2e769406311c80cb8711037adcf2ecb3aa625bf78e129df42"
+  },
+  {
+    "equation": "Equation36713",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36713-finite.json",
+    "sha256": "b0cabc11f09c97775f7b3fd0cd715e31932e096be2557881cd85a6263052a4dd",
+    "certificate": "proofs/Equation36713/FiniteTrivial.lean",
+    "certificate_sha256": "e49d14ef1f857471e36391284c1d0b3401fbe43a78e62ef99f1446ec0b57bb28"
+  },
+  {
+    "equation": "Equation36714",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36714-finite.json",
+    "sha256": "e958a8d458eb1dd9a749858ec14ff1f9cbdc00e24e0093d1aa63fd67db069fc1",
+    "certificate": "proofs/Equation36714/FiniteTrivial.lean",
+    "certificate_sha256": "86db57f59e3786dc1d88354fdcabb5adcd12999e2763b5b936c95a9e2f9b7b90"
+  },
+  {
+    "equation": "Equation36867",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation36867-finite.json",
+    "sha256": "a8046e1bd44bcca7ee75c0f9d070232f828379185be6ecbf6cec46b742b90ee5",
+    "certificate": "proofs/Equation36867/FiniteTrivial.lean",
+    "certificate_sha256": "d98b20021ba8ce014a0e1034925e63c7627e80d4ebdd4cef59442815ba7bc7ef"
+  },
+  {
+    "equation": "Equation37519",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation37519-finite.json",
+    "sha256": "f1717a3a9a069e3b2e5c45620956da32e42cfbd2fc99e7e792cfa25dae7c1950",
+    "certificate": "proofs/Equation37519/FiniteTrivial.lean",
+    "certificate_sha256": "d60383541680185e8b1c7aca3b024411105c226607549debb6b14a6131a72002"
+  },
+  {
+    "equation": "Equation38249",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation38249-finite.json",
+    "sha256": "f6f82d2ff6ba091790d573f329e4a8c417078b1c3f72c7d2bb9c8dfc665182b2",
+    "certificate": "proofs/Equation38249/FiniteTrivial.lean",
+    "certificate_sha256": "d5a357512869f70b2377a73cf8f1c76aa7b9083fcb7b4e0193c7414404c52ec2"
+  },
+  {
+    "equation": "Equation38303",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation38303-finite.json",
+    "sha256": "6f2586434a07abbad6080766c8cdcfe1396baacab79f0b20ec3c53b58f3b9df9",
+    "certificate": "proofs/Equation38303/FiniteTrivial.lean",
+    "certificate_sha256": "5d453f996c13599413fdb2050cafc25bd1e848654ce39de5046061a78a5fbcbc"
+  },
+  {
+    "equation": "Equation38316",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation38316-finite.json",
+    "sha256": "6d63a6d1055e039a4aea13d08ad09f5fa7b9a4ed14eb70ba359232c339c4ebb6",
+    "certificate": "proofs/Equation38316/FiniteTrivial.lean",
+    "certificate_sha256": "82a16b383ad277df366fb4826b3990daacf15e380c43dc2d92869620968a3be2"
+  },
+  {
+    "equation": "Equation38565",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation38565-finite.json",
+    "sha256": "3dc4b54211a407efb790e2847fc41e49cb8dc6d09749a33f978a9a1fbe438f4e",
+    "certificate": "proofs/Equation38565/FiniteTrivial.lean",
+    "certificate_sha256": "7e56c8af82b30f1a69296be381a5b828c2948d0558670b54464f1aa9942bc335"
+  },
+  {
+    "equation": "Equation39126",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation39126-finite.json",
+    "sha256": "8c55276213482185391ad20060fb8e4479fb365246ed08214f6d09b48f308e79",
+    "certificate": "proofs/Equation39126/FiniteTrivial.lean",
+    "certificate_sha256": "9917a79af73a66744c48f84a3511d1b6cc23c9e19df0776f19236e2d9c24ef63"
+  },
+  {
+    "equation": "Equation39163",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation39163-finite.json",
+    "sha256": "11f3c92715f21d16fd791a352104f7448653c29ff606e8bd14bb4b866474e204",
+    "certificate": "proofs/Equation39163/FiniteTrivial.lean",
+    "certificate_sha256": "1e012cacf2d1d4b6a87c749c2f46b3ea67281520984f8775007642e7ea62675e"
+  },
+  {
+    "equation": "Equation39214",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation39214-finite.json",
+    "sha256": "428d32ddd8e2ada46876b92bfb657ef73947e91f4f1fe9563f6fdf6427654f4d",
+    "certificate": "proofs/Equation39214/FiniteTrivial.lean",
+    "certificate_sha256": "bae8d4cdf25996465fcf028150e8109e41d4b46feba9e5fdd0d3fd89b7f6326e"
+  },
+  {
+    "equation": "Equation39485",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation39485-finite.json",
+    "sha256": "a2f558e13a264bb6e2b13a83f04505639fb703c83f00499a633d015fa4803387",
+    "certificate": "proofs/Equation39485/FiniteTrivial.lean",
+    "certificate_sha256": "ca38277e1d71f3a496d17125305452236e8bede498f1400cabf25b2d2c62fbc4"
+  },
+  {
+    "equation": "Equation40037",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40037-finite.json",
+    "sha256": "1ebda0c3b121aaa817b3b9ec2d2bd76b82ac5288e84239d67141d6c4a15ccf30",
+    "certificate": "proofs/Equation40037/FiniteTrivial.lean",
+    "certificate_sha256": "db8db98c8604e8199175f642b3a162cb78c9394852b847de906763689533b4f0"
+  },
+  {
+    "equation": "Equation40057",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40057-finite.json",
+    "sha256": "075f1030dfd44e4656b2669c3c10d12e79ad6fb00f5960e2a5962855d776949c",
+    "certificate": "proofs/Equation40057/FiniteTrivial.lean",
+    "certificate_sha256": "e125cf27ca2c164cbde28b9e55379ab9a9916355d79897c04c64bc8f34bf4ed5"
+  },
+  {
+    "equation": "Equation40070",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40070-finite.json",
+    "sha256": "d22559b830bf9ec55f1f3fe7c7d84bedaeaa47e9058fac830e422c76f092a9b1",
+    "certificate": "proofs/Equation40070/FiniteTrivial.lean",
+    "certificate_sha256": "bc5b1d239df00f81333fe5347c9db6879d29348740c9e1d3d981ad86bd8d40d6"
+  },
+  {
+    "equation": "Equation40208",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40208-finite.json",
+    "sha256": "8e98bf37d19503e085b9da41fcd020eaa0cbeb10c5350bcb9cbda7f1d90eca6e",
+    "certificate": "proofs/Equation40208/FiniteTrivial.lean",
+    "certificate_sha256": "a20fadaa05674d60152b940f9b20eec3b7df9c893a37175ffefebe6bf57805cf"
+  },
+  {
+    "equation": "Equation40221",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40221-finite.json",
+    "sha256": "3af9771184651c2ae25e612d3cf9197402a0d661b04f421fe728966d38dcb8f6",
+    "certificate": "proofs/Equation40221/FiniteTrivial.lean",
+    "certificate_sha256": "70bd7e9ff9b9da91ccf151560ff6289d65adc2e1c547cc32ab62753941a47b05"
+  },
+  {
+    "equation": "Equation40909",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40909-finite.json",
+    "sha256": "a8f0ec8b6640270bb69a79ef1375a37d7ec513a763fe4e548895d92e05f9ed2f",
+    "certificate": "proofs/Equation40909/FiniteTrivial.lean",
+    "certificate_sha256": "6b2cfa8820b345a23af2f1974b6f4fd40e2fb79a37616a5042aa67f09622aec6"
+  },
+  {
+    "equation": "Equation40914",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40914-finite.json",
+    "sha256": "5cf4341ce9b77114e6e2fd6308a48e9d96b88c4d6610c5e8960803c543b078dd",
+    "certificate": "proofs/Equation40914/FiniteTrivial.lean",
+    "certificate_sha256": "0fcfb045e8d2c1e74ddd4cb34c7f3c8014ddb24249a259ee37f3f1b42953f4f8"
+  },
+  {
+    "equation": "Equation40917",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40917-finite.json",
+    "sha256": "48958527ac88e793e9cf729a68163d0a27e650334066bec4964c4d7d6e3ad124",
+    "certificate": "proofs/Equation40917/FiniteTrivial.lean",
+    "certificate_sha256": "be8a6d1f97dea1645741a92cd61258f66bad4615b6aa2fbaab46e1adb2a162da"
+  },
+  {
+    "equation": "Equation40951",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation40951-finite.json",
+    "sha256": "3185d0e0494b370f8f4eb4ecd1c27a82531491a2ad6902d595c642496aeb7c43",
+    "certificate": "proofs/Equation40951/FiniteTrivial.lean",
+    "certificate_sha256": "0f21a743054a3c33205762223d9eedd07f38395d1b29fe3374fdacc909302b21"
+  },
+  {
+    "equation": "Equation41179",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation41179-finite.json",
+    "sha256": "d20fbb34e934411d5e86a82896ec489596972b0eaa6a12db4551d1224b1b9dd6",
+    "certificate": "proofs/Equation41179/FiniteTrivial.lean",
+    "certificate_sha256": "4efe648b040cd2a37cc22eb82b05df5e0767fab225ef36d1e1d06f970cc18a37"
+  },
+  {
+    "equation": "Equation41239",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation41239-finite.json",
+    "sha256": "eb2c07582867a25ad12c3708fee5598e166391a261310528760fa2c3fedb305a",
+    "certificate": "proofs/Equation41239/FiniteTrivial.lean",
+    "certificate_sha256": "02cbf0492ce54f0eb8aec504e5fdf699c44bef1597e997d41830d3eaa9cf0e4f"
+  },
+  {
+    "equation": "Equation41252",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation41252-finite.json",
+    "sha256": "ad0f1ac31f78cca0e85746ec751bdd91ee2e4ecb35e6a971251a209c99695256",
+    "certificate": "proofs/Equation41252/FiniteTrivial.lean",
+    "certificate_sha256": "debfc19a8b06c3a6f33cc82f2a0a7a7a1bafe4bf9649570f612f0206287b6c19"
+  },
+  {
+    "equation": "Equation41253",
+    "table": "20.2",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation41253-finite.json",
+    "sha256": "a8ac9e8e309a8b4d7043b736120b7b9fc54ee531946cd5d64dfbf6b2e9117697",
+    "certificate": "proofs/Equation41253/FiniteTrivial.lean",
+    "certificate_sha256": "15e8487f21f08bc1daed233590358e039d57ce711bfeea6daca7e6598acfaf5e"
+  },
+  {
+    "equation": "Equation21714",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation21714-finite.json",
+    "sha256": "57adf07d927417e245f316559e1847ba7447f303116c9658a0ca0ef9cc07a61c",
+    "certificate": "proofs/Equation21714/FiniteTrivial.lean",
+    "certificate_sha256": "3744de55bcff4b15995751e11c844d6c7df4c2d3f0897190e5ab46e50937ff59"
+  },
+  {
+    "equation": "Equation21864",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation21864-finite.json",
+    "sha256": "c134e4683aa7d872a7d49bb7e987530ee73611431a2864b699aed6d62758beff",
+    "certificate": "proofs/Equation21864/FiniteTrivial.lean",
+    "certificate_sha256": "2e69bd962e62e19050696f39c95d4450cdf16290858b65d199d02b88e9ca3e26"
+  },
+  {
+    "equation": "Equation21865",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation21865-finite.json",
+    "sha256": "7d38fc46c5e35677fcc643f7180a87117453edfbd5a9e7a706a643f875ba38b5",
+    "certificate": "proofs/Equation21865/FiniteTrivial.lean",
+    "certificate_sha256": "98dfa7bf88f36fdcae067bc23fae042156edff072b8a609fe87ed4f394307d7f"
+  },
+  {
+    "equation": "Equation21866",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation21866-finite.json",
+    "sha256": "c94a396c3b2e507dd76cbec970ef84fb6f576819a38226a38b87d2f74065705a",
+    "certificate": "proofs/Equation21866/FiniteTrivial.lean",
+    "certificate_sha256": "cd840101ee07d23be4ec1172fcc73dba5e2b91f73ab5313e2b245be1779fa678"
+  },
+  {
+    "equation": "Equation24197",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation24197-finite.json",
+    "sha256": "ef7487d36ba75d897e6ad8a466fe913bfa119d3c7b4ab76d739a495e30c6e90c",
+    "certificate": "proofs/Equation24197/FiniteTrivial.lean",
+    "certificate_sha256": "320845f9501b7803101b7d1ddbd675a1beec3fe0a7ad6c70a0abc90a9b38c3e2"
+  },
+  {
+    "equation": "Equation24199",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation24199-finite.json",
+    "sha256": "9c88adfb3c9d4964c087f67cdf61a712b55527cc7a31844cbf5d1ceb27e3c05c",
+    "certificate": "proofs/Equation24199/FiniteTrivial.lean",
+    "certificate_sha256": "74a383ba9e975b8ca47c742b7c1a37b47e399187370dd351a9a6b25714ef8275"
+  },
+  {
+    "equation": "Equation24200",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation24200-finite.json",
+    "sha256": "7581476e71cc39a774d7c03a3a6ec069be3640fc7928a9c213b62c5b0f37b0a0",
+    "certificate": "proofs/Equation24200/FiniteTrivial.lean",
+    "certificate_sha256": "2c4d79611e2041d5ced11da56e48b65af7c314ccf78e0c030a2cad1bfaf308af"
+  },
+  {
+    "equation": "Equation24201",
+    "table": "20.3",
+    "status": "ready_not_submitted",
+    "path": "proofs/validation/finite130/judge-extension/requests/Equation24201-finite.json",
+    "sha256": "45e0fa65f3de2b16ed977002d826a7cfddc11710bac103e016aa727b992b4316",
+    "certificate": "proofs/Equation24201/FiniteTrivial.lean",
+    "certificate_sha256": "4eaf63e3d5a4d6e13b11d06b313c1c52e3c9e8216cc628d65d5a916c81453906"
+  }
+]

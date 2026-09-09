@@ -1,0 +1,40 @@
+{
+  "module": "Equation9680-Submission",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.421,
+  "peak_rss_mib": 635.31,
+  "source": "proofs/Equation9680/InfiniteModel.lean",
+  "sha256": "0b96adafea623b374968a25352c5fee03ab011bd88ef6c71398086259e9db8fb",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 1024,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq9680/Equation9680/InfiniteModel.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation9680/InfiniteModel.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq9680/Equation9680",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq9680"
+  ],
+  "log": "proofs/validation/eq9680-formal/Equation9680-Submission.log",
+  "axioms": {
+    "submission": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.CM.tower_injective": [
+      "propext"
+    ]
+  }
+}

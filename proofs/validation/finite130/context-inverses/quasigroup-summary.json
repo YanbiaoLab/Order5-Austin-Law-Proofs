@@ -1,0 +1,13 @@
+{
+  "label": "Equation20911-quasigroup-common-square",
+  "proof_hint_found": false,
+  "proof_length": null,
+  "exit_code": 3,
+  "seconds_limit": 20,
+  "memory_limit_mib": 64,
+  "elapsed_seconds": 3.872,
+  "input": ".build/finite130/context-inverses/Equation20911-quasigroup-common-square.in",
+  "input_sha256": "f459c01639ae58545398bd40c71c8d0ecbe618ebecdf96cab9e4e1670953caa1",
+  "output_sha256": "ba15aa315e4a92b411fa7cb0d7c9f91af89be150ae1deb46a7e957d10fe1e19a",
+  "output_tail": "         A          1        low        age       6965         58\n         F          4        low     weight          0          0\n         T          4        low     weight       6965        232\n============================== end of selector report ================\n\n============================== end of statistics =====================\n\nExiting with failure.\n\n------ process 63086 exit (max_megs) ------\n\u0007\nProcess 63086 exit (max_megs) Wed Sep  9 00:41:21 2026\n"
+}

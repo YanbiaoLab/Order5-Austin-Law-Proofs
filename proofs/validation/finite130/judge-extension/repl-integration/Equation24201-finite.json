@@ -1,0 +1,36 @@
+{
+  "case": "Equation24201-finite",
+  "expected_accepted": true,
+  "request_sha256": "2eb47cd6d756e2c2c18f2f21e0a366dbef5c427f6c58e319b463dc6fe06620ad",
+  "http_status": 200,
+  "elapsed_seconds": 1.826,
+  "result": {
+    "status": "accepted",
+    "error_code": "ACCEPTED",
+    "message": "certificate accepted",
+    "verdict": "true",
+    "artifact_path": null,
+    "direct_declarations": [
+      "EquationLHS",
+      "Finite",
+      "Goal",
+      "Magma",
+      "submission",
+      "submission.finite_trivial_dual"
+    ],
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "model_domain": "finite",
+    "elapsed_ms": 1825,
+    "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-cd718dc8-mathlib-0df444a360ea",
+    "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:finite_default=finite-model-proof-policy-v1:94ce33cf6c7c:Finite+Finite.:default_timeout=120:timeout_cap=120:max_code=None:max_false=None:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+    "execution_fingerprint": "judge-v3-repl-execution-v3:c7d22896be9cf0e1755f148b3306838cafce68f1a434e11b95cfcc22d3d88c16"
+  },
+  "local_only": true,
+  "submitted_to_aurora": false
+}
