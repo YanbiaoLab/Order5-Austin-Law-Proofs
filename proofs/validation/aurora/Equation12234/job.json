@@ -1,0 +1,18 @@
+{
+  "base_url": "http://10.220.69.172:8900",
+  "equation": "Equation12234",
+  "certificate": "proofs/validation/aurora/Equation12234/certificate.lean",
+  "certificate_sha256": "b11ebff279c1f3ab0ed1faf63bd75210bd9b6f456137cb4ad3bf8934ebc5c2b6",
+  "response": {
+    "job_id": "f6e80592aa904c7e99b31e2f94882504",
+    "status": "queued",
+    "result": null,
+    "error": null,
+    "backend_url": null,
+    "attempts": 0,
+    "created_at": 1788905346.6114402,
+    "updated_at": 1788905346.6114402,
+    "started_at": null,
+    "finished_at": null
+  }
+}

@@ -24,7 +24,9 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 
 2026-09-09 补齐论文旧归档遗漏的 **Equation9680／Equation36524**。论文原有 Candidate-96 结果已 **32/32 收录**；加后续 24 个不重叠编号，共 **56/96** 个已有证书条目。旧批次“30”表示当时库存，不是论文总数。本次只补录历史结果，没有新发现或新的 Lean/Judge 执行。详见 [补录审计](proofs/validation/2026-09-09-trace-tree-pair/README.md)。
 
-2026-09-09 新增 **2 份已重新通过 Judge v3 的 true 证书**：[Equation5834](proofs/Equation5834/Triviality.lean)、[Equation40037](proofs/Equation40037/Triviality.lean)。精确命题均为不带有限性假设的 `EquationN → Equation2`，结果分别为 `accepted / ACCEPTED / true`，故排除这两题为 Austin law。这与 56 份非平凡模型证书不重叠：Candidate-96 当前为 **56 个有非平凡模型证书、2 个已排除、38 个未由本仓这些结果分类**。详见 [本批 Judge 审计](proofs/validation/2026-09-09-twee-true/README.md)。
+2026-09-09 新增 **2 份已重新通过 Judge v3 的 true 证书**：[Equation5834](proofs/Equation5834/Triviality.lean)、[Equation40037](proofs/Equation40037/Triviality.lean)。精确命题均为不带有限性假设的 `EquationN → Equation2`，结果分别为 `accepted / ACCEPTED / true`，故排除这两题为 Austin law。这与 56 份非平凡模型证书不重叠：该批次归档后 Candidate-96 为 **56 个有非平凡模型证书、2 个已排除、38 个未由本仓这些结果分类**。详见 [本批 Judge 审计](proofs/validation/2026-09-09-twee-true/README.md)。
+
+2026-09-09 合并本批 **56 份极光云 judge-v3-repl accepted 证书**：补齐 30 个方程的模型条目，为已有 26 个编号追加本批验证证据。累计 **98/130** 个方程有模型证书，其中 **70 个**有显式无限性定理。Candidate-96 现为 **86 个有模型、2 个已排除、8 个未分类**。本次核对保存的请求、证书哈希和实际回执，未重新运行 Lean/Judge；嘉铭已提交的证明与历史记录保留。详见[本批归档与核对报告](proofs/validation/2026-09-09-aurora56/README.md)。
 
 每条方程的公式、对偶、来源与缺口见下表的方程链接。库存数据为 [index.json](proofs/index.json)，归档和验证方式见 [proofs/README.md](proofs/README.md)。
 
@@ -48,90 +50,90 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 | [Equation41253](proofs/Equation41253/README.md) | Equation5012 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation41253/InfiniteModel.lean) |
 | [Equation5066](proofs/Equation5066/README.md) | Equation41239 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation5066/InfiniteModel.lean) |
 | [Equation41239](proofs/Equation41239/README.md) | Equation5066 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation41239/InfiniteModel.lean) |
-| [Equation5093](proofs/Equation5093/README.md) | Equation41179 | 20.2 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation5093/FiniteTrivial.lean) | 未收录 | 未收录 |
-| [Equation41179](proofs/Equation41179/README.md) | Equation5093 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation5107](proofs/Equation5107/README.md) | Equation40951 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation40951](proofs/Equation40951/README.md) | Equation5107 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation5093](proofs/Equation5093/README.md) | Equation41179 | 20.2 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation5093/FiniteTrivial.lean) | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation5093/InfiniteModel.lean) |
+| [Equation41179](proofs/Equation41179/README.md) | Equation5093 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation41179/InfiniteModel.lean) |
+| [Equation5107](proofs/Equation5107/README.md) | Equation40951 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation5107/InfiniteModel.lean) |
+| [Equation40951](proofs/Equation40951/README.md) | Equation5107 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation40951/InfiniteModel.lean) |
 | [Equation5141](proofs/Equation5141/README.md) | Equation40917 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation5141/InfiniteModel.lean) |
 | [Equation40917](proofs/Equation40917/README.md) | Equation5141 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation40917/InfiniteModel.lean) |
 | [Equation5295](proofs/Equation5295/README.md) | Equation40909 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation5295/InfiniteModel.lean) |
 | [Equation40909](proofs/Equation40909/README.md) | Equation5295 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation40909/InfiniteModel.lean) |
-| [Equation5833](proofs/Equation5833/README.md) | Equation40070 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation5833/InfiniteModel.lean) |
-| [Equation40070](proofs/Equation40070/README.md) | Equation5833 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation40070/InfiniteModel.lean) |
+| [Equation5833](proofs/Equation5833/README.md) | Equation40070 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation5833/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation5833/certificate.lean) |
+| [Equation40070](proofs/Equation40070/README.md) | Equation5833 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation40070/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation40070/certificate.lean) |
 | [Equation5834](proofs/Equation5834/README.md) | Equation40037 | 20.2 | 所有模型平凡（Judge v3） | [更强：Triviality.lean](proofs/Equation5834/Triviality.lean) | 不存在（true 已接受） | 不适用 |
 | [Equation40037](proofs/Equation40037/README.md) | Equation5834 | 20.2 | 所有模型平凡（Judge v3） | [更强：Triviality.lean](proofs/Equation40037/Triviality.lean) | 不存在（true 已接受） | 不适用 |
-| [Equation5837](proofs/Equation5837/README.md) | Equation40221 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation40221](proofs/Equation40221/README.md) | Equation5837 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation5947](proofs/Equation5947/README.md) | Equation40057 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation40057](proofs/Equation40057/README.md) | Equation5947 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation5951](proofs/Equation5951/README.md) | Equation40208 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation40208](proofs/Equation40208/README.md) | Equation5951 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation6820](proofs/Equation6820/README.md) | Equation39485 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation39485](proofs/Equation39485/README.md) | Equation6820 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation6878](proofs/Equation6878/README.md) | Equation39126 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation6878/InfiniteModel.lean) |
-| [Equation39126](proofs/Equation39126/README.md) | Equation6878 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation39126/InfiniteModel.lean) |
-| [Equation6895](proofs/Equation6895/README.md) | Equation39163 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation39163](proofs/Equation39163/README.md) | Equation6895 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation6912](proofs/Equation6912/README.md) | Equation39214 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation39214](proofs/Equation39214/README.md) | Equation6912 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation7587](proofs/Equation7587/README.md) | Equation38316 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation38316](proofs/Equation38316/README.md) | Equation7587 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation5837](proofs/Equation5837/README.md) | Equation40221 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation5837/InfiniteModel.lean) |
+| [Equation40221](proofs/Equation40221/README.md) | Equation5837 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation40221/InfiniteModel.lean) |
+| [Equation5947](proofs/Equation5947/README.md) | Equation40057 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation5947/InfiniteModel.lean) |
+| [Equation40057](proofs/Equation40057/README.md) | Equation5947 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation40057/InfiniteModel.lean) |
+| [Equation5951](proofs/Equation5951/README.md) | Equation40208 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation5951/InfiniteModel.lean) |
+| [Equation40208](proofs/Equation40208/README.md) | Equation5951 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation40208/InfiniteModel.lean) |
+| [Equation6820](proofs/Equation6820/README.md) | Equation39485 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation6820/InfiniteModel.lean) |
+| [Equation39485](proofs/Equation39485/README.md) | Equation6820 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation39485/InfiniteModel.lean) |
+| [Equation6878](proofs/Equation6878/README.md) | Equation39126 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation6878/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation6878/certificate.lean) |
+| [Equation39126](proofs/Equation39126/README.md) | Equation6878 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation39126/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation39126/certificate.lean) |
+| [Equation6895](proofs/Equation6895/README.md) | Equation39163 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation6895/InfiniteModel.lean) |
+| [Equation39163](proofs/Equation39163/README.md) | Equation6895 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation39163/InfiniteModel.lean) |
+| [Equation6912](proofs/Equation6912/README.md) | Equation39214 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation6912/InfiniteModel.lean) |
+| [Equation39214](proofs/Equation39214/README.md) | Equation6912 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation39214/InfiniteModel.lean) |
+| [Equation7587](proofs/Equation7587/README.md) | Equation38316 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation7587/InfiniteModel.lean) |
+| [Equation38316](proofs/Equation38316/README.md) | Equation7587 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation38316/InfiniteModel.lean) |
 | [Equation7701](proofs/Equation7701/README.md) | Equation38303 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation7701/InfiniteModel.lean) |
 | [Equation38303](proofs/Equation38303/README.md) | Equation7701 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation38303/InfiniteModel.lean) |
 | [Equation7755](proofs/Equation7755/README.md) | Equation38249 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation7755/InfiniteModel.lean) |
 | [Equation38249](proofs/Equation38249/README.md) | Equation7755 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation38249/InfiniteModel.lean) |
-| [Equation7763](proofs/Equation7763/README.md) | Equation38565 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation7763/InfiniteModel.lean) |
-| [Equation38565](proofs/Equation38565/README.md) | Equation7763 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation38565/InfiniteModel.lean) |
-| [Equation8485](proofs/Equation8485/README.md) | Equation37519 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation37519](proofs/Equation37519/README.md) | Equation8485 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation9337](proofs/Equation9337/README.md) | Equation36867 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation36867](proofs/Equation36867/README.md) | Equation9337 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation7763](proofs/Equation7763/README.md) | Equation38565 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation7763/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation7763/certificate.lean) |
+| [Equation38565](proofs/Equation38565/README.md) | Equation7763 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation38565/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation38565/certificate.lean) |
+| [Equation8485](proofs/Equation8485/README.md) | Equation37519 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation8485/InfiniteModel.lean) |
+| [Equation37519](proofs/Equation37519/README.md) | Equation8485 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation37519/InfiniteModel.lean) |
+| [Equation9337](proofs/Equation9337/README.md) | Equation36867 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation9337/InfiniteModel.lean) |
+| [Equation36867](proofs/Equation36867/README.md) | Equation9337 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation36867/InfiniteModel.lean) |
 | [Equation9345](proofs/Equation9345/README.md) | Equation36713 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation9345/InfiniteModel.lean) |
 | [Equation36713](proofs/Equation36713/README.md) | Equation9345 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation36713/InfiniteModel.lean) |
 | [Equation9384](proofs/Equation9384/README.md) | Equation36714 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation9384/InfiniteModel.lean) |
 | [Equation36714](proofs/Equation36714/README.md) | Equation9384 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation36714/InfiniteModel.lean) |
-| [Equation9603](proofs/Equation9603/README.md) | Equation36514 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation9603/InfiniteModel.lean) |
-| [Equation36514](proofs/Equation36514/README.md) | Equation9603 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation36514/InfiniteModel.lean) |
+| [Equation9603](proofs/Equation9603/README.md) | Equation36514 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation9603/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation9603/certificate.lean) |
+| [Equation36514](proofs/Equation36514/README.md) | Equation9603 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation36514/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation36514/certificate.lean) |
 | [Equation9663](proofs/Equation9663/README.md) | Equation36487 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation36487](proofs/Equation36487/README.md) | Equation9663 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation9667](proofs/Equation9667/README.md) | Equation36638 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation9667/InfiniteModel.lean) |
 | [Equation36638](proofs/Equation36638/README.md) | Equation9667 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation36638/InfiniteModel.lean) |
-| [Equation9680](proofs/Equation9680/README.md) | Equation36524 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation9680/InfiniteModel.lean) |
-| [Equation36524](proofs/Equation36524/README.md) | Equation9680 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation36524/InfiniteModel.lean) |
-| [Equation10218](proofs/Equation10218/README.md) | Equation35685 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation35685](proofs/Equation35685/README.md) | Equation10218 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation9680](proofs/Equation9680/README.md) | Equation36524 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation9680/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation9680/certificate.lean) |
+| [Equation36524](proofs/Equation36524/README.md) | Equation9680 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation36524/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation36524/certificate.lean) |
+| [Equation10218](proofs/Equation10218/README.md) | Equation35685 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation10218/InfiniteModel.lean) |
+| [Equation35685](proofs/Equation35685/README.md) | Equation10218 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation35685/InfiniteModel.lean) |
 | [Equation10222](proofs/Equation10222/README.md) | Equation35836 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation35836](proofs/Equation35836/README.md) | Equation10222 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation11081](proofs/Equation11081/README.md) | Equation35036 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation11081/InfiniteModel.lean) |
 | [Equation35036](proofs/Equation35036/README.md) | Equation11081 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation35036/InfiniteModel.lean) |
-| [Equation11082](proofs/Equation11082/README.md) | Equation34889 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation34889](proofs/Equation34889/README.md) | Equation11082 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
+| [Equation11082](proofs/Equation11082/README.md) | Equation34889 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation11082/InfiniteModel.lean) |
+| [Equation34889](proofs/Equation34889/README.md) | Equation11082 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation34889/InfiniteModel.lean) |
 | [Equation11116](proofs/Equation11116/README.md) | Equation34888 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation11116/InfiniteModel.lean) |
 | [Equation34888](proofs/Equation34888/README.md) | Equation11116 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation34888/InfiniteModel.lean) |
-| [Equation11205](proofs/Equation11205/README.md) | Equation35100 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation11205/InfiniteModel.lean) |
-| [Equation35100](proofs/Equation35100/README.md) | Equation11205 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation35100/InfiniteModel.lean) |
-| [Equation11280](proofs/Equation11280/README.md) | Equation34778 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation11280/InfiniteModel.lean) |
-| [Equation34778](proofs/Equation34778/README.md) | Equation11280 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation34778/InfiniteModel.lean) |
-| [Equation12073](proofs/Equation12073/README.md) | Equation33998 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation12073/InfiniteModel.lean) |
-| [Equation33998](proofs/Equation33998/README.md) | Equation12073 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation33998/InfiniteModel.lean) |
+| [Equation11205](proofs/Equation11205/README.md) | Equation35100 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation11205/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation11205/certificate.lean) |
+| [Equation35100](proofs/Equation35100/README.md) | Equation11205 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation35100/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation35100/certificate.lean) |
+| [Equation11280](proofs/Equation11280/README.md) | Equation34778 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation11280/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation11280/certificate.lean) |
+| [Equation34778](proofs/Equation34778/README.md) | Equation11280 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation34778/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation34778/certificate.lean) |
+| [Equation12073](proofs/Equation12073/README.md) | Equation33998 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation12073/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation12073/certificate.lean) |
+| [Equation33998](proofs/Equation33998/README.md) | Equation12073 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation33998/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation33998/certificate.lean) |
 | [Equation12087](proofs/Equation12087/README.md) | Equation33884 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation33884](proofs/Equation33884/README.md) | Equation12087 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation12234](proofs/Equation12234/README.md) | Equation33883 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation33883](proofs/Equation33883/README.md) | Equation12234 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation12857](proofs/Equation12857/README.md) | Equation33436 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation12857/JudgeV3/InfiniteModel.lean) |
-| [Equation33436](proofs/Equation33436/README.md) | Equation12857 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation33436/JudgeV3/InfiniteModel.lean) |
-| [Equation12883](proofs/Equation12883/README.md) | Equation33020 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation33020](proofs/Equation33020/README.md) | Equation12883 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation13764](proofs/Equation13764/README.md) | Equation32294 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation13764/InfiniteModel.lean) |
-| [Equation32294](proofs/Equation32294/README.md) | Equation13764 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation32294/InfiniteModel.lean) |
-| [Equation13849](proofs/Equation13849/README.md) | Equation32281 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation13849/InfiniteModel.lean) |
-| [Equation32281](proofs/Equation32281/README.md) | Equation13849 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation32281/InfiniteModel.lean) |
-| [Equation13992](proofs/Equation13992/README.md) | Equation32280 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation13992/InfiniteModel.lean) |
-| [Equation32280](proofs/Equation32280/README.md) | Equation13992 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation32280/InfiniteModel.lean) |
+| [Equation12234](proofs/Equation12234/README.md) | Equation33883 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation12234/InfiniteModel.lean) |
+| [Equation33883](proofs/Equation33883/README.md) | Equation12234 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation33883/InfiniteModel.lean) |
+| [Equation12857](proofs/Equation12857/README.md) | Equation33436 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation12857/JudgeV3/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation12857/attempt02/certificate.lean) |
+| [Equation33436](proofs/Equation33436/README.md) | Equation12857 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation33436/JudgeV3/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation33436/certificate.lean) |
+| [Equation12883](proofs/Equation12883/README.md) | Equation33020 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation12883/InfiniteModel.lean) |
+| [Equation33020](proofs/Equation33020/README.md) | Equation12883 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation33020/InfiniteModel.lean) |
+| [Equation13764](proofs/Equation13764/README.md) | Equation32294 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation13764/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation13764/certificate.lean) |
+| [Equation32294](proofs/Equation32294/README.md) | Equation13764 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation32294/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation32294/certificate.lean) |
+| [Equation13849](proofs/Equation13849/README.md) | Equation32281 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation13849/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation13849/certificate.lean) |
+| [Equation32281](proofs/Equation32281/README.md) | Equation13849 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation32281/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation32281/certificate.lean) |
+| [Equation13992](proofs/Equation13992/README.md) | Equation32280 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation13992/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation13992/certificate.lean) |
+| [Equation32280](proofs/Equation32280/README.md) | Equation13992 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation32280/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation32280/certificate.lean) |
 | [Equation18137](proofs/Equation18137/README.md) | Equation27863 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
 | [Equation27863](proofs/Equation27863/README.md) | Equation18137 | 20.2 | 仅平凡（Blueprint） | 未收录 | 未收录 | 未收录 |
-| [Equation18212](proofs/Equation18212/README.md) | Equation27859 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation18212/InfiniteModel.lean) |
-| [Equation27859](proofs/Equation27859/README.md) | Equation18212 | 20.2 | 仅平凡（Blueprint） | 未收录 | 历史 Judge v3 accepted（本次未重编译） | [InfiniteModel.lean](proofs/Equation27859/InfiniteModel.lean) |
+| [Equation18212](proofs/Equation18212/README.md) | Equation27859 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation18212/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation18212/certificate.lean) |
+| [Equation27859](proofs/Equation27859/README.md) | Equation18212 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本批 Aurora accepted | [InfiniteModel.lean](proofs/Equation27859/InfiniteModel.lean)；[本批证书](proofs/validation/aurora/Equation27859/certificate.lean) |
 | [Equation19966](proofs/Equation19966/README.md) | Equation26105 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation19966/InfiniteModel.lean) |
 | [Equation26105](proofs/Equation26105/README.md) | Equation19966 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation26105/InfiniteModel.lean) |
 | [Equation22619](proofs/Equation22619/README.md) | Equation22634 | 20.2 | 仅平凡（Blueprint） | 未收录 | 本仓编译通过 | [InfiniteModel.lean](proofs/Equation22619/InfiniteModel.lean) |

@@ -19,3 +19,6 @@
 请在匹配的 Lean/Mathlib 与 `JudgeMagma.Magma` 环境中逐题隔离编译，避免混用不同题目的 `Goal`／`submission`。
 
 参见 [index.json](../index.json)、[归档说明](../README.md) 和 [补录审计](../validation/2026-09-09-trace-tree-pair/README.md)。
+
+
+本批 Aurora-56 补充：[另存的已验证证书](../validation/aurora/Equation36524/certificate.lean) 与[实际 accepted 回执](../validation/aurora/Equation36524/latest.json)。目标为本题源等式成立且模型非平凡；`submission.CM.tower_injective` 给出显式无限性。任务 ID：`19c99c9affe24b8d8e00bf102f05bd05`。本次归档核对已有验收记录，未重跑 Lean/Judge；见[批次报告](../validation/2026-09-09-aurora56/README.md)。

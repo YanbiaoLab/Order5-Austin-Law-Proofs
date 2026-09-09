@@ -74,3 +74,6 @@ pwsh -NoProfile -File proofs/validation/2026-09-09-austin24/verify.ps1
 ```powershell
 pwsh -NoProfile -File proofs/validation/2026-09-09-trace-tree-pair/verify.ps1
 ```
+
+
+2026-09-09 Aurora-56 增补：本次按最新 main 去重后新增 30 个模型条目，并为已有 26 个编号追加本批云端证书。累计 98 个方程有模型证书、70 个有显式无限性定理；本批 56 份均有实际 accepted 回执。原有证书保留；`explicit_infinity_proof` 指向本批显式无限性定理，`additional_model_proofs` 收录已有编号的补充证书。文件和回执的核对方式见[批次报告](validation/2026-09-09-aurora56/README.md)。
