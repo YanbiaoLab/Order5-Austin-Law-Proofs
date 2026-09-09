@@ -19,3 +19,6 @@
 请在证书及其 `JudgeProblem.lean` 所在目录隔离编译；不同题目共用 `Goal`／`submission` 名称，不能合并导入。依赖须使用匹配的 Lean／Mathlib 与 `JudgeMagma.Magma`。
 
 来源与验证状态见 [index.json](../index.json)、[归档说明](../README.md) 和 [增补记录](../validation/2026-09-09-austin24/README.md)。
+
+
+本批 Aurora-56 补充：[另存的已验证证书](../validation/aurora/Equation39126/certificate.lean) 与[实际 accepted 回执](../validation/aurora/Equation39126/latest.json)。目标为本题源等式成立且模型非平凡；`submission.CM.tower_injective` 给出显式无限性。任务 ID：`ee469f0ddc6b4723aaf0997fdaaa0dbd`。本次归档核对已有验收记录，未重跑 Lean/Judge；见[批次报告](../validation/2026-09-09-aurora56/README.md)。

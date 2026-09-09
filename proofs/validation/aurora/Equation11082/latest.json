@@ -1,0 +1,53 @@
+{
+  "job_id": "6a54634d8af841feb0073eafa45019e7",
+  "status": "done",
+  "result": {
+    "status": "accepted",
+    "error_code": "ACCEPTED",
+    "message": "certificate accepted",
+    "verdict": "false",
+    "direct_declarations": [
+      "And",
+      "And.intro",
+      "Eq",
+      "Eq.symm",
+      "EquationLHS",
+      "EquationRHS",
+      "Exists",
+      "Exists.intro",
+      "False",
+      "Goal",
+      "Magma",
+      "Nat",
+      "Nat.noConfusion",
+      "Not",
+      "OfNat.ofNat",
+      "instOfNatNat",
+      "submission",
+      "submission.Austin11082.Carrier",
+      "submission.Austin11082.embed",
+      "submission.Austin11082.embed_injective",
+      "submission.Austin11082.equation11082",
+      "submission.Austin11082.opposite",
+      "submission.CM",
+      "submission.modelMagma"
+    ],
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "elapsed_ms": 8040,
+    "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+    "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+    "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f"
+  },
+  "error": null,
+  "backend_url": "http://10.220.69.153:8899",
+  "attempts": 1,
+  "created_at": 1788900771.070391,
+  "updated_at": 1788900779.1242316,
+  "started_at": 1788900771.0770676,
+  "finished_at": 1788900779.1242316
+}
