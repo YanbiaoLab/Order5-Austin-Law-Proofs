@@ -1,0 +1,22 @@
+{
+  "record_kind": "historical_judge_receipt_excerpt",
+  "eq1_id": 38565,
+  "eq2_id": 2,
+  "receipt_contains_problem_text": true,
+  "equation1": "x = ((y * ((z * x) * z)) * y) * y",
+  "equation2": "x = y",
+  "certificate_sha256": "87db1ede5fd9ae90e76dfa28337788fa11f192c67a270a15a531788542d56b8b",
+  "certificate_bytes": 23440,
+  "status": "accepted",
+  "error_code": "ACCEPTED",
+  "verdict": "false",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+  "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+  "source_receipt_sha256": "dff8ef81cf3988566ead92a36e9dbbd5ce7ad10d8664f1879462e9bf33f553dc",
+  "note": "Historical acceptance; no new Judge submission during packaging. Internal addresses omitted."
+}

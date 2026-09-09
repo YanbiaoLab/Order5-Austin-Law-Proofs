@@ -18,7 +18,7 @@ proofs/
 
 `index.json` 是 README 索引的数据源。状态分别记录数学结论、是否有 Lean 源码、历史验收以及本仓重编译，不能用单个 `solved` 字段代替。未收录的 `.lean` 文件不使用 `sorry` 占位。
 
-当前快照包含：
+2026-09-08 已验证快照包含：
 
 - 130 条方程与 65 个对偶对，原表计数为 10 / 96 / 24。
 - 42 份 `InfiniteModel.lean`，全部在本仓重新编译通过。40 份保持历史证书原样；Equation22619、Equation22634 仅将整库 Mathlib 导入缩小为 `Mathlib.Data.Nat.Basic`，证明正文不变，历史原件及哈希保存在 `provenance/`。历史目标是“不蕴含 Equation2”。其中 14 份另含 `tower_injective`，也已重新编译并检查公理；其余 28 份未单列无限性定理。
@@ -49,3 +49,15 @@ python3 scripts/build_index.py --check
 修改证明后须重新验证，再更新 `index.json` 中的文件哈希、验证状态和证据来源。不得只更新 README 的勾选状态。新增无限性定理也须明确区分“写出了源码”和“已通过 Lean 内核检查”。
 
 `provenance/` 的历史索引保留来源仓库内的原始路径；本仓可用路径见 `index.json` 的 `path` 字段。来源仓库的未决/超时状态只是当时运行结果，不是数学不可解结论。
+
+## 2026-09-09 增补
+
+新增 24 份精确 `EquationN ↛ Equation2` 的历史 Judge v3 accepted 证书，详见 [增补记录](validation/2026-09-09-austin24/README.md)。22 个此前只有说明页的目录补入 `InfiniteModel.lean` 和原始 `JudgeProblem.lean`；Equation12857／Equation33436 原证明不变，新证书独立放在 `JudgeV3/`。
+
+证书为 `Submission.lean` 的逐字节副本（仅改文件名），不套用旧批次重建的目标定义。每题提供脱敏历史回执与原始题目。此次只有哈希、编号及命题绑定审计，无新的 Lean/Judge 执行。历史接受不冒充本仓重编译或独立无限性定理的验证。各题须隔离编译。
+
+只读核验：
+
+```powershell
+pwsh -NoProfile -File proofs/validation/2026-09-09-austin24/verify.ps1
+```

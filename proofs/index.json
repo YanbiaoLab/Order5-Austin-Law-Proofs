@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-09-08",
+  "updated_on": "2026-09-09",
   "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
-  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems",
+  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates",
   "equations": [
     {
       "equation": "Equation4916",
@@ -935,11 +935,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation5833/InfiniteModel.lean",
+        "sha256": "9e562a7201150025335f12548a3bd662e279c458bb34763d43f3cab90ee4a09b",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation5833/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation5833 does not imply Equation2",
+        "judge_problem": "proofs/Equation5833/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation5833/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation5833 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation40070",
@@ -948,11 +960,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation40070/InfiniteModel.lean",
+        "sha256": "e67b9eddb69ab9ef3c9317ddfe03c5ca0f5fb80034c69990c3ea2ef181800034",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation40070/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation40070 does not imply Equation2",
+        "judge_problem": "proofs/Equation40070/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation40070/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation40070 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation5834",
@@ -1091,11 +1115,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation6878/InfiniteModel.lean",
+        "sha256": "7087715d12994f6d82785c62453eb867c49fbe0abe395049864f6319189be822",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation6878/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation6878 does not imply Equation2",
+        "judge_problem": "proofs/Equation6878/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation6878/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation6878 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation39126",
@@ -1104,11 +1140,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation39126/InfiniteModel.lean",
+        "sha256": "7144111eab0122bc7c446cb006a9f53f42aa87819919d65549ed5fe032984640",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation39126/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation39126 does not imply Equation2",
+        "judge_problem": "proofs/Equation39126/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation39126/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation39126 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation6895",
@@ -1339,11 +1387,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation7763/InfiniteModel.lean",
+        "sha256": "1ddea7ca8193c986ddd49cd83a9679e30fdf9248a86b7b8835157e68a80af169",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation7763/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation7763 does not imply Equation2",
+        "judge_problem": "proofs/Equation7763/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation7763/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation7763 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation38565",
@@ -1352,11 +1412,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation38565/InfiniteModel.lean",
+        "sha256": "87db1ede5fd9ae90e76dfa28337788fa11f192c67a270a15a531788542d56b8b",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation38565/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation38565 does not imply Equation2",
+        "judge_problem": "proofs/Equation38565/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation38565/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation38565 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation8485",
@@ -1561,11 +1633,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation9603/InfiniteModel.lean",
+        "sha256": "eaa5b6f4be09af06481238b3dce3e2fba31195e4152a64603675aa6875f95f8a",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation9603/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation9603 does not imply Equation2",
+        "judge_problem": "proofs/Equation9603/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation9603/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation9603 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation36514",
@@ -1574,11 +1658,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation36514/InfiniteModel.lean",
+        "sha256": "8019b89c1644878c6df3d58d6e79f18af5d54eed46d238bb97721687240a5ba4",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation36514/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation36514 does not imply Equation2",
+        "judge_problem": "proofs/Equation36514/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation36514/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation36514 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation9663",
@@ -1933,11 +2029,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation11205/InfiniteModel.lean",
+        "sha256": "931671a0edcd957a61cc840819442c28e5c9535edfaa7c3f8fc21591b4fbe744",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation11205/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation11205 does not imply Equation2",
+        "judge_problem": "proofs/Equation11205/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation11205/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation11205 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation35100",
@@ -1946,11 +2054,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation35100/InfiniteModel.lean",
+        "sha256": "4fbe075a242b50656ada1dcbd8603a84dfb02223451b072e8e54690acbe56777",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation35100/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation35100 does not imply Equation2",
+        "judge_problem": "proofs/Equation35100/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation35100/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation35100 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation11280",
@@ -1959,11 +2079,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation11280/InfiniteModel.lean",
+        "sha256": "57c58f35150b4a03a02de661751d7f1c40ee2504162dd01fdb9fc914457f7db7",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation11280/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation11280 does not imply Equation2",
+        "judge_problem": "proofs/Equation11280/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation11280/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation11280 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation34778",
@@ -1972,11 +2104,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation34778/InfiniteModel.lean",
+        "sha256": "47a5f55c75349a7a09649699cdfaf997d6b0e2ab3c4c4e0a86ea8bcf3db0127a",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation34778/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation34778 does not imply Equation2",
+        "judge_problem": "proofs/Equation34778/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation34778/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation34778 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation12073",
@@ -1985,11 +2129,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation12073/InfiniteModel.lean",
+        "sha256": "bd8dfe4ad981d527b58ae03a419aeb9764970fee8210739301403a181fc6fb09",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation12073/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation12073 does not imply Equation2",
+        "judge_problem": "proofs/Equation12073/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation12073/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation12073 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation33998",
@@ -1998,11 +2154,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation33998/InfiniteModel.lean",
+        "sha256": "6b09fe36502260a13aed392eb8a07e11f4205c862f4883db7d20964402d51d99",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation33998/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation33998 does not imply Equation2",
+        "judge_problem": "proofs/Equation33998/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation33998/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation33998 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation12087",
@@ -2063,13 +2231,25 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation12857/JudgeV3/InfiniteModel.lean",
+        "sha256": "6a76979625e9e304bcaaeb4003f40810dc29adffb0f63938c1cc5dfdc8a93c66",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation12857/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation12857 does not imply Equation2",
+        "judge_problem": "proofs/Equation12857/JudgeV3/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation12857/JudgeV3/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
       "notes": [
-        "本仓已有[数学构造与 Python 检查](../../docs/Equation12857-model.md)，尚无对应 Lean 文件。"
-      ]
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation12857 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。",
+        "原有 InfiniteModel.lean 及配套模块不变，新独立证书存于 JudgeV3/。"
+      ],
+      "previous_historical_status": "timeout",
+      "preserved_model_path": "proofs/Equation12857/InfiniteModel.lean"
     },
     {
       "equation": "Equation33436",
@@ -2078,13 +2258,25 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation33436/JudgeV3/InfiniteModel.lean",
+        "sha256": "4cc010781739a66edca4123ab40bfb55edad47e1ea8150940811bdcb69e1aa40",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation33436/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation33436 does not imply Equation2",
+        "judge_problem": "proofs/Equation33436/JudgeV3/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation33436/JudgeV3/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
       "notes": [
-        "本仓已有[数学构造与 Python 检查](../../docs/Equation12857-model.md)，尚无对应 Lean 文件。"
-      ]
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation33436 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。",
+        "原有 InfiniteModel.lean 及配套模块不变，新独立证书存于 JudgeV3/。"
+      ],
+      "previous_historical_status": "timeout",
+      "preserved_model_path": "proofs/Equation33436/InfiniteModel.lean"
     },
     {
       "equation": "Equation12883",
@@ -2119,11 +2311,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation13764/InfiniteModel.lean",
+        "sha256": "e79475d0ae476b635129b236bb577fa44f9e2cdc0a509df33bf82b6510233915",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation13764/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation13764 does not imply Equation2",
+        "judge_problem": "proofs/Equation13764/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation13764/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation13764 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation32294",
@@ -2132,11 +2336,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation32294/InfiniteModel.lean",
+        "sha256": "7a0bcbc67c6683e450d1257a2b506b437245c37fbe282198384fc898d82f06ac",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation32294/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation32294 does not imply Equation2",
+        "judge_problem": "proofs/Equation32294/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation32294/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation32294 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation13849",
@@ -2145,11 +2361,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation13849/InfiniteModel.lean",
+        "sha256": "3c134f58a5ce9de6b8d0a03c1cc4661c8b408296763783b27aebc6347799b423",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation13849/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation13849 does not imply Equation2",
+        "judge_problem": "proofs/Equation13849/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation13849/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation13849 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation32281",
@@ -2158,11 +2386,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation32281/InfiniteModel.lean",
+        "sha256": "e349e5b9c0268f42b29fce7b97b7701cf1c6ccf5abbafe5197e8d0bcd7d844fc",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation32281/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation32281 does not imply Equation2",
+        "judge_problem": "proofs/Equation32281/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation32281/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation32281 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation13992",
@@ -2171,11 +2411,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation13992/InfiniteModel.lean",
+        "sha256": "35cc2f738b703b5200fc29fc2eca5fb1484e827ae88c515b10c3b2a3cafed0eb",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation13992/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation13992 does not imply Equation2",
+        "judge_problem": "proofs/Equation13992/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation13992/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation13992 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation32280",
@@ -2184,11 +2436,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation32280/InfiniteModel.lean",
+        "sha256": "4f557c76653572b15feddf7c7a916d0ad58fb4d63767155a89d3ec33a812578a",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation32280/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation32280 does not imply Equation2",
+        "judge_problem": "proofs/Equation32280/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation32280/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation32280 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation18137",
@@ -2223,11 +2487,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation18212/InfiniteModel.lean",
+        "sha256": "428051c9f4ae4bde5fbbf0006cb3b1f8ac6507c67533bb3737d54ab6ba8716f8",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation18212/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation18212 does not imply Equation2",
+        "judge_problem": "proofs/Equation18212/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation18212/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation18212 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation27859",
@@ -2236,11 +2512,23 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation27859/InfiniteModel.lean",
+        "sha256": "e2769d09f3a13d5f6cd4e7657b203f3e78dfd23d4eb97c6db4f725c0eef65782",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "owner-section-search-20260907/new_certificates/Equation27859/Submission.lean",
+        "historical_run": "owner-section-search-20260907; archive 2026-09-09",
+        "goal": "Equation27859 does not imply Equation2",
+        "judge_problem": "proofs/Equation27859/JudgeProblem.lean",
+        "historical_receipt": "proofs/Equation27859/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 增补：证书与历史 Judge v3 accepted 回执哈希一致，精确目标为 Equation27859 ↛ Equation2；本次未重新运行 Lean 或 Judge，未新增显式无限性定理。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation19966",
