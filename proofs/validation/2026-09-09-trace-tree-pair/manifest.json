@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-09",
+  "count": 2,
+  "verification": "Historical certificate and canonical problem hash audit. No new Lean/Judge run. JudgeProblem reconstructed from frozen input.",
+  "paper_baseline_ids": [
+    4952,
+    4957,
+    5012,
+    5066,
+    5141,
+    5295,
+    7701,
+    7755,
+    9345,
+    9384,
+    9667,
+    9680,
+    11081,
+    11116,
+    19966,
+    22619,
+    22634,
+    26105,
+    34888,
+    35036,
+    36524,
+    36638,
+    36713,
+    36714,
+    38249,
+    38303,
+    40909,
+    40914,
+    40917,
+    41239,
+    41252,
+    41253
+  ],
+  "later_ids": [
+    5833,
+    6878,
+    7763,
+    9603,
+    11205,
+    11280,
+    12073,
+    12857,
+    13764,
+    13849,
+    13992,
+    18212,
+    27859,
+    32280,
+    32281,
+    32294,
+    33436,
+    33998,
+    34778,
+    35100,
+    36514,
+    38565,
+    39126,
+    40070
+  ],
+  "entries": [
+    {
+      "eq1_id": 9680,
+      "eq2_id": 2,
+      "files": [
+        {
+          "path": "proofs/Equation9680/InfiniteModel.lean",
+          "bytes": 43684,
+          "sha256": "d66bf88f194848503fa6bc93f102672898dc334e149a91f2a8ac3fe132c0d859"
+        },
+        {
+          "path": "proofs/Equation9680/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "fc202376effff620483703951c667744c704a1d116d4471fb2b211ceb0eb7c3d"
+        },
+        {
+          "path": "proofs/Equation9680/problem.json",
+          "bytes": 895,
+          "sha256": "488d32256c752516a5cf8a1e977711278feed7dfdabb4cb069bd278e522765a6"
+        },
+        {
+          "path": "proofs/Equation9680/judge_acceptance.json",
+          "bytes": 1585,
+          "sha256": "a9a5e0bc25c5f95920de5fff292c3c1c25780045046dc621c3cd7cd2329650b7"
+        }
+      ]
+    },
+    {
+      "eq1_id": 36524,
+      "eq2_id": 2,
+      "files": [
+        {
+          "path": "proofs/Equation36524/InfiniteModel.lean",
+          "bytes": 43694,
+          "sha256": "f2ce1b4fabd6d6eeb42eb4cf9bcaa0c43deef20b9fe84f2bb4f3a956c161b683"
+        },
+        {
+          "path": "proofs/Equation36524/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "3e6a6ca4403f18b2bf7a32f0b7655b9c1e25cb6f581f4f097d8be36e07d2ff37"
+        },
+        {
+          "path": "proofs/Equation36524/problem.json",
+          "bytes": 901,
+          "sha256": "c5341f1ce4d9a8372552cd01ffb3cf6998fdea0af4b1f7c85b2894f636738584"
+        },
+        {
+          "path": "proofs/Equation36524/judge_acceptance.json",
+          "bytes": 1588,
+          "sha256": "567c647134177fb7cf3364ef7c0900392fe9aa6bf9d4c27027b70acefff62d51"
+        }
+      ]
+    }
+  ]
+}

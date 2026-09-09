@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_on": "2026-09-09",
   "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
-  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates",
+  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs)",
   "equations": [
     {
       "equation": "Equation4916",
@@ -1781,11 +1781,24 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation9680/InfiniteModel.lean",
+        "sha256": "d66bf88f194848503fa6bc93f102672898dc334e149a91f2a8ac3fe132c0d859",
+        "validation": "historical_judge_v3_accepted_hash_and_canonical_problem_checked",
+        "source": "trace-tree-magmas-release-20260905/arxiv-v1/experiments/unrestricted_four_search_20260904/results/certificates/trace_depth_sweep_soundfix_v5/E9680_to_E2__d66bf88f1948.lean",
+        "historical_run": "trace_depth_sweep_soundfix_v5",
+        "goal": "Equation9680 does not imply Equation2",
+        "judge_problem": "proofs/Equation9680/JudgeProblem.lean",
+        "judge_problem_provenance": "reconstructed_from_frozen_paper_input_not_original_judge_module",
+        "historical_receipt": "proofs/Equation9680/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 补录论文原有结果，非新发现。证书及发布包题目哈希已核对；JudgeProblem 按冻结题目重建，此次无新的 Lean/Judge 执行。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation36524",
@@ -1794,11 +1807,24 @@
       "table": "20.2",
       "finite_math": "仅平凡（Blueprint）",
       "finite_proof": null,
-      "infinite_model_proof": null,
+      "infinite_model_proof": {
+        "path": "proofs/Equation36524/InfiniteModel.lean",
+        "sha256": "f2ce1b4fabd6d6eeb42eb4cf9bcaa0c43deef20b9fe84f2bb4f3a956c161b683",
+        "validation": "historical_judge_v3_accepted_hash_and_canonical_problem_checked",
+        "source": "trace-tree-magmas-release-20260905/arxiv-v1/experiments/unrestricted_four_search_20260904/results/certificates/trace_depth_sweep_soundfix_v5/E36524_to_E2__f2ce1b4fabd6.lean",
+        "historical_run": "trace_depth_sweep_soundfix_v5",
+        "goal": "Equation36524 does not imply Equation2",
+        "judge_problem": "proofs/Equation36524/JudgeProblem.lean",
+        "judge_problem_provenance": "reconstructed_from_frozen_paper_input_not_original_judge_module",
+        "historical_receipt": "proofs/Equation36524/judge_acceptance.json"
+      },
       "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": []
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_archive",
+      "notes": [
+        "2026-09-09 补录论文原有结果，非新发现。证书及发布包题目哈希已核对；JudgeProblem 按冻结题目重建，此次无新的 Lean/Judge 执行。"
+      ],
+      "previous_historical_status": "timeout"
     },
     {
       "equation": "Equation10218",
