@@ -1,0 +1,10 @@
+{
+  "status": "reversed_operation_transfer_from_accepted_E40037",
+  "base_certificate_sha256": "0fc47c164374c0fbde4dfc3cb728cb0e14e92de6fc7cc19009cfecf98ed2d6b3",
+  "base_equation": 40037,
+  "target_equation": 5834,
+  "certificate_sha256": "9e1f3d00fb4e925b0cb0600a2df84a390134180afdf2a256194367f21cd59425",
+  "certificate_bytes": 671407,
+  "method": "Reverse every magma operation in the independently replayed E40037 equality derivation; map source variables (a,b,c) to (a,c,b). Exact E5834 goal separately submitted to Judge v3.",
+  "official_judge_used": false
+}
