@@ -1,0 +1,705 @@
+{
+  "date": "2026-09-09",
+  "count": 24,
+  "filled_missing": 22,
+  "alternatives": 2,
+  "validation": "Historical Judge v3 receipts, byte hashes and problem binding audited. No new Lean/Judge run.",
+  "entries": [
+    {
+      "eq1_id": 5833,
+      "eq2_id": 2,
+      "equation1": "x = y * (x * (y * ((z * x) * y)))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation5833/InfiniteModel.lean",
+          "bytes": 4851,
+          "sha256": "9e562a7201150025335f12548a3bd662e279c458bb34763d43f3cab90ee4a09b"
+        },
+        {
+          "path": "proofs/Equation5833/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "304199cb08badebf3244cb5f99cd2cac0b7278e771c0c9d4f4fbdce81593d7ec"
+        },
+        {
+          "path": "proofs/Equation5833/problem.json",
+          "bytes": 667,
+          "sha256": "70d11757549ff017a7438ed17f5278b12fa18049326ddba3b4e7e3d325c203e5"
+        },
+        {
+          "path": "proofs/Equation5833/judge_acceptance.json",
+          "bytes": 1153,
+          "sha256": "59aa53d6041fa8bbc4278167d15f84dd0a88131586d9bcdcabc6ce3c919c101f"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 6878,
+      "eq2_id": 2,
+      "equation1": "x = y * (y * ((z * x) * (x * y)))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation6878/InfiniteModel.lean",
+          "bytes": 572996,
+          "sha256": "7087715d12994f6d82785c62453eb867c49fbe0abe395049864f6319189be822"
+        },
+        {
+          "path": "proofs/Equation6878/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "022e35935702a43dbea00fbf809ab5e3fc51c3bef0c1af8000c9b1ee6a02e74c"
+        },
+        {
+          "path": "proofs/Equation6878/problem.json",
+          "bytes": 667,
+          "sha256": "c0868b5a8560f31fb0dc22f2e3e02947a1516d46450c11697b2f4d3f4184ff49"
+        },
+        {
+          "path": "proofs/Equation6878/judge_acceptance.json",
+          "bytes": 1155,
+          "sha256": "d2573d81692cb52e5dfd74c57b9343fac9961416964ff9e97bba97a047fa642f"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 7763,
+      "eq2_id": 2,
+      "equation1": "x = y * (y * ((z * (x * z)) * y))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation7763/InfiniteModel.lean",
+          "bytes": 22478,
+          "sha256": "1ddea7ca8193c986ddd49cd83a9679e30fdf9248a86b7b8835157e68a80af169"
+        },
+        {
+          "path": "proofs/Equation7763/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "4c8d6bc4daf97d80421c5a90e5848a9c8198d24bee02bb3fff51ccce7f24496a"
+        },
+        {
+          "path": "proofs/Equation7763/problem.json",
+          "bytes": 667,
+          "sha256": "11a7bf34d1d292ad545d18a84e9ef4dfa29a8ab811f283938295294c30062b9f"
+        },
+        {
+          "path": "proofs/Equation7763/judge_acceptance.json",
+          "bytes": 1154,
+          "sha256": "0a8d36fd876f42baed2f32abf226a569449d5506fe14384768dc2bf5815a5a13"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 9603,
+      "eq2_id": 2,
+      "equation1": "x = y * ((z * x) * (y * (x * y)))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation9603/InfiniteModel.lean",
+          "bytes": 7070,
+          "sha256": "eaa5b6f4be09af06481238b3dce3e2fba31195e4152a64603675aa6875f95f8a"
+        },
+        {
+          "path": "proofs/Equation9603/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "57703bbfa6aabd2f0eb20a2947bdd89e7a65971b32e9650405803945ffedbc79"
+        },
+        {
+          "path": "proofs/Equation9603/problem.json",
+          "bytes": 667,
+          "sha256": "ca8bebee99971114541e6f613dce2e6acba113b291318a75054ada7441793fad"
+        },
+        {
+          "path": "proofs/Equation9603/judge_acceptance.json",
+          "bytes": 1153,
+          "sha256": "7a4c0def1f12634a1fa6bdfb0512d1449d503e9293e46914bc4236a022650507"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 11205,
+      "eq2_id": 2,
+      "equation1": "x = y * ((y * (x * y)) * (z * y))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation11205/InfiniteModel.lean",
+          "bytes": 7496,
+          "sha256": "931671a0edcd957a61cc840819442c28e5c9535edfaa7c3f8fc21591b4fbe744"
+        },
+        {
+          "path": "proofs/Equation11205/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "8393f2e2eda00b768ef6d4223497323393d10387f11610374ee20d809a2e1439"
+        },
+        {
+          "path": "proofs/Equation11205/problem.json",
+          "bytes": 672,
+          "sha256": "188c262a68490972b37a3734dee6980e04f37309ff460e373e4cb2e2b64657de"
+        },
+        {
+          "path": "proofs/Equation11205/judge_acceptance.json",
+          "bytes": 1154,
+          "sha256": "ba170859af35b39689bbf6cd2abc97f0d564fba41f31a7c1c2c8aecaf37742dc"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 11280,
+      "eq2_id": 2,
+      "equation1": "x = y * ((y * (z * y)) * (x * y))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation11280/InfiniteModel.lean",
+          "bytes": 555995,
+          "sha256": "57c58f35150b4a03a02de661751d7f1c40ee2504162dd01fdb9fc914457f7db7"
+        },
+        {
+          "path": "proofs/Equation11280/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "63676ccd7917f9b21332bea1b0bc86b69c781c85090261b3361ec9637e460f1a"
+        },
+        {
+          "path": "proofs/Equation11280/problem.json",
+          "bytes": 672,
+          "sha256": "90770dc00b3773c94a9735f2603e45f9dd668c1351f23dca7f1f332369f48fec"
+        },
+        {
+          "path": "proofs/Equation11280/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "34c164657b60f7052c270e4edbb1592f94d7a112de1941ad8d2a8f0bdf94bcab"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 12073,
+      "eq2_id": 2,
+      "equation1": "x = y * (((y * x) * x) * (z * z))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation12073/InfiniteModel.lean",
+          "bytes": 980416,
+          "sha256": "bd8dfe4ad981d527b58ae03a419aeb9764970fee8210739301403a181fc6fb09"
+        },
+        {
+          "path": "proofs/Equation12073/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "a50261771ed90a40e22772202d1db9a1f5e5e87adff66963a48dee6843ccc95b"
+        },
+        {
+          "path": "proofs/Equation12073/problem.json",
+          "bytes": 672,
+          "sha256": "ff625e8474d22d2004819ef017e6dc4f1d9dc9d5992ca79ff8989e456128d0ab"
+        },
+        {
+          "path": "proofs/Equation12073/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "2a9854f3f295a1fb67a19e0ae5d720c22364fc60c4a97f34c6fb4f3c0f59b2bb"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 12857,
+      "eq2_id": 2,
+      "equation1": "x = y * ((x * (y * (z * z))) * y)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation12857/JudgeV3/InfiniteModel.lean",
+          "bytes": 226445,
+          "sha256": "6a76979625e9e304bcaaeb4003f40810dc29adffb0f63938c1cc5dfdc8a93c66"
+        },
+        {
+          "path": "proofs/Equation12857/JudgeV3/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "3cca7c1ecc5bacb93d00da78f5083776a5ace57e61af1ebd6e9f5a022075cc76"
+        },
+        {
+          "path": "proofs/Equation12857/JudgeV3/problem.json",
+          "bytes": 672,
+          "sha256": "595ba17077fd53fa7683c63b9a4b1a96d3c2ce7bff8d86ac379fcf5a1079d113"
+        },
+        {
+          "path": "proofs/Equation12857/JudgeV3/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "88e4aef71a62b7dff3fda0bdc0658e43fc884aa1eb3466c6c64d015e5e9a798e"
+        }
+      ],
+      "placement": "alternative"
+    },
+    {
+      "eq1_id": 13764,
+      "eq2_id": 2,
+      "equation1": "x = y * ((x * ((z * y) * y)) * y)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation13764/InfiniteModel.lean",
+          "bytes": 211404,
+          "sha256": "e79475d0ae476b635129b236bb577fa44f9e2cdc0a509df33bf82b6510233915"
+        },
+        {
+          "path": "proofs/Equation13764/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "2d976bb4e2f2dd61a4be25acbf9a8b693c371e3d4e35c86a00e9147dbfe3128f"
+        },
+        {
+          "path": "proofs/Equation13764/problem.json",
+          "bytes": 672,
+          "sha256": "f59ac5a3138592b33c98025f641ea4ef553f7382f6aae1e049f503e4110c545f"
+        },
+        {
+          "path": "proofs/Equation13764/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "314746e5c5cac58f2fecf119cd8aa34fd09126d09d7c3068d8abc2451ecf8009"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 13849,
+      "eq2_id": 2,
+      "equation1": "x = y * ((y * ((x * z) * z)) * z)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation13849/InfiniteModel.lean",
+          "bytes": 211396,
+          "sha256": "3c134f58a5ce9de6b8d0a03c1cc4661c8b408296763783b27aebc6347799b423"
+        },
+        {
+          "path": "proofs/Equation13849/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "5a55b3100c284d7b04d0b94f454b8fafa7b4637d888fa1f2ab77f412f28a6587"
+        },
+        {
+          "path": "proofs/Equation13849/problem.json",
+          "bytes": 672,
+          "sha256": "7be9cfc76af106163dbcdbdab2efbd4eb20d3c4292a214e7043386c4723779ef"
+        },
+        {
+          "path": "proofs/Equation13849/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "7ba9412535a3c3bb9bb56cc01b57a89825c9e55d3df1e2ab4206cade129fd80e"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 13992,
+      "eq2_id": 2,
+      "equation1": "x = y * ((z * ((x * y) * y)) * y)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation13992/InfiniteModel.lean",
+          "bytes": 211251,
+          "sha256": "35cc2f738b703b5200fc29fc2eca5fb1484e827ae88c515b10c3b2a3cafed0eb"
+        },
+        {
+          "path": "proofs/Equation13992/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "ed9286592f58ee4ad279f6763302e484d0e6b4ce0ec1919107fdc989184429b5"
+        },
+        {
+          "path": "proofs/Equation13992/problem.json",
+          "bytes": 672,
+          "sha256": "6e6c3da6759e3603f244c8f9e8be7117bc8b2e5cf863c0baa9b3d5ce76f68290"
+        },
+        {
+          "path": "proofs/Equation13992/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "79f2a2fe90af779d24b4ca425debae95b69a7defee8bb4859f3dda817888b69c"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 18212,
+      "eq2_id": 2,
+      "equation1": "x = (y * y) * (x * ((x * z) * z))",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation18212/InfiniteModel.lean",
+          "bytes": 321635,
+          "sha256": "428051c9f4ae4bde5fbbf0006cb3b1f8ac6507c67533bb3737d54ab6ba8716f8"
+        },
+        {
+          "path": "proofs/Equation18212/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "ca9861b5afd6e365b185d7221c93f16c205175975ca4342803afd6a4a5e1dd46"
+        },
+        {
+          "path": "proofs/Equation18212/problem.json",
+          "bytes": 672,
+          "sha256": "3c2d8f2800e3ade0702a285f2992bd09b93130c77ff7218de44d44d01ead3ee8"
+        },
+        {
+          "path": "proofs/Equation18212/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "7367cef48a48b102c67774c82db6c68d479a6580cd9d0b74d21a13d0117e5f57"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 27859,
+      "eq2_id": 2,
+      "equation1": "x = ((y * (y * x)) * x) * (z * z)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation27859/InfiniteModel.lean",
+          "bytes": 322023,
+          "sha256": "e2769d09f3a13d5f6cd4e7657b203f3e78dfd23d4eb97c6db4f725c0eef65782"
+        },
+        {
+          "path": "proofs/Equation27859/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "350eb4ea2263c9ced18daa593c6755c7f61a4be7c09ae867bd9540bd744b2b97"
+        },
+        {
+          "path": "proofs/Equation27859/problem.json",
+          "bytes": 672,
+          "sha256": "469d3c4481a23abda132c018d8e659f22f823634ce256f0604bb585aa6a220ca"
+        },
+        {
+          "path": "proofs/Equation27859/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "fa4b2958adc2269050307ac7778df53845786df06b84812e258123bf3a894ac9"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 32280,
+      "eq2_id": 2,
+      "equation1": "x = (y * ((y * (y * x)) * z)) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation32280/InfiniteModel.lean",
+          "bytes": 211685,
+          "sha256": "4f557c76653572b15feddf7c7a916d0ad58fb4d63767155a89d3ec33a812578a"
+        },
+        {
+          "path": "proofs/Equation32280/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "9ec16571468b1ee95276579a16828a536df9255c183c75435be6f7afbc621efa"
+        },
+        {
+          "path": "proofs/Equation32280/problem.json",
+          "bytes": 672,
+          "sha256": "24bc1b8246da3c07a8a13b362951ac97cf9ee0f08835aecb243babde8e7bc6c0"
+        },
+        {
+          "path": "proofs/Equation32280/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "73b9557e6c0d78ab1ee9f07043408b78f64479b0a892c21172f20e5608d663a3"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 32281,
+      "eq2_id": 2,
+      "equation1": "x = (y * ((y * (y * x)) * z)) * z",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation32281/InfiniteModel.lean",
+          "bytes": 211830,
+          "sha256": "e349e5b9c0268f42b29fce7b97b7701cf1c6ccf5abbafe5197e8d0bcd7d844fc"
+        },
+        {
+          "path": "proofs/Equation32281/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "2974bfa536cd5e110985a0ab33a4ce7def73013d2fcb481008a1c08f508a6308"
+        },
+        {
+          "path": "proofs/Equation32281/problem.json",
+          "bytes": 672,
+          "sha256": "690addadc37689120dde9bd61023f91e8eab05ebf471aa4359973ded7db257d8"
+        },
+        {
+          "path": "proofs/Equation32281/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "8837fa1af5781c424a49ef6fc0bf490102246cfb5ede25e271ae199014c361df"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 32294,
+      "eq2_id": 2,
+      "equation1": "x = (y * ((y * (y * z)) * x)) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation32294/InfiniteModel.lean",
+          "bytes": 211838,
+          "sha256": "7a0bcbc67c6683e450d1257a2b506b437245c37fbe282198384fc898d82f06ac"
+        },
+        {
+          "path": "proofs/Equation32294/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "db41aac9be67bece81c4495fd0220c0b600ebbd40bc5c45574d6ed6260b5dcfc"
+        },
+        {
+          "path": "proofs/Equation32294/problem.json",
+          "bytes": 672,
+          "sha256": "5e97d30264cd4cad8c78797dd0c4465dfe6ce76dcd435cceea65fc823a264950"
+        },
+        {
+          "path": "proofs/Equation32294/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "cd31b6af91b1dab63263c65ed59ffe7f96982767ff2b39d0e746fec175c10831"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 33436,
+      "eq2_id": 2,
+      "equation1": "x = (y * (((z * z) * y) * x)) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation33436/JudgeV3/InfiniteModel.lean",
+          "bytes": 226903,
+          "sha256": "4cc010781739a66edca4123ab40bfb55edad47e1ea8150940811bdcb69e1aa40"
+        },
+        {
+          "path": "proofs/Equation33436/JudgeV3/JudgeProblem.lean",
+          "bytes": 354,
+          "sha256": "b5222cb2964d04466f606da90ee557be7174890a59ea0000d3250612bb363f11"
+        },
+        {
+          "path": "proofs/Equation33436/JudgeV3/problem.json",
+          "bytes": 672,
+          "sha256": "12cf58dec60910a101b976144f184e7a140b35bb951d359dc6bd6a98f6b15d75"
+        },
+        {
+          "path": "proofs/Equation33436/JudgeV3/judge_acceptance.json",
+          "bytes": 1157,
+          "sha256": "45c4343fc0eed5efa78629d1de3136c55724b750330c8f62e7f7ccfd7e83e559"
+        }
+      ],
+      "placement": "alternative"
+    },
+    {
+      "eq1_id": 33998,
+      "eq2_id": 2,
+      "equation1": "x = ((y * y) * (x * (x * z))) * z",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation33998/InfiniteModel.lean",
+          "bytes": 981340,
+          "sha256": "6b09fe36502260a13aed392eb8a07e11f4205c862f4883db7d20964402d51d99"
+        },
+        {
+          "path": "proofs/Equation33998/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "15b1cb2c4f09fc461cd5f39e047880e0e0872320b2a5ce419588e6d978923b42"
+        },
+        {
+          "path": "proofs/Equation33998/problem.json",
+          "bytes": 672,
+          "sha256": "86595ce1079dcef29ccd46f34fd2ee5a5c5b7241124875dfaf4ffe67652749d5"
+        },
+        {
+          "path": "proofs/Equation33998/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "d1da34e74ced84587c757aa7a1eb40ec73115dafece7fed5a210236b8d388795"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 34778,
+      "eq2_id": 2,
+      "equation1": "x = ((y * x) * ((y * z) * y)) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation34778/InfiniteModel.lean",
+          "bytes": 556957,
+          "sha256": "47a5f55c75349a7a09649699cdfaf997d6b0e2ab3c4c4e0a86ea8bcf3db0127a"
+        },
+        {
+          "path": "proofs/Equation34778/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "99b112be099f0f6d2fcba7dbafb8608e7bcbf269441074d4abe87e1c59c8fd4f"
+        },
+        {
+          "path": "proofs/Equation34778/problem.json",
+          "bytes": 672,
+          "sha256": "a6c0619557be18f139471ceb06eeef480eaf24f08a6405779d513316f41dc3bd"
+        },
+        {
+          "path": "proofs/Equation34778/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "dc7bf6992911f4e0664b4c8dbf080245b0467fe7a6f5ed108fa9d66345751dbc"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 35100,
+      "eq2_id": 2,
+      "equation1": "x = ((y * z) * ((y * x) * y)) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation35100/InfiniteModel.lean",
+          "bytes": 8458,
+          "sha256": "4fbe075a242b50656ada1dcbd8603a84dfb02223451b072e8e54690acbe56777"
+        },
+        {
+          "path": "proofs/Equation35100/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "58475b8501247d837da2cd6923b6a58efbd78444309ad35b1b5fff877c5e8203"
+        },
+        {
+          "path": "proofs/Equation35100/problem.json",
+          "bytes": 672,
+          "sha256": "49c6fac697f7c75f0af58d9219e027438b2da2d7c144ae31f13ce0f46d006dcb"
+        },
+        {
+          "path": "proofs/Equation35100/judge_acceptance.json",
+          "bytes": 1154,
+          "sha256": "7903f221e47b2faa0ab9e22926d28b64727167bfa66941a0836a45a0ee65731e"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 36514,
+      "eq2_id": 2,
+      "equation1": "x = (((y * x) * y) * (x * z)) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation36514/InfiniteModel.lean",
+          "bytes": 8032,
+          "sha256": "8019b89c1644878c6df3d58d6e79f18af5d54eed46d238bb97721687240a5ba4"
+        },
+        {
+          "path": "proofs/Equation36514/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "a5b4868f0670644ccf1b57814a004c7ddc02119ca8114b76a7c223ef8ac9aa27"
+        },
+        {
+          "path": "proofs/Equation36514/problem.json",
+          "bytes": 672,
+          "sha256": "30e65fd3ce3ecd748d002524f8a1d1aba2a17be25f554da0ad663e0f19f22f7a"
+        },
+        {
+          "path": "proofs/Equation36514/judge_acceptance.json",
+          "bytes": 1154,
+          "sha256": "a068c9cf23ef9051d030ecd60bec5247b0b9cebbaf12bbafc3b45db0e571adf0"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 38565,
+      "eq2_id": 2,
+      "equation1": "x = ((y * ((z * x) * z)) * y) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation38565/InfiniteModel.lean",
+          "bytes": 23440,
+          "sha256": "87db1ede5fd9ae90e76dfa28337788fa11f192c67a270a15a531788542d56b8b"
+        },
+        {
+          "path": "proofs/Equation38565/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "339587f53b8793a503e0092fc4368ef2491552f78b3e5fa091035edace3e2d4f"
+        },
+        {
+          "path": "proofs/Equation38565/problem.json",
+          "bytes": 672,
+          "sha256": "4b0f2511a5019b3f6a4684930ca38102d25b38eddea36aef6234d8f96895d9a3"
+        },
+        {
+          "path": "proofs/Equation38565/judge_acceptance.json",
+          "bytes": 1155,
+          "sha256": "60cc9609a1baf77d7f388a1c5fd5b1c5cf6e1e69c3875441965e01fc38aac3eb"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 39126,
+      "eq2_id": 2,
+      "equation1": "x = (((y * x) * (x * z)) * y) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation39126/InfiniteModel.lean",
+          "bytes": 573962,
+          "sha256": "7144111eab0122bc7c446cb006a9f53f42aa87819919d65549ed5fe032984640"
+        },
+        {
+          "path": "proofs/Equation39126/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "c9bc7daefd7870cd203793b2d824fd18f4412a2e0c950ef8669d67cfa38004b7"
+        },
+        {
+          "path": "proofs/Equation39126/problem.json",
+          "bytes": 672,
+          "sha256": "44293c227bc275b88eca13d907e3b9b8ece88e0c4bb9d19f877c17093d66fa43"
+        },
+        {
+          "path": "proofs/Equation39126/judge_acceptance.json",
+          "bytes": 1156,
+          "sha256": "2d72221b4ba4b67616efd0c62d7997a5c55de8e793f8c446cdd2a8a91a2c8e55"
+        }
+      ],
+      "placement": "filled_missing"
+    },
+    {
+      "eq1_id": 40070,
+      "eq2_id": 2,
+      "equation1": "x = (((y * (x * z)) * y) * x) * y",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation40070/InfiniteModel.lean",
+          "bytes": 5813,
+          "sha256": "e67b9eddb69ab9ef3c9317ddfe03c5ca0f5fb80034c69990c3ea2ef181800034"
+        },
+        {
+          "path": "proofs/Equation40070/JudgeProblem.lean",
+          "bytes": 402,
+          "sha256": "47e4969b63e2e9a6cdcb5ac26ca810571905b71a31283bfaee4b6be1bcbe2dd3"
+        },
+        {
+          "path": "proofs/Equation40070/problem.json",
+          "bytes": 672,
+          "sha256": "29af4371938ad776156c4978fba9a0683a74dd0a91b52ed3c998eb4f8780a6f5"
+        },
+        {
+          "path": "proofs/Equation40070/judge_acceptance.json",
+          "bytes": 1154,
+          "sha256": "c00236cc6577731affea45c8a082d1caf196bfc776efcd07003e8edaab3b92f9"
+        }
+      ],
+      "placement": "filled_missing"
+    }
+  ]
+}
