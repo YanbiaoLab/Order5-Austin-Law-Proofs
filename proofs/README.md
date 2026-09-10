@@ -77,3 +77,7 @@ pwsh -NoProfile -File proofs/validation/2026-09-09-trace-tree-pair/verify.ps1
 
 
 2026-09-09 Aurora-56 增补：本次按最新 main 去重后新增 30 个模型条目，并为已有 26 个编号追加本批云端证书。累计 98 个方程有模型证书、70 个有显式无限性定理；本批 56 份均有实际 accepted 回执。原有证书保留；`explicit_infinity_proof` 指向本批显式无限性定理，`additional_model_proofs` 收录已有编号的补充证书。文件和回执的核对方式见[批次报告](validation/2026-09-09-aurora56/README.md)。
+
+## 2026-09-10 表 20.3 新增两份模型
+
+Equation20911／Equation25087 分别补入原样模型证书、原始配套目标和脱敏 Judge v3 accepted 回执，均含 `submission.CM.tower_injective`。表 20.3 模型证书由 2 增至 4，总模型库存由 98 增至 100，显式无限性由 70 增至 72；有限侧状态未改变。本批仅核对保存的验收证据，不计入早期本仓重新编译结果；详见[归档报告](validation/2026-09-10-open24-two-models/README.md)。
