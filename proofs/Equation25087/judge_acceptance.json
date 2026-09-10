@@ -1,0 +1,25 @@
+{
+  "record_kind": "historical_judge_receipt_excerpt",
+  "eq1_id": 25087,
+  "eq2_id": 2,
+  "receipt_contains_problem_text": true,
+  "equation1": "x = (y * (x * (x * y))) * (z * z)",
+  "equation2": "x = y",
+  "certificate_sha256": "c34100d47dd51620bb4d19e3b4241a191353886e20a4be7b7e8e6e41182c1441",
+  "certificate_bytes": 2862,
+  "status": "accepted",
+  "error_code": "ACCEPTED",
+  "verdict": "false",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "verified_at_utc": "2026-09-09T15:57:08.786508+00:00",
+  "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+  "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+  "source_receipt_sha256": "50a3c79148c8151a342ce4a40675481b8e9d01c4c716f8aac37e98ebdb692936",
+  "infinitude": "submission.CM.tower_injective: injectivity of n ↦ (n : ℚ); same carrier as CM.model",
+  "original_operation_author": "Bruno Le Floch, Zulip 554572972, 2025-11-09",
+  "note": "Saved Judge v3 acceptance; exact source bytes and problem binding audited on 2026-09-10. No new Lean/Judge run during archiving. Internal identifiers and addresses omitted."
+}

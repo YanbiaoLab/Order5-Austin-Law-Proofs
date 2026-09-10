@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-09-09",
+  "updated_on": "2026-09-10",
   "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
-  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs); 2 Austin-96 candidates excluded by fresh Judge v3 accepted unrestricted true proofs; branch finite certificates reconciled with main while preserving main model archives",
+  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs); 2 Austin-96 candidates excluded by fresh Judge v3 accepted unrestricted true proofs; branch finite certificates reconciled with main while preserving main model archives; two accepted Table20.3 rational infinite models archived on 2026-09-10",
   "equations": [
     {
       "equation": "Equation4916",
@@ -7749,13 +7749,33 @@
       "table": "20.3",
       "finite_math": "未知",
       "finite_proof": null,
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "infinite_model_proof": {
+        "path": "proofs/Equation20911/InfiniteModel.lean",
+        "sha256": "eb3fa642caa3c0532a5060a09b216ca4fb984c45a1cc16c0eb5bf286d26ee185",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "austin-open20-20260909/verified_results/Equation20911/Submission.lean",
+        "historical_run": "2026-09-09T15:58:06.753214+00:00",
+        "goal": "Equation20911 does not imply Equation2",
+        "judge_problem": "proofs/Equation20911/JudgeProblem.lean",
+        "judge_problem_sha256": "c00f9696e3a4bcc97b49347d9658ade0ebec41fd9757c865e580f35cfda125a9",
+        "historical_receipt": "proofs/Equation20911/judge_acceptance.json",
+        "report": "proofs/validation/2026-09-10-open24-two-models/README.md"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_model_archive",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
-      ]
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "2026-09-10 收录：精确单文件证书已有 Judge v3 accepted / false 回执，包含自然数到有理数载体的单射。归档时核对字节哈希、题目及回执，未重新运行 Lean/Judge。基本运算归于 Bruno Le Floch；本次形式化其对本式及对偶的应用。有限侧仍未知。"
+      ],
+      "previous_historical_status": "timeout",
+      "explicit_infinity_proof": {
+        "path": "proofs/Equation20911/InfiniteModel.lean",
+        "sha256": "eb3fa642caa3c0532a5060a09b216ca4fb984c45a1cc16c0eb5bf286d26ee185",
+        "theorem": "submission.CM.tower_injective",
+        "validation": "historical_judge_v3_accepted_module_contains_explicit_infinity",
+        "receipt": "proofs/Equation20911/judge_acceptance.json"
+      }
     },
     {
       "equation": "Equation25087",
@@ -7764,13 +7784,33 @@
       "table": "20.3",
       "finite_math": "未知",
       "finite_proof": null,
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
-      "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "infinite_model_proof": {
+        "path": "proofs/Equation25087/InfiniteModel.lean",
+        "sha256": "c34100d47dd51620bb4d19e3b4241a191353886e20a4be7b7e8e6e41182c1441",
+        "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked",
+        "source": "austin-open20-20260909/verified_results/Equation25087/Submission.lean",
+        "historical_run": "2026-09-09T15:57:08.786508+00:00",
+        "goal": "Equation25087 does not imply Equation2",
+        "judge_problem": "proofs/Equation25087/JudgeProblem.lean",
+        "judge_problem_sha256": "1b735b0adb220e8f13f93c37c8be292c4edaf6ab4ae3bc00d58352c8b385604c",
+        "historical_receipt": "proofs/Equation25087/judge_acceptance.json",
+        "report": "proofs/validation/2026-09-10-open24-two-models/README.md"
+      },
+      "explicit_infinity": true,
+      "historical_status": "accepted",
+      "local_lean_validation": "not_run_for_new_model_archive",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
-      ]
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "2026-09-10 收录：精确单文件证书已有 Judge v3 accepted / false 回执，包含自然数到有理数载体的单射。归档时核对字节哈希、题目及回执，未重新运行 Lean/Judge。基本运算归于 Bruno Le Floch；本次形式化其对本式及对偶的应用。有限侧仍未知。"
+      ],
+      "previous_historical_status": "timeout",
+      "explicit_infinity_proof": {
+        "path": "proofs/Equation25087/InfiniteModel.lean",
+        "sha256": "c34100d47dd51620bb4d19e3b4241a191353886e20a4be7b7e8e6e41182c1441",
+        "theorem": "submission.CM.tower_injective",
+        "validation": "historical_judge_v3_accepted_module_contains_explicit_infinity",
+        "receipt": "proofs/Equation25087/judge_acceptance.json"
+      }
     },
     {
       "equation": "Equation21714",
@@ -8380,8 +8420,8 @@
     "proofs/Equation28740/README.md": "e46a20097d2e318f1e990c7bb18ae0c8dd340a773d7cbf3b2c86960aebc775cc",
     "proofs/Equation17286/README.md": "2834a0940f9c25020db87272fde2b508a0b1ffa6d90aa044df9d6cc68d5bda73",
     "proofs/Equation28626/README.md": "53483d719a6bd98f1e0165a47e5663d6aab44ad0e4a3a5b25ebc0ae44287e1e0",
-    "proofs/Equation20911/README.md": "8306af4185d00639626fdf2b2fb4cb129b6b3a190619123883846ff6c9136e0b",
-    "proofs/Equation25087/README.md": "c6828e030d421adf158b01a60e4f23d152817478ea33815bd292a191367ac79d",
+    "proofs/Equation20911/README.md": "e30837867237e63766545c09581dcccefca9835a5f9f641358195bba44648d3d",
+    "proofs/Equation25087/README.md": "62e2df9682fccc53f0a6a419e3c6a9ed6e3cbe366dec2958f553eeac7ca2d9f9",
     "proofs/Equation21714/README.md": "a3f53a28fa4938ae9ec5687141e02458cc52e50c114af53a137544a00128e2d7",
     "proofs/Equation24200/README.md": "af8e67d65adf7dab14efc08d4c6ee4405e90c4aa42ba4096c2577a66dd652014",
     "proofs/Equation21864/README.md": "40a162ae4eb95c79603c69d38dc60250f20f412c7599a33f1641d636687b6dca",
@@ -8403,7 +8443,7 @@
     "proofs/validation/aurora/Equation5947/JudgeProblem.lean": "0305c19031854608051bc9f67bcfab3d040291aa416b6d304b4e207a2c53c577",
     "proofs/Equation5951/InfiniteModel.lean": "b5421c74abf67a258212f449a4ccc491ca7e3828b766a76501d1f592aca45708",
     "proofs/Equation40208/InfiniteModel.lean": "0c2e3bbccd1f215aca362ac03c6043752bfe4b080e92addac7e29f77108b136a",
-    "README.md": "79eb0d1628d0fef57a99af6762f1ea56a21428244b5e9b2a63e258ab46e1a285",
+    "README.md": "9da5f37373afe8e6e198aa383f5a5db4ead90d609db110f22919d2b9a33a30b5",
     "proofs/validation/aurora/Equation6820/local-flat-check.json": "dd4476124e8a11c92bada057614072d68fd74416f49aa646543b843146e396a3",
     "proofs/validation/aurora/Equation8485/job.json": "a78643db915dcf2b063ccdbe29f5bfde2e700a44c789a0c89af1e8613cf33159",
     "proofs/Equation37519/InfiniteModel.lean": "18428f681ce9d6c381238cc3a42c60bbafc27454a2ed7c8b1308648b7e97ac1f",
@@ -8757,7 +8797,7 @@
     "proofs/validation/aurora/Equation40057/local-flat-check.json": "148852a26b30a18a39b42fb0916233165260504bd4b1b944140ea22d7b3fd67f",
     "proofs/Equation37519/JudgeProblem.lean": "0f4baed719adcef2b46466db54c7a9e4624f1cb77183c4f7492ceac006003227",
     "proofs/validation/aurora/Equation7763/job.json": "e0d96eb96dc2a2dfc6fd329cb9e17b2bf03f12fa5793cfe39706f96f6a90f64c",
-    "proofs/README.md": "1be6873a87609c86ec8fdbe6e6489d21543adb4a7c2f6313910b1937c889b9d3",
+    "proofs/README.md": "aac064f7cb16fcb04bdb6b8a373fad621b3b4f8117097ab90bbe93c220263094",
     "proofs/validation/aurora/Equation12073/JudgeProblem.lean": "5411334ecc7537b0b29b2f2dec1389faf88597a05282277b0586626c58fea6e5",
     "proofs/validation/aurora/Equation32280/request.json": "51a4865dee33a46380d618c04764992718465ef0af55544613472e84c8d1f249",
     "proofs/validation/aurora/Equation32281/job.json": "10e03efa39fad6b37e5014ac387552de7cc5b4ef33efc16ef816b247c7508b34",
@@ -9266,7 +9306,18 @@
     "proofs/validation/finite130/context-inverses/Equation12294-asymmetric-pair.in": "52ae3be71a06308a56e533da2938d306cd0d16aa3c51339bc9847bbe3f8eb4b2",
     "proofs/validation/finite130/context-inverses/square-maps-summary.json": "ff82811c9d74583430b57d8305cdfa30488f5065630f37ff8a1c5728157a1dc4",
     "proofs/validation/finite130/context-inverses/Equation20911-left-c-automorphism.in": "c21da19bd6802b5301c5b734545b7e8359d9e650c195cea8ad1ee4ffa1c5ea88",
-    "proofs/validation/finite130/context-inverses/Equation22446-square-inverse-map13.in": "98661992a1a9de447337d283e224310241b12074d3f102e192781c4d3261759d"
+    "proofs/validation/finite130/context-inverses/Equation22446-square-inverse-map13.in": "98661992a1a9de447337d283e224310241b12074d3f102e192781c4d3261759d",
+    "proofs/Equation20911/InfiniteModel.lean": "eb3fa642caa3c0532a5060a09b216ca4fb984c45a1cc16c0eb5bf286d26ee185",
+    "proofs/Equation20911/JudgeProblem.lean": "c00f9696e3a4bcc97b49347d9658ade0ebec41fd9757c865e580f35cfda125a9",
+    "proofs/Equation20911/problem.json": "a5a256bd242c06874efdf4e8575e5d8494eff4e9c998472b1766bf442a9ed71b",
+    "proofs/Equation20911/judge_acceptance.json": "f4f6a895870a617c217d39d048bfecec270b10c126180f9dda89e810e07beec5",
+    "proofs/Equation25087/InfiniteModel.lean": "c34100d47dd51620bb4d19e3b4241a191353886e20a4be7b7e8e6e41182c1441",
+    "proofs/Equation25087/JudgeProblem.lean": "1b735b0adb220e8f13f93c37c8be292c4edaf6ab4ae3bc00d58352c8b385604c",
+    "proofs/Equation25087/problem.json": "6ac48399899e93e45a40a42ede947d383aa6186fedc41bcd9d25402acb47acd7",
+    "proofs/Equation25087/judge_acceptance.json": "51aa224c6a8cbef0ae719300c3dacd7ee40deed856856f0be42f9c4fd77401c8",
+    "proofs/validation/2026-09-10-open24-two-models/manifest.json": "16046964e578e08ec3f36e6ec730c40ee2e85e3f3daba23319b8f5b1ad54b555",
+    "proofs/validation/2026-09-10-open24-two-models/README.md": "c3726bbd1fe06c6d374ea9e25b005216f9369d9dbc48b1740039217b856c49cd",
+    "proofs/validation/2026-09-10-open24-two-models/verify.py": "3db32ac3ee0295b469a14f74092d1ee658be35cd40b08b8480fb00c49cd297d8"
   },
   "lean_recompilation": {
     "date": "2026-09-08",
@@ -9289,6 +9340,22 @@
         "saved_exact_standalone_local_checks": 30,
         "total_model_equations_after": 98,
         "equations_with_explicit_infinity_after": 70
+      }
+    },
+    {
+      "name": "Open24-two-models",
+      "report": "proofs/validation/2026-09-10-open24-two-models/README.md",
+      "manifest": "proofs/validation/2026-09-10-open24-two-models/manifest.json",
+      "manifest_sha256": "16046964e578e08ec3f36e6ec730c40ee2e85e3f3daba23319b8f5b1ad54b555",
+      "counts": {
+        "equations": 2,
+        "new_equation_entries": 2,
+        "saved_judge_v3_accepted": 2,
+        "independent_constructions": 1,
+        "total_model_equations_after": 100,
+        "equations_with_explicit_infinity_after": 72,
+        "table20_3_models_after": 4,
+        "table20_3_finite_certificates_after": 8
       }
     }
   ],

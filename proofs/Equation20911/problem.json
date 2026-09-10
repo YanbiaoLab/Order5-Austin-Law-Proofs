@@ -1,0 +1,7 @@
+{
+  "id": "open20_E20911_to_E2",
+  "eq1_id": 20911,
+  "eq2_id": 2,
+  "equation1": "x = (y * y) * (((z * x) * x) * z)",
+  "equation2": "x = y"
+}

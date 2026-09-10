@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-10",
+  "count": 2,
+  "validation": "Saved Judge v3 receipts, exact byte hashes and source/target binding audited. No new Lean/Judge run.",
+  "entries": [
+    {
+      "eq1_id": 20911,
+      "eq2_id": 2,
+      "equation1": "x = (y * y) * (((z * x) * x) * z)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation20911/InfiniteModel.lean",
+          "bytes": 2879,
+          "sha256": "eb3fa642caa3c0532a5060a09b216ca4fb984c45a1cc16c0eb5bf286d26ee185"
+        },
+        {
+          "path": "proofs/Equation20911/JudgeProblem.lean",
+          "bytes": 326,
+          "sha256": "c00f9696e3a4bcc97b49347d9658ade0ebec41fd9757c865e580f35cfda125a9"
+        },
+        {
+          "path": "proofs/Equation20911/problem.json",
+          "bytes": 149,
+          "sha256": "a5a256bd242c06874efdf4e8575e5d8494eff4e9c998472b1766bf442a9ed71b"
+        },
+        {
+          "path": "proofs/Equation20911/judge_acceptance.json",
+          "bytes": 1454,
+          "sha256": "f4f6a895870a617c217d39d048bfecec270b10c126180f9dda89e810e07beec5"
+        }
+      ],
+      "placement": "filled_missing",
+      "source_receipt_sha256": "7eccc74d209eb0de79be556ae12188076d156aa17586e5cec6afbe3ad8164355",
+      "explicit_infinity": true,
+      "infinity_theorem": "submission.CM.tower_injective"
+    },
+    {
+      "eq1_id": 25087,
+      "eq2_id": 2,
+      "equation1": "x = (y * (x * (x * y))) * (z * z)",
+      "equation2": "x = y",
+      "files": [
+        {
+          "path": "proofs/Equation25087/InfiniteModel.lean",
+          "bytes": 2862,
+          "sha256": "c34100d47dd51620bb4d19e3b4241a191353886e20a4be7b7e8e6e41182c1441"
+        },
+        {
+          "path": "proofs/Equation25087/JudgeProblem.lean",
+          "bytes": 326,
+          "sha256": "1b735b0adb220e8f13f93c37c8be292c4edaf6ab4ae3bc00d58352c8b385604c"
+        },
+        {
+          "path": "proofs/Equation25087/problem.json",
+          "bytes": 149,
+          "sha256": "6ac48399899e93e45a40a42ede947d383aa6186fedc41bcd9d25402acb47acd7"
+        },
+        {
+          "path": "proofs/Equation25087/judge_acceptance.json",
+          "bytes": 1454,
+          "sha256": "51aa224c6a8cbef0ae719300c3dacd7ee40deed856856f0be42f9c4fd77401c8"
+        }
+      ],
+      "placement": "filled_missing",
+      "source_receipt_sha256": "50a3c79148c8151a342ce4a40675481b8e9d01c4c716f8aac37e98ebdb692936",
+      "explicit_infinity": true,
+      "infinity_theorem": "submission.CM.tower_injective"
+    }
+  ],
+  "dependencies": {
+    "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166"
+  },
+  "source_dependency_sha256": "1aed4d013517b9caf30776db63fcb27b7ff986382585ab383be0e8020266e012",
+  "dependency_comparison": "Identical text after CRLF/LF normalization; repository dependency unchanged.",
+  "counts": {
+    "equations": 2,
+    "new_equation_entries": 2,
+    "saved_judge_v3_accepted": 2,
+    "independent_constructions": 1,
+    "total_model_equations_after": 100,
+    "equations_with_explicit_infinity_after": 72,
+    "table20_3_models_after": 4,
+    "table20_3_finite_certificates_after": 8
+  }
+}
