@@ -70,22 +70,22 @@ def render(data, original):
     rows = data['equations']
     missing_finite = Counter(row['table'] for row in rows if not row.get('finite_proof'))
     missing_model = Counter(row['table'] for row in rows if not row.get('infinite_model_proof'))
-    meanings = {'20.1': '已知 Austin 律：只有平凡有限模型，存在非平凡无限模型',
-                '20.2': '已知只有平凡有限模型；原表中无限侧未知',
-                '20.3': '原表中是否存在非平凡有限模型未知'}
+    meanings = {'20.1': 'Known Austin laws: all finite models are trivial, and nontrivial infinite models exist',
+                '20.2': 'All finite models are known to be trivial; the infinite case was unknown in the original table',
+                '20.3': 'The existence of nontrivial finite models was unknown in the original table'}
     totals = Counter(row['table'] for row in rows)
-    summary = ['| 原表 | 方程数 | 原表含义 | 尚无平凡有限 Lean 证书的方程数 | 尚无非平凡无限 Lean 证书的方程数 |',
+    summary = ['| Original table | Equations | Meaning in the original table | Equations without a Lean certificate of finite triviality | Equations without a Lean certificate of a nontrivial infinite model |',
                '|---|---:|---|---:|---:|']
     for table, meaning in meanings.items():
         summary.append(f'| {table} | {totals[table]} | {meaning} | {missing_finite[table]} | {missing_model[table]} |')
     excluded = sum(bool(row.get('unrestricted_triviality_proof')) for row in rows)
     count_note = ('<!-- certificate-counts:start -->\n'
-                  f'当前已提交库存：平凡有限 Lean 证书 {sum(bool(r.get("finite_proof")) for r in rows)} 份，'
-                  f'非平凡模型 Lean 证书 {sum(bool(r.get("infinite_model_proof")) for r in rows)} 份。'
-                  '“尚无证书”按下方证书列统计，不包含尚未提交的本地文件。'
-                  f'无限侧缺口中有 {excluded} 条已证明非平凡模型不可能存在，不属于待补证明。\n'
+                  f'The committed inventory currently contains {sum(bool(r.get("finite_proof")) for r in rows)} Lean certificates of finite triviality '
+                  f'and {sum(bool(r.get("infinite_model_proof")) for r in rows)} Lean certificates of nontrivial models. '
+                  '“Without a certificate” is counted from the certificate columns below and excludes uncommitted local files. '
+                  f'Among the gaps in the infinite case, {excluded} equations have been proved to admit no nontrivial model, so no such model proof remains to be supplied.\n'
                   '<!-- certificate-counts:end -->')
-    text, count = re.subn(r'^\| 原表 \|[^\n]*\n(?:\|[^\n]*\n)+', '\n'.join(summary) + '\n',
+    text, count = re.subn(r'^\| Original table \|[^\n]*\n(?:\|[^\n]*\n)+', '\n'.join(summary) + '\n',
                           original, count=1, flags=re.M)
     assert count == 1
     if '<!-- certificate-counts:start -->' in text:
@@ -94,24 +94,25 @@ def render(data, original):
     else:
         end = text.index(summary[-1]) + len(summary[-1])
         text = text[:end] + '\n\n' + count_note + text[end:]
+    finite_statuses = {'已证仅平凡（Lean）': 'Proved trivial (Lean)', '未知': 'Unknown'}
     details = []
     for row in rows:
         name = row['equation']
         finite = row.get('finite_proof')
         model = row.get('infinite_model_proof')
-        finite_link = f'[{Path(finite["path"]).name}]({finite["path"]})' if finite else '未收录'
-        model_link = f'[{Path(model["path"]).name}]({model["path"]})' if model else '未收录'
-        model_status = '未收录'
+        finite_link = f'[{Path(finite["path"]).name}]({finite["path"]})' if finite else 'Not archived'
+        model_link = f'[{Path(model["path"]).name}]({model["path"]})' if model else 'Not archived'
+        model_status = 'Not archived'
         if model:
             checked = (row.get('model_compilation', {}).get('status') == 'passed'
                        or row.get('aurora_validation', {}).get('status') == 'accepted')
-            model_status = '已校验' if checked else '历史 accepted'
+            model_status = 'Verified' if checked else 'Historically accepted'
         unrestricted = row.get('unrestricted_triviality_proof')
         if unrestricted:
-            model_status = f'[已证不存在]({unrestricted["path"]})'
-            model_link = '不可能存在'
+            model_status = f'[Proved impossible]({unrestricted["path"]})'
+            model_link = 'Impossible'
         details.append(f'| [{name}](proofs/{name}/README.md) | {row["dual"]} | {row["table"]} | '
-                       f'{row["finite_math"]} | {finite_link} | {model_status} | {model_link} |')
+                       f'{finite_statuses[row["finite_math"]]} | {finite_link} | {model_status} | {model_link} |')
     text, count = re.subn(r'^\| \[Equation[^\n]*(?:\n\| \[Equation[^\n]*)*',
                           '\n'.join(details), text, count=1, flags=re.M)
     assert count == 1
