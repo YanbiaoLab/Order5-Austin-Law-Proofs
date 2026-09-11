@@ -9860,7 +9860,7 @@
       "name": "Ten-complete-Austin-laws",
       "report": "proofs/validation/2026-09-11-ten-austin/README.md",
       "manifest": "proofs/validation/2026-09-11-ten-austin/manifest.json",
-      "manifest_sha256": "b8f8e87fcffc96ed299494d0b8b013d611fb7097966efffd71663ee4494318a6",
+      "manifest_sha256": "f792747c71a3863914109b57b764bcd29aaea82390bf72c09e9e4840412ca2ac",
       "counts": {
         "equations": 10,
         "dual_pairs": 5,
