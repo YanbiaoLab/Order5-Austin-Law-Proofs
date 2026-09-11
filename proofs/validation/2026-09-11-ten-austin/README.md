@@ -10,7 +10,7 @@
 | E21865 | E24197 | 同上 | [E21865](../aurora/Equation21865/latest.json)、[E24197](../aurora/Equation24197/latest.json) accepted |
 | E21866 | E24201 | 同上 | [E21866](../aurora/Equation21866/latest.json)、[E24201](../aurora/Equation24201/latest.json) accepted |
 
-这是十条方程、五对对偶、两组共享构造，不计作十个独立构造。每条均有自己的 `InfiniteModel.lean`、精确 `JudgeProblem.Goal` 和 `submission.CM.tower_injective`。核心证明、独立单文件证书、逐单元日志和 JSON 清单随同归档。核心源码见 [E10222 原式证明](../../Equation10222/Lean/Austin10222/UnitLaw.lean)和 [E21866 行像关系模型](../../Equation21866/Lean/Austin21866/Model.lean)。
+这是十条方程、五对对偶、两组共享构造，不计作十个独立构造。每条均有自己的 `InfiniteModel.lean`、精确 `JudgeProblem.Goal` 和 `submission.CM.tower_injective`。核心证明、独立单文件证书、逐单元日志和 JSON 清单随同归档。构造说明见 [E10222 正规树模型](../../../docs/Equation10222-model.md)和 [E21866 行像关系模型](../../../docs/Equation21866-model.md)。
 
 ## 库存变化
 
