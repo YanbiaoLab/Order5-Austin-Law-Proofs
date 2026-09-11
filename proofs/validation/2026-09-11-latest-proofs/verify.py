@@ -153,12 +153,20 @@ def main():
                 proof = row[field]
                 assert (f'({proof["path"]})' in columns[column]) if proof else ('.lean)' not in columns[column])
         for line in text.splitlines():
-            if re.match(r'^\| 20\.[123] \|', line):
+            if re.match(r'^\| (?:20\.[123]|\*\*(?:合计|Total)\*\*) \|', line):
                 columns = [v.strip() for v in line.strip('|').split('|')]
-                subset = [r for r in rows.values() if r['table'] == columns[0]]
-                assert int(columns[1]) == len(subset)
-                assert int(columns[-2]) == sum(not r['finite_proof'] for r in subset)
-                assert int(columns[-1]) == sum(not r['infinite_model_proof'] for r in subset)
+                subset = (list(rows.values()) if columns[0].startswith('**') else
+                          [r for r in rows.values() if r['table'] == columns[0]])
+                values = [int(column.strip('*')) for column in columns[1:]]
+                assert values == [
+                    len(subset),
+                    sum(not r['finite_proof'] for r in subset),
+                    sum(bool(r['infinite_model_proof']) for r in subset),
+                    sum(bool(r.get('unrestricted_triviality_proof')) for r in subset),
+                    sum(not r['infinite_model_proof'] and not r.get('unrestricted_triviality_proof')
+                        for r in subset),
+                ]
+                assert sum(values[2:]) == values[0]
         current = text.split('<!-- current-proof-status:start -->')[1].split('<!-- current-proof-status:end -->')[0]
         for name in finite_missing | infinite_open:
             assert name in current, name

@@ -59,8 +59,8 @@
     "Equation23653"
   ],
   "files": {
-    "README.md": "41a7738a042b228793fdee6619afc6ece4ae22be00235bb44d07984e4e935d02",
-    "README.zh-CN.md": "869bab830745c6ab45e881bc97f90be28f8253877aabe4e60e159408c0b56d48",
+    "README.md": "866ccc85690ee57c22d1fe1c4b133ebc86b9e7745d344bb7927aa297af657db9",
+    "README.zh-CN.md": "81c18745adda05b7c0453fded847e8691d1422fd716127e1a212fbb0b9a3e972",
     "proofs/Equation12294/FiniteTrivial.lean": "f2134b2173b4fda16bdd678e7290941e93b4c3138e359f49284c03e3fbdc76fd",
     "proofs/Equation12294/README.md": "31c53b53f3a2da7694f2d67c3fe8e4aa208b8f339f1b8badca0cff7666d74cd8",
     "proofs/Equation13102/InfiniteModel.lean": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
@@ -87,7 +87,7 @@
     "proofs/Equation33856/README.md": "eb207beface087f2912dce197ecf244ff275e87a4784f5bd9bfd7299c4bd5b20",
     "proofs/README.md": "a1213b9866ff7a2d972f844233a007cbc4db70ee0fdb7d96883eab3b1ff0fa69",
     "proofs/validation/2026-09-11-latest-proofs/README.md": "1797f49e8e4c4a67da86e7fa1bb0f9e06a91db9c38f3515599e6ff4b73db473b",
-    "proofs/validation/2026-09-11-latest-proofs/verify.py": "e69873f160adbf3f68d352ba388ae99da79dc91cb96106cf93658cdb2fc3ed39",
+    "proofs/validation/2026-09-11-latest-proofs/verify.py": "151b8e17b17479c7a2931a5ef900e980c75271d18f74a1f123f149c8ce7f3b71",
     "proofs/validation/aurora/Equation13102/certificate.lean": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
     "proofs/validation/aurora/Equation13102/job.json": "95d7ed7603a9f20cf4f348e9d74e4220d0bedaade6c7d516c1520634c58a506a",
     "proofs/validation/aurora/Equation13102/latest.json": "1cd138706dfec4f9b4617a0c08b810517f0f273a5db2d016bf7584802a29e981",
