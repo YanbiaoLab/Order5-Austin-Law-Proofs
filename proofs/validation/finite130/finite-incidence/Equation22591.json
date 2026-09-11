@@ -1,0 +1,86 @@
+{
+  "label": "Equation22591",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.857,
+  "peak_rss_mib": 1296.11,
+  "source": "proofs/Equation22591/FiniteTrivial.lean",
+  "source_sha256": "946ed97031e81f54d081a7fa09f5b0288a69edd74458704288b25c2e3f0b6aca",
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M2048",
+    "-Dlinter.defProp=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-DwarningAsError=true",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22591/FiniteTrivial.lean"
+  ],
+  "cwd": "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs",
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/recompile/support",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/zetyun2026/bing/projects/math-distill-equational-stage2/third_party/equational-theories-lean-stage2/.lake/packages/proofwidgets/.lake/build/lib/lean"
+  ],
+  "log": "proofs/validation/finite130/finite-incidence/Equation22591.log",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 2048,
+  "rss_limit_mib": 3072,
+  "certificate_path": "proofs/Equation22591/FiniteTrivial.lean",
+  "certificate_sha256": "946ed97031e81f54d081a7fa09f5b0288a69edd74458704288b25c2e3f0b6aca",
+  "theorem": "finite_trivial_dual",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "theorem_axioms": {
+    "Equation22446Finite.square_injective": [],
+    "Equation22446Finite.square_inverse_structure": [],
+    "Equation22446Finite.square_period_three": [],
+    "Equation22446Finite.equation2_of_idempotent": [],
+    "Equation22446Finite.column_cycle": [],
+    "Equation22446Finite.shifted_column": [],
+    "Equation22446Finite.equation2_of_adjacent_product": [],
+    "Equation22446Finite.equation2_of_left_fixed_point": [],
+    "Equation22446Finite.finite_column_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Finite.finite_row_image_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Finite.finite_adjacent_absorption": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Finite.finite_trivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "finite_trivial_dual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axioms_checked": true,
+  "explicit_target_checked": true,
+  "proves_equation2": true,
+  "proves_unconditional_finite_equation2": true,
+  "validation_location": "local",
+  "fresh_lean_compilation": true,
+  "log_sha256": "c08ee91bb320c8e1a24e4e868a5338569f44d5df6a4ce1370c5005e003305f9a"
+}

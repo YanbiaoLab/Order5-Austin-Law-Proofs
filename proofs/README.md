@@ -1,5 +1,13 @@
 # 证明归档约定
 
+当前归档（2026-09-11）：**120 份有限平凡性证书、114 份非平凡模型证书、86 份显式无限性证明**。两侧证书齐全为 106 条；另 2 条已有所有模型平凡的证明。有限侧剩 10 条、无限侧剩 14 条待解（另 2 条已排除，因此缺模型证书合计 16 条）。最新十条方程补证及剩余编号见[同步报告](validation/2026-09-11-latest-proofs/README.md)；以下早期批次数字保留为历史记录。
+
+本次审计入口不依赖已删除的 `scripts/`：
+
+```sh
+python3 proofs/validation/2026-09-11-latest-proofs/verify.py
+```
+
 每条方程使用一个目录；对偶方程也有独立记录。若证明由对偶转移，应保存实际 Lean 包装定理并链接原证明，不能仅因对偶已解决就把本方程的 Lean 状态改为已完成。
 
 ```text
@@ -40,7 +48,7 @@ python3 scripts/record_lean_validation.py
 
 Mathlib 路径必须指向已有 Lean 4.33.1 编译缓存的 Lake 项目；脚本不会构建大型依赖。`--resume` 只复用本地成功且输入哈希未变的检查。逐题日志和命令保存在 `validation/2026-09-08/`，可重建的编译输出放在被 Git 忽略的 `.build/`。
 
-索引维护与低内存检查（Python 标准库，不运行求解器）：
+历史索引维护命令（`scripts/` 已从 main 删除；当前请使用顶部审计入口）：
 
 ```sh
 python3 scripts/build_index.py
@@ -86,4 +94,4 @@ Equation20911／Equation25087 分别补入原样模型证书、原始配套目�
 
 新增十条方程的无限模型证书、依赖与原验证记录，配对既有有限平凡性证明。模型证书累计 110 份，有限平凡性证书 114 份，两方面齐全 106 条；显式无限性证明 82 份。详见[本批报告](validation/2026-09-11-ten-austin/README.md)。本次审计保存的证据，未重跑 Lean/Judge。
 
-`python3 scripts/build_index.py` 同步生成中英文 README 表格；`--check` 只读核验两份文档。
+上述历史批次使用 `scripts/build_index.py` 生成双语表格；该目录现已从 main 删除，当前核验请使用顶部独立审计入口。

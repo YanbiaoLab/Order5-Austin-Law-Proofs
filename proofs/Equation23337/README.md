@@ -5,10 +5,12 @@
 - 方程：`x = ((y ◇ x) ◇ x) ◇ (z ◇ (x ◇ z))`
 - 有限侧数学状态：未知
 
-有限侧 Lean：未收录。预留文件名 `FiniteTrivial.lean`，仅在有完整证明时创建。
+无限侧 Lean：[InfiniteModel.lean](InfiniteModel.lean)，为原云端 accepted 单文件证书的逐字节副本；配套 [JudgeProblem.lean](JudgeProblem.lean) 给出精确题面。证书同时证明非平凡性及 `submission.CM.tower_injective`，给出从自然数到模型载体的单射。
 
-无限侧 Lean：未收录。预留文件名 `InfiniteModel.lean`；历史批次超时不构成不存在模型的证明。
+[原请求](../validation/aurora/Equation23337/request.json)、[实际回执](../validation/aurora/Equation23337/latest.json)及[任务绑定](../validation/aurora/Equation23337/job.json)随同归档。本次核对提交字节、题面、哈希及 accepted 结果，未重跑 Lean/Judge。
 
-非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。
+有限侧仍未知：尚未证明所有有限模型平凡，也没有已验证的非平凡有限模型，因此仅凭本次无限模型不能确认为 Austin 律。
 
-来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。
+构造使用三条夹心行像关系的正规树模型；两个对偶方程共享构造。
+
+详见[本批归档报告](../../proofs/validation/2026-09-11-latest-proofs/README.md)、[总索引](../index.json)。历史 timeout 仅记录历史搜索结果。

@@ -1,0 +1,10 @@
+'Equation12294Finite.division_identity' does not depend on any axioms
+'Equation12294Finite.left_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation12294Finite.left_division_presentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation12294Finite.image_decoder' does not depend on any axioms
+'Equation12294Finite.right_injective_on_images' does not depend on any axioms
+'Equation12294Finite.image_completion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation12294Finite.finite_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation12294Finite.finite_completion_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation12294Finite.finite_trivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'finite_trivial_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
