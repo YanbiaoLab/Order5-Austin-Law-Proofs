@@ -1,0 +1,73 @@
+{
+  "module": "UnitDoubleAux",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.211,
+  "peak_rss_mib": 4.53,
+  "source": "proofs/Equation10222/Lean/Austin10222/UnitDoubleAux.lean",
+  "sha256": "5cbf81ed148a4d5b821c6246311883f91aaacc8976d013375eef653a37701a7d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Austin10222/UnitDoubleAux.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation10222/Lean/Austin10222/UnitDoubleAux.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal"
+  ],
+  "log": "proofs/validation/eq10222-formal/UnitDoubleAux.log",
+  "axioms": {
+    "Austin10222Unit.inverse_large_pair_none": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_unit_none": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.small_unit_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_unit_small_key": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_small_unit_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_square_tail_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_base_excludes_unit": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.unit_decoder_second_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.square_tail_second_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.fiber_second_raw": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "3aac80146f5dcb11d88f45afd94eaab52f80d90f817efe98f5a083f0b7809b2e",
+  "olean_sha256": "ef1fc308daa7236a862ac3abc65899971bd5d85e807258202ffee1ef2701a767"
+}

@@ -1,0 +1,7 @@
+'Austin10222Unit.mul' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_square' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_unit' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_large_code' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.nf_atom' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.atom_injective' does not depend on any axioms

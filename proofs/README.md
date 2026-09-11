@@ -81,3 +81,9 @@ pwsh -NoProfile -File proofs/validation/2026-09-09-trace-tree-pair/verify.ps1
 ## 2026-09-10 表 20.3 新增两份模型
 
 Equation20911／Equation25087 分别补入原样模型证书、原始配套目标和脱敏 Judge v3 accepted 回执，均含 `submission.CM.tower_injective`。表 20.3 模型证书由 2 增至 4，总模型库存由 98 增至 100，显式无限性由 70 增至 72；有限侧状态未改变。本批仅核对保存的验收证据，不计入早期本仓重新编译结果；详见[归档报告](validation/2026-09-10-open24-two-models/README.md)。
+
+## 2026-09-11：补齐十条 Austin 律
+
+新增十条方程的无限模型证书、依赖与原验证记录，配对既有有限平凡性证明。模型证书累计 110 份，有限平凡性证书 114 份，两方面齐全 106 条；显式无限性证明 82 份。详见[本批报告](validation/2026-09-11-ten-austin/README.md)。本次审计保存的证据，未重跑 Lean/Judge。
+
+`python3 scripts/build_index.py` 同步生成中英文 README 表格；`--check` 只读核验两份文档。

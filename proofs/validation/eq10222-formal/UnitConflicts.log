@@ -1,0 +1,5 @@
+'Austin10222Unit.no_large_fixed_left' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.same_row_small_unit' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse_unit_excludes_base' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse_small_unit_different' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse_unit_value_excludes_larger' depends on axioms: [propext, Quot.sound]

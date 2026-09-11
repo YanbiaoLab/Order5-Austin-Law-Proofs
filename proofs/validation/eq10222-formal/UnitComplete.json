@@ -1,0 +1,81 @@
+{
+  "module": "UnitComplete",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.419,
+  "peak_rss_mib": 137.22,
+  "source": "proofs/Equation10222/Lean/Austin10222/UnitComplete.lean",
+  "sha256": "d47bc33adb91516712d3ebf0665d10ee594025332b20e6fa1700360853f724f0",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Austin10222/UnitComplete.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation10222/Lean/Austin10222/UnitComplete.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal"
+  ],
+  "log": "proofs/validation/eq10222-formal/UnitComplete.log",
+  "axioms": {
+    "Austin10222Unit.inverse_small": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_square": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_large": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_unit_fixed": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_unit_decoder": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_square_tail": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_pair_fiber": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_pair_unit": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_pair_tail": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_complete": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.right_injective": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "2c7c1844eb0cac6e29e716c9dc2ac4fbdb43d3cde5f539ebf1852ad0c26b4104",
+  "olean_sha256": "a78adce0451ebe27b80568c7172e47621de8a08ba3d156acde00a43e57d74197"
+}

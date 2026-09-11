@@ -1,0 +1,81 @@
+{
+  "module": "UnitLaw",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.209,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation10222/Lean/Austin10222/UnitLaw.lean",
+  "sha256": "df8e3be50d7dc7337320ebb8f860b98c9d07b761baa09c2e42c05b8f981226f0",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Austin10222/UnitLaw.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation10222/Lean/Austin10222/UnitLaw.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal"
+  ],
+  "log": "proofs/validation/eq10222-formal/UnitLaw.log",
+  "axioms": {
+    "Austin10222Unit.inverse_self_none": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_double_key_none": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.image_not_large_pair_key": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.source_middle_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.source_raw_double": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.fixed_middle_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.source_unit_middle": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.source_of_normal_middle": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.source_holds": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.carrier_source": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.carrier_dual": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.carrier_nontrivial": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "b86c0dc8cd58a3addf1b92ee7d0a52e461c85d54c103e19e6edb63374c18481e",
+  "olean_sha256": "0be90dc27dd6d0d0cb587cef17efa2c63357528a7a07f56a91772eba18c19f04"
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-09-10",
+  "updated_on": "2026-09-11",
   "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
-  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs); 2 Austin-96 candidates excluded by fresh Judge v3 accepted unrestricted true proofs; branch finite certificates reconciled with main while preserving main model archives; two accepted Table20.3 rational infinite models archived on 2026-09-10",
+  "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs); 2 Austin-96 candidates excluded by fresh Judge v3 accepted unrestricted true proofs; branch finite certificates reconciled with main while preserving main model archives; two accepted Table20.3 rational infinite models archived on 2026-09-10; ten additional equations completed as Austin laws by archiving verified infinite models on 2026-09-11",
   "equations": [
     {
       "equation": "Equation4916",
@@ -5036,11 +5036,36 @@
         "theorem": "finite_trivial",
         "method": "finite_cancellation"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation10222/InfiniteModel.lean",
+        "sha256": "6f32eb62c2d98e70526cc6f0fefb0182c4d28deda6e6e687dfb01cc04fc5a847",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Independent normal-tree model with local right units, total multiplication and a complete partial inverse",
+        "goal": "Exact EquationLHS does not imply Equation2; explicit Nat injection also proved",
+        "dependencies": {
+          "proofs/Equation10222/Lean/Austin10222/UnitBasic.lean": "d33caabbdc0e905e6a5d7a280dbd2746208f077212958fd0c9dac3022563c1d2",
+          "proofs/Equation10222/Lean/Austin10222/UnitBounds.lean": "2c6bc492f1354c2ebb8494588aa9f3c1f40fb6f4ddb78989652fe857203018a5",
+          "proofs/Equation10222/Lean/Austin10222/UnitInverse.lean": "219ced7097ea3899137a2cc44a44bc75d6dc2b847ec498c57c20beb2ecebeecd",
+          "proofs/Equation10222/Lean/Austin10222/UnitConflicts.lean": "6fe6c1b4e4c280754ef41efba138b46558f2abb9e822a342a70923100c6819de",
+          "proofs/Equation10222/Lean/Austin10222/UnitComplete.lean": "d47bc33adb91516712d3ebf0665d10ee594025332b20e6fa1700360853f724f0",
+          "proofs/Equation10222/Lean/Austin10222/UnitNormal.lean": "a312a08100d62f2e4b1f1dd55ef32b439cbc47c0bb3ec6c93f80af172d196a73",
+          "proofs/Equation10222/Lean/Austin10222/UnitDoubleAux.lean": "5cbf81ed148a4d5b821c6246311883f91aaacc8976d013375eef653a37701a7d",
+          "proofs/Equation10222/Lean/Austin10222/UnitDouble.lean": "aba5e43ae02fc69cd49aa3d0a2f14f20a0319be43415f4a1aeab0947ccd47391",
+          "proofs/Equation10222/Lean/Austin10222/UnitLaw.lean": "df8e3be50d7dc7337320ebb8f860b98c9d07b761baa09c2e42c05b8f981226f0",
+          "proofs/Equation10222/JudgeProblem.lean": "00ff8bbbe69c381bde255038ce2a1f8b1eef42453e4ef606ae6bcf77a8731511"
+        },
+        "report": "proofs/validation/eq10222-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": [],
+      "local_lean_validation": "passed_for_local_formalization",
+      "notes": [
+        "本仓独立构造：含逐元素右固定参数的正规树，乘法与部分逆按两输入树大小之和互递归。",
+        "总性、封闭性、部分逆可靠性与完备性、两条精确原式、非平凡性及 Nat 单射均通过 Lean 4.33.1。",
+        "模块与独立单文件证书均完成本地核验；未提交远程，历史 timeout 保留。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
+      ],
       "finite_compilation": {
         "status": "passed",
         "checked_sha256": "9dcdba2bd4fa29efcf8681e105d5f70845bc19a01afb3c38173ce73d51a8861d",
@@ -5056,6 +5081,26 @@
         },
         "elapsed_seconds": 0.851,
         "sampled_peak_rss_mib": 1055.73
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "6f32eb62c2d98e70526cc6f0fefb0182c4d28deda6e6e687dfb01cc04fc5a847",
+        "log": "proofs/validation/eq10222-formal/Equation10222-Model.log",
+        "version": "4.33.1",
+        "log_sha256": "340f8b303c010bcce29f4aa420b09029282f22e0185d6a53e42d592ef88746eb",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.207,
+        "sampled_peak_rss_mib": 4.42,
+        "dependency_manifest": "proofs/validation/eq10222-formal/summary.json"
       }
     },
     {
@@ -5072,11 +5117,36 @@
         "theorem": "finite_trivial_dual",
         "method": "finite_cancellation"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation35836/InfiniteModel.lean",
+        "sha256": "1814faff7068ae51a8e65139e294d9ced0a0240e1e1a1a8517210050ab43d547",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Independent normal-tree model with local right units, total multiplication and a complete partial inverse",
+        "goal": "Exact EquationLHS does not imply Equation2; explicit Nat injection also proved",
+        "dependencies": {
+          "proofs/Equation10222/Lean/Austin10222/UnitBasic.lean": "d33caabbdc0e905e6a5d7a280dbd2746208f077212958fd0c9dac3022563c1d2",
+          "proofs/Equation10222/Lean/Austin10222/UnitBounds.lean": "2c6bc492f1354c2ebb8494588aa9f3c1f40fb6f4ddb78989652fe857203018a5",
+          "proofs/Equation10222/Lean/Austin10222/UnitInverse.lean": "219ced7097ea3899137a2cc44a44bc75d6dc2b847ec498c57c20beb2ecebeecd",
+          "proofs/Equation10222/Lean/Austin10222/UnitConflicts.lean": "6fe6c1b4e4c280754ef41efba138b46558f2abb9e822a342a70923100c6819de",
+          "proofs/Equation10222/Lean/Austin10222/UnitComplete.lean": "d47bc33adb91516712d3ebf0665d10ee594025332b20e6fa1700360853f724f0",
+          "proofs/Equation10222/Lean/Austin10222/UnitNormal.lean": "a312a08100d62f2e4b1f1dd55ef32b439cbc47c0bb3ec6c93f80af172d196a73",
+          "proofs/Equation10222/Lean/Austin10222/UnitDoubleAux.lean": "5cbf81ed148a4d5b821c6246311883f91aaacc8976d013375eef653a37701a7d",
+          "proofs/Equation10222/Lean/Austin10222/UnitDouble.lean": "aba5e43ae02fc69cd49aa3d0a2f14f20a0319be43415f4a1aeab0947ccd47391",
+          "proofs/Equation10222/Lean/Austin10222/UnitLaw.lean": "df8e3be50d7dc7337320ebb8f860b98c9d07b761baa09c2e42c05b8f981226f0",
+          "proofs/Equation35836/JudgeProblem.lean": "dfbbde1325dcacc134ae7df572bb0d5c05af9b8319c882234ead43a17e541079"
+        },
+        "report": "proofs/validation/eq10222-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
-      "notes": [],
+      "local_lean_validation": "passed_for_local_formalization",
+      "notes": [
+        "本仓独立构造：含逐元素右固定参数的正规树，乘法与部分逆按两输入树大小之和互递归。",
+        "总性、封闭性、部分逆可靠性与完备性、两条精确原式、非平凡性及 Nat 单射均通过 Lean 4.33.1。",
+        "模块与独立单文件证书均完成本地核验；未提交远程，历史 timeout 保留。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
+      ],
       "finite_compilation": {
         "status": "passed",
         "checked_sha256": "b566031c799bc7653a962a939b55a6a6a4efe9c2e8502874f2978774f9547305",
@@ -5092,6 +5162,26 @@
         },
         "elapsed_seconds": 0.856,
         "sampled_peak_rss_mib": 1261.88
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "1814faff7068ae51a8e65139e294d9ced0a0240e1e1a1a8517210050ab43d547",
+        "log": "proofs/validation/eq10222-formal/Equation35836-Model.log",
+        "version": "4.33.1",
+        "log_sha256": "340f8b303c010bcce29f4aa420b09029282f22e0185d6a53e42d592ef88746eb",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.207,
+        "sampled_peak_rss_mib": 4.38,
+        "dependency_manifest": "proofs/validation/eq10222-formal/summary.json"
       }
     },
     {
@@ -7826,12 +7916,31 @@
         "theorem": "finite_trivial",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation21714/InfiniteModel.lean",
+        "sha256": "48609ac1ac9c931141fe5f50170553c2e581e9500df2ef4cc449c0959c904e2c",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation21714/JudgeProblem.lean": "3b653cf90dd79ccacf573be7194f4895cc82c489df0e5378da500ac9bc22c3f6"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -7848,6 +7957,38 @@
         },
         "elapsed_seconds": 0.851,
         "sampled_peak_rss_mib": 1302.5
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "48609ac1ac9c931141fe5f50170553c2e581e9500df2ef4cc449c0959c904e2c",
+        "log": "proofs/validation/eq21866-formal/Equation21714-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.214,
+        "sampled_peak_rss_mib": 4.36,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "93f37ed60b714b95ba6e7cbb340296fe",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation21714/certificate.lean",
+        "certificate_sha256": "a13cb31bdd2d3939f1d06ed30d9c26dd576248f232666fa3509fe22ba783c752",
+        "result": "proofs/validation/aurora/Equation21714/latest.json",
+        "result_sha256": "b489acb723437249a128fe56b28a4c8686bb1551cdbc2c41212f17bce3db2955",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976544.8321881
       }
     },
     {
@@ -7864,12 +8005,31 @@
         "theorem": "finite_trivial_dual",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation24200/InfiniteModel.lean",
+        "sha256": "200dff80114da1845d41b52e25ca382578411dd267bbd8ff5c8ba8f125991ac9",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation24200/JudgeProblem.lean": "6a06cc71cf82aacda9bf0c8d99b8b2361d38caf8c2b8c0b2a854b581939e9e1c"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -7886,6 +8046,38 @@
         },
         "elapsed_seconds": 0.852,
         "sampled_peak_rss_mib": 1291.02
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "200dff80114da1845d41b52e25ca382578411dd267bbd8ff5c8ba8f125991ac9",
+        "log": "proofs/validation/eq21866-formal/Equation24200-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.214,
+        "sampled_peak_rss_mib": 4.38,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "b2d01282cf324560a825df8d3badf61a",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation24200/certificate.lean",
+        "certificate_sha256": "360b6fe099df5193f196447d23f416f778131f87a198b3586009e5a051133d92",
+        "result": "proofs/validation/aurora/Equation24200/latest.json",
+        "result_sha256": "a85f9f1f2fdbd7771856a5a96d08c1c0898f2c260b65962e6b674e21b7e670ee",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976547.9109154
       }
     },
     {
@@ -7902,12 +8094,31 @@
         "theorem": "finite_trivial",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation21864/InfiniteModel.lean",
+        "sha256": "2dbe83fbb6ece6dff08aad2b8f04f04db0cb83cc9c05cb657841097e840b29f0",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation21864/JudgeProblem.lean": "9603094b5f9fcf00f66f2ba4ff26110ced63d39e6d130dab8806882eee71969c"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -7924,6 +8135,38 @@
         },
         "elapsed_seconds": 1.7,
         "sampled_peak_rss_mib": 1438.56
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "2dbe83fbb6ece6dff08aad2b8f04f04db0cb83cc9c05cb657841097e840b29f0",
+        "log": "proofs/validation/eq21866-formal/Equation21864-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.214,
+        "sampled_peak_rss_mib": 4.44,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "3396a491653e4469a228c20c70949bea",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation21864/certificate.lean",
+        "certificate_sha256": "c9af1712c119b1e1c3476d4a20a66179c183d0a41f123badc6d7a04ba8dd7af6",
+        "result": "proofs/validation/aurora/Equation21864/latest.json",
+        "result_sha256": "46c3883d692271c434ce79d831016977373830726f9966e55260279e455d81cc",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976551.6514091
       }
     },
     {
@@ -7940,12 +8183,31 @@
         "theorem": "finite_trivial_dual",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation24199/InfiniteModel.lean",
+        "sha256": "2423203f952f1c56650c3cf0e22796f229d72bc7329f54b22829a7cbe4128ab3",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation24199/JudgeProblem.lean": "2b629d2a877144500554bd3c77d3c32c2098c16586c411c46b0aa1731ade9315"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -7962,6 +8224,38 @@
         },
         "elapsed_seconds": 1.709,
         "sampled_peak_rss_mib": 1438.8
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "2423203f952f1c56650c3cf0e22796f229d72bc7329f54b22829a7cbe4128ab3",
+        "log": "proofs/validation/eq21866-formal/Equation24199-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.214,
+        "sampled_peak_rss_mib": 4.31,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "317c2e74c88c4911a3e5a0a3c9c58d4a",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation24199/certificate.lean",
+        "certificate_sha256": "ba40322f367eb8898277d346d2e7b20bff7c1b3b3e3cfcd275a5be92d17e7fe9",
+        "result": "proofs/validation/aurora/Equation24199/latest.json",
+        "result_sha256": "3a6ad0e99e65a68139bf4942de1ec96c1bfba0b8b6da2b33b3f8dc0b724a1f97",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976554.7435648
       }
     },
     {
@@ -7978,12 +8272,31 @@
         "theorem": "finite_trivial",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation21865/InfiniteModel.lean",
+        "sha256": "cf7175bd3b9368c7f0bc55aa59e3211baf69422c99ed43d3901bed17b529656f",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation21865/JudgeProblem.lean": "f4ace069d2ff94eb90c0bc674100209fa3b301f8301caff54b541282f75048aa"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -8000,6 +8313,38 @@
         },
         "elapsed_seconds": 1.063,
         "sampled_peak_rss_mib": 1348.23
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "cf7175bd3b9368c7f0bc55aa59e3211baf69422c99ed43d3901bed17b529656f",
+        "log": "proofs/validation/eq21866-formal/Equation21865-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.214,
+        "sampled_peak_rss_mib": 4.38,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "3374eb9038954f1fbbc01b3af4cd0555",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation21865/certificate.lean",
+        "certificate_sha256": "8ccce2783e8bfb93df3039abde1f6eb5d489601fbcd8b7688baa554c30aeb1f9",
+        "result": "proofs/validation/aurora/Equation21865/latest.json",
+        "result_sha256": "443502cacbdc9b45c4afb3017271ff8fb7b80624705a13b25f53b56ea8847717",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976558.1705475
       }
     },
     {
@@ -8016,12 +8361,31 @@
         "theorem": "finite_trivial_dual",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation24197/InfiniteModel.lean",
+        "sha256": "33b5f251793cc95e80213a9507150233d83b012f8ef714486a2350de053c213b",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation24197/JudgeProblem.lean": "f998bbc5dca7c13e90bac593147970c9f916c945e2af011b27db1528b193db14"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -8038,6 +8402,38 @@
         },
         "elapsed_seconds": 1.062,
         "sampled_peak_rss_mib": 1348.39
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "33b5f251793cc95e80213a9507150233d83b012f8ef714486a2350de053c213b",
+        "log": "proofs/validation/eq21866-formal/Equation24197-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.21,
+        "sampled_peak_rss_mib": 4.42,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "f45fe2719330451f865db7ee90f9c893",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation24197/certificate.lean",
+        "certificate_sha256": "504e5034f9f392e555a4b797d87e767d0e2e44a16ee7254d06534de874e01903",
+        "result": "proofs/validation/aurora/Equation24197/latest.json",
+        "result_sha256": "628dd5ebc490ce1ed3b165da06850984c98e5c0612896360e8b7dd72e1617694",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976562.056359
       }
     },
     {
@@ -8054,12 +8450,31 @@
         "theorem": "finite_trivial",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation21866/InfiniteModel.lean",
+        "sha256": "d38e8d0db611f51357fc115f41c8ecb0faf3e7c1e9816a1694c8b715fbb53611",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation21866/JudgeProblem.lean": "33522ffbddd72c335b40afb19b403ff19e5732815559f726ee1d94cec6d16358"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -8076,6 +8491,38 @@
         },
         "elapsed_seconds": 0.852,
         "sampled_peak_rss_mib": 1302.42
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "d38e8d0db611f51357fc115f41c8ecb0faf3e7c1e9816a1694c8b715fbb53611",
+        "log": "proofs/validation/eq21866-formal/Equation21866-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.207,
+        "sampled_peak_rss_mib": 4.36,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "a32bd065a86a4604a33f542a87c96112",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation21866/certificate.lean",
+        "certificate_sha256": "33d03daf09b75439e6b3194e4f94d0f5cfebfc55851f4a5e2cc109f14ece4111",
+        "result": "proofs/validation/aurora/Equation21866/latest.json",
+        "result_sha256": "f9937605e21f6de64e70261d0cd7cc74ff231ef78ad41aaa25d358172475333a",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976514.858142
       }
     },
     {
@@ -8092,12 +8539,31 @@
         "theorem": "finite_trivial_dual",
         "method": "finite_product_bijection_and_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation24201/InfiniteModel.lean",
+        "sha256": "17ad3db1c5f0184a60505dfde6871833541756f83b770b804fdd74a13b4a1145",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Four-rule row-relation decoder on all finite trees",
+        "goal": "Exact source equation, nontriviality, and explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation21866/Lean/Austin21866/Basic.lean": "3932b615b88ab836605057822eff2f33bbc7cc5668a444df2319a86e04715f8f",
+          "proofs/Equation21866/Lean/Austin21866/Separation.lean": "6a4aabb533f638b01144707065db45c7c5766d597bdba463cded7f8ca70e5788",
+          "proofs/Equation21866/Lean/Austin21866/Model.lean": "1789ce05e869bdf798b94856e265038f0b280f54e0f9e6127e8d9b09e33a1408",
+          "proofs/Equation21866/Lean/Austin21866/Duals.lean": "06edebbecf59e0907881a4abb551c75835679aab70ae5bed71cc5bdd9001064d",
+          "proofs/Equation21866/Lean/Austin21866/Audit.lean": "6addde596e1c02fd6ee8d2d6d7191da87411730eb4aa914be4f41902fe2d3541",
+          "proofs/support/JudgeMagma/Magma.lean": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+          "proofs/Equation24201/JudgeProblem.lean": "8c000672b5d16f384c0909b5655fe4785fc9d602b8256a23b1c2a24cce80531e"
+        },
+        "report": "proofs/validation/eq21866-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。"
+        "非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。",
+        "E21866 行像关系模型：四条递归关系规则、原式和 Nat 单射均已在 Lean 证明；精确单文件证书获 judge-v3-repl accepted。",
+        "2026-09-11: archived the verified infinite-model certificate; together with the existing finite-triviality certificate, this establishes the equation as an Austin law."
       ],
       "finite_compilation": {
         "status": "passed",
@@ -8114,6 +8580,38 @@
         },
         "elapsed_seconds": 0.855,
         "sampled_peak_rss_mib": 1295.69
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "17ad3db1c5f0184a60505dfde6871833541756f83b770b804fdd74a13b4a1145",
+        "log": "proofs/validation/eq21866-formal/Equation24201-Submission.log",
+        "version": "4.33.1",
+        "log_sha256": "bd4835931452812559aa3177185dd36e33ebafcf788e54b478425246a6afc587",
+        "axioms": {
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.CM.tower_injective": [
+            "propext"
+          ]
+        },
+        "elapsed_seconds": 0.214,
+        "sampled_peak_rss_mib": 4.31,
+        "dependency_manifest": "proofs/validation/eq21866-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "875b0f13ea0d42a888170a1e6b574521",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation24201/certificate.lean",
+        "certificate_sha256": "7e36551f624f423ca6e18501de7def61d8e763ae13dc17ce260755bb42053ec3",
+        "result": "proofs/validation/aurora/Equation24201/latest.json",
+        "result_sha256": "cc31398d7239b70f4e43c2a2b343a61fcee3d5b63000e9bb6a5d36f8b6b90c40",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1788976565.7781084
       }
     },
     {
@@ -8356,8 +8854,8 @@
     "proofs/Equation36524/README.md": "9d33c77d1e584551ead788a55cf02527673eaa23c21574a92fa185cafa4ce011",
     "proofs/Equation10218/README.md": "f90be152b61fd23156faa0ef4ffc2458baf005f806480662d64f841f5a14be0a",
     "proofs/Equation35685/README.md": "32c87d820e086c92efa8d495cbce2e6d5a27a02205f06b34c2c7020c81664d55",
-    "proofs/Equation10222/README.md": "296c05913819ee72dddc8b541bd42378250f8fb1f7422c2c5a42a620dce8d0fa",
-    "proofs/Equation35836/README.md": "69b0ede52521874f823f9ea61494c66e576d072e8e0f7fdf20b7397ebe381103",
+    "proofs/Equation10222/README.md": "6db238cc84517224df7440e61f12d92902cce6fc8494b8479b219c6983dc0111",
+    "proofs/Equation35836/README.md": "4114212d6e4281ba33aa96c970b42bb702e9c02eef856a125717fe0508c70d3f",
     "proofs/Equation11081/InfiniteModel.lean": "1aa5250b553c95a9aeccd2a0903fe210975b5004ad263ec636cf44b4ccafc9ed",
     "proofs/Equation11081/JudgeProblem.lean": "a1d35f42995f7a218d9d3658e7a9eaed0b228d597c414bc48072f692379d9304",
     "proofs/Equation11081/README.md": "1ab0c468fbcc50a65369b439b872cf2c9682a23669b17d9732e6f583ecbebe37",
@@ -8422,14 +8920,14 @@
     "proofs/Equation28626/README.md": "53483d719a6bd98f1e0165a47e5663d6aab44ad0e4a3a5b25ebc0ae44287e1e0",
     "proofs/Equation20911/README.md": "e30837867237e63766545c09581dcccefca9835a5f9f641358195bba44648d3d",
     "proofs/Equation25087/README.md": "62e2df9682fccc53f0a6a419e3c6a9ed6e3cbe366dec2958f553eeac7ca2d9f9",
-    "proofs/Equation21714/README.md": "a3f53a28fa4938ae9ec5687141e02458cc52e50c114af53a137544a00128e2d7",
-    "proofs/Equation24200/README.md": "af8e67d65adf7dab14efc08d4c6ee4405e90c4aa42ba4096c2577a66dd652014",
-    "proofs/Equation21864/README.md": "40a162ae4eb95c79603c69d38dc60250f20f412c7599a33f1641d636687b6dca",
-    "proofs/Equation24199/README.md": "0ecbdac12f570163febbb2e62b38af6ec56034ef0fee5a1e398567908b83afce",
-    "proofs/Equation21865/README.md": "00bfa10a25ec849d0b6bb4142965b1525db07bb0d23724faa2aa1d4ab51b4a8e",
-    "proofs/Equation24197/README.md": "0c764dcec839a41c63b2152d896579f8c971088ae6074acf2fecb969f0e70a76",
-    "proofs/Equation21866/README.md": "e8bab44f8ea94b5711f0c2082eb78976c28bce7de72364b3012f10b45eea9466",
-    "proofs/Equation24201/README.md": "c32967318058b7be57f56673265937e8ba30eb42c49dfa0287c5591b454a31a7",
+    "proofs/Equation21714/README.md": "ee852dd513bad71cdcc67fbe14105b05639775f2f6a2ee37838539eb49955376",
+    "proofs/Equation24200/README.md": "fec52d44318b1bf1a460e7d17e71dd428d6f7ab0554135e50b6206958434a4ae",
+    "proofs/Equation21864/README.md": "05d81478318f900d71d1635804d5d1a5257d9e5d1349e4097be834ea89745c0f",
+    "proofs/Equation24199/README.md": "299973ba6bfd30a2d9ec3f53d7c88904ec17129d16e52d64bea306bce1c16d9d",
+    "proofs/Equation21865/README.md": "9dda53fca30b055463c8b750fb5d0a6ffa2d679fbecd8fe85f4a32dfed85d0c1",
+    "proofs/Equation24197/README.md": "fa47808514984a397939548f0a006a275c77a451ff86b401563436dbdb4d972a",
+    "proofs/Equation21866/README.md": "965d469a3b8f533cba450ab0618336cb685d457a70c1268e4ab9c4229ea53665",
+    "proofs/Equation24201/README.md": "b5c757f014a18b929945b890ae74e73fa11a5157dd483d49e5d6025370dd8805",
     "proofs/Equation22446/README.md": "7e224095be2e993194cb92e2bf97919b7735e6105f0f278d3e7a762caef06a3e",
     "proofs/Equation22591/README.md": "6b600b5d8161afef62c390bc440171feae42008c9ed5562cadae9793169a59b0",
     "proofs/Equation23337/README.md": "d27ae0c134c7ceaa27dd1ecaea9b8779f3460ad91ef1813efa82e08cc0db4f33",
@@ -8443,7 +8941,7 @@
     "proofs/validation/aurora/Equation5947/JudgeProblem.lean": "0305c19031854608051bc9f67bcfab3d040291aa416b6d304b4e207a2c53c577",
     "proofs/Equation5951/InfiniteModel.lean": "b5421c74abf67a258212f449a4ccc491ca7e3828b766a76501d1f592aca45708",
     "proofs/Equation40208/InfiniteModel.lean": "0c2e3bbccd1f215aca362ac03c6043752bfe4b080e92addac7e29f77108b136a",
-    "README.md": "9da5f37373afe8e6e198aa383f5a5db4ead90d609db110f22919d2b9a33a30b5",
+    "README.md": "4e39a9243a2b270ec7a59626415e1e5da83e58833445a7350ddf87d738a0c7b0",
     "proofs/validation/aurora/Equation6820/local-flat-check.json": "dd4476124e8a11c92bada057614072d68fd74416f49aa646543b843146e396a3",
     "proofs/validation/aurora/Equation8485/job.json": "a78643db915dcf2b063ccdbe29f5bfde2e700a44c789a0c89af1e8613cf33159",
     "proofs/Equation37519/InfiniteModel.lean": "18428f681ce9d6c381238cc3a42c60bbafc27454a2ed7c8b1308648b7e97ac1f",
@@ -8797,7 +9295,7 @@
     "proofs/validation/aurora/Equation40057/local-flat-check.json": "148852a26b30a18a39b42fb0916233165260504bd4b1b944140ea22d7b3fd67f",
     "proofs/Equation37519/JudgeProblem.lean": "0f4baed719adcef2b46466db54c7a9e4624f1cb77183c4f7492ceac006003227",
     "proofs/validation/aurora/Equation7763/job.json": "e0d96eb96dc2a2dfc6fd329cb9e17b2bf03f12fa5793cfe39706f96f6a90f64c",
-    "proofs/README.md": "aac064f7cb16fcb04bdb6b8a373fad621b3b4f8117097ab90bbe93c220263094",
+    "proofs/README.md": "06ac004f5713a3966aadd5e84080060628ca9e76bd01506fe2c0d5bc8469cfd3",
     "proofs/validation/aurora/Equation12073/JudgeProblem.lean": "5411334ecc7537b0b29b2f2dec1389faf88597a05282277b0586626c58fea6e5",
     "proofs/validation/aurora/Equation32280/request.json": "51a4865dee33a46380d618c04764992718465ef0af55544613472e84c8d1f249",
     "proofs/validation/aurora/Equation32281/job.json": "10e03efa39fad6b37e5014ac387552de7cc5b4ef33efc16ef816b247c7508b34",
@@ -9357,6 +9855,23 @@
         "table20_3_models_after": 4,
         "table20_3_finite_certificates_after": 8
       }
+    },
+    {
+      "name": "Ten-complete-Austin-laws",
+      "report": "proofs/validation/2026-09-11-ten-austin/README.md",
+      "manifest": "proofs/validation/2026-09-11-ten-austin/manifest.json",
+      "manifest_sha256": "b8f8e87fcffc96ed299494d0b8b013d611fb7097966efffd71663ee4494318a6",
+      "counts": {
+        "equations": 10,
+        "dual_pairs": 5,
+        "new_model_entries": 10,
+        "saved_local_compilation_units": 45,
+        "saved_cloud_accepted": 8,
+        "finite_certificates": 114,
+        "model_certificates": 110,
+        "both_certificates": 106,
+        "explicit_infinity": 82
+      }
     }
   ],
   "finite_campaign": {
@@ -9382,5 +9897,35 @@
       }
     ],
     "report": "proofs/validation/2026-09-09-pr8-merge/README.md"
+  },
+  "local_formalizations": {
+    "eq10222": {
+      "status": "passed",
+      "equations": [
+        "Equation10222",
+        "Equation35836"
+      ],
+      "version": "4.33.1",
+      "report": "proofs/validation/eq10222-formal/README.md",
+      "manifest": "proofs/validation/eq10222-formal/summary.json",
+      "manifest_sha256": "7e5c8b778fe00ddabb950f8ae64f3e073dce2dea2b41368144e1e3573c587d61"
+    },
+    "eq21866": {
+      "status": "passed",
+      "equations": [
+        "Equation21714",
+        "Equation24200",
+        "Equation21864",
+        "Equation24199",
+        "Equation21865",
+        "Equation24197",
+        "Equation21866",
+        "Equation24201"
+      ],
+      "version": "4.33.1",
+      "report": "proofs/validation/eq21866-formal/README.md",
+      "manifest": "proofs/validation/eq21866-formal/summary.json",
+      "manifest_sha256": "18403ec9f6caf20640fd3a94476c58f5209b52fb1015bda696d1492847b703ac"
+    }
   }
 }

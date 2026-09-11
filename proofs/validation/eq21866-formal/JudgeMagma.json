@@ -1,0 +1,29 @@
+{
+  "module": "JudgeMagma",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/support/JudgeMagma/Magma.lean",
+  "sha256": "b1da78a3c1d6dc69558d9e049371272de948f72b8e5faf6b1e3bd24f647b1166",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 512,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq21866-formal/JudgeMagma/Magma.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/support/JudgeMagma/Magma.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq21866-formal"
+  ],
+  "log": "proofs/validation/eq21866-formal/JudgeMagma.log"
+}

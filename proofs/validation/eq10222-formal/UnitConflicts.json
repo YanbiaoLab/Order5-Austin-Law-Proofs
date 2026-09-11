@@ -1,0 +1,53 @@
+{
+  "module": "UnitConflicts",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.209,
+  "peak_rss_mib": 4.45,
+  "source": "proofs/Equation10222/Lean/Austin10222/UnitConflicts.lean",
+  "sha256": "6fe6c1b4e4c280754ef41efba138b46558f2abb9e822a342a70923100c6819de",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Austin10222/UnitConflicts.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation10222/Lean/Austin10222/UnitConflicts.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal"
+  ],
+  "log": "proofs/validation/eq10222-formal/UnitConflicts.log",
+  "axioms": {
+    "Austin10222Unit.no_large_fixed_left": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.same_row_small_unit": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_unit_excludes_base": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_small_unit_different": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.inverse_unit_value_excludes_larger": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "26baf920dde786ec0016c95223a8a7d02900ecb220cc3859a4c96d1d8dc51d9e",
+  "olean_sha256": "a720fac754f38bb768781dbab83070c6894967962eeefe7433aefcf186e02674"
+}

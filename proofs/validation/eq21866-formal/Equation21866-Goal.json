@@ -1,0 +1,30 @@
+{
+  "module": "Equation21866-Goal",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.213,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation21866/JudgeProblem.lean",
+  "sha256": "33522ffbddd72c335b40afb19b403ff19e5732815559f726ee1d94cec6d16358",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 768,
+  "rss_limit_mib": 512,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M768",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq21866-formal/Equation21866/JudgeProblem.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation21866/JudgeProblem.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq21866-formal/Equation21866",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq21866-formal"
+  ],
+  "log": "proofs/validation/eq21866-formal/Equation21866-Goal.log"
+}
