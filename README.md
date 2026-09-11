@@ -6,18 +6,21 @@ This repository covers all 130 equations (65 dual pairs) in Blueprint Tables 20.
 
 The table classifications follow [Order 5 Austin laws](https://teorth.github.io/equational_theories/blueprint/order-5-austin-laws.html). They preserve the original categories and are not revised as proofs in this repository progress:
 
-| Original table | Equations | Meaning in the original table | Equations without a Lean certificate of finite triviality | Equations without a Lean certificate of a nontrivial infinite model |
-|---|---:|---|---:|---:|
-| 20.1 | 10 | Known Austin laws: all finite models are trivial, and nontrivial infinite models exist | 0 | 0 |
-| 20.2 | 96 | All finite models are known to be trivial; the infinite case was unknown in the original table | 0 | 8 |
-| 20.3 | 24 | The existence of nontrivial finite models was unknown in the original table | 10 | 8 |
+| Original table | Equations | Finite: no triviality proof | Infinite: model archived | Infinite: proved impossible | Infinite: open |
+|---|---:|---:|---:|---:|---:|
+| 20.1 | 10 | 0 | 10 | 0 | 0 |
+| 20.2 | 96 | 0 | 88 | 2 | 6 |
+| 20.3 | 24 | 10 | 16 | 0 | 8 |
+| **Total** | **130** | **10** | **114** | **2** | **14** |
+
+Original categories: Table 20.1 lists known Austin laws; Table 20.2 has finite triviality established but the infinite case originally open; Table 20.3 originally leaves the existence of nontrivial finite models open.
 
 <!-- certificate-counts:start -->
-The committed inventory currently contains 120 Lean certificates of finite triviality and 114 Lean certificates of nontrivial models. “Without a certificate” is counted from the certificate columns below and excludes uncommitted local files. Among the gaps in the infinite case, 2 equations have been proved to admit no nontrivial model, so no such model proof remains to be supplied.
+The archive contains **120 finite-triviality certificates**. The infinite case has three mutually exclusive statuses: **114 with model certificates, 2 proved impossible, and 14 open**, totaling 130 equations. “Proved impossible” means no nontrivial infinite model exists: E5834/E40037 are proved to have only trivial models and are excluded from the open count.
 <!-- certificate-counts:end -->
 
 <!-- current-proof-status:start -->
-**As of 2026-09-11: 10 equations remain open in the finite case and 14 in the infinite case.** E5834/E40037 are already proved to admit no nontrivial model, so 16 equations have no model certificate, including those two exclusions. Every identity has a one-element finite model; the finite task is to prove all finite models trivial or construct a nontrivial finite model.
+**As of 2026-09-11: 10 equations remain open in the finite case and 14 in the infinite case.** E5834/E40037 are listed separately as proved impossible and are excluded from the open count. Every identity has a one-element finite model; the finite task is to prove all finite models trivial or construct a nontrivial finite model.
 
 This update adds **six finite-triviality certificates** (E12294/E33856, E17286/E28626, E22446/E22591) and **four infinite-model certificates** (E13102/E33273, E23337/E23354), with source files and saved validation evidence in `proofs/`. All four new models include explicit injections from `Nat`. The number with both certificates stays at 106: the other side of each newly updated equation remains open, so this batch does not establish ten new Austin laws. Saved evidence was audited without rerunning Lean/Judge; see the [synchronization report](proofs/validation/2026-09-11-latest-proofs/README.md).
 

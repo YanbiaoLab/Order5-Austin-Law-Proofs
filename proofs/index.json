@@ -9203,7 +9203,7 @@
     "proofs/validation/aurora/Equation5947/JudgeProblem.lean": "0305c19031854608051bc9f67bcfab3d040291aa416b6d304b4e207a2c53c577",
     "proofs/Equation5951/InfiniteModel.lean": "b5421c74abf67a258212f449a4ccc491ca7e3828b766a76501d1f592aca45708",
     "proofs/Equation40208/InfiniteModel.lean": "0c2e3bbccd1f215aca362ac03c6043752bfe4b080e92addac7e29f77108b136a",
-    "README.md": "41a7738a042b228793fdee6619afc6ece4ae22be00235bb44d07984e4e935d02",
+    "README.md": "866ccc85690ee57c22d1fe1c4b133ebc86b9e7745d344bb7927aa297af657db9",
     "proofs/validation/aurora/Equation6820/local-flat-check.json": "dd4476124e8a11c92bada057614072d68fd74416f49aa646543b843146e396a3",
     "proofs/validation/aurora/Equation8485/job.json": "a78643db915dcf2b063ccdbe29f5bfde2e700a44c789a0c89af1e8613cf33159",
     "proofs/Equation37519/InfiniteModel.lean": "18428f681ce9d6c381238cc3a42c60bbafc27454a2ed7c8b1308648b7e97ac1f",
@@ -10078,7 +10078,7 @@
     "proofs/validation/2026-09-10-open24-two-models/manifest.json": "16046964e578e08ec3f36e6ec730c40ee2e85e3f3daba23319b8f5b1ad54b555",
     "proofs/validation/2026-09-10-open24-two-models/README.md": "c3726bbd1fe06c6d374ea9e25b005216f9369d9dbc48b1740039217b856c49cd",
     "proofs/validation/2026-09-10-open24-two-models/verify.py": "3db32ac3ee0295b469a14f74092d1ee658be35cd40b08b8480fb00c49cd297d8",
-    "README.zh-CN.md": "869bab830745c6ab45e881bc97f90be28f8253877aabe4e60e159408c0b56d48",
+    "README.zh-CN.md": "81c18745adda05b7c0453fded847e8691d1422fd716127e1a212fbb0b9a3e972",
     "proofs/Equation12294/FiniteTrivial.lean": "f2134b2173b4fda16bdd678e7290941e93b4c3138e359f49284c03e3fbdc76fd",
     "proofs/Equation13102/InfiniteModel.lean": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
     "proofs/Equation13102/JudgeProblem.lean": "6809f00aa95a2f622de9e456b30de83e05c3fcb7a2f1f1ff61d240e082e280bd",
@@ -10094,7 +10094,7 @@
     "proofs/Equation33273/JudgeProblem.lean": "7e466de12d0b4b84428cc7ca6ee8b1f95cb796782fd20fb6eee87d11e1352d99",
     "proofs/Equation33856/FiniteTrivial.lean": "cfa4576f3dd46532b9a994f32d21e431c569990fc450e0c8c7c092edde3620e2",
     "proofs/validation/2026-09-11-latest-proofs/README.md": "1797f49e8e4c4a67da86e7fa1bb0f9e06a91db9c38f3515599e6ff4b73db473b",
-    "proofs/validation/2026-09-11-latest-proofs/verify.py": "e69873f160adbf3f68d352ba388ae99da79dc91cb96106cf93658cdb2fc3ed39",
+    "proofs/validation/2026-09-11-latest-proofs/verify.py": "151b8e17b17479c7a2931a5ef900e980c75271d18f74a1f123f149c8ce7f3b71",
     "proofs/validation/aurora/Equation13102/certificate.lean": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
     "proofs/validation/aurora/Equation13102/job.json": "95d7ed7603a9f20cf4f348e9d74e4220d0bedaade6c7d516c1520634c58a506a",
     "proofs/validation/aurora/Equation13102/latest.json": "1cd138706dfec4f9b4617a0c08b810517f0f273a5db2d016bf7584802a29e981",
@@ -10123,7 +10123,7 @@
     "proofs/validation/finite130/finite-incidence/Equation22446.log": "e24aa16b55374ca50ab302e338cc816b3451de393ab270af5bf3ff9cea57aaec",
     "proofs/validation/finite130/finite-incidence/Equation22591.json": "873082a97ca31b42e061f198d76fbbab2dc9fe80634291affffbafc801bb01a6",
     "proofs/validation/finite130/finite-incidence/Equation22591.log": "c08ee91bb320c8e1a24e4e868a5338569f44d5df6a4ce1370c5005e003305f9a",
-    "proofs/validation/2026-09-11-latest-proofs/manifest.json": "ccc2c96c21f0285652fb759b3ebce115cb32a3917bef8176a9686870d3aa1036"
+    "proofs/validation/2026-09-11-latest-proofs/manifest.json": "17d6e497cd39bfdad30ad89d83c8893df55d9ac6fbe07422ce66ae0ce3508da4"
   },
   "lean_recompilation": {
     "date": "2026-09-08",
@@ -10185,7 +10185,7 @@
       "name": "Latest-complete-proofs-2026-09-11",
       "report": "proofs/validation/2026-09-11-latest-proofs/README.md",
       "manifest": "proofs/validation/2026-09-11-latest-proofs/manifest.json",
-      "manifest_sha256": "ccc2c96c21f0285652fb759b3ebce115cb32a3917bef8176a9686870d3aa1036",
+      "manifest_sha256": "17d6e497cd39bfdad30ad89d83c8893df55d9ac6fbe07422ce66ae0ce3508da4",
       "counts": {
         "finite_certificates": 120,
         "model_certificates": 114,
