@@ -67,6 +67,7 @@ def validate(data):
 
 
 def render(data, original):
+    english = '| Original table |' in original
     rows = data['equations']
     missing_finite = Counter(row['table'] for row in rows if not row.get('finite_proof'))
     missing_model = Counter(row['table'] for row in rows if not row.get('infinite_model_proof'))
@@ -78,6 +79,15 @@ def render(data, original):
                '|---|---:|---|---:|---:|']
     for table, meaning in meanings.items():
         summary.append(f'| {table} | {totals[table]} | {meaning} | {missing_finite[table]} | {missing_model[table]} |')
+    if english:
+        summary[0] = '| Original table | Equations | Meaning in the original table | Equations without a Lean certificate of finite triviality | Equations without a Lean certificate of a nontrivial infinite model |'
+        translations = {
+            meanings['20.1']: 'Known Austin laws: all finite models are trivial, and nontrivial infinite models exist',
+            meanings['20.2']: 'All finite models are known to be trivial; the infinite case was unknown in the original table',
+            meanings['20.3']: 'The existence of nontrivial finite models was unknown in the original table',
+        }
+        for source, target in translations.items():
+            summary = [line.replace(source, target) for line in summary]
     excluded = sum(bool(row.get('unrestricted_triviality_proof')) for row in rows)
     count_note = ('<!-- certificate-counts:start -->\n'
                   f'当前已提交库存：平凡有限 Lean 证书 {sum(bool(r.get("finite_proof")) for r in rows)} 份，'
@@ -85,7 +95,14 @@ def render(data, original):
                   '“尚无证书”按下方证书列统计，不包含尚未提交的本地文件。'
                   f'无限侧缺口中有 {excluded} 条已证明非平凡模型不可能存在，不属于待补证明。\n'
                   '<!-- certificate-counts:end -->')
-    text, count = re.subn(r'^\| 原表 \|[^\n]*\n(?:\|[^\n]*\n)+', '\n'.join(summary) + '\n',
+    if english:
+        count_note = ('<!-- certificate-counts:start -->\n'
+                      f'The committed inventory currently contains {sum(bool(r.get("finite_proof")) for r in rows)} Lean certificates of finite triviality and '
+                      f'{sum(bool(r.get("infinite_model_proof")) for r in rows)} Lean certificates of nontrivial models. '
+                      '“Without a certificate” is counted from the certificate columns below and excludes uncommitted local files. '
+                      f'Among the gaps in the infinite case, {excluded} equations have been proved to admit no nontrivial model, so no such model proof remains to be supplied.\n'
+                      '<!-- certificate-counts:end -->')
+    text, count = re.subn(r'^\| (?:原表|Original table) \|[^\n]*\n(?:\|[^\n]*\n)+', '\n'.join(summary) + '\n',
                           original, count=1, flags=re.M)
     assert count == 1
     if '<!-- certificate-counts:start -->' in text:
@@ -112,6 +129,13 @@ def render(data, original):
             model_link = '不可能存在'
         details.append(f'| [{name}](proofs/{name}/README.md) | {row["dual"]} | {row["table"]} | '
                        f'{row["finite_math"]} | {finite_link} | {model_status} | {model_link} |')
+    if english:
+        translations = {'已证仅平凡（Lean）': 'Proved trivial (Lean)',
+                        '未知': 'Unknown', '未收录': 'Not archived',
+                        '已校验': 'Verified', '历史 accepted': 'Historically accepted',
+                        '已证不存在': 'Proved impossible', '不可能存在': 'Impossible'}
+        for source, target in translations.items():
+            details = [line.replace(source, target) for line in details]
     text, count = re.subn(r'^\| \[Equation[^\n]*(?:\n\| \[Equation[^\n]*)*',
                           '\n'.join(details), text, count=1, flags=re.M)
     assert count == 1
@@ -124,19 +148,21 @@ def main():
     args = parser.parse_args()
     data = json.loads((ROOT / 'proofs/index.json').read_text())
     validate(data)
-    path = ROOT / 'README.md'
-    original = path.read_text()
-    rendered = render(data, original)
-    for link in re.findall(r'\]\(([^)]+)\)', rendered):
-        if '://' not in link and not link.startswith('#'):
-            assert (ROOT / link.split('#')[0]).exists(), link
-    if args.check:
-        assert original == rendered, 'README tables differ from inventory'
-    else:
-        path.write_text(rendered)
-        if 'README.md' in data['archived_files']:
-            data['archived_files']['README.md'] = digest('README.md')
-            (ROOT / 'proofs/index.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+    for name in ['README.md', 'README.zh-CN.md']:
+        path = ROOT / name
+        original = path.read_text()
+        rendered = render(data, original)
+        for link in re.findall(r'\]\(([^)]+)\)', rendered):
+            if '://' not in link and not link.startswith('#'):
+                assert (ROOT / link.split('#')[0]).exists(), link
+        if args.check:
+            assert original == rendered, f'{name} tables differ from inventory'
+        else:
+            path.write_text(rendered)
+            if name in data['archived_files']:
+                data['archived_files'][name] = digest(name)
+    if not args.check:
+        (ROOT / 'proofs/index.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
     print('PASS: 130 equations, evidence hashes, accepted receipts, README links and inventory tables')
 
 

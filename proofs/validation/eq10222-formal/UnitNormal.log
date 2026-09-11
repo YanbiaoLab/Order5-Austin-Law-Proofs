@@ -1,0 +1,6 @@
+'Austin10222Unit.inverse_normal' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse_tail_normal' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse_eq_tail' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_normal' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.embed_injective' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.carrierMul' depends on axioms: [propext, Quot.sound]

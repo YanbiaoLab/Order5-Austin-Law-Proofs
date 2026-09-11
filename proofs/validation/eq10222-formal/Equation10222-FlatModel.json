@@ -1,0 +1,41 @@
+{
+  "module": "Equation10222-FlatModel",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 2.699,
+  "peak_rss_mib": 242.84,
+  "source": "proofs/validation/eq10222-formal/Equation10222/certificate.lean",
+  "sha256": "6896b3d861ba23595ada2da9caa3dc2e7d0b93834e3a6f4d059853e1a31c0ad6",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Equation10222/certificate.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq10222-formal/Equation10222/certificate.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/empty-search-path"
+  ],
+  "log": "proofs/validation/eq10222-formal/Equation10222-FlatModel.log",
+  "axioms": {
+    "submission": [
+      "propext",
+      "Quot.sound"
+    ],
+    "submission.CM.tower_injective": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "340f8b303c010bcce29f4aa420b09029282f22e0185d6a53e42d592ef88746eb",
+  "olean_sha256": "1d3c151be2bb108e9c3a804facdd079f5dc901e43662cdf85c02d0ef3f20ae62"
+}

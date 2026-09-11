@@ -1,0 +1,24 @@
+import Austin21866.Duals
+#print axioms submission.Austin21866.op_hit
+#print axioms submission.Austin21866.op_miss
+#print axioms submission.Austin21866.eval_op
+#print axioms submission.Austin21866.row_eval
+#print axioms submission.Austin21866.row_op
+#print axioms submission.Austin21866.eval_back
+#print axioms submission.Austin21866.row_back
+#print axioms submission.Austin21866.row_ne
+#print axioms submission.Austin21866.row_irrefl
+#print axioms submission.Austin21866.row_not_right
+#print axioms submission.Austin21866.row_not_right3
+#print axioms submission.Austin21866.op_row_shape
+#print axioms submission.Austin21866.tower_size
+#print axioms submission.Austin21866.tower_injective
+#print axioms submission.Austin21866.infinite_model
+#print axioms submission.Austin21866.equation21714
+#print axioms submission.Austin21866.equation24200
+#print axioms submission.Austin21866.equation21864
+#print axioms submission.Austin21866.equation24199
+#print axioms submission.Austin21866.equation21865
+#print axioms submission.Austin21866.equation24197
+#print axioms submission.Austin21866.equation21866
+#print axioms submission.Austin21866.equation24201

@@ -1,0 +1,42 @@
+{
+  "module": "Equation10222-Model",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.207,
+  "peak_rss_mib": 4.42,
+  "source": "proofs/Equation10222/InfiniteModel.lean",
+  "sha256": "6f32eb62c2d98e70526cc6f0fefb0182c4d28deda6e6e687dfb01cc04fc5a847",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Equation10222/InfiniteModel.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation10222/InfiniteModel.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Equation10222",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal"
+  ],
+  "log": "proofs/validation/eq10222-formal/Equation10222-Model.log",
+  "axioms": {
+    "submission": [
+      "propext",
+      "Quot.sound"
+    ],
+    "submission.CM.tower_injective": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "340f8b303c010bcce29f4aa420b09029282f22e0185d6a53e42d592ef88746eb",
+  "olean_sha256": "1cd268d664b3331d4b93e3a3c8e9eed4cbb8be2c14ef472910c1b8ebe08918b0"
+}

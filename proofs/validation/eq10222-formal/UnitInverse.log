@@ -1,0 +1,6 @@
+'Austin10222Unit.mul_unit_decoder' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_square_decode' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_unit_fiber' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_pair_unit_decode' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.mul_pair_tail_decode' depends on axioms: [propext, Quot.sound]
+'Austin10222Unit.inverse_sound' depends on axioms: [propext, Quot.sound]

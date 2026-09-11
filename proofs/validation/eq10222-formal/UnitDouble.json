@@ -1,0 +1,45 @@
+{
+  "module": "UnitDouble",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.207,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation10222/Lean/Austin10222/UnitDouble.lean",
+  "sha256": "aba5e43ae02fc69cd49aa3d0a2f14f20a0319be43415f4a1aeab0947ccd47391",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal/Austin10222/UnitDouble.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation10222/Lean/Austin10222/UnitDouble.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq10222-formal"
+  ],
+  "log": "proofs/validation/eq10222-formal/UnitDouble.log",
+  "axioms": {
+    "Austin10222Unit.unit_decode_second_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.tail_decode_second_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin10222Unit.column_double_cases": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "d5ab261598e388db65e763c39de0d39b5918cc8eaab03b0bec125bb8508422fd",
+  "olean_sha256": "68e2b5aad8e355bcb5cec1a77499be08691c484f03bc216ee8023c7e0c83ccc2"
+}
