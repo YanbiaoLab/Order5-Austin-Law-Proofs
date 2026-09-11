@@ -851,16 +851,16 @@
     "equation": "Equation12294",
     "dual": "Equation33856",
     "table": "20.3",
-    "finite_certificate": null,
-    "local_status": "missing",
+    "finite_certificate": "proofs/Equation12294/FiniteTrivial.lean",
+    "local_status": "passed",
     "aurora_finite_status": "pending_finite_capable_endpoint"
   },
   {
     "equation": "Equation33856",
     "dual": "Equation12294",
     "table": "20.3",
-    "finite_certificate": null,
-    "local_status": "missing",
+    "finite_certificate": "proofs/Equation33856/FiniteTrivial.lean",
+    "local_status": "passed",
     "aurora_finite_status": "pending_finite_capable_endpoint"
   },
   {
@@ -899,16 +899,16 @@
     "equation": "Equation17286",
     "dual": "Equation28626",
     "table": "20.3",
-    "finite_certificate": null,
-    "local_status": "missing",
+    "finite_certificate": "proofs/Equation17286/FiniteTrivial.lean",
+    "local_status": "passed",
     "aurora_finite_status": "pending_finite_capable_endpoint"
   },
   {
     "equation": "Equation28626",
     "dual": "Equation17286",
     "table": "20.3",
-    "finite_certificate": null,
-    "local_status": "missing",
+    "finite_certificate": "proofs/Equation28626/FiniteTrivial.lean",
+    "local_status": "passed",
     "aurora_finite_status": "pending_finite_capable_endpoint"
   },
   {
@@ -995,16 +995,16 @@
     "equation": "Equation22446",
     "dual": "Equation22591",
     "table": "20.3",
-    "finite_certificate": null,
-    "local_status": "missing",
+    "finite_certificate": "proofs/Equation22446/FiniteTrivial.lean",
+    "local_status": "passed",
     "aurora_finite_status": "pending_finite_capable_endpoint"
   },
   {
     "equation": "Equation22591",
     "dual": "Equation22446",
     "table": "20.3",
-    "finite_certificate": null,
-    "local_status": "missing",
+    "finite_certificate": "proofs/Equation22591/FiniteTrivial.lean",
+    "local_status": "passed",
     "aurora_finite_status": "pending_finite_capable_endpoint"
   },
   {

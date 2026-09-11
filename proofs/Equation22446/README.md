@@ -3,14 +3,12 @@
 - 对偶：[Equation22591](../Equation22591/README.md)
 - 原表：20.3
 - 方程：`x = (y ◇ (x ◇ x)) ◇ ((x ◇ z) ◇ z)`
-- 有限侧数学状态：未知
+- 有限侧数学状态：已证所有有限模型平凡（Lean 4.33.1）
 
-有限侧 Lean：未收录。预留文件名 `FiniteTrivial.lean`，仅在有完整证明时创建。
+有限侧 Lean：[FiniteTrivial.lean](FiniteTrivial.lean)，完整定理 `Equation22446Finite.finite_trivial` 在 `[Finite G]` 下证明源方程推出 `Equation2 G`。独立证书包含对偶转移所需的证明（如适用）。
 
-已有结构引理：[FiniteStructure.lean](FiniteStructure.lean) 证明平方映射在任意模型上单射、在有限模型上双射，已通过 Lean 编译和公理检查。这尚未推出 Equation2，因此有限坍缩状态仍为未知。
+原本机 Lean 4.33.1 验证已通过；[运行记录](../../proofs/validation/finite130/finite-incidence/Equation22446.json)和[公理日志](../../proofs/validation/finite130/finite-incidence/Equation22446.log)绑定原证书哈希。本次只核对保存的证据，未重新编译或提交云端。
 
-无限侧 Lean：未收录。预留文件名 `InfiniteModel.lean`；历史批次超时不构成不存在模型的证明。
+无限侧仍待解，尚无非平凡无限模型证书，因此尚未确认为 Austin 律。单元素平凡模型存在。
 
-非平凡有限模型的存在性仍未知；无限侧通过验收不能单独确认为 Austin 律。
-
-来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。
+详见[本批归档报告](../../proofs/validation/2026-09-11-latest-proofs/README.md)、[总索引](../index.json)。历史 timeout 仅记录历史搜索结果。

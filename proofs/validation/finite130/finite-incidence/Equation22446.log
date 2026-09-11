@@ -1,0 +1,12 @@
+'Equation22446Finite.square_injective' does not depend on any axioms
+'Equation22446Finite.square_inverse_structure' does not depend on any axioms
+'Equation22446Finite.square_period_three' does not depend on any axioms
+'Equation22446Finite.equation2_of_idempotent' does not depend on any axioms
+'Equation22446Finite.column_cycle' does not depend on any axioms
+'Equation22446Finite.shifted_column' does not depend on any axioms
+'Equation22446Finite.equation2_of_adjacent_product' does not depend on any axioms
+'Equation22446Finite.equation2_of_left_fixed_point' does not depend on any axioms
+'Equation22446Finite.finite_column_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Finite.finite_row_image_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Finite.finite_adjacent_absorption' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Finite.finite_trivial' depends on axioms: [propext, Classical.choice, Quot.sound]
