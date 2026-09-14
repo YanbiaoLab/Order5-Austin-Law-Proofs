@@ -1,0 +1,8 @@
+'Equation18137TreeSchema.column_triangle_free' does not depend on any axioms
+'Equation18137TreeSchema.step_middle_no_code' does not depend on any axioms
+'Equation18137TreeSchema.step_outer_no_code' does not depend on any axioms
+'Equation18137TreeSchema.op_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation18137TreeSchema.op_hit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation18137TreeSchema.source_law_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation18137TreeSchema.nontrivial' does not depend on any axioms
+'Equation18137TreeSchema.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "equation": "Equation18137",
+  "local_units_checked": 6,
+  "certificate_sha256": "80f1d61cabd487ebc4b43dfcd14034c58061e3340865ed3d12447ccffd56050c",
+  "request_sha256": "dc7214df0b95a87db3910fdfa176eed3afe41619fe88df571b37a310bee07eb3",
+  "local_manifest_sha256": "1a0ba441228e55a461215d90bf52241b0f738869f4aea4603f7de4e0f103178d",
+  "remote_job_id": "25f7dd0341414b5c83e91957ee920fba",
+  "remote_status": "accepted",
+  "error_code": "ACCEPTED",
+  "elapsed_ms": 4633,
+  "cache_mode": "off",
+  "remote_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "post_attempts": 1,
+  "receipt": "proofs/validation/aurora/Equation18137/latest.json",
+  "receipt_sha256": "a9be03fc09e3cc39505e79582742c37b3c6a83c4ab063f4951e00f932fb92c2d",
+  "scope": "Current source bytes, exact equation binding, local proof audit and accepted remote submission"
+}
