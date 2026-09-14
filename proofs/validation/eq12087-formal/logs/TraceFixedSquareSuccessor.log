@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_small_left_alternative_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_fixed_square_successor_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

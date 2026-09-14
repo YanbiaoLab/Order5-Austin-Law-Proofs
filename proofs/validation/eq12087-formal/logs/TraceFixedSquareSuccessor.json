@@ -1,0 +1,43 @@
+{
+  "module": "TraceFixedSquareSuccessor",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation12087/Lean/TraceFixedSquareSuccessor.lean",
+  "sha256": "2fba59d9e47aaaea79872967336ffdf1d2abc0800aa36da6d64f7669a332b9b7",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFixedSquareSuccessor.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFixedSquareSuccessor.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFixedSquareSuccessor.log",
+  "axioms": {
+    "Austin12087Trace.normal_small_left_alternative_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_fixed_square_successor_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "fa4cccaf2203136ebd30a5bcf27c374061aa7079630e86d4305eb2b3457fbbeb",
+  "olean_sha256": "fe7d959f4f32b0ae520ef86e1ed6e8b66d809663551b7b44ea2b11e5b0e36dd8"
+}

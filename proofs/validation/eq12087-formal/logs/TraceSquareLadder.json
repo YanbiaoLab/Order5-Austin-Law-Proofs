@@ -1,0 +1,38 @@
+{
+  "module": "TraceSquareLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.64,
+  "peak_rss_mib": 149.75,
+  "source": "proofs/Equation12087/Lean/TraceSquareLadder.lean",
+  "sha256": "460363cb7a3e3b5c14d833e0abd02652d870ba5cc5d25a62d290ce18530588b8",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSquareLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSquareLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSquareLadder.log",
+  "axioms": {
+    "Austin12087Trace.same_key_square_ladder_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "a4bccc64622e076c297e176aec1afc8128fae01835a94a79854721055dfdc216",
+  "olean_sha256": "a04b332ac61749f89745b93237af05c7fe5fdb8e91998aaa161461b09aa1693f"
+}

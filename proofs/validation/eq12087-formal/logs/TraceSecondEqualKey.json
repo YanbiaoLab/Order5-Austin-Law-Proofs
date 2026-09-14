@@ -1,0 +1,43 @@
+{
+  "module": "TraceSecondEqualKey",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.217,
+  "peak_rss_mib": 4.23,
+  "source": "proofs/Equation12087/Lean/TraceSecondEqualKey.lean",
+  "sha256": "5799e390d054b235823ab111fc43d4599e00ec9044c570571bbd37b0ac505613",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondEqualKey.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondEqualKey.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondEqualKey.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_equal_input_q_key": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_equal_input_q_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "878f370c35e146ed794407934fc596ce6031e4ac77c500e7328ce4b7f1c7ca1b",
+  "olean_sha256": "0095df2607a20cff137bb3b11cfd79d0d0856e39ecfaa11e86e9723a405ab9ef"
+}

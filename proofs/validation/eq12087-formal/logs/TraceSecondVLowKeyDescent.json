@@ -1,0 +1,37 @@
+{
+  "module": "TraceSecondVLowKeyDescent",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.213,
+  "peak_rss_mib": 4.2,
+  "source": "proofs/Equation12087/Lean/TraceSecondVLowKeyDescent.lean",
+  "sha256": "fe06cd65ff78f6124434cc0be7d323a3e47218163fea8366fcbf43f60e1ccdfd",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVLowKeyDescent.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVLowKeyDescent.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVLowKeyDescent.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_v_low_equal_keys_descent_impossible": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "c4866ac69d4265b7100b946c89e22374e6d23e814d498cb329c9611aa924df80",
+  "olean_sha256": "2597939f451b83940c2f05c9ca564ad9ebf90c56d8e4fdd7977ff7427668fb5d"
+}

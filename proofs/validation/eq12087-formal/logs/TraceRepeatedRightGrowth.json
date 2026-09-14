@@ -1,0 +1,38 @@
+{
+  "module": "TraceRepeatedRightGrowth",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.42,
+  "source": "proofs/Equation12087/Lean/TraceRepeatedRightGrowth.lean",
+  "sha256": "3d64e9b58a6dfd3e4d738758553ef217f5a86b32be19897afaac8ac45f4c6fae",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceRepeatedRightGrowth.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceRepeatedRightGrowth.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceRepeatedRightGrowth.log",
+  "axioms": {
+    "Austin12087Trace.normal_repeated_right_growth_no_return": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "380d21ecf985f5e2d131768ea0b024a5912b4034c107d92bef9487ad9ebae127",
+  "olean_sha256": "bd93bd62d6b2e1cb6bbc6f76d4f38516638151d9f4cff7dac8c6d0cf6ca615b2"
+}

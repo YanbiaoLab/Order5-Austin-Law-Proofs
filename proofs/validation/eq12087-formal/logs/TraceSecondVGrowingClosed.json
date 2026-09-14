@@ -1,0 +1,43 @@
+{
+  "module": "TraceSecondVGrowingClosed",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.429,
+  "peak_rss_mib": 152.8,
+  "source": "proofs/Equation12087/Lean/TraceSecondVGrowingClosed.lean",
+  "sha256": "c095720f02f7fa95889d692e9ac2c887d6da18c7706e42e827f6888500764026",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVGrowingClosed.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVGrowingClosed.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVGrowingClosed.log",
+  "axioms": {
+    "Austin12087Trace.normal_v_head_cycle_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_v_growing_middle_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "e1aa763e73c6e7ff91c46750625326979952c0ce56c8a2882044d69d8f15af5d",
+  "olean_sha256": "651a0770e039722ead8bc1832b729cec963fa93f1525cb0d26ba1be037105a7b"
+}

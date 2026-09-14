@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_high_v_tail_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_high_column_return_cycle_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

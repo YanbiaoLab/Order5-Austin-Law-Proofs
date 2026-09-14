@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_first_repeated_tail_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_repeated_head_order' depends on axioms: [propext, Classical.choice, Quot.sound]

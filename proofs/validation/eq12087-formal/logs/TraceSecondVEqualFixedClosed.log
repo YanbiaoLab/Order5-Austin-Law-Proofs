@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_fixed_column_short_key_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_v_equal_fixed_exception_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

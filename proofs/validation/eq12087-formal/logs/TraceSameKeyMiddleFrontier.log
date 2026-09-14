@@ -1,0 +1,5 @@
+'Austin12087Trace.normal_second_induction_requires_equal_return_keys' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_returning_middle_of_same_key' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_law_of_same_key_middle_step' depends on axioms: [propext, Classical.choice, Quot.sound]

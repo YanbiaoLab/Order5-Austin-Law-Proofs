@@ -1,0 +1,43 @@
+{
+  "module": "TraceFixedSquarePairGrowth",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation12087/Lean/TraceFixedSquarePairGrowth.lean",
+  "sha256": "08f2cf1e2b744ae5164915cc391d300911b9863575e89d680a949d824bee0ece",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFixedSquarePairGrowth.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFixedSquarePairGrowth.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFixedSquarePairGrowth.log",
+  "axioms": {
+    "Austin12087Trace.normal_fixed_square_pair_both_growth_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_fixed_square_pair_alternatives": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "cb58aafb5d615acbd21eed4dc9a0314d50363c3601b99c5dadb4ec7185640410",
+  "olean_sha256": "0f89dd2277357c978838ff50eaeb94bcbe579017c33bbed2e94d77eceb2db5ce"
+}

@@ -1,0 +1,3 @@
+'Austin12087Trace.nf_transposed_pair_no_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_max_u_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_query_height_order' depends on axioms: [propext, Classical.choice, Quot.sound]

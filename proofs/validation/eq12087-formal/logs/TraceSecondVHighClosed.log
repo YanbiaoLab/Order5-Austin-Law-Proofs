@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_second_v_high_head_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_returning_v_low_head' depends on axioms: [propext, Classical.choice, Quot.sound]

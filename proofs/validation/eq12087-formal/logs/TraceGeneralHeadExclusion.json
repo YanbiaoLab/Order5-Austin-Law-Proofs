@@ -1,0 +1,48 @@
+{
+  "module": "TraceGeneralHeadExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.427,
+  "peak_rss_mib": 138.03,
+  "source": "proofs/Equation12087/Lean/TraceGeneralHeadExclusion.lean",
+  "sha256": "39f0cbe1c628a05d0b197ddefaf8f4a97a5ee30388beecd41db4886833e4272d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceGeneralHeadExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceGeneralHeadExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceGeneralHeadExclusion.log",
+  "axioms": {
+    "Austin12087Trace.general_head_return_ladder_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_larger_k_equation_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_larger_k_query_absent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "ec4c21deab2bcd3d4fea518eff15ca410252932d0e1f81f526a6e13626a4a4fb",
+  "olean_sha256": "35fba8d63d89b82e0b22a74d97d4cf56615dfb17513d39467c42f18fdbdebcad"
+}

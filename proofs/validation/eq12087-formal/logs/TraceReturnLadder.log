@@ -1,0 +1,4 @@
+'Austin12087Trace.nf_return_origin_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.return_ladder_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.return_ladder_dominant_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.return_ladder_second_dominant_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

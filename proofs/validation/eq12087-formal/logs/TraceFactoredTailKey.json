@@ -1,0 +1,48 @@
+{
+  "module": "TraceFactoredTailKey",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.64,
+  "peak_rss_mib": 168.64,
+  "source": "proofs/Equation12087/Lean/TraceFactoredTailKey.lean",
+  "sha256": "7f6635d80adf7ac0eb3e2d04381d79e5b6c8ad12bd5a1930afa5a4189383ae01",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFactoredTailKey.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFactoredTailKey.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFactoredTailKey.log",
+  "axioms": {
+    "Austin12087Trace.normal_factored_returning_tail_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_factored_returning_tail_output_returns": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_factored_returning_tail_key_repeats": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "68461eb0dd8c993c277561128f7922b8a4f2d15f5b0180546f38f61d04aee3f6",
+  "olean_sha256": "eb1417de6210629dcccabb55a0d0b34f1c7822e3b55cee01c30c550e3c1b5882"
+}

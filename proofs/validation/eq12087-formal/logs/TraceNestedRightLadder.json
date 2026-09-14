@@ -1,0 +1,38 @@
+{
+  "module": "TraceNestedRightLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.48,
+  "source": "proofs/Equation12087/Lean/TraceNestedRightLadder.lean",
+  "sha256": "045e505e7cb35084afcf4fc30355c4904be72f49e4a3df73f723294c24869ab6",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceNestedRightLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceNestedRightLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceNestedRightLadder.log",
+  "axioms": {
+    "Austin12087Trace.nested_right_return_ladder_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "0e3a3b0dd875b10a9e8a99b361c14717d16a4e2150067b8d62876acd4a5754ea",
+  "olean_sha256": "321084e9e7a60cf35cf3437a5eed8ea5aac6994497e983048f41a95b24dc4ed6"
+}

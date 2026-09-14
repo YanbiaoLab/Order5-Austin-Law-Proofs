@@ -1,0 +1,3 @@
+'Austin12087Trace.general_head_return_ladder_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_larger_k_equation_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_larger_k_query_absent' depends on axioms: [propext, Classical.choice, Quot.sound]

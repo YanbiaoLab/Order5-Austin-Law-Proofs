@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondTwoColumnsReturn",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.218,
+  "peak_rss_mib": 4.17,
+  "source": "proofs/Equation12087/Lean/TraceSecondTwoColumnsReturn.lean",
+  "sha256": "16cf76a187243a2223e10ff0cbb43cfb78108d6c5e5a0baf1319b45039f394a6",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondTwoColumnsReturn.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondTwoColumnsReturn.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondTwoColumnsReturn.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_two_growing_columns_returning_middle_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "8ba14be2ccd0a3527bde3e32a5a50cc322424272a412f65ff3ebd6c4a58fcc79",
+  "olean_sha256": "2a08b78a2db21bce75490cbb9288de65d5dcef11e8b632fb23899743eedff919"
+}

@@ -1,0 +1,61 @@
+{
+  "module": "TraceDescent",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.21,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation12087/Lean/TraceDescent.lean",
+  "sha256": "02d3cd33c20997bbcf094aaeccced92d56fff5b9b24860594619d401658b8b4b",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceDescent.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceDescent.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceDescent.log",
+  "axioms": {
+    "Austin12087Trace.mul_origin_of_right_le": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.row_column_collision_return": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_diagonal_descent_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_diagonal_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_diagonal_query_absent_for_plain_parameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_diagonal_query_absent_of_smaller_second": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "1696fcb8d058839514a039fa5c6fa94dc4e6015175622348c2751b48f5d575af",
+  "olean_sha256": "d4658dd91d8c49a9c8485b01d765ffcd01c12fe781b235aef92d89198fa729ef"
+}

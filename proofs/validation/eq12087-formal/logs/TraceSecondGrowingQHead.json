@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondGrowingQHead",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.427,
+  "peak_rss_mib": 143.3,
+  "source": "proofs/Equation12087/Lean/TraceSecondGrowingQHead.lean",
+  "sha256": "c79227a24ceb23229ad5a5a71dbd788925ffdc970bcdf493686c4a6a4a5237bb",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondGrowingQHead.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondGrowingQHead.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondGrowingQHead.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_growing_q_head": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "d979a021895b28e3f0c2f0beeeb5ac731db69d4c84940983d344b23052436a01",
+  "olean_sha256": "70e737a56047c64460f606c4691d037f1999212b4c5b8d48ea8a13a4cd4caa22"
+}

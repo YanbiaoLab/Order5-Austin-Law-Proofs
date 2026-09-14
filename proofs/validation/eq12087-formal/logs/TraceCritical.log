@@ -1,0 +1,8 @@
+'Austin12087Trace.inverse_strict_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.common_column_inputs_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.code_choices_agree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.critical_first_or_second_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.source_when_first_two_do_not_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.plain_right_grows' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.source_for_plain_right_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.source_square_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]

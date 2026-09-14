@@ -1,0 +1,2 @@
+'Austin12087Trace.return_from_column_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.large_head_return_ladder_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

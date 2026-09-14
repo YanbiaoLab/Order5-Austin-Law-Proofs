@@ -1,0 +1,43 @@
+{
+  "module": "TraceDoubleReturnOffKeyClosed",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.847,
+  "peak_rss_mib": 198.34,
+  "source": "proofs/Equation12087/Lean/TraceDoubleReturnOffKeyClosed.lean",
+  "sha256": "94864740a03d9b9b6871ae6a941f5942ed7e02c334f17bb65a46ae25d2ecea44",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceDoubleReturnOffKeyClosed.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceDoubleReturnOffKeyClosed.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceDoubleReturnOffKeyClosed.log",
+  "axioms": {
+    "Austin12087Trace.normal_double_return_offkey_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_two_return_offkey_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "18825bf877c1baafb6a5e0dd4cd9179db152a046aa4d84c0a6c8e042b4b89196",
+  "olean_sha256": "2b9df6ba295857c1b56eb4a2f8316a0e2a5b1679fd673633275d13581638559f"
+}

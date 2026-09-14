@@ -1,11 +1,17 @@
 # 证明归档约定
 
+2026-09-14 最新增补：**Equation12087 / Equation33884 完整非平凡无限模型完成**。
+正规树总运算的最后低列分支已关闭；完整原式、非平凡性、显式 Nat 单射均通过本地 Lean 4.33.1 核验。
+125 个核心模块及两条方程包装从空目录串行构建，共 129 次构建；后续独立单文件证书均获远端 **ACCEPTED**，见[回执与审计](validation/eq12087-formal/JUDGE.md)。
+见[模型与历史复盘](Equation12087/MODEL.zh-CN.md)和[验证报告](validation/eq12087-formal/README.md)。
+此增补新增 2 份模型证书；实时总量以 [index.json](index.json) 为准，下列数字为上一批快照。
+
 2026-09-14 增补：**Equation18137 / Equation27863 两条 Austin 律完成**。
 两份非平凡无限树模型均包含显式 Nat 单射，本地 Lean 4.33.1 核验与远端 Judge 均通过。
 见[模型说明](Equation18137/MODEL.zh-CN.md)、[对偶证明](Equation27863/DualModel.lean)及
 [本批归档与复核报告](validation/2026-09-14-tree-dual/README.md)。
 
-当前归档：**120 份有限平凡性证书、116 份非平凡模型证书、88 份显式无限性证明**。
+上一批归档快照：**120 份有限平凡性证书、116 份非平凡模型证书、88 份显式无限性证明**。
 两侧证书齐全为 **108 条**；另 2 条已证明所有模型平凡。
 有限侧剩 **10 条**、无限侧剩 **12 条**待解。以下早期批次数字保留为历史记录；
 上一批六份有限证书与四份模型证书见[2026-09-11 同步报告](validation/2026-09-11-latest-proofs/README.md)。
@@ -13,7 +19,7 @@
 当前库存与本批证据的只读审计（Python 标准库）：
 
 ```sh
-python3 proofs/validation/2026-09-14-tree-dual/verify.py
+python3 proofs/validation/eq12087-formal/portable.py
 ```
 
 本批源码的低内存串行 Lean 重编译入口见上述报告。

@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceFlip",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.218,
+  "peak_rss_mib": 6.48,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceFlip.lean",
+  "sha256": "2bbffd441bfa194c17277797f2cc2f63066c8a1551d2ecc577a781f03b52e2ee",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceFlip.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceFlip.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceFlip.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "6ce762fa60fd5fcad862ac2efa18a1882977945ed87dab1d7077d8c54add664b"
+}

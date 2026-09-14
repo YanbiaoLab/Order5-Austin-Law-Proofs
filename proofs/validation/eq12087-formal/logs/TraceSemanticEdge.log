@@ -1,0 +1,2 @@
+'Austin12087Trace.semantic_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.semantic_return' depends on axioms: [propext, Classical.choice, Quot.sound]

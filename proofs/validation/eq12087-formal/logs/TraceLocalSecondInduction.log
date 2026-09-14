@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_first_below_of_second_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_source_of_second_below' depends on axioms: [propext, Classical.choice, Quot.sound]

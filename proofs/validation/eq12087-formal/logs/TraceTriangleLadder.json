@@ -1,0 +1,38 @@
+{
+  "module": "TraceTriangleLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.45,
+  "source": "proofs/Equation12087/Lean/TraceTriangleLadder.lean",
+  "sha256": "2e93bb70a8bb5fa31b9aee4e3be7cb4baf862c72be21c4cae4853b75a44b9309",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceTriangleLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceTriangleLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceTriangleLadder.log",
+  "axioms": {
+    "Austin12087Trace.triangle_return_ladder_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "5491bffc93ab997c57098615e54f5076816457ee0a19847051b5872bdc027b26",
+  "olean_sha256": "c6302c82b27900c82d8bbb3dbb0cfbad3471691e8738117918b6e211dc4bac43"
+}

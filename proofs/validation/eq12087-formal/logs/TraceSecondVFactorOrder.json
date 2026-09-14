@@ -1,0 +1,43 @@
+{
+  "module": "TraceSecondVFactorOrder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.44,
+  "source": "proofs/Equation12087/Lean/TraceSecondVFactorOrder.lean",
+  "sha256": "d4f4eb404b09184cc8a9c4422fb3e24abbaac06c2f650cf33750de3037696786",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVFactorOrder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVFactorOrder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVFactorOrder.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_v_factor_no_double_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_v_factor_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "baf40b80031cb1f6a5d35a4a1d62c45fb01d6a404a6bb00dcabf7dd940a787c4",
+  "olean_sha256": "368c25a889413fd484b290a162518ed376f04d6a19b22e48ea507ead6f1a38f2"
+}

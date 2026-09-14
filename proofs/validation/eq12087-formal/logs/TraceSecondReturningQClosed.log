@@ -1,0 +1,6 @@
+'Austin12087Trace.factored_growing_key_ladder_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_repeated_q_core_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_returning_q_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_induction_requires_returning_v' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

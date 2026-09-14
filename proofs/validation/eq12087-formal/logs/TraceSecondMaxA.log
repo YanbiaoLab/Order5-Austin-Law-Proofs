@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_second_max_a_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_query_k_dominates' depends on axioms: [propext, Classical.choice, Quot.sound]

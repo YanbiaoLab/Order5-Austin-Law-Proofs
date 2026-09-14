@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceLowAlignedColumns",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.411,
+  "peak_rss_mib": 141.42,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceLowAlignedColumns.lean",
+  "sha256": "4bf5745892a308e3c64a1fd116b3ebadac4c5b39f512c2358da2c518182726d7",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceLowAlignedColumns.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceLowAlignedColumns.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceLowAlignedColumns.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "3197cfa7f865b155a26801df519ce760b9f5c77dc11a69c508b40d4eb854c3ff"
+}

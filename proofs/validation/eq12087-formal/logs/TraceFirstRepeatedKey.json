@@ -1,0 +1,43 @@
+{
+  "module": "TraceFirstRepeatedKey",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.427,
+  "peak_rss_mib": 137.88,
+  "source": "proofs/Equation12087/Lean/TraceFirstRepeatedKey.lean",
+  "sha256": "294d7b72c4e45dfef06c7040c5b5cb3fee46004a29fb417e0f27f51c94aa7e5d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFirstRepeatedKey.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFirstRepeatedKey.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFirstRepeatedKey.log",
+  "axioms": {
+    "Austin12087Trace.normal_first_larger_k_forces_repeated_key": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_larger_k_inner_returns": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "0122216e952157c120eb82a9090451d5d81a1c19c6657c3aba8470733bf5f9c8",
+  "olean_sha256": "e5bb289151bfc464b67099f19f6aa6e7a7970b12b054c5d049756d16896db0ee"
+}

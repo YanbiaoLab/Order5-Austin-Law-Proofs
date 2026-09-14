@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceNormalFoldExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.415,
+  "peak_rss_mib": 129.78,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceNormalFoldExclusion.lean",
+  "sha256": "41ed6ee8ab68a5146c9a8aa749d7fb6553d2ff09c066c6ddbf862c0a4c98a1cb",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceNormalFoldExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceNormalFoldExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceNormalFoldExclusion.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "7a4dfb4165cb741092e50736a79338841e1a68b80f9dd39a5667acd215c24ff9"
+}

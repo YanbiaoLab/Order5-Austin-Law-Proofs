@@ -1,0 +1,1 @@
+'Austin12087Trace.normal_v_high_head_distinct_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]

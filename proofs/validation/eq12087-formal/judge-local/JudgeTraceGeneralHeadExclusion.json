@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceGeneralHeadExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.415,
+  "peak_rss_mib": 131.23,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceGeneralHeadExclusion.lean",
+  "sha256": "5af374d58a746de47a7c6d3f732725d848728cc2afbce5857c153379da58457d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-497n8blj/JudgeTraceGeneralHeadExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceGeneralHeadExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-497n8blj"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceGeneralHeadExclusion.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "12a5d633854c3ef458cf79e6835e71e3ee4c96a511402aeb81828eb1fdb30abc"
+}

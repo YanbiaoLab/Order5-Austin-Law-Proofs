@@ -1,0 +1,6 @@
+'Austin12087Trace.normal_fixed_pair_small_growing_key_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_small_base_fixed_square_pair_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

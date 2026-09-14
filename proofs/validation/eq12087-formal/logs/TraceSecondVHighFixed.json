@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondVHighFixed",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.67,
+  "source": "proofs/Equation12087/Lean/TraceSecondVHighFixed.lean",
+  "sha256": "fa21b57cd8ac78f3666b73f566887e0dbacefab3fd8cdab5b092f35e5184a221",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVHighFixed.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVHighFixed.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVHighFixed.log",
+  "axioms": {
+    "Austin12087Trace.normal_v_high_head_distinct_fixed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "e35e5361da9cfcf7bd56aed03fec2e98a9ee667e57f9d38074230ff08fcc04cb",
+  "olean_sha256": "cbc384a0992032b55a99520be66072c9a59e08247ab1451cd3cb11fc3619145a"
+}

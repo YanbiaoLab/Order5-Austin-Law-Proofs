@@ -1,0 +1,5 @@
+'Austin12087Trace.normal_second_induction_requires_two_returns' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_returning_v_of_returning_middle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_law_of_returning_middle_step' depends on axioms: [propext, Classical.choice, Quot.sound]

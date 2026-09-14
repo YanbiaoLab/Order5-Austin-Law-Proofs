@@ -1,0 +1,43 @@
+{
+  "module": "TraceRepeatedTailClosure",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.428,
+  "peak_rss_mib": 139.58,
+  "source": "proofs/Equation12087/Lean/TraceRepeatedTailClosure.lean",
+  "sha256": "06b6a48db18fe53d28d7b604b78372793ed1faf6db81f848a82dd0a80e93cb24",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceRepeatedTailClosure.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceRepeatedTailClosure.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceRepeatedTailClosure.log",
+  "axioms": {
+    "Austin12087Trace.normal_first_repeated_tail_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_repeated_head_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "a5c6994438bda451b2308268846bd6a9ae43c7e00c964a1f66b52ac1e78a523d",
+  "olean_sha256": "937047cd6512b7199e94095f2b110a7420b45148a666c5d4045c3dfdfb0852df"
+}

@@ -1,0 +1,1 @@
+'Austin12087Trace.normal_first_repeated_tail_descent' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondEqualInputHead",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation12087/Lean/TraceSecondEqualInputHead.lean",
+  "sha256": "ef666ed99bb324c70682045d453a40cd0b227a8becdff607f769a7c504c9c67f",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondEqualInputHead.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondEqualInputHead.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondEqualInputHead.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_equal_input_returning_q_head": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "f479361434cb936ef4bc7a0411fbfd19b4cd0580c61a232a03b6a3ea3cd0346f",
+  "olean_sha256": "c5498567cd6fe7e7cf2a7e25aed08312583f9d276caaa68e41fe3463b0000d48"
+}

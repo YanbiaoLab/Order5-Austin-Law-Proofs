@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_critical_excluded_by_lower_queries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_source_of_lower_queries' depends on axioms: [propext, Classical.choice, Quot.sound]

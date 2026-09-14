@@ -1,0 +1,38 @@
+{
+  "module": "TraceFixedRotation",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.211,
+  "peak_rss_mib": 4.48,
+  "source": "proofs/Equation12087/Lean/TraceFixedRotation.lean",
+  "sha256": "36130a86a2f9be48994aa2a520ca349fb7eb5a1962fcf6bd27ec2e8d1388a3de",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFixedRotation.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFixedRotation.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFixedRotation.log",
+  "axioms": {
+    "Austin12087Trace.normal_fixed_rotation_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "7358f04b179cd069c0564bf37308a2f9468510d2d4f7295579926e107efe3bfa",
+  "olean_sha256": "dcfc22405fd429dcd9a02d0e846097018a76092615f76774fd572a1e565f4be8"
+}

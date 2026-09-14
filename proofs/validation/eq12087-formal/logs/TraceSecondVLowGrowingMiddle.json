@@ -1,0 +1,43 @@
+{
+  "module": "TraceSecondVLowGrowingMiddle",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.422,
+  "peak_rss_mib": 150.36,
+  "source": "proofs/Equation12087/Lean/TraceSecondVLowGrowingMiddle.lean",
+  "sha256": "c0f36fbb7a09309d59dd27bf7e7e0541e859e1b489cda40b38aa4958c8d5cda7",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVLowGrowingMiddle.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVLowGrowingMiddle.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVLowGrowingMiddle.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_v_low_growing_middle_v_large_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_v_growing_middle_low_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "4e063f745d4c67bf723fbec73ed8c7e53b86023bc0ac6beffe4d058718a033ed",
+  "olean_sha256": "c9717a07221d8e6e9ae7d39760ca04e6f3273bfa62c306fc6759d987b8f6ae9d"
+}

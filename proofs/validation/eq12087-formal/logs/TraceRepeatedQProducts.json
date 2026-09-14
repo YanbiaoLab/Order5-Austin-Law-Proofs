@@ -1,0 +1,43 @@
+{
+  "module": "TraceRepeatedQProducts",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.427,
+  "peak_rss_mib": 150.0,
+  "source": "proofs/Equation12087/Lean/TraceRepeatedQProducts.lean",
+  "sha256": "746e927979b603c5637cc1aa54dca7d9832acd43a1acc12540685e11dbe3fe55",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceRepeatedQProducts.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceRepeatedQProducts.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceRepeatedQProducts.log",
+  "axioms": {
+    "Austin12087Trace.right_repeated_product_ne_transpose": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_repeated_q_product_ne_u": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "f5ef54bc076cd292740b3cf7ef86eb3b3a21d2c105fce43f02cca4a193fe485f",
+  "olean_sha256": "d9ef86040efbe2dfc61b38fb948cf8342909f9c86a16d47d31042cc80a764f29"
+}

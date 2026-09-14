@@ -1,0 +1,4 @@
+'Austin12087Trace.normal_second_returning_q_outer_growth_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_second_returning_q_outer_returns' depends on axioms: [propext, Classical.choice, Quot.sound]

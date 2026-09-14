@@ -1,0 +1,5 @@
+'Austin12087Trace.normal_second_equal_input_returning_q_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_second_returning_q_inputs_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_equal_input_column_order' depends on axioms: [propext, Classical.choice, Quot.sound]

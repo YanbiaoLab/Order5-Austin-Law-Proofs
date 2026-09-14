@@ -1,0 +1,38 @@
+{
+  "module": "TraceSquareTransport",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.42,
+  "source": "proofs/Equation12087/Lean/TraceSquareTransport.lean",
+  "sha256": "81d5282507e0d691741bd53020f155406d4d321bb304e6c62bb354f94944d967",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSquareTransport.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSquareTransport.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSquareTransport.log",
+  "axioms": {
+    "Austin12087Trace.square_column_transport_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "cb763cf0a4ff32fa6b8b9d329d5fd5449515ebafc64fb6360831dc18daa8f379",
+  "olean_sha256": "477bde6bdb801f9507da00806d841adacddf96bdfdc535327e21e17eac551b86"
+}

@@ -1,0 +1,38 @@
+{
+  "module": "TraceFirstCodeOrder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.06,
+  "source": "proofs/Equation12087/Lean/TraceFirstCodeOrder.lean",
+  "sha256": "d002ba68f506cc0cf58d08f24964b320ca44ee3029b7811c311d3c7ff3a8621c",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFirstCodeOrder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFirstCodeOrder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFirstCodeOrder.log",
+  "axioms": {
+    "Austin12087Trace.first_larger_k_head_forces_same_key": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "9fafacadc95858e70e7b61ee560879e2edb94044faa52ef1133fd144425f26ea",
+  "olean_sha256": "c05a41b3ed4804d84522fe55646f6e556ab8fadc47dffc56c75d13118f21d4ad"
+}

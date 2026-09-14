@@ -1,0 +1,43 @@
+{
+  "module": "TraceSecondMaxA",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.424,
+  "peak_rss_mib": 139.64,
+  "source": "proofs/Equation12087/Lean/TraceSecondMaxA.lean",
+  "sha256": "af7d556ee55e8f30207b46ee91a3ea847b83db0d5b9e934e2ddc1ef9cc25d742",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondMaxA.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondMaxA.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondMaxA.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_max_a_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_query_k_dominates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "486853a82743b5af538df407b04f8eca4c02a052cfc369dd67f0eb2ba7387d9f",
+  "olean_sha256": "6fa279c3d1be07ecccfe64526374499152f0d6a0dd1da6df0a360feb8a7d5fff"
+}

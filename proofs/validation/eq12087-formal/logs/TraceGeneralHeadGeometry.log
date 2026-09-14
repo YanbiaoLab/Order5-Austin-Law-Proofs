@@ -1,0 +1,2 @@
+'Austin12087Trace.nf_short_chain_absent_of_left_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_general_head_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

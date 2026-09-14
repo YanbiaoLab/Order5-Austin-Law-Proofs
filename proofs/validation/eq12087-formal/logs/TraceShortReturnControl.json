@@ -1,0 +1,38 @@
+{
+  "module": "TraceShortReturnControl",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.45,
+  "source": "proofs/Equation12087/Lean/TraceShortReturnControl.lean",
+  "sha256": "9595baa6d8df23f06a3c7062caddf95f078a91b5412ecc0a587f8b309afe3784",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceShortReturnControl.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceShortReturnControl.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceShortReturnControl.log",
+  "axioms": {
+    "Austin12087Trace.normal_short_return_control": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "08616a4ffb687bad64479d68e40030a66345c467318814c1dbe07b40fdc864f6",
+  "olean_sha256": "c7cab9a84b362f125607af7ce3df461ab097859ddceb11bcb21f4dc1fc2c3316"
+}

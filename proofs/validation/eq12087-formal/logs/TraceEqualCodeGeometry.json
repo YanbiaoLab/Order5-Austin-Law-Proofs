@@ -1,0 +1,38 @@
+{
+  "module": "TraceEqualCodeGeometry",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation12087/Lean/TraceEqualCodeGeometry.lean",
+  "sha256": "974f3558571d13b2ab75a3b1f4a7425adc8d62aed5a2a50497c4f37e47156edb",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceEqualCodeGeometry.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceEqualCodeGeometry.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceEqualCodeGeometry.log",
+  "axioms": {
+    "Austin12087Trace.normal_equal_code_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "c1d77e5eedcb4e29dee8dc53cd17eea7d913b6a1dee76193e334f6ab9444784f",
+  "olean_sha256": "8cdf7c5e4a2ce56cb2f818881f30626042007e3762c9c01b26db24a8da862f38"
+}

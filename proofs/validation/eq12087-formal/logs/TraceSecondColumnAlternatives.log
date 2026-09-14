@@ -1,0 +1,5 @@
+'Austin12087Trace.normal_second_two_growing_columns_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_second_column_alternatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_growing_middle_column_order' depends on axioms: [propext, Classical.choice, Quot.sound]

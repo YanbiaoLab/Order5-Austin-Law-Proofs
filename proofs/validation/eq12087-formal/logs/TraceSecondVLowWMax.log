@@ -1,0 +1,3 @@
+'Austin12087Trace.normal_second_v_growing_middle_w_max_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

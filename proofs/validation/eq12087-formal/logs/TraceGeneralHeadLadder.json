@@ -1,0 +1,38 @@
+{
+  "module": "TraceGeneralHeadLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.421,
+  "peak_rss_mib": 145.56,
+  "source": "proofs/Equation12087/Lean/TraceGeneralHeadLadder.lean",
+  "sha256": "14729a301f12df0fa3eca632bb11a34eef0384ca2883f10c30b11f2348a6e53a",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceGeneralHeadLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceGeneralHeadLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceGeneralHeadLadder.log",
+  "axioms": {
+    "Austin12087Trace.normal_first_general_head_ladder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "2bc683e23345aa94d31162230d8bb77e34167309e942b4dcb8eb97543e606e55",
+  "olean_sha256": "4d768afe816617cc6a7353de7e460e890521f7441bbbcd50d408f999bf5ef334"
+}
