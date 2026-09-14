@@ -1,0 +1,3 @@
+'Austin12087Trace.fold_column_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.flip_fold_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.no_flip_plain' depends on axioms: [propext, Classical.choice, Quot.sound]

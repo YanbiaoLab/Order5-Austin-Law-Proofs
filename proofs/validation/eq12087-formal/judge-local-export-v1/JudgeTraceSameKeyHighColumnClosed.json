@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceSameKeyHighColumnClosed",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.206,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceSameKeyHighColumnClosed.lean",
+  "sha256": "6afbbf04d981d333f86f0a0092ee7993ff16a568a3bbf5171ded1a9678885836",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceSameKeyHighColumnClosed.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceSameKeyHighColumnClosed.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceSameKeyHighColumnClosed.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "a9721412d06b755eb763d619e18af74172096b24ecc04e3cf1f13ef2d31e25b6"
+}

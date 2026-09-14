@@ -1,0 +1,48 @@
+{
+  "module": "TraceSameKeyMiddleFrontier",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation12087/Lean/TraceSameKeyMiddleFrontier.lean",
+  "sha256": "c59b503b17f872d9dfcf277184fec70a4400566e1e572bf3d56be945698eb3e6",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSameKeyMiddleFrontier.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSameKeyMiddleFrontier.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSameKeyMiddleFrontier.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_induction_requires_equal_return_keys": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_returning_middle_of_same_key": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_law_of_same_key_middle_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "be8f82e4d225b590fc746b08bc564485230af70ceb95b6d5b5baa59e48308bb5",
+  "olean_sha256": "bfc0b5ce308ddf54c8d95c8971ec8c54883ee4ad0e43de198ddcb1471dbeaaa7"
+}

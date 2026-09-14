@@ -1,0 +1,43 @@
+{
+  "module": "TraceLocalSecondInduction",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation12087/Lean/TraceLocalSecondInduction.lean",
+  "sha256": "a3bb5fe76200486c71751277bed4e2b4ecf93f1ce9d9f1a87797ef5c7471202d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceLocalSecondInduction.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceLocalSecondInduction.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceLocalSecondInduction.log",
+  "axioms": {
+    "Austin12087Trace.normal_first_below_of_second_below": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_source_of_second_below": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "85a57c7a82b99176536a2ef3b727265b230901e47fd0397575253dbca7948128",
+  "olean_sha256": "7efebf0bb3031c8b9d79fdce1c78caa3adeb8554dce634aa67d04de11011d51f"
+}

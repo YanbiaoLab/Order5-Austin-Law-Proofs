@@ -1,0 +1,88 @@
+{
+  "module": "TraceFoldTower",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.852,
+  "peak_rss_mib": 165.78,
+  "source": "proofs/Equation12087/Lean/TraceFoldTower.lean",
+  "sha256": "0d23b7a219b3ee250b90ba31d37567bf25153e15b7f956551dad711dd79d7b1c",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFoldTower.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFoldTower.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFoldTower.log",
+  "axioms": {
+    "Austin12087Trace.mul_origin_of_right_height_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_return_of_height_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_height_growth_of_left_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_height_growth_of_right_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.fold_next_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.fold_trace_right_dominates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.fold_height_tower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_fold_height_parameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.common_column_key_height_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_code_key_height_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_mul_height_key_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "6eb35b5421496e4fc4f12d066c44fb310dc95e80e7abef5e40e4054ebe5cb85a",
+  "olean_sha256": "b1ea83413651be89d9585af60d47c671995281ad9afcf0fbc90dd4061173ce88"
+}

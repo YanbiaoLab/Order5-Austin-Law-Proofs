@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_second_double_growth_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_growth_order' depends on axioms: [propext, Classical.choice, Quot.sound]

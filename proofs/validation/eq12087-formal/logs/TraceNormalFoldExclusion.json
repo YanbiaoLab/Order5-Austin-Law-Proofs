@@ -1,0 +1,48 @@
+{
+  "module": "TraceNormalFoldExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.433,
+  "peak_rss_mib": 137.02,
+  "source": "proofs/Equation12087/Lean/TraceNormalFoldExclusion.lean",
+  "sha256": "765fc92f904513cd63aca1b429fefb39402cc2805319ee67bfede7c149bc0c16",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceNormalFoldExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceNormalFoldExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceNormalFoldExclusion.log",
+  "axioms": {
+    "Austin12087Trace.initial_fold_keys_or_same": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_height_off_return_key": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_fold_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "abcf9b2cea3ed9f794f78bbfd512a4484953ed1e391ebf23a6e1518dd2801763",
+  "olean_sha256": "86b30ae8c198e3f9d1589c08331187552ad7ad55b1db59cb4e384db51cd4e3c3"
+}

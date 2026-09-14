@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondVFrontier",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.206,
+  "peak_rss_mib": 4.45,
+  "source": "proofs/Equation12087/Lean/TraceSecondVFrontier.lean",
+  "sha256": "71f34c324db67f37c4c4d01c7340b2fea8b72d79231c0b22237b2c7f1d4fab2d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVFrontier.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVFrontier.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVFrontier.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_returning_v_frontier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "74512c666dbbee3f9953164972f932f345fe6bfdcdb95114dd94e58eda0b2a53",
+  "olean_sha256": "25a418659d53084f9dae1614a9dbfb9aaca48316f102ab02c824d1e176ce58fe"
+}

@@ -1,0 +1,38 @@
+{
+  "module": "TraceTwoColumnReturnChain",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.217,
+  "peak_rss_mib": 4.41,
+  "source": "proofs/Equation12087/Lean/TraceTwoColumnReturnChain.lean",
+  "sha256": "61a1f4acd0be0a04898c1f2c8e88d799a1c4586495eaedd550e54b7f5b31e347",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceTwoColumnReturnChain.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceTwoColumnReturnChain.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceTwoColumnReturnChain.log",
+  "axioms": {
+    "Austin12087Trace.normal_two_column_return_chain_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "3366ca0fa4976f8cc30d2e86c8ceb9781926142e1ff736dcf071a52f1a5dd839",
+  "olean_sha256": "5175df86075b30edaa6a95881fb5c5c308ae9d3d1159c67e32d1b3d1bfe1c936"
+}

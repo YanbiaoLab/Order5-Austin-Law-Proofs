@@ -1,0 +1,3 @@
+'Austin12087Trace.mul_commutative_only_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.square_left_product_ne_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_repeated_fixed_head_order' depends on axioms: [propext, Classical.choice, Quot.sound]

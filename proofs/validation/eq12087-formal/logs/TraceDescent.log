@@ -1,0 +1,10 @@
+'Austin12087Trace.mul_origin_of_right_le' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.row_column_collision_return' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.first_diagonal_descent_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.first_diagonal_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.first_diagonal_query_absent_for_plain_parameter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.first_diagonal_query_absent_of_smaller_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

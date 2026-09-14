@@ -1,0 +1,43 @@
+{
+  "module": "TraceHighestReturnExit",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.431,
+  "peak_rss_mib": 152.69,
+  "source": "proofs/Equation12087/Lean/TraceHighestReturnExit.lean",
+  "sha256": "5319a3a7b9298d876655f4fe6810850b5e2f7b513442a8e5878e1b9534ccb707",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceHighestReturnExit.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceHighestReturnExit.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceHighestReturnExit.log",
+  "axioms": {
+    "Austin12087Trace.normal_ladder_first_key_at_max": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_highest_g_ladder_exit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "34d0fd6111d27730262e304a9ce1473f573bebef5c8763b936f03bea594cc267",
+  "olean_sha256": "2b41dab09821e2bec9b9eb53256476da6823cea5ff2d6051b2d5833ab3c5f518"
+}

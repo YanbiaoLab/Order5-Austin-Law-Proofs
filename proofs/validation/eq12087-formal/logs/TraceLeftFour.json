@@ -1,0 +1,38 @@
+{
+  "module": "TraceLeftFour",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.59,
+  "source": "proofs/Equation12087/Lean/TraceLeftFour.lean",
+  "sha256": "aa0b74191d27248fa047e0a104184fc589cf3d4ae4d974f9758887f58ddbe082",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceLeftFour.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceLeftFour.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceLeftFour.log",
+  "axioms": {
+    "Austin12087Trace.nf_no_left_four_cycle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "b987fe10ca27c94d3bd5ad25ae3ec6e5ada789fb6c82bba64ded97791f793705",
+  "olean_sha256": "4b13019b45b9c0af96cee86dfecbd71d20055994eaaf98873b6092a4615a6aad"
+}

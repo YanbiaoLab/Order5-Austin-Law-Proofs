@@ -1,0 +1,73 @@
+{
+  "module": "TraceInverse",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.424,
+  "peak_rss_mib": 4.45,
+  "source": "proofs/Equation12087/Lean/TraceInverse.lean",
+  "sha256": "c4483c2bd328bc87f7ca532a4770d9fa1f35df8c91c128e5f2747ef00cc27c55",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceInverse.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceInverse.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceInverse.log",
+  "axioms": {
+    "Austin12087Trace.basicInverse_cases": [
+      "propext"
+    ],
+    "Austin12087Trace.inverse_cases": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_size": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_sound": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_square": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_raw": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_code": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_small": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_complete": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.right_injective": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "c5596291824826ad6bf292a1cfeecd6752b1e153ca696f2d26cd32e632023d0a",
+  "olean_sha256": "c27c4094df480fab03931f465b9c115a8de6e2732568c1b0dd7a6ef33e6260cf"
+}

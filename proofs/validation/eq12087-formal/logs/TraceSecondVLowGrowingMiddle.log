@@ -1,0 +1,4 @@
+'Austin12087Trace.normal_second_v_low_growing_middle_v_large_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_second_v_growing_middle_low_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,71 @@
+{
+  "module": "TraceNormal",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.217,
+  "peak_rss_mib": 4.23,
+  "source": "proofs/Equation12087/Lean/TraceNormal.lean",
+  "sha256": "8a813ce9f656fe2835b862afbd96846ec2ef79281d8a620cb25ee575e7193796",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceNormal.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceNormal.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceNormal.log",
+  "axioms": {
+    "Austin12087Trace.nf_origin": [
+      "propext"
+    ],
+    "Austin12087Trace.nf_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_common_column_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_code_actual": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normalMul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normalAtom_injective": [
+      "propext"
+    ],
+    "Austin12087Trace.normalAtom_nontrivial": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_law_of_nf_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "530a789837070cb88af1f13161cda0ff75518c064a99cb33cc87e8d513b55bcb",
+  "olean_sha256": "dd21859738eba44238bb78ccbfccac28a82d07c0258c578c84f051f9283a176d"
+}

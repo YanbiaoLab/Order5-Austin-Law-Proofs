@@ -1,0 +1,2 @@
+'Austin12087Trace.nf_no_flip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_diagonal_query_absent' depends on axioms: [propext, Classical.choice, Quot.sound]

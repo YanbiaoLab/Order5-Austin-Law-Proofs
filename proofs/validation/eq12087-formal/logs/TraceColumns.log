@@ -1,0 +1,7 @@
+'Austin12087Trace.distinct_outputs_large_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.common_column_key_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.common_column_data_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.queryM_sound' depends on axioms: [propext]
+'Austin12087Trace.queryI_sound' depends on axioms: [propext]
+'Austin12087Trace.leftCode_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.rightCode_complete' depends on axioms: [propext, Classical.choice, Quot.sound]

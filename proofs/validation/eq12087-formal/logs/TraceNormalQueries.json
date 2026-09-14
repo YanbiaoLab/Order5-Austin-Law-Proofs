@@ -1,0 +1,63 @@
+{
+  "module": "TraceNormalQueries",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation12087/Lean/TraceNormalQueries.lean",
+  "sha256": "8605d793afef6318f6869f7b99b534ce3085d93332e9d59760d74d624c7d22f5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceNormalQueries.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceNormalQueries.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceNormalQueries.log",
+  "axioms": {
+    "Austin12087Trace.normal_first_diagonal_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_diagonal_absent_of_smaller_second": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_critical_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_critical_excluded_by_queries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_source_of_normal_queries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_law_of_normal_queries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "a35bb5fade8fcd0feb27010d66c67054b6cd6ad50baab7ea27e37eb740b36eb0",
+  "olean_sha256": "45f4bcfec10ee99544451e23c8ad73460c3dd234e8f69d810415634d1b57ff94"
+}

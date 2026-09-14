@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceNonfixedSameKey",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.834,
+  "peak_rss_mib": 150.91,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceNonfixedSameKey.lean",
+  "sha256": "f494f02cc04b87160775dd5d5f566374f11a6117a10f07ac2006dc6f5a22bdc1",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-497n8blj/JudgeTraceNonfixedSameKey.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceNonfixedSameKey.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-497n8blj"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceNonfixedSameKey.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "56093bc29f9e144a69ec135839c9f9aa6ba159f7d7916a10114339db6d8ad126"
+}

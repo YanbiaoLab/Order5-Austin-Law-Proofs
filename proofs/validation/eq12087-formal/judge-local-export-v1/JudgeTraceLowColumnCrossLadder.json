@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceLowColumnCrossLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.822,
+  "peak_rss_mib": 173.83,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceLowColumnCrossLadder.lean",
+  "sha256": "7a3a2479779be0429dc901fa448446693605d1f6852935ec4061f3fc4e9fffe0",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceLowColumnCrossLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceLowColumnCrossLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceLowColumnCrossLadder.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "7bfb78cec85b48ae7274f3eb83d723a8441603afa4208d1bf1b219bdf73fe25a"
+}

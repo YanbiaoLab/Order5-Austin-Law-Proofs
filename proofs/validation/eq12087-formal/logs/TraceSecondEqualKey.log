@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_second_equal_input_q_key' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_equal_input_q_core' depends on axioms: [propext, Classical.choice, Quot.sound]

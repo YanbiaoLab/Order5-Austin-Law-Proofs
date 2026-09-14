@@ -1,0 +1,38 @@
+{
+  "module": "TraceOuterGrowthLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.427,
+  "peak_rss_mib": 141.48,
+  "source": "proofs/Equation12087/Lean/TraceOuterGrowthLadder.lean",
+  "sha256": "1a677e569a37e9812928cd0eadab3ac3d1bee1075854dbac5764ab7f996e19a5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceOuterGrowthLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceOuterGrowthLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceOuterGrowthLadder.log",
+  "axioms": {
+    "Austin12087Trace.outer_growth_return_ladder_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "5fd7afb8b0e854e138e6bae5d108f146efc6395c611428148d7031f5c50e94e3",
+  "olean_sha256": "7b44e361ee2fec657207c3d9c1ac788d9854cf9effbeae23d6de674459085ee2"
+}

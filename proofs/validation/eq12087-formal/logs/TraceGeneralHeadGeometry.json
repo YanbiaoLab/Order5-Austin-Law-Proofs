@@ -1,0 +1,43 @@
+{
+  "module": "TraceGeneralHeadGeometry",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.434,
+  "peak_rss_mib": 140.7,
+  "source": "proofs/Equation12087/Lean/TraceGeneralHeadGeometry.lean",
+  "sha256": "fc07a9c952bd468336c0ff91b0053c430d5dcecca0ac877e018c13520dea816f",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceGeneralHeadGeometry.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceGeneralHeadGeometry.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceGeneralHeadGeometry.log",
+  "axioms": {
+    "Austin12087Trace.nf_short_chain_absent_of_left_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_general_head_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "dfb073720d975ef19c1814d8350731beb5e85781200038793eb06ac79ee2b1ab",
+  "olean_sha256": "e2a58d162f913e06e510b1d64fea1b52a11c77fc7d619bbf64bea8e24d83afa7"
+}

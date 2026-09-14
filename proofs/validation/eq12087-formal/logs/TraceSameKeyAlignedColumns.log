@@ -1,0 +1,7 @@
+'Austin12087Trace.normal_swapped_returns_top_column_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_same_key_equal_column_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_same_key_unequal_column_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,48 @@
+{
+  "module": "TraceReturnProductGap",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.208,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation12087/Lean/TraceReturnProductGap.lean",
+  "sha256": "92ccee9806c0046aeab022d5ba01b0ab2eda2afccad5757e33a64b2e890a0a2a",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceReturnProductGap.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceReturnProductGap.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceReturnProductGap.log",
+  "axioms": {
+    "Austin12087Trace.nf_code_product_height_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_return_product_height_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_return_target_or_key_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "6d09e4d1aba575305264e8f7ee71c89ff0af78fe7c8c214bf2d8fcd63eb640cd",
+  "olean_sha256": "c55ffdd385fc26a2376e93383eb89d7279e7422e36982c48c2a9e5e076a87dfe"
+}

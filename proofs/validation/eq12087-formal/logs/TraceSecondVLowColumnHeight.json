@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondVLowColumnHeight",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.641,
+  "peak_rss_mib": 174.72,
+  "source": "proofs/Equation12087/Lean/TraceSecondVLowColumnHeight.lean",
+  "sha256": "fd1ca9516838d53a98918c68b3cff63bd055a0a974f403f9dfc3c36afb650112",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVLowColumnHeight.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVLowColumnHeight.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVLowColumnHeight.log",
+  "axioms": {
+    "Austin12087Trace.normal_low_growing_middle_column_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "fb98537880b27334e7addab65d911a0e28a7c91ee5d24e590c12f0ccee05bb15",
+  "olean_sha256": "a0013c11bedef8622ba5c31e7d48b001606a354957abe4ea7e9ee702fe0d37f0"
+}

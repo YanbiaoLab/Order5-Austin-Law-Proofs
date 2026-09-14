@@ -1,0 +1,52 @@
+{
+  "module": "TraceCodes",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.31,
+  "source": "proofs/Equation12087/Lean/TraceCodes.lean",
+  "sha256": "13c66cfb22c698362ab73cfd438016790df2d67e792fd22d2a6b7e029cbbe12d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceCodes.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceCodes.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceCodes.log",
+  "axioms": {
+    "Austin12087Trace.leftCode_witness": [
+      "propext"
+    ],
+    "Austin12087Trace.rightCode_witness": [
+      "propext"
+    ],
+    "Austin12087Trace.leftCode_sound": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.rightCode_sound": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.decode_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "7ac6526ac518f3944c2d080483ec71cb7873e91c9c2c5f22c749ee88639286d6",
+  "olean_sha256": "df08999049dcca028fe664b74e802920d59493ab9102ff9e2affdd2d64f90b62"
+}

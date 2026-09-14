@@ -1,0 +1,2 @@
+'Austin12087Trace.nf_next_square_short_return_absent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_fixed_head_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

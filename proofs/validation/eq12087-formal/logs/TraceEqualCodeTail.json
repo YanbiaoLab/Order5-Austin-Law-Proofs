@@ -1,0 +1,43 @@
+{
+  "module": "TraceEqualCodeTail",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.424,
+  "peak_rss_mib": 145.64,
+  "source": "proofs/Equation12087/Lean/TraceEqualCodeTail.lean",
+  "sha256": "d1d72a2b00203ccd599b615391c027a59283b249016c8304282cfc21036158d5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceEqualCodeTail.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceEqualCodeTail.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceEqualCodeTail.log",
+  "axioms": {
+    "Austin12087Trace.normal_equal_code_tail_returns": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_equal_code_key_repeats": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "37de4f3f33853e986ae226b882c9112fa9493b2a3bf0b1f9224b1197ee009872",
+  "olean_sha256": "9caf3fbeca3533b343f89f4e35c755b45cc43bbe36c306d2c484642e62b55a91"
+}

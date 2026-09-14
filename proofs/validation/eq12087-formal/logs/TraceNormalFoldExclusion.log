@@ -1,0 +1,3 @@
+'Austin12087Trace.initial_fold_keys_or_same' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.mul_height_off_return_key' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.nf_fold_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

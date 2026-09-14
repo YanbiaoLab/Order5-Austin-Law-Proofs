@@ -1,0 +1,43 @@
+{
+  "module": "TraceTransposedPairExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.427,
+  "peak_rss_mib": 151.69,
+  "source": "proofs/Equation12087/Lean/TraceTransposedPairExclusion.lean",
+  "sha256": "e8b75a7387da3af2292194ce6a992249154e3d1686622f52a4ffc0c48175466a",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceTransposedPairExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceTransposedPairExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceTransposedPairExclusion.log",
+  "axioms": {
+    "Austin12087Trace.normal_transposed_pair_returning_output_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_transposed_pair_no_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "65a7ffa0b4c807970cfe28a901177e98831dea02dfc7a800d448efd307a11bf9",
+  "olean_sha256": "db943ed5fa59e5ea127e1a7188822da638c02041cd04336b631b23bdaf4d07e2"
+}

@@ -1,0 +1,48 @@
+{
+  "module": "TraceSecondMaxExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.64,
+  "peak_rss_mib": 164.16,
+  "source": "proofs/Equation12087/Lean/TraceSecondMaxExclusion.lean",
+  "sha256": "134bcce7fef365e7b20b8fcf0816b0ed159fde6ea5f2303f77f94664eeb96652",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondMaxExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondMaxExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondMaxExclusion.log",
+  "axioms": {
+    "Austin12087Trace.nf_transposed_pair_no_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_max_u_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_query_height_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "944272420674a8ee063e9c620658d130d3acc87bc0dd18b4704b7f3f66470477",
+  "olean_sha256": "efad6240f85bac2beadad03ff144407aa425c2ccf1f3296cfddbce147abb99ee"
+}

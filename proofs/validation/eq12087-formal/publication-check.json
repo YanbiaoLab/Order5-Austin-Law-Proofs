@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "base_commit": "d2d29ca47f92772999a9bcb5cad65fff5c6cb768",
+  "modules_checked": 129,
+  "core_modules": 125,
+  "axiom_reports": 318,
+  "peak_rss_mib": 223.69,
+  "seconds": 47.302,
+  "verifier_sha256": "44bf822cb40a17dc6a965fa781c042ad41d27f1c4c68375f00a27587d4b49070",
+  "core_manifest_sha256": "711a20bbd3943739a39dd306ffc1d82aa1995a6364db1666fdef822e9dd43578",
+  "export_manifest_sha256": "1bb35bf782a2c025a6c592379698366add79aef44c691a9df815132b039e9611",
+  "log": "proofs/validation/eq12087-formal/publication-rebuild.log",
+  "log_sha256": "488748e3f9ad214053b4d374dbc27007c9b2568df01b5464ccc5f05886f26176",
+  "limits": {
+    "jobs": 1,
+    "lean_internal_mib": 256,
+    "rss_stop_mib": 384,
+    "seconds_per_module": 120
+  },
+  "remote_resubmitted": false
+}

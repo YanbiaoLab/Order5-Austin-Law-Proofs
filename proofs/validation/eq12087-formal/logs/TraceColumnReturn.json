@@ -1,0 +1,54 @@
+{
+  "module": "TraceColumnReturn",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.48,
+  "source": "proofs/Equation12087/Lean/TraceColumnReturn.lean",
+  "sha256": "8123801278818897bb5b53298e9947b185df76f7fd92306cbcbb85e71bd76cd9",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceColumnReturn.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceColumnReturn.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceColumnReturn.log",
+  "axioms": {
+    "Austin12087Trace.distinct_columns_larger_returns": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.different_plain_columns_disjoint": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_offdiagonal_larger_k_return": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_offdiagonal_larger_q_return": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_query_absent_for_plain_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "6977b22dc6612466171769e55247c1d4a3839b61fd1257554340c03fe83e0bfe",
+  "olean_sha256": "57efb624081bc0322553d4dd8935fbdfe429392e72509ade737cf0e9801991f2"
+}

@@ -1,0 +1,43 @@
+{
+  "module": "TraceSameKeyHighColumnClosed",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation12087/Lean/TraceSameKeyHighColumnClosed.lean",
+  "sha256": "be43b9b3d9553fc962d50323d40758041e815e12acaabc76e38a7087581c7229",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSameKeyHighColumnClosed.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSameKeyHighColumnClosed.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSameKeyHighColumnClosed.log",
+  "axioms": {
+    "Austin12087Trace.normal_same_key_high_column_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_same_key_low_column_frontier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "23d95a7bf2230c4b9fdb034707341ff9de50434e430cc6be29d7e27b7491fd71",
+  "olean_sha256": "0d6ced386743ae1c70502071e5b636ba1d9b434801f43bc740c1a8361be43af1"
+}

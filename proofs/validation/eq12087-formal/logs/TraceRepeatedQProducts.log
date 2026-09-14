@@ -1,0 +1,2 @@
+'Austin12087Trace.right_repeated_product_ne_transpose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_repeated_q_product_ne_u' depends on axioms: [propext, Classical.choice, Quot.sound]

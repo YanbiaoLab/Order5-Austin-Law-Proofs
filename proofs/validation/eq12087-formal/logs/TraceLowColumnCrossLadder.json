@@ -1,0 +1,43 @@
+{
+  "module": "TraceLowColumnCrossLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.849,
+  "peak_rss_mib": 188.88,
+  "source": "proofs/Equation12087/Lean/TraceLowColumnCrossLadder.lean",
+  "sha256": "d937757be53fd59d9c66508f41c30f33633e3b11877a0d922143a3c2312e937b",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceLowColumnCrossLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceLowColumnCrossLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceLowColumnCrossLadder.log",
+  "axioms": {
+    "Austin12087Trace.normal_low_column_cross_ladder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_low_cross_ladder_equal_heads": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "eed0678ce2f21b8f6c88d9592e3046deb20fb2372fbc03eeb42c939fb31b5e04",
+  "olean_sha256": "446af05766129269fba1397d6ff51eb399c2a646da7eb5e0197a732879bbbb5f"
+}

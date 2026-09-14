@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceLowerQuerySource",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.209,
+  "peak_rss_mib": 4.42,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceLowerQuerySource.lean",
+  "sha256": "903492e05e559b0ae845fcbc8fc92eba9d8798eaf1f47fd83b9575a21523fe13",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-497n8blj/JudgeTraceLowerQuerySource.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceLowerQuerySource.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-497n8blj"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceLowerQuerySource.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "be7dcb5eaf63e285926ebe2b6ea838fb5d62a26283db1582059cc8547a561f73"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "equation": "Equation12087",
+  "remote_status": "accepted",
+  "error_code": "ACCEPTED",
+  "remote_job_id": "8ab6915586de47139b55c7214e2657be",
+  "elapsed_ms": 125376,
+  "remote_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "certificate_sha256": "2a3456f8ca387c00fadc2f4d77be9eddc1aff31d9f1fabcfddb0df2f322cbd54",
+  "request_sha256": "21ba5dafb4384c246e8fca22b7d38f5dd5c2ebbfc954511d42a899411292923d",
+  "receipt": "proofs/validation/aurora/Equation12087/latest.json",
+  "receipt_sha256": "b0dfe0345437c0537f0b05659fc067a2c5b264ab5bc57c4138aa6ffec4aa0b6b",
+  "local_manifest_sha256": "1bb35bf782a2c025a6c592379698366add79aef44c691a9df815132b039e9611",
+  "core_manifest_sha256": "711a20bbd3943739a39dd306ffc1d82aa1995a6364db1666fdef822e9dd43578",
+  "post_attempts": 1,
+  "certificate_versions_submitted": 2,
+  "cache_mode": "off"
+}

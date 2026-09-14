@@ -1,0 +1,3 @@
+'Austin12087Trace.transposed_product_ne_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.repeated_q_target_ne_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_repeated_q_growing_key' depends on axioms: [propext, Classical.choice, Quot.sound]

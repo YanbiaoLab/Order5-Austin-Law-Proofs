@@ -1,0 +1,38 @@
+{
+  "module": "TraceNonfixedSameKey",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.641,
+  "peak_rss_mib": 158.41,
+  "source": "proofs/Equation12087/Lean/TraceNonfixedSameKey.lean",
+  "sha256": "c6caff564e60e370be357bc54bbd67ce020bd7a1e95ecc0dea76a2b694d11d73",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceNonfixedSameKey.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceNonfixedSameKey.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceNonfixedSameKey.log",
+  "axioms": {
+    "Austin12087Trace.nonfixed_same_key_ladder_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "397ce8cc446dc7c1b55b70fbc4887984fb41fcf03d683e0f0075c8453ee11286",
+  "olean_sha256": "593cc5b369527e63a4d8172a893a077e799f55240913ecfe497a3f826b169edc"
+}

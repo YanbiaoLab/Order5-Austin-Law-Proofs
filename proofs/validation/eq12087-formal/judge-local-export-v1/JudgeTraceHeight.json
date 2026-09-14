@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceHeight",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.623,
+  "peak_rss_mib": 144.16,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceHeight.lean",
+  "sha256": "bae058d8ca224431a4c1cef49bc1a737e369b8bd6e3a0ed42e6d936042f65f86",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceHeight.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceHeight.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceHeight.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "d328516a7ca50de823c7d97e7dbda38c08cfcba1924c66091e8084b9d18975f7"
+}

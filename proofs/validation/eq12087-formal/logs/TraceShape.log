@@ -1,0 +1,7 @@
+'Austin12087Trace.leftCode_shape' depends on axioms: [propext]
+'Austin12087Trace.rightCode_shape' depends on axioms: [propext]
+'Austin12087Trace.decode_shape' depends on axioms: [propext]
+'Austin12087Trace.mul_cases' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.mul_small_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.mul_ne_right' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.mul_grows_or_returns' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,3 @@
+'Austin12087Trace.first_larger_q_inner_code' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.first_larger_q_height_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_larger_q_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

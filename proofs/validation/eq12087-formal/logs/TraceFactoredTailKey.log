@@ -1,0 +1,5 @@
+'Austin12087Trace.normal_factored_returning_tail_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_factored_returning_tail_output_returns' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_factored_returning_tail_key_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]

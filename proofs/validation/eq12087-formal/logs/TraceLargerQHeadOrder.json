@@ -1,0 +1,43 @@
+{
+  "module": "TraceLargerQHeadOrder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.433,
+  "peak_rss_mib": 144.52,
+  "source": "proofs/Equation12087/Lean/TraceLargerQHeadOrder.lean",
+  "sha256": "01c222b4b58bb8c169c76207f984632ccd981538104d1a6c43083b0a6979bb12",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceLargerQHeadOrder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceLargerQHeadOrder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceLargerQHeadOrder.log",
+  "axioms": {
+    "Austin12087Trace.nf_common_column_head_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_first_larger_q_column_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "4cbcefa66ed72d93f1a176735cf025826bbd4e47a1c1ca005b37d82285df96b4",
+  "olean_sha256": "7b43d5410bde1ee1a830e8fb0f522b1b80d743a37a4006fb05bf154cfe36a63a"
+}

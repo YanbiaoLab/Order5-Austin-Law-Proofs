@@ -1,0 +1,43 @@
+{
+  "module": "TraceSameKeyHighColumnKeys",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.218,
+  "peak_rss_mib": 4.55,
+  "source": "proofs/Equation12087/Lean/TraceSameKeyHighColumnKeys.lean",
+  "sha256": "2bef17c46dbe29f1913c7ec0ca87efcf91b39ee438c04d46fb9c97133c9fe9e5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSameKeyHighColumnKeys.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSameKeyHighColumnKeys.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSameKeyHighColumnKeys.log",
+  "axioms": {
+    "Austin12087Trace.normal_same_key_high_column_keys": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_same_key_high_column_frontier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "2e4c05a2b965c87fc818c3a142b74d52ff48591dcf6fd824915880985132d685",
+  "olean_sha256": "906d84b8f9565e8788b1ebb86108b9475c6f1f5b773839452d216754d4a1200d"
+}

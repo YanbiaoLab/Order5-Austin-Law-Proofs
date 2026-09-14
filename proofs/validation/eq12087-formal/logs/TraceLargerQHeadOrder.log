@@ -1,0 +1,2 @@
+'Austin12087Trace.nf_common_column_head_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_larger_q_column_order' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -4,6 +4,8 @@
 
 | 方程 | 任务 ID | 结果 | 实际提交证书 |
 |---|---|---|---|
+| Equation12087 | `8ab6915586de47139b55c7214e2657be` | [accepted](Equation12087/latest.json) | [Lean](Equation12087/certificate.lean) |
+| Equation33884 | `d235f2155594437db5bc93cbb6b86cb5` | [accepted](Equation33884/latest.json) | [Lean](Equation33884/certificate.lean) |
 | Equation18137 | `25f7dd0341414b5c83e91957ee920fba` | [accepted](Equation18137/latest.json) | [Lean](Equation18137/certificate.lean) |
 | Equation27863 | `c57824e679ec4461b923a5237bdfcd56` | [accepted](Equation27863/latest.json) | [Lean](Equation27863/certificate.lean) |
 | Equation10218 | `93c5c0f0741f4d5cad4ab7d31778f49d` | [accepted](Equation10218/latest.json) | [Lean](Equation10218/certificate.lean) |
@@ -64,3 +66,5 @@
 | Equation9680 | `ffb84e7cf57341cc949fd85f8440e636` | [accepted](Equation9680/latest.json) | [Lean](Equation9680/certificate.lean) |
 
 Equation12857 的首次提交因辅助声明命名不符合默认白名单而被拒绝，本目录收录后续通过的 attempt02。后续把自建定义放入官方允许的 submission 命名空间，使用明确的 Magma 实例和 Nat.noConfusion 后通过；未更改 judge 的证明策略。
+
+Equation12087 的首次提交因包装引用 `inferInstance` 被白名单拒绝；[首次回执](Equation12087/attempt01/latest.json)完整保留。改为显式 `submission.modelMagma` 后通过，未改变 Judge 策略；见[本地与远端核验记录](../eq12087-formal/JUDGE.md)。

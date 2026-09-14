@@ -1,0 +1,43 @@
+{
+  "module": "TraceLowerQuerySource",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation12087/Lean/TraceLowerQuerySource.lean",
+  "sha256": "b7298bb4141896b1a70beb39bb834d71e0e897cf8e22ef238ac3a31fa26cc636",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceLowerQuerySource.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceLowerQuerySource.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceLowerQuerySource.log",
+  "axioms": {
+    "Austin12087Trace.normal_critical_excluded_by_lower_queries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_source_of_lower_queries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "2e0bc9df693c402c2c6f8f900190f20c556777849f2aebc41f5fb1c71da4f361",
+  "olean_sha256": "adbff42fb6c3421639263442229641148f6e6c2bb03399474a4015c5a47a6225"
+}

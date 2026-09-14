@@ -1,0 +1,48 @@
+{
+  "module": "TraceReturningVInduction",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation12087/Lean/TraceReturningVInduction.lean",
+  "sha256": "9f985273e8b59d51fd98314920a0a1144d45b995ab4f451850a6249d881a8da9",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceReturningVInduction.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceReturningVInduction.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceReturningVInduction.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_of_returning_v_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_source_of_returning_v_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_law_of_returning_v_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "595b935fc595d4e29d7a1b75b32e3728a2fed75a3867f680ef1e72af3d4f7284",
+  "olean_sha256": "ea158a55db5abbd6fab64c3c75e16631db6f76729f8048dc64ca9b580336f3d9"
+}

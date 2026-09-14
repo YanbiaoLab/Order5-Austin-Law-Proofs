@@ -1,0 +1,3 @@
+'Austin12087Trace.normal_second_two_growing_columns_returning_middle_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

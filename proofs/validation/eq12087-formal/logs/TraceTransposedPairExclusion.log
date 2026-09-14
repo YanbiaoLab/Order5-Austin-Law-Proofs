@@ -1,0 +1,4 @@
+'Austin12087Trace.normal_transposed_pair_returning_output_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.normal_transposed_pair_no_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondVLowLadder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation12087/Lean/TraceSecondVLowLadder.lean",
+  "sha256": "7339e9d0a0f3304ca183e6cddb67d9e3d11049c03a9e56f4047e6b2caab77a1f",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVLowLadder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVLowLadder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVLowLadder.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_v_growing_middle_ladder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "8692aaa3b857f9a04c6001598dc402d96b119c8318f342a7a2f3cad22cf54e15",
+  "olean_sha256": "2efeaec96627e053877419d7b15e0ac9c5722758d9059fffbfa6b9c7067f286a"
+}

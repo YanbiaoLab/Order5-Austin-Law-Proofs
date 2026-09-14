@@ -1,0 +1,48 @@
+{
+  "module": "TraceFirstOffdiagonal",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.642,
+  "peak_rss_mib": 172.06,
+  "source": "proofs/Equation12087/Lean/TraceFirstOffdiagonal.lean",
+  "sha256": "2ef4d5e894dbe048a7fda1ec1ea5246557fef02fab197c88ee2a9a46083a3512",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceFirstOffdiagonal.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceFirstOffdiagonal.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceFirstOffdiagonal.log",
+  "axioms": {
+    "Austin12087Trace.first_larger_k_nested_code": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_larger_k_height_dominates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.first_larger_k_double_code": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "1217c878c123ba162222f2cd7e0c5fb192d19090fab46f6bdbe7db7f18596023",
+  "olean_sha256": "f5797fa96a343d3069b01e4e2c736b3f42fe0cadc435b4f3401d78411075b8f0"
+}

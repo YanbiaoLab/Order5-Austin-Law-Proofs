@@ -1,0 +1,6 @@
+'Austin12087Trace.critical_x_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.critical_z_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.critical_excluded_by_three_parameter_queries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Austin12087Trace.law_of_three_parameter_query_absence' depends on axioms: [propext, Classical.choice, Quot.sound]

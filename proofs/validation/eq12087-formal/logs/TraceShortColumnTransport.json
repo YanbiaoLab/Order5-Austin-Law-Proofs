@@ -1,0 +1,43 @@
+{
+  "module": "TraceShortColumnTransport",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.42,
+  "source": "proofs/Equation12087/Lean/TraceShortColumnTransport.lean",
+  "sha256": "8f28164a3470d305af01e7c2ebbeb89e120fbc4834ab18fc9499f6c7dd543d98",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceShortColumnTransport.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceShortColumnTransport.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceShortColumnTransport.log",
+  "axioms": {
+    "Austin12087Trace.normal_short_column_transport_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_v_distinct_fixed_exception_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "dcf8a0278d76429fd42e517c34d6c2fe080619b281fa60bac5191da286afd3cb",
+  "olean_sha256": "0584852edc8152d0b23024dbffea8f029b40b79ddb350e9df996fbe765447abe"
+}

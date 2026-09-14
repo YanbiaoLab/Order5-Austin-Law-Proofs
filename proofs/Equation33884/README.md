@@ -7,11 +7,11 @@
 
 有限侧：[FiniteTrivial.lean](FiniteTrivial.lean) 在 `[Finite G]` 下推出 Equation2，已通过 Lean 4.33.1 本地编译与公理检查。
 
-无限侧 Lean：未收录。预留文件名 `InfiniteModel.lean`；历史批次超时不构成不存在模型的证明。
+无限侧：**2026-09-14 已完成非平凡无限模型**。[InfiniteModel.lean](InfiniteModel.lean) 使用 12087 正规树载体上的反向运算，直接证明本条精确原式及非平凡性，并保留显式自然数单射。见[模型说明](../Equation12087/MODEL.zh-CN.md)与[空目录串行核验报告](../validation/eq12087-formal/README.md)。独立[单文件证书](JudgeSubmission.lean)现已获远端 Judge **ACCEPTED**；见[实际回执](../validation/aurora/Equation33884/latest.json)与[完整提交记录](../validation/eq12087-formal/JUDGE.md)。
 
 
 
-来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。本条未收录可重新编译的 Lean 文件。
+来源与验证状态见 [index.json](../index.json) 和 [归档说明](../README.md)。共享依赖位于 [Equation12087/Lean](../Equation12087/Lean/TraceFullSource.lean)，本条有独立目标定义与包装证明。早期未完成记录保留为历史。
 
 有限侧极光云验收尚未完成：当前服务缺少有限目标接口，见[本批报告](../validation/finite130/README.md)。
 

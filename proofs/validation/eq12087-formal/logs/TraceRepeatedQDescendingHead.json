@@ -1,0 +1,38 @@
+{
+  "module": "TraceRepeatedQDescendingHead",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.64,
+  "peak_rss_mib": 170.64,
+  "source": "proofs/Equation12087/Lean/TraceRepeatedQDescendingHead.lean",
+  "sha256": "41280a6a967b1fdc8b83db661d39d888361a137a0d3175934e4585392bfdeea2",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceRepeatedQDescendingHead.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceRepeatedQDescendingHead.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceRepeatedQDescendingHead.log",
+  "axioms": {
+    "Austin12087Trace.normal_repeated_q_descending_head": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "c51d19af1c8717bccc2c8536c76f35d7a8b7fbf199f93b6ab7807125ec744e49",
+  "olean_sha256": "8d2b0713e96a959575c64449acda971c8b7822ea25ac6bb0b31b83019f29844c"
+}

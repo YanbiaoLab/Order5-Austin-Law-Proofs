@@ -1,0 +1,2 @@
+'Austin12087Trace.normal_factored_code_equal_tail_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_second_returning_q_strict_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

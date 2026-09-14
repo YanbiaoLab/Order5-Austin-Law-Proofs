@@ -1,0 +1,78 @@
+{
+  "module": "TraceHeight",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.638,
+  "peak_rss_mib": 158.11,
+  "source": "proofs/Equation12087/Lean/TraceHeight.lean",
+  "sha256": "f2f343c62b52f43df529c85df8fc99439ddb173494b78e9520e9c4bdafc5de12",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceHeight.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceHeight.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceHeight.log",
+  "axioms": {
+    "Austin12087Trace.origin_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_height_shape": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.inverse_height_strict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.distinct_outputs_height_origin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.common_column_height_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_height_growth_or_return": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.mul_height_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_code_height_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.nf_mul_height_alternatives": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "77e748e436a51d398f81fe5f34eeda47431ebf06a35d8991d216d8c3fc62bdd3",
+  "olean_sha256": "8083e4b6b049c17eefd846661ca5b0b9c5686950be58c5f5a83d451f5e2178dd"
+}

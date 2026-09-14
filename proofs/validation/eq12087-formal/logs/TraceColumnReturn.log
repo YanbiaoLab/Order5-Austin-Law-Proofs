@@ -1,0 +1,5 @@
+'Austin12087Trace.distinct_columns_larger_returns' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.different_plain_columns_disjoint' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.first_offdiagonal_larger_k_return' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.first_offdiagonal_larger_q_return' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.first_query_absent_for_plain_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]

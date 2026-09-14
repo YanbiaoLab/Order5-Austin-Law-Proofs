@@ -1,0 +1,1 @@
+'Austin12087Trace.normal_second_returning_q_head' depends on axioms: [propext, Classical.choice, Quot.sound]

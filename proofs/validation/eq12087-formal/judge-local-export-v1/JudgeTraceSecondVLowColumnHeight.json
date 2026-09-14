@@ -1,0 +1,32 @@
+{
+  "module": "JudgeTraceSecondVLowColumnHeight",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.623,
+  "peak_rss_mib": 162.83,
+  "source": "proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceSecondVLowColumnHeight.lean",
+  "sha256": "4453b832459959591125edbae0a029f0508c088335dc943938f0110d4bdee3de",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8/JudgeTraceSecondVLowColumnHeight.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq12087-formal/judge-local/parts/JudgeTraceSecondVLowColumnHeight.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-judge-parts-3e0lg_z8"
+  ],
+  "log": "proofs/validation/eq12087-formal/judge-local/JudgeTraceSecondVLowColumnHeight.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "d32d4e9f2debe348441fef5af0663aa9049a5bd6201bb1f26055bb80182e69ea"
+}

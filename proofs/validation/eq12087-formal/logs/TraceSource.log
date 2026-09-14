@@ -1,0 +1,7 @@
+'Austin12087Trace.middle_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.source_without_middle_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.law_iff_critical_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.decode_generic_sound' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.mul_code_semantics' depends on axioms: [propext, Quot.sound]
+'Austin12087Trace.critical_return_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.critical_return_is_small_first' depends on axioms: [propext, Classical.choice, Quot.sound]

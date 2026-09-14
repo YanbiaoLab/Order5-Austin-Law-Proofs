@@ -1,0 +1,43 @@
+{
+  "module": "TraceSecondVWMaxBoundary",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.426,
+  "peak_rss_mib": 152.09,
+  "source": "proofs/Equation12087/Lean/TraceSecondVWMaxBoundary.lean",
+  "sha256": "2062b6730082420da2b36196a134230b495064e62e8adcbc4646b74d21f7a317",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVWMaxBoundary.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVWMaxBoundary.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVWMaxBoundary.log",
+  "axioms": {
+    "Austin12087Trace.normal_low_ladder_equal_max_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_second_v_growing_middle_w_dominant_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "3c5c8200037d15481157c784a2472871ff021cfb2027ea1fd075c0820531db4a",
+  "olean_sha256": "ed317944ab12959c2055a195298c70d12f82c661d80710a44bcda085851c5522"
+}

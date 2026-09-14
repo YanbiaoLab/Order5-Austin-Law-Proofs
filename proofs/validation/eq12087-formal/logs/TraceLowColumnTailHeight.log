@@ -1,0 +1,2 @@
+'Austin12087Trace.square_preimage_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_low_column_tail_at_top' depends on axioms: [propext, Classical.choice, Quot.sound]

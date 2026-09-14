@@ -1,0 +1,43 @@
+{
+  "module": "TraceSmallFixedPair",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.426,
+  "peak_rss_mib": 142.7,
+  "source": "proofs/Equation12087/Lean/TraceSmallFixedPair.lean",
+  "sha256": "d9eae2759941b6d1de20c488c8be5f47ea9a605fda78068c51dd4a1ebcf1b64e",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSmallFixedPair.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSmallFixedPair.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSmallFixedPair.log",
+  "axioms": {
+    "Austin12087Trace.normal_fixed_pair_small_growing_key_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.normal_small_base_fixed_square_pair_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "42503af118405312a91de6941ec040e634f6df408f3b2bc93eb1272ef5278d6d",
+  "olean_sha256": "ba4fc0e8ec2631db418cc5aa6e7448d535219dca1795e77f0f7906ec209f9e28"
+}

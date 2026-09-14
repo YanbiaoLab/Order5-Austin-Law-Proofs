@@ -1,0 +1,43 @@
+{
+  "module": "TraceSemanticEdge",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation12087/Lean/TraceSemanticEdge.lean",
+  "sha256": "fe467eb407992bffd55f72edc1d0288b1e53a5c46b1303160ed495b4403bac56",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSemanticEdge.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSemanticEdge.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSemanticEdge.log",
+  "axioms": {
+    "Austin12087Trace.semantic_edge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Austin12087Trace.semantic_return": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "98c75f8d76243b6af6364852fa521b04c4b45745a3ee6be40e4c7186b9a21c5e",
+  "olean_sha256": "43e73fb76126cfa57d8dd5bfe6ee5501486913e5c185ee9485f8fc3a6772fcd1"
+}

@@ -1,0 +1,5 @@
+'Austin12087Trace.no_untransposed_code' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.no_left_two_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.fold_right_larger' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.fold_outer_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Austin12087Trace.normal_first_diagonal_fold_descent' depends on axioms: [propext, Classical.choice, Quot.sound]

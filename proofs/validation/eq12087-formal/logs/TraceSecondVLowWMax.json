@@ -1,0 +1,38 @@
+{
+  "module": "TraceSecondVLowWMax",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation12087/Lean/TraceSecondVLowWMax.lean",
+  "sha256": "1e817b42106caa768c5f289dd495de64b30625b767195dcbf19d4c67b06d8ffa",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 256,
+  "rss_limit_mib": 384,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M256",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl/TraceSecondVLowWMax.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation12087/Lean/TraceSecondVLowWMax.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq12087-fresh-1woanjjl"
+  ],
+  "log": "proofs/validation/eq12087-formal/logs/TraceSecondVLowWMax.log",
+  "axioms": {
+    "Austin12087Trace.normal_second_v_growing_middle_w_max_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "e91d350dfd11f5521687fc1422ba8030875198fadbd0d46eefc31a5d53076381",
+  "olean_sha256": "622258ff8a6ffc0a0a07a5a7fc1a7ebad28f8f5c4494d2c5b228a4f9841c257a"
+}
