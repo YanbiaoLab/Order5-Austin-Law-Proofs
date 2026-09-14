@@ -1,0 +1,289 @@
+{
+  "status": "passed",
+  "classification": "nontrivial_infinite_model",
+  "version": "4.33.1",
+  "equations": [
+    "Equation17286",
+    "Equation28626"
+  ],
+  "source_laws": {
+    "17286": "x = (y ◇ x) ◇ (z ◇ (z ◇ (x ◇ z)))",
+    "28626": "x = (((y ◇ x) ◇ y) ◇ y) ◇ (x ◇ z)"
+  },
+  "fresh_directories": 3,
+  "reused_olean_files": false,
+  "modules_checked": 8,
+  "source_hashes": {
+    "proofs/Equation17286/TreeSchema.lean": "59218aae35f8440223b2f79a5f9c0646d37a9656cb5bd837aa5acaafe64260d5",
+    "proofs/Equation17286/TreeBounds.lean": "71da7304f94c7dbaf139ba9df0fa22ea22125f3a769ee0c5c807469fc05f6701",
+    "proofs/Equation17286/TreeGeometry.lean": "0b0cff5e5d215586b9e2521e843d3c3eaebce3c9ecdd894d04748bb74746d564",
+    "proofs/Equation17286/TreeModel.lean": "080ff185715ad9b3c041d0ffdfb7afd6972405db2eef17c7fc3d7f7f297b85f1",
+    "proofs/Equation17286/JudgeProblem.lean": "21f3fe26a09e2ed1ba75d75a8af37ef7bd2d33a1eb849a2788a950bfd5aa314d",
+    "proofs/Equation17286/InfiniteModel.lean": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+    "proofs/Equation28626/JudgeProblem.lean": "5caa2f8a25ce419661e0aaf2f51fb365fc1ee05d3f654988c8fe79f87b587b86",
+    "proofs/Equation28626/InfiniteModel.lean": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969"
+  },
+  "reports": [
+    {
+      "module": "TreeSchema",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation17286/TreeSchema.lean",
+      "sha256": "59218aae35f8440223b2f79a5f9c0646d37a9656cb5bd837aa5acaafe64260d5",
+      "log": "proofs/validation/eq17286-formal/logs/TreeSchema.log",
+      "log_sha256": "262ed95fe46d81a4951c90d93c27b5310b3040741a72f6777923ef090bbf1cad",
+      "axioms": {
+        "Equation17286Tree.column_of_step": [],
+        "Equation17286Tree.target_of_step": [],
+        "Equation17286Tree.conditional_source": [],
+        "Equation17286Tree.inherited_target_is_right_child": [],
+        "Equation17286Tree.explicit_right_child_target": [],
+        "Equation17286Tree.right_child_exclusion_false": []
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq17286-modules-wqtnmuy2/TreeSchema.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation17286/TreeSchema.lean"
+      ],
+      "elapsed_seconds": 0.138,
+      "sampled_peak_rss_mib": 90.52
+    },
+    {
+      "module": "TreeBounds",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation17286/TreeBounds.lean",
+      "sha256": "71da7304f94c7dbaf139ba9df0fa22ea22125f3a769ee0c5c807469fc05f6701",
+      "log": "proofs/validation/eq17286-formal/logs/TreeBounds.log",
+      "log_sha256": "99f4c53a5313c42b5b766b0a2f304c6f3d4f8ef8d174a58e960a4e5e2aada646",
+      "axioms": {
+        "Equation17286Tree.column_rank": [],
+        "Equation17286Tree.target_rank": [],
+        "Equation17286Tree.column_ne_self": [],
+        "Equation17286Tree.target_point_unique": [],
+        "Equation17286Tree.target_inherit_cases": []
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq17286-modules-wqtnmuy2/TreeBounds.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation17286/TreeBounds.lean"
+      ],
+      "elapsed_seconds": 0.139,
+      "sampled_peak_rss_mib": 102.41
+    },
+    {
+      "module": "TreeGeometry",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation17286/TreeGeometry.lean",
+      "sha256": "0b0cff5e5d215586b9e2521e843d3c3eaebce3c9ecdd894d04748bb74746d564",
+      "log": "proofs/validation/eq17286-formal/logs/TreeGeometry.log",
+      "log_sha256": "2503e961124f349f27f57ab30eca42c07894b8ecc781a44fa1a4111949f62309",
+      "axioms": {
+        "Equation17286Tree.column_geometry": [],
+        "Equation17286Tree.column_fork_unique": [],
+        "Equation17286Tree.column_triangle_free": [],
+        "Equation17286Tree.target_right_empty": [],
+        "Equation17286Tree.code_output_unique": []
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq17286-modules-wqtnmuy2/TreeGeometry.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation17286/TreeGeometry.lean"
+      ],
+      "elapsed_seconds": 0.135,
+      "sampled_peak_rss_mib": 104.69
+    },
+    {
+      "module": "TreeModel",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation17286/TreeModel.lean",
+      "sha256": "080ff185715ad9b3c041d0ffdfb7afd6972405db2eef17c7fc3d7f7f297b85f1",
+      "log": "proofs/validation/eq17286-formal/logs/TreeModel.log",
+      "log_sha256": "e5aa7b1f391dd94f18b2402404fe5e2f65b665cebc12fdd663b3f124d720b338",
+      "axioms": {
+        "Equation17286Tree.column_no_three_cycle": [],
+        "Equation17286Tree.column_prefix_no_target": [],
+        "Equation17286Tree.step_middle_no_code": [],
+        "Equation17286Tree.step_outer_no_code": [],
+        "Equation17286Tree.nontrivial": [],
+        "Equation17286Tree.source_law_explicit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Equation17286Tree.infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Equation17286Tree.dual_source_law_explicit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Equation17286Tree.dual_infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq17286-modules-wqtnmuy2/TreeModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation17286/TreeModel.lean"
+      ],
+      "elapsed_seconds": 0.133,
+      "sampled_peak_rss_mib": 104.25
+    },
+    {
+      "module": "17286-JudgeProblem",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation17286/JudgeProblem.lean",
+      "sha256": "21f3fe26a09e2ed1ba75d75a8af37ef7bd2d33a1eb849a2788a950bfd5aa314d",
+      "log": "proofs/validation/eq17286-formal/logs/17286-JudgeProblem.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "axioms": {},
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq17286-independent-ku236ii6/JudgeProblem.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation17286/JudgeProblem.lean"
+      ],
+      "elapsed_seconds": 0.133,
+      "sampled_peak_rss_mib": 106.7
+    },
+    {
+      "module": "17286-InfiniteModel",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation17286/InfiniteModel.lean",
+      "sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+      "log": "proofs/validation/eq17286-formal/logs/17286-InfiniteModel.log",
+      "log_sha256": "934d512af82286bc6ce64b790eb47b60949b248bac9c5da98adfd2696267e254",
+      "axioms": {
+        "submission.CM.tower_injective": [],
+        "submission": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Equation17286Tree.infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq17286-independent-ku236ii6/InfiniteModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation17286/InfiniteModel.lean"
+      ],
+      "elapsed_seconds": 0.2,
+      "sampled_peak_rss_mib": 119.7
+    },
+    {
+      "module": "28626-JudgeProblem",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation28626/JudgeProblem.lean",
+      "sha256": "5caa2f8a25ce419661e0aaf2f51fb365fc1ee05d3f654988c8fe79f87b587b86",
+      "log": "proofs/validation/eq17286-formal/logs/28626-JudgeProblem.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "axioms": {},
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq28626-independent-jx_ompzp/JudgeProblem.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation28626/JudgeProblem.lean"
+      ],
+      "elapsed_seconds": 0.133,
+      "sampled_peak_rss_mib": 106.28
+    },
+    {
+      "module": "28626-InfiniteModel",
+      "status": "passed",
+      "exit_code": 0,
+      "source": "proofs/Equation28626/InfiniteModel.lean",
+      "sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+      "log": "proofs/validation/eq17286-formal/logs/28626-InfiniteModel.log",
+      "log_sha256": "c73e8e08cebe89cb32a3f9ea3c4a9e19673a2043a7c208945fd9e27afaf3c0c5",
+      "axioms": {
+        "submission.CM.tower_injective": [],
+        "submission": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Equation17286Tree.dual_infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M128",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-o",
+        "/var/folders/1f/plx6j7z14215gw0f89btyx780000gn/T/eq28626-independent-jx_ompzp/InfiniteModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation28626/InfiniteModel.lean"
+      ],
+      "elapsed_seconds": 0.201,
+      "sampled_peak_rss_mib": 119.14
+    }
+  ],
+  "remote_judge_called": false,
+  "limits": {
+    "lean_memory_mib": 128,
+    "rss_stop_mib": 192,
+    "seconds": 30
+  },
+  "sampled_peak_rss_mib": 119.7,
+  "seconds": 1.212
+}

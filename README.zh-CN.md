@@ -8,24 +8,24 @@
 |---|---:|---:|---:|---:|---:|
 | 20.1 | 10 | 0 | 10 | 0 | 0 |
 | 20.2 | 96 | 0 | 92 | 2 | 2 |
-| 20.3 | 24 | 10 | 16 | 0 | 8 |
-| **合计** | **130** | **10** | **118** | **2** | **10** |
+| 20.3 | 24 | 10 | 18 | 0 | 6 |
+| **合计** | **130** | **10** | **120** | **2** | **8** |
 
 原表含义：20.1 为已知 Austin 律；20.2 已知所有有限模型平凡、原表中无限侧未知；20.3 原表中是否存在非平凡有限模型未知。
 
 <!-- certificate-counts:start -->
-当前已归档 **120 份有限平凡性证书**。无限侧按互不重叠的三种状态统计：**已有模型证书 118 条、已证不存在 2 条、待解 10 条**，合计 130 条。“已证不存在”指不存在非平凡无限模型：E5834/E40037 已证明所有模型都平凡，不计入待解。
+当前已归档 **120 份有限平凡性证书**。无限侧：**已有模型证书 120 条、已证不存在 2 条、待解 8 条**，合计 130 条。已证不存在的 E5834/E40037 不计入待解。
 <!-- certificate-counts:end -->
 
 <!-- current-proof-status:start -->
-**截至 2026-09-14：有限侧剩 10 条待解，无限侧剩 10 条待解。** 无限侧已证不存在的 E5834/E40037 单独列出，不计入待解。所有方程均有单元素平凡有限模型；有限侧的任务是证明所有有限模型都平凡，或找到非平凡有限模型。
+**截至 2026-09-14：有限侧剩 10 条待解，无限侧剩 8 条待解。** 单元素模型均存在；有限侧的任务仍是证明所有有限模型平凡或找到非平凡有限模型。
 
-本批完成 **Equation12087 / Equation33884** 的非平凡无限正规树模型。精确原式和显式 Nat 单射通过本地 Lean 核验，两份独立单文件证书均获远端 Judge **ACCEPTED**。当前累计 **118 份模型证书、90 份显式无限性证明、110 条两侧证书齐全的方程**。详见[本地验证与远端回执报告](proofs/validation/eq12087-formal/JUDGE.md)。
+本批完成 **Equation17286 / Equation28626 两条 Austin 律**。辅助列关系树模型的完整原式、非平凡性和 Nat 单射通过八个空目录 Lean 4.33.1 编译单元。两份独立证书随后均经远端 Judge 首次提交返回 **ACCEPTED**（关闭缓存），见[远端验收记录](proofs/validation/eq17286-formal/JUDGE.md)。累计 **120 份模型证书、92 份显式无限性证明、112 条两侧证书齐全的方程**。见[模型与成功复盘](proofs/Equation17286/MODEL.zh-CN.md)和[核验报告](proofs/validation/eq17286-formal/README.md)。
 
-上一批完成 **Equation18137 / Equation27863 两条 Austin 律**：已有有限平凡性证明，现在补齐非平凡无限树模型。两份新证书均包含显式 Nat 单射，通过从空目录开始的本地 Lean 4.33.1 核验，并各获远端 Judge **ACCEPTED**。该批次完成时累计 **116 份模型证书、88 份显式无限性证明、108 条两侧证书齐全的方程**。证明源码、复现脚本、实际提交与回执均放在 `proofs/`；详见[两题归档报告](proofs/validation/2026-09-14-tree-dual/README.md)。
+此前完成的 E12087/E33884 见[验收记录](proofs/validation/eq12087-formal/JUDGE.md)，E18137/E27863 见[归档报告](proofs/validation/2026-09-14-tree-dual/README.md)；各批本地与远端验证证据分别保留。
 
 - **有限侧待解（5 对、10 条）**：[Equation13102](proofs/Equation13102/README.md) / [Equation33273](proofs/Equation33273/README.md); [Equation17260](proofs/Equation17260/README.md) / [Equation28740](proofs/Equation28740/README.md); [Equation20911](proofs/Equation20911/README.md) / [Equation25087](proofs/Equation25087/README.md); [Equation23337](proofs/Equation23337/README.md) / [Equation23354](proofs/Equation23354/README.md); [Equation23357](proofs/Equation23357/README.md) / [Equation23653](proofs/Equation23653/README.md)。
-- **无限侧待解（5 对、10 条）**：[Equation9663](proofs/Equation9663/README.md) / [Equation36487](proofs/Equation36487/README.md); [Equation12294](proofs/Equation12294/README.md) / [Equation33856](proofs/Equation33856/README.md); [Equation17286](proofs/Equation17286/README.md) / [Equation28626](proofs/Equation28626/README.md); [Equation22446](proofs/Equation22446/README.md) / [Equation22591](proofs/Equation22591/README.md); [Equation23357](proofs/Equation23357/README.md) / [Equation23653](proofs/Equation23653/README.md)。
+- **无限侧待解（4 对、8 条）**：[Equation9663](proofs/Equation9663/README.md) / [Equation36487](proofs/Equation36487/README.md); [Equation12294](proofs/Equation12294/README.md) / [Equation33856](proofs/Equation33856/README.md); [Equation22446](proofs/Equation22446/README.md) / [Equation22591](proofs/Equation22591/README.md); [Equation23357](proofs/Equation23357/README.md) / [Equation23653](proofs/Equation23653/README.md)。
 <!-- current-proof-status:end -->
 
 “有限侧证明”指 `∀ (G : Type) [Magma G] [Finite G], EquationN G → Equation2 G`，即所有有限模型都平凡。单元素模型对这些恒等式总是存在；仅证明其存在没有分类作用。无有限性假设地推出 Equation2 是更强结论，会排除非平凡无限模型。
@@ -166,8 +166,8 @@ Equation12857／Equation33436 已有的 Lean 文件予以保留；新增独立�
 | [Equation33273](proofs/Equation33273/README.md) | Equation13102 | 20.3 | 未知 | 未收录 | 已校验 | [InfiniteModel.lean](proofs/Equation33273/InfiniteModel.lean) |
 | [Equation17260](proofs/Equation17260/README.md) | Equation28740 | 20.3 | 未知 | 未收录 | 已校验 | [InfiniteModel.lean](proofs/Equation17260/InfiniteModel.lean) |
 | [Equation28740](proofs/Equation28740/README.md) | Equation17260 | 20.3 | 未知 | 未收录 | 已校验 | [InfiniteModel.lean](proofs/Equation28740/InfiniteModel.lean) |
-| [Equation17286](proofs/Equation17286/README.md) | Equation28626 | 20.3 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation17286/FiniteTrivial.lean) | 未收录 | 未收录 |
-| [Equation28626](proofs/Equation28626/README.md) | Equation17286 | 20.3 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation28626/FiniteTrivial.lean) | 未收录 | 未收录 |
+| [Equation17286](proofs/Equation17286/README.md) | Equation28626 | 20.3 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation17286/FiniteTrivial.lean) | 已校验（Lean + Judge） | [InfiniteModel.lean](proofs/Equation17286/InfiniteModel.lean) |
+| [Equation28626](proofs/Equation28626/README.md) | Equation17286 | 20.3 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation28626/FiniteTrivial.lean) | 已校验（Lean + Judge） | [InfiniteModel.lean](proofs/Equation28626/InfiniteModel.lean) |
 | [Equation20911](proofs/Equation20911/README.md) | Equation25087 | 20.3 | 未知 | 未收录 | 历史 accepted | [InfiniteModel.lean](proofs/Equation20911/InfiniteModel.lean) |
 | [Equation25087](proofs/Equation25087/README.md) | Equation20911 | 20.3 | 未知 | 未收录 | 历史 accepted | [InfiniteModel.lean](proofs/Equation25087/InfiniteModel.lean) |
 | [Equation21714](proofs/Equation21714/README.md) | Equation24200 | 20.3 | 已证仅平凡（Lean） | [FiniteTrivial.lean](proofs/Equation21714/FiniteTrivial.lean) | 已校验 | [InfiniteModel.lean](proofs/Equation21714/InfiniteModel.lean) |

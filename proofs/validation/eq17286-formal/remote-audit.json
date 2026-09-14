@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "equations": [
+    {
+      "equation": "Equation17286",
+      "status": "passed",
+      "remote_status": "accepted",
+      "error_code": "ACCEPTED",
+      "remote_job_id": "d5ccb148a13d4648a13520ee3d457b00",
+      "certificate_sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+      "request_sha256": "0e1ee220db81621426857c87c2997cdab24e4bd0097f4b91ac5e007dd921b7c9",
+      "local_manifest_sha256": "54ef9f0f412000dbbd0fba95e0153c320772f80b43ffbc144f3f1a75380ef0d0",
+      "local_units_checked": 8,
+      "receipt": "proofs/validation/aurora/Equation17286/latest.json",
+      "receipt_sha256": "250841487b0ad526230bac795d02a4e65b98ed82b39346cd0668968561569944",
+      "elapsed_ms": 4566,
+      "cache_mode": "off",
+      "post_attempts": 1,
+      "backend_attempts": 1,
+      "remote_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "equation": "Equation28626",
+      "status": "passed",
+      "remote_status": "accepted",
+      "error_code": "ACCEPTED",
+      "remote_job_id": "1287d4bc4fa6417ca2ced84608cfac13",
+      "certificate_sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+      "request_sha256": "7571d356477776a454dd6c4c8a3747b17d75642b42a54bc5be1282fe2a4e24b1",
+      "local_manifest_sha256": "54ef9f0f412000dbbd0fba95e0153c320772f80b43ffbc144f3f1a75380ef0d0",
+      "local_units_checked": 8,
+      "receipt": "proofs/validation/aurora/Equation28626/latest.json",
+      "receipt_sha256": "d9b4a3273714b3d20845c1554bf4b448fae2e818c6b4ec71fdf71dde235d6cb7",
+      "elapsed_ms": 5168,
+      "cache_mode": "off",
+      "post_attempts": 1,
+      "backend_attempts": 1,
+      "remote_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  ],
+  "scope": "Exact equations, current certificate bytes, local builds, accepted remote receipts and optional index binding"
+}

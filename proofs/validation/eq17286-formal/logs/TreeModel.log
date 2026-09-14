@@ -1,0 +1,9 @@
+'Equation17286Tree.column_no_three_cycle' does not depend on any axioms
+'Equation17286Tree.column_prefix_no_target' does not depend on any axioms
+'Equation17286Tree.step_middle_no_code' does not depend on any axioms
+'Equation17286Tree.step_outer_no_code' does not depend on any axioms
+'Equation17286Tree.source_law_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation17286Tree.nontrivial' does not depend on any axioms
+'Equation17286Tree.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation17286Tree.dual_source_law_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation17286Tree.dual_infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]

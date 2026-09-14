@@ -1,6 +1,9 @@
 # 证明归档约定
 
-2026-09-14 最新增补：**Equation12087 / Equation33884 完整非平凡无限模型完成**。
+2026-09-14 最新增补：**Equation17286 / Equation28626 两条 Austin 律完成**。
+辅助列关系树模型的解码唯一性、完整原式、非平凡性和自然数单射均通过 Lean 4.33.1；四核心模块及两份精确独立证书共八个编译单元从空目录核验。两份独立证书随后均获远端 **ACCEPTED**，见[回执与审计](validation/eq17286-formal/JUDGE.md)。见[模型与成功复盘](Equation17286/MODEL.zh-CN.md)和[核验报告](validation/eq17286-formal/README.md)。
+
+2026-09-14 前批增补：**Equation12087 / Equation33884 完整非平凡无限模型完成**。
 正规树总运算的最后低列分支已关闭；完整原式、非平凡性、显式 Nat 单射均通过本地 Lean 4.33.1 核验。
 125 个核心模块及两条方程包装从空目录串行构建，共 129 次构建；后续独立单文件证书均获远端 **ACCEPTED**，见[回执与审计](validation/eq12087-formal/JUDGE.md)。
 见[模型与历史复盘](Equation12087/MODEL.zh-CN.md)和[验证报告](validation/eq12087-formal/README.md)。
@@ -16,10 +19,10 @@
 有限侧剩 **10 条**、无限侧剩 **12 条**待解。以下早期批次数字保留为历史记录；
 上一批六份有限证书与四份模型证书见[2026-09-11 同步报告](validation/2026-09-11-latest-proofs/README.md)。
 
-当前库存与本批证据的只读审计（Python 标准库）：
+当前 E17286/E28626 的本地证据、远端回执与索引绑定审计（Python 标准库）：
 
 ```sh
-python3 proofs/validation/eq12087-formal/portable.py
+python3 proofs/validation/eq17286-formal/audit_remote.py
 ```
 
 本批源码的低内存串行 Lean 重编译入口见上述报告。
