@@ -1,0 +1,4 @@
+'Equation27863TreeModel.source_law_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation27863TreeModel.embed_injective' does not depend on any axioms
+'Equation27863TreeModel.nontrivial' does not depend on any axioms
+'Equation27863TreeModel.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'submission' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.CM.tower_injective' does not depend on any axioms
+'submission.Equation27863TreeModel.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]

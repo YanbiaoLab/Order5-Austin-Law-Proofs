@@ -1,0 +1,11 @@
+{
+  "base_url": "http://10.220.69.172:8900",
+  "request_sha256": "dc7214df0b95a87db3910fdfa176eed3afe41619fe88df571b37a310bee07eb3",
+  "certificate_sha256": "80f1d61cabd487ebc4b43dfcd14034c58061e3340865ed3d12447ccffd56050c",
+  "phase": "terminal",
+  "post_attempts": 1,
+  "submitted_at": "2026-09-14T09:04:35.347546+00:00",
+  "job_id": "25f7dd0341414b5c83e91957ee920fba",
+  "last_status": "done",
+  "last_observed_at": "2026-09-14T09:04:43.102566+00:00"
+}

@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "equations": [
+    "Equation18137"
+  ],
+  "version": "4.33.1",
+  "fresh_directories": 2,
+  "modules_checked": 6,
+  "reports": [
+    {
+      "module": "TreeSchema",
+      "source": "proofs/Equation18137/TreeSchema.lean",
+      "source_sha256": "fae2f31d9907abbef09cff55d0770dd8f0f8383e19626e8b0ab5eb3630ab7262",
+      "status": "passed",
+      "axioms": {
+        "Equation18137TreeSchema.column_of_step": [],
+        "Equation18137TreeSchema.column_realized": [],
+        "Equation18137TreeSchema.target_decompose": [],
+        "Equation18137TreeSchema.target_of_step": [],
+        "Equation18137TreeSchema.code_trace_iff": [],
+        "Equation18137TreeSchema.template_law": [],
+        "Equation18137TreeSchema.atom_injective": []
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M192",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/.build/18137-model-dexag3lv/TreeSchema.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/proofs/Equation18137/TreeSchema.lean"
+      ],
+      "log": "proofs/validation/eq18137-formal/logs/TreeSchema.log",
+      "log_sha256": "2a5efc6b1cbe55c840bff08988edc925ac505dfc21b26769ff3562fc6725c7c6",
+      "seconds": 0.426069583,
+      "sampled_peak_rss_bytes": 105775104,
+      "cumulative_child_high_water_bytes": 126418944,
+      "rss_limit_mib": 256,
+      "lean_internal_memory_mib": 192,
+      "seconds_limit": 20
+    },
+    {
+      "module": "TreeBounds",
+      "source": "proofs/Equation18137/TreeBounds.lean",
+      "source_sha256": "7c458421383cbe156f39ea82450305853e7fd87fa9d962367cc7cbb1baac344a",
+      "status": "passed",
+      "axioms": {
+        "Equation18137TreeSchema.column_rank": [],
+        "Equation18137TreeSchema.target_rank": [],
+        "Equation18137TreeSchema.column_ne_self": [],
+        "Equation18137TreeSchema.target_not_right": [],
+        "Equation18137TreeSchema.raw_double_not_target": [],
+        "Equation18137TreeSchema.target_right_empty": []
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M192",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/.build/18137-model-dexag3lv/TreeBounds.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/proofs/Equation18137/TreeBounds.lean"
+      ],
+      "log": "proofs/validation/eq18137-formal/logs/TreeBounds.log",
+      "log_sha256": "d3c432882bf73164a6233f65989cf2a39c7c504248747a7da382c6ebdd02557e",
+      "seconds": 0.14541720800000008,
+      "sampled_peak_rss_bytes": 116736000,
+      "cumulative_child_high_water_bytes": 126615552,
+      "rss_limit_mib": 256,
+      "lean_internal_memory_mib": 192,
+      "seconds_limit": 20
+    },
+    {
+      "module": "TreeUnique",
+      "source": "proofs/Equation18137/TreeUnique.lean",
+      "source_sha256": "b74501d852ff6d587fe26f682bb1a649180bb5ea17d8152abdb4d3b7e4ced8f3",
+      "status": "passed",
+      "axioms": {
+        "Equation18137TreeSchema.raw_columns_unique": [],
+        "Equation18137TreeSchema.raw_target_columns_disjoint": [],
+        "Equation18137TreeSchema.target_point_unique": [],
+        "Equation18137TreeSchema.target_inherit_cases": [],
+        "Equation18137TreeSchema.column_fork_unique": [],
+        "Equation18137TreeSchema.code_output_unique": []
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M192",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/.build/18137-model-dexag3lv/TreeUnique.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/proofs/Equation18137/TreeUnique.lean"
+      ],
+      "log": "proofs/validation/eq18137-formal/logs/TreeUnique.log",
+      "log_sha256": "6a74c160723a2fef70b8287f1e5c644e65e62247d3ef36ef7f4ad57da73a81e2",
+      "seconds": 0.14634866600000007,
+      "sampled_peak_rss_bytes": 112902144,
+      "cumulative_child_high_water_bytes": 126615552,
+      "rss_limit_mib": 256,
+      "lean_internal_memory_mib": 192,
+      "seconds_limit": 20
+    },
+    {
+      "module": "TreeModel",
+      "source": "proofs/Equation18137/TreeModel.lean",
+      "source_sha256": "038b89689e7bbe5e8e1e7e346ed3c1f28683fc799d612aa193f0514d3fb4b078",
+      "status": "passed",
+      "axioms": {
+        "Equation18137TreeSchema.column_triangle_free": [],
+        "Equation18137TreeSchema.step_middle_no_code": [],
+        "Equation18137TreeSchema.step_outer_no_code": [],
+        "Equation18137TreeSchema.nontrivial": [],
+        "Equation18137TreeSchema.op_step": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Equation18137TreeSchema.op_hit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Equation18137TreeSchema.source_law_explicit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Equation18137TreeSchema.infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M192",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/.build/18137-model-dexag3lv/TreeModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/proofs/Equation18137/TreeModel.lean"
+      ],
+      "log": "proofs/validation/eq18137-formal/logs/TreeModel.log",
+      "log_sha256": "5a1a501106152d2182480bcce012c86334b7b1e9602f2a88228aa5037fafce1b",
+      "seconds": 0.14825224999999997,
+      "sampled_peak_rss_bytes": 112476160,
+      "cumulative_child_high_water_bytes": 126615552,
+      "rss_limit_mib": 256,
+      "lean_internal_memory_mib": 192,
+      "seconds_limit": 20
+    },
+    {
+      "module": "JudgeProblem",
+      "source": "proofs/Equation18137/JudgeProblem.lean",
+      "source_sha256": "4bf267393270b211ba2b718221c905fce3807438efcf99ecdb821ba8c85f5c20",
+      "status": "passed",
+      "axioms": {},
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M192",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/.build/18137-certificate-gn20fxlf/JudgeProblem.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/proofs/Equation18137/JudgeProblem.lean"
+      ],
+      "log": "proofs/validation/eq18137-formal/logs/JudgeProblem.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 0.1451352910000001,
+      "sampled_peak_rss_bytes": 110198784,
+      "cumulative_child_high_water_bytes": 126615552,
+      "rss_limit_mib": 256,
+      "lean_internal_memory_mib": 192,
+      "seconds_limit": 20
+    },
+    {
+      "module": "InfiniteModel",
+      "source": "proofs/Equation18137/InfiniteModel.lean",
+      "source_sha256": "80f1d61cabd487ebc4b43dfcd14034c58061e3340865ed3d12447ccffd56050c",
+      "status": "passed",
+      "axioms": {
+        "submission.CM.tower_injective": [],
+        "submission": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "submission.Equation18137TreeSchema.infinite_model": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M192",
+        "-DwarningAsError=true",
+        "-Dlinter.unusedVariables=false",
+        "-Dlinter.defProp=false",
+        "-o",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/.build/18137-certificate-gn20fxlf/InfiniteModel.olean",
+        "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs-tree-dual/proofs/Equation18137/InfiniteModel.lean"
+      ],
+      "log": "proofs/validation/eq18137-formal/logs/InfiniteModel.log",
+      "log_sha256": "3d9fee19a53c178a95fc095f0560d3833024a3de7d7c1ce4f82129d72b27e11e",
+      "seconds": 0.21649483300000005,
+      "sampled_peak_rss_bytes": 138838016,
+      "cumulative_child_high_water_bytes": 149913600,
+      "rss_limit_mib": 256,
+      "lean_internal_memory_mib": 192,
+      "seconds_limit": 20
+    }
+  ],
+  "source_hashes": {
+    "proofs/Equation18137/TreeSchema.lean": "fae2f31d9907abbef09cff55d0770dd8f0f8383e19626e8b0ab5eb3630ab7262",
+    "proofs/Equation18137/TreeBounds.lean": "7c458421383cbe156f39ea82450305853e7fd87fa9d962367cc7cbb1baac344a",
+    "proofs/Equation18137/TreeUnique.lean": "b74501d852ff6d587fe26f682bb1a649180bb5ea17d8152abdb4d3b7e4ced8f3",
+    "proofs/Equation18137/TreeModel.lean": "038b89689e7bbe5e8e1e7e346ed3c1f28683fc799d612aa193f0514d3fb4b078",
+    "proofs/Equation18137/JudgeProblem.lean": "4bf267393270b211ba2b718221c905fce3807438efcf99ecdb821ba8c85f5c20",
+    "proofs/Equation18137/InfiniteModel.lean": "80f1d61cabd487ebc4b43dfcd14034c58061e3340865ed3d12447ccffd56050c",
+    "proofs/validation/eq18137-formal/verify.py": "fdff66da8de1719df5f03881bc9991a9a3cbe058272b8adc78228fab87f0bca5",
+    "proofs/validation/eq18137-formal/export_certificate.py": "985cc2767568cd82826a68da5db010f0ce3340daf9b21b81842ed6bd2c1adcd0"
+  },
+  "source_law": "x = (y ◇ x) ◇ (z ◇ ((x ◇ z) ◇ z))",
+  "exact_goal": "EquationLHS and not EquationRHS on the same magma",
+  "explicit_infinity": "Nat-labelled atoms, injective for every pair of natural numbers",
+  "model_carrier": "All finite binary trees with Nat-labelled atoms; no quotient or normal-form restriction",
+  "operation": "Unique relational decode when it exists; raw pairing otherwise",
+  "classification": "nontrivial_infinite_model",
+  "new_infinite_models": 1,
+  "remote_judge": "not_run",
+  "sampling_seconds": 0.05
+}

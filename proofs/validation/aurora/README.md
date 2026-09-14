@@ -4,6 +4,8 @@
 
 | 方程 | 任务 ID | 结果 | 实际提交证书 |
 |---|---|---|---|
+| Equation18137 | `25f7dd0341414b5c83e91957ee920fba` | [accepted](Equation18137/latest.json) | [Lean](Equation18137/certificate.lean) |
+| Equation27863 | `c57824e679ec4461b923a5237bdfcd56` | [accepted](Equation27863/latest.json) | [Lean](Equation27863/certificate.lean) |
 | Equation10218 | `93c5c0f0741f4d5cad4ab7d31778f49d` | [accepted](Equation10218/latest.json) | [Lean](Equation10218/certificate.lean) |
 | Equation11082 | `6a54634d8af841feb0073eafa45019e7` | [accepted](Equation11082/latest.json) | [Lean](Equation11082/certificate.lean) |
 | Equation11205 | `6c838116ef2e4be4ad7c2f4718927173` | [accepted](Equation11205/latest.json) | [Lean](Equation11205/certificate.lean) |
