@@ -8404,12 +8404,25 @@
         "theorem": "Equation17286FiniteIncidence.finite_trivial",
         "method": "finite_column_incidence_rotation_and_explicit_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation17286/InfiniteModel.lean",
+        "sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "All finite Nat-labelled binary trees; unique relational decoding and joint column-geometry induction",
+        "goal": "Exact Equation17286, nontriviality and an explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation17286/JudgeProblem.lean": "21f3fe26a09e2ed1ba75d75a8af37ef7bd2d33a1eb849a2788a950bfd5aa314d"
+        },
+        "report": "proofs/validation/eq17286-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "2026-09-11: 完整有限平凡性证明及原 Lean 4.33.1 成功记录已归档；无限侧仍待解。"
+        "2026-09-11: 完整有限平凡性证明及原 Lean 4.33.1 成功记录已归档；无限侧仍待解。",
+        "2026-09-14: 完整关系树模型与精确对偶完成；八个空目录编译单元核验原式、非平凡性和 Nat 单射。本批仅本地 Lean 验证，未调用远端 Judge。",
+        "2026-09-14: 精确独立无限模型证书经远端 Judge 首次提交返回 ACCEPTED，关闭缓存；任务 d5ccb148a13d4648a13520ee3d457b00。远端验收原式与非平凡性；同一证书中的 Nat 单射亦已通过本地 Lean 检查。"
       ],
       "finite_compilation": {
         "status": "passed",
@@ -8427,6 +8440,48 @@
         "elapsed_seconds": 2.974,
         "sampled_peak_rss_mib": 1585.78,
         "validation_record": "proofs/validation/finite130/column-incidence/Equation17286.json"
+      },
+      "explicit_infinity_proof": {
+        "path": "proofs/Equation17286/InfiniteModel.lean",
+        "sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+        "theorem": "submission.CM.tower_injective",
+        "validation": "local_lean_recompiled_axioms_checked"
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+        "version": "4.33.1",
+        "log": "proofs/validation/eq17286-formal/logs/17286-InfiniteModel.log",
+        "log_sha256": "934d512af82286bc6ce64b790eb47b60949b248bac9c5da98adfd2696267e254",
+        "axioms": {
+          "submission.CM.tower_injective": [],
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.Equation17286Tree.infinite_model": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.2,
+        "sampled_peak_rss_mib": 119.7,
+        "dependency_manifest": "proofs/validation/eq17286-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "d5ccb148a13d4648a13520ee3d457b00",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation17286/certificate.lean",
+        "certificate_sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+        "result": "proofs/validation/aurora/Equation17286/latest.json",
+        "result_sha256": "250841487b0ad526230bac795d02a4e65b98ed82b39346cd0668968561569944",
+        "request_sha256": "0e1ee220db81621426857c87c2997cdab24e4bd0097f4b91ac5e007dd921b7c9",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1789381579.6920583
       }
     },
     {
@@ -8443,12 +8498,25 @@
         "theorem": "finite_trivial_dual",
         "method": "finite_column_incidence_rotation_and_explicit_equational_replay"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation28626/InfiniteModel.lean",
+        "sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "All finite Nat-labelled binary trees; unique relational decoding and joint column-geometry induction",
+        "goal": "Exact Equation28626, nontriviality and an explicit Nat injection",
+        "dependencies": {
+          "proofs/Equation28626/JudgeProblem.lean": "5caa2f8a25ce419661e0aaf2f51fb365fc1ee05d3f654988c8fe79f87b587b86"
+        },
+        "report": "proofs/validation/eq17286-formal/README.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "2026-09-11: 完整有限平凡性证明及原 Lean 4.33.1 成功记录已归档；无限侧仍待解。"
+        "2026-09-11: 完整有限平凡性证明及原 Lean 4.33.1 成功记录已归档；无限侧仍待解。",
+        "2026-09-14: 完整关系树模型与精确对偶完成；八个空目录编译单元核验原式、非平凡性和 Nat 单射。本批仅本地 Lean 验证，未调用远端 Judge。",
+        "2026-09-14: 精确独立无限模型证书经远端 Judge 首次提交返回 ACCEPTED，关闭缓存；任务 1287d4bc4fa6417ca2ced84608cfac13。远端验收原式与非平凡性；同一证书中的 Nat 单射亦已通过本地 Lean 检查。"
       ],
       "finite_compilation": {
         "status": "passed",
@@ -8466,6 +8534,48 @@
         "elapsed_seconds": 2.964,
         "sampled_peak_rss_mib": 1585.89,
         "validation_record": "proofs/validation/finite130/column-incidence/Equation28626.json"
+      },
+      "explicit_infinity_proof": {
+        "path": "proofs/Equation28626/InfiniteModel.lean",
+        "sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+        "theorem": "submission.CM.tower_injective",
+        "validation": "local_lean_recompiled_axioms_checked"
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+        "version": "4.33.1",
+        "log": "proofs/validation/eq17286-formal/logs/28626-InfiniteModel.log",
+        "log_sha256": "c73e8e08cebe89cb32a3f9ea3c4a9e19673a2043a7c208945fd9e27afaf3c0c5",
+        "axioms": {
+          "submission.CM.tower_injective": [],
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.Equation17286Tree.dual_infinite_model": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.201,
+        "sampled_peak_rss_mib": 119.14,
+        "dependency_manifest": "proofs/validation/eq17286-formal/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "1287d4bc4fa6417ca2ced84608cfac13",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation28626/certificate.lean",
+        "certificate_sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+        "result": "proofs/validation/aurora/Equation28626/latest.json",
+        "result_sha256": "d9b4a3273714b3d20845c1554bf4b448fae2e818c6b4ec71fdf71dde235d6cb7",
+        "request_sha256": "7571d356477776a454dd6c4c8a3747b17d75642b42a54bc5be1282fe2a4e24b1",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1789381599.693592
       }
     },
     {
@@ -9660,8 +9770,8 @@
     "proofs/Equation28740/InfiniteModel.lean": "beb1c4183486fb3ed80ae21afd0ed98cb23bdef7a263feb7d0255aa8af4c7041",
     "proofs/Equation28740/JudgeProblem.lean": "0fa2a25c44c5ea947187ec7e140120f36522dff1b798e31458c98e4be6c60ae9",
     "proofs/Equation28740/README.md": "e46a20097d2e318f1e990c7bb18ae0c8dd340a773d7cbf3b2c86960aebc775cc",
-    "proofs/Equation17286/README.md": "863ed0654f26bfad85292ee593ae88619ce7458a616e78b8596a3a230c67e18e",
-    "proofs/Equation28626/README.md": "1baaccc443795d108c2e24aa55f3a5102905975d8b04ba6a21c0299204a43a47",
+    "proofs/Equation17286/README.md": "8477dca7f99db71ff3217c34214f1e9696b7da11036566508f8ad2f69c3319dc",
+    "proofs/Equation28626/README.md": "23ecec295f36032e29f0cdbcb504da1416b9be8ed361ca15837621d6fa449a55",
     "proofs/Equation20911/README.md": "e30837867237e63766545c09581dcccefca9835a5f9f641358195bba44648d3d",
     "proofs/Equation25087/README.md": "62e2df9682fccc53f0a6a419e3c6a9ed6e3cbe366dec2958f553eeac7ca2d9f9",
     "proofs/Equation21714/README.md": "ee852dd513bad71cdcc67fbe14105b05639775f2f6a2ee37838539eb49955376",
@@ -9685,7 +9795,7 @@
     "proofs/validation/aurora/Equation5947/JudgeProblem.lean": "0305c19031854608051bc9f67bcfab3d040291aa416b6d304b4e207a2c53c577",
     "proofs/Equation5951/InfiniteModel.lean": "b5421c74abf67a258212f449a4ccc491ca7e3828b766a76501d1f592aca45708",
     "proofs/Equation40208/InfiniteModel.lean": "0c2e3bbccd1f215aca362ac03c6043752bfe4b080e92addac7e29f77108b136a",
-    "README.md": "1f6b62eab511da559400a23a009a428d6d583f2d6bab07bf005a6bddd7c34df4",
+    "README.md": "1f62cff1ba3f633f5da3a0ed179c0d287a93c13c2d585014cf4323756132a802",
     "proofs/validation/aurora/Equation6820/local-flat-check.json": "dd4476124e8a11c92bada057614072d68fd74416f49aa646543b843146e396a3",
     "proofs/validation/aurora/Equation8485/job.json": "a78643db915dcf2b063ccdbe29f5bfde2e700a44c789a0c89af1e8613cf33159",
     "proofs/Equation37519/InfiniteModel.lean": "18428f681ce9d6c381238cc3a42c60bbafc27454a2ed7c8b1308648b7e97ac1f",
@@ -9786,7 +9896,7 @@
     "proofs/validation/aurora/Equation36514/request.json": "4065509b5dacab82411ddd51410edf20ea1a9814d9eb53cd58e4613eeb8adbd5",
     "proofs/validation/aurora/Equation6878/local-flat-check.json": "2743dedef7c7f1c89adfd1fecf47d7385f0170d035cc1e3dbeda12a601dd10ad",
     "proofs/validation/aurora/Equation38565/job.json": "68ba787371885c1ef3e3f35f2ebcd30ecbdcec8fbf11dd03ba0a1244a590ee61",
-    "proofs/validation/aurora/README.md": "024d96434e0ea9c6e0533bf6ab413803199d3e271bee9c2b1a7395f8e837546a",
+    "proofs/validation/aurora/README.md": "ef2675531e66ee1f1203fde829b6b774c79339a26ec2eccbd9ae5edb938c9568",
     "proofs/validation/aurora/Equation32281/request.json": "19d8f56aba171f489ce5f85b9107bdb47bc80e6a2d3d32d7de6c5638b9991690",
     "proofs/validation/aurora/Equation8485/local-flat-check.json": "2ad045ea21126b99f4e254ce6e46bec04d25012526a8384efc0b77a6d1f03137",
     "proofs/validation/aurora/Equation13764/job.json": "8d9a11146c0e98174092fde8c7bf9e6f2ac0ee5dcefa0a295e11598e7e9eff30",
@@ -10039,7 +10149,7 @@
     "proofs/validation/aurora/Equation40057/local-flat-check.json": "148852a26b30a18a39b42fb0916233165260504bd4b1b944140ea22d7b3fd67f",
     "proofs/Equation37519/JudgeProblem.lean": "0f4baed719adcef2b46466db54c7a9e4624f1cb77183c4f7492ceac006003227",
     "proofs/validation/aurora/Equation7763/job.json": "e0d96eb96dc2a2dfc6fd329cb9e17b2bf03f12fa5793cfe39706f96f6a90f64c",
-    "proofs/README.md": "b368159b471ad105e7f3a2750bbcee8f34b14cc15be129ffe9b315cb7d1a4086",
+    "proofs/README.md": "7d831498939e9996b61d1900c169083d67fca39e1ddb1519c6246a70e50a29cf",
     "proofs/validation/aurora/Equation12073/JudgeProblem.lean": "5411334ecc7537b0b29b2f2dec1389faf88597a05282277b0586626c58fea6e5",
     "proofs/validation/aurora/Equation32280/request.json": "51a4865dee33a46380d618c04764992718465ef0af55544613472e84c8d1f249",
     "proofs/validation/aurora/Equation32281/job.json": "10e03efa39fad6b37e5014ac387552de7cc5b4ef33efc16ef816b247c7508b34",
@@ -10560,7 +10670,7 @@
     "proofs/validation/2026-09-10-open24-two-models/manifest.json": "16046964e578e08ec3f36e6ec730c40ee2e85e3f3daba23319b8f5b1ad54b555",
     "proofs/validation/2026-09-10-open24-two-models/README.md": "c3726bbd1fe06c6d374ea9e25b005216f9369d9dbc48b1740039217b856c49cd",
     "proofs/validation/2026-09-10-open24-two-models/verify.py": "3db32ac3ee0295b469a14f74092d1ee658be35cd40b08b8480fb00c49cd297d8",
-    "README.zh-CN.md": "de2e7bd4b8a45e7d30366e8f35a1aa11b3ea0baf392c1ef47b92ed1a0521adec",
+    "README.zh-CN.md": "1b695c0866e553b4708cce9eecd0128a8bc5efe8751f8b9a9efe893544643306",
     "proofs/Equation12294/FiniteTrivial.lean": "f2134b2173b4fda16bdd678e7290941e93b4c3138e359f49284c03e3fbdc76fd",
     "proofs/Equation13102/InfiniteModel.lean": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
     "proofs/Equation13102/JudgeProblem.lean": "6809f00aa95a2f622de9e456b30de83e05c3fcb7a2f1f1ff61d240e082e280bd",
@@ -11887,7 +11997,50 @@
     "proofs/validation/eq12087-formal/portable.py": "44bf822cb40a17dc6a965fa781c042ad41d27f1c4c68375f00a27587d4b49070",
     "proofs/validation/eq12087-formal/support/check_12857_lean.py": "9f48cb7ab9d984440fa1fea6023ed13e35d9d0b0939c36c871bf14f50b7a3894",
     "proofs/validation/eq12087-formal/publication-check.json": "4bf4ff1e106e73d1b249011a893d1c58e2ec984f681d731e8f9dd4a22332abdd",
-    "proofs/validation/eq12087-formal/publication-rebuild.log": "488748e3f9ad214053b4d374dbc27007c9b2568df01b5464ccc5f05886f26176"
+    "proofs/validation/eq12087-formal/publication-rebuild.log": "488748e3f9ad214053b4d374dbc27007c9b2568df01b5464ccc5f05886f26176",
+    "proofs/validation/eq17286-formal/summary.json": "54ef9f0f412000dbbd0fba95e0153c320772f80b43ffbc144f3f1a75380ef0d0",
+    "proofs/validation/eq17286-formal/remote-audit.json": "ac83ee66761595a678738aec6ce434c4d9f81a93f8d7966e10ced6af204f554f",
+    "proofs/Equation28626/JudgeProblem.lean": "5caa2f8a25ce419661e0aaf2f51fb365fc1ee05d3f654988c8fe79f87b587b86",
+    "proofs/Equation28626/InfiniteModel.lean": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+    "proofs/validation/eq17286-formal/record_remote.py": "51449c4e9b452b21c4f88eb9cdc9fe53c7bf005585e084768f8e0e8e75e40f15",
+    "proofs/Equation17286/InfiniteModel.lean": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+    "proofs/Equation17286/TreeModel.lean": "080ff185715ad9b3c041d0ffdfb7afd6972405db2eef17c7fc3d7f7f297b85f1",
+    "proofs/validation/eq17286-formal/JUDGE.md": "02f147841b750b2591229da168d01f891a01f3b39823efa18d679bd892151a40",
+    "proofs/validation/eq17286-formal/record_index.py": "cc9ebaf40e46e2450860864a53bd87e16dec95c4039b836ec34790d5b36a365b",
+    "proofs/validation/eq17286-formal/export_certificate.py": "7ebefe6855f695d5bf7ba61f16843143f9a73151e6c3ab30a1d7caf714f153c6",
+    "proofs/Equation17286/MODEL.zh-CN.md": "b20f60e054bb7755a12e30bc56890dcab77288d472a96dc775e542897bbcb359",
+    "proofs/Equation17286/JudgeProblem.lean": "21f3fe26a09e2ed1ba75d75a8af37ef7bd2d33a1eb849a2788a950bfd5aa314d",
+    "proofs/validation/eq17286-formal/verify.py": "37b695caec70459d3de1f5fdc15c5fe2817fcb7a954995eb6ea0145fe0be5114",
+    "proofs/validation/eq17286-formal/remote_judge.py": "d2860fe395a5b503bb0c95c3e7e05d73de994ad60f3e86214b13d8f4e4b906d9",
+    "proofs/validation/eq17286-formal/logs/TreeGeometry.log": "2503e961124f349f27f57ab30eca42c07894b8ecc781a44fa1a4111949f62309",
+    "proofs/validation/eq17286-formal/audit_remote.py": "4fab1e5374b08699c85f4e361b10299263f7b59c7c3f6f36a34cdc43fa6bb016",
+    "proofs/Equation17286/TreeBounds.lean": "71da7304f94c7dbaf139ba9df0fa22ea22125f3a769ee0c5c807469fc05f6701",
+    "proofs/Equation17286/TreeSchema.lean": "59218aae35f8440223b2f79a5f9c0646d37a9656cb5bd837aa5acaafe64260d5",
+    "proofs/validation/eq17286-formal/logs/TreeModel.log": "e5aa7b1f391dd94f18b2402404fe5e2f65b665cebc12fdd663b3f124d720b338",
+    "proofs/validation/eq17286-formal/README.md": "a6d867f87aa460ed08d058371e531043c879f12bdce2559b85520f4c3f24527a",
+    "proofs/validation/eq17286-formal/logs/TreeSchema.log": "262ed95fe46d81a4951c90d93c27b5310b3040741a72f6777923ef090bbf1cad",
+    "proofs/Equation17286/TreeGeometry.lean": "0b0cff5e5d215586b9e2521e843d3c3eaebce3c9ecdd894d04748bb74746d564",
+    "proofs/validation/eq17286-formal/logs/28626-JudgeProblem.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "proofs/validation/eq17286-formal/audit.py": "ba6b8a697784549550d5e32e857e513f4f1bf48baeae19144c89d71cc077d394",
+    "proofs/Equation17286/ResearchRetrospective-2026-09-14.md": "4f31ccfee399f415c47314b09994a3137db610225316e0fe9979ed149fcdf3f6",
+    "proofs/validation/eq17286-formal/logs/17286-InfiniteModel.log": "934d512af82286bc6ce64b790eb47b60949b248bac9c5da98adfd2696267e254",
+    "proofs/validation/eq17286-formal/logs/28626-InfiniteModel.log": "c73e8e08cebe89cb32a3f9ea3c4a9e19673a2043a7c208945fd9e27afaf3c0c5",
+    "proofs/validation/eq17286-formal/logs/17286-JudgeProblem.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "proofs/validation/eq17286-formal/logs/TreeBounds.log": "99f4c53a5313c42b5b766b0a2f304c6f3d4f8ef8d174a58e960a4e5e2aada646",
+    "proofs/validation/aurora/Equation28626/latest.json": "d9b4a3273714b3d20845c1554bf4b448fae2e818c6b4ec71fdf71dde235d6cb7",
+    "proofs/validation/aurora/Equation28626/submission-state.json": "3f9c4923907ed154380d0898b9f73b8ae0b633bf1d6a5f509ea17c5be8a92af9",
+    "proofs/validation/aurora/Equation28626/health-at-submission.json": "85a012f294b1279e9b1755836ff7b21efe02bd3b8e59916ae6a2e0723eacac85",
+    "proofs/validation/aurora/Equation28626/job.json": "44e30b1d0c0bcf8a7c3bd6d51e517ad2b0fb20e009ce5b400fd6bc9fb863ac01",
+    "proofs/validation/aurora/Equation17286/README.md": "30c84a6efa4a11a355426114097128cd97a7fd2e823bbe9dc4874b1481bdf5a5",
+    "proofs/validation/aurora/Equation17286/job.json": "e41f086185dc5e514ea9151ed6a4f3fd54ac9358f84ee8ad7f5276fbfd1fca90",
+    "proofs/validation/aurora/Equation28626/request.json": "c05f4f35c262574ce771be4ddcb1d2cda6b995ab9ee2e08fc37bf37bbaaa1aed",
+    "proofs/validation/aurora/Equation28626/README.md": "3608b4580442024e040ddc590908fc937c06c75447a0a98b6b840baa8ac5dbaf",
+    "proofs/validation/aurora/Equation17286/latest.json": "250841487b0ad526230bac795d02a4e65b98ed82b39346cd0668968561569944",
+    "proofs/validation/aurora/Equation17286/certificate.lean": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+    "proofs/validation/aurora/Equation28626/certificate.lean": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+    "proofs/validation/aurora/Equation17286/health-at-submission.json": "c663ccf31f7c25b82a8f6ca7a941f8f6eb9a9015570dcecf4f6428b2ffc05d5d",
+    "proofs/validation/aurora/Equation17286/request.json": "d623552a155a0739ca9f125c878d3a4a2456988515c1bb443809835f4ff643f0",
+    "proofs/validation/aurora/Equation17286/submission-state.json": "e51f378c86d6624ce38e9dbd0ffdc7a36ce4a40866df3d54bf0226e5be63dda9"
   },
   "lean_recompilation": {
     "date": "2026-09-08",
@@ -12069,6 +12222,23 @@
       "standalone_manifest": "proofs/validation/eq12087-formal/judge-local/summary.json",
       "standalone_manifest_sha256": "1bb35bf782a2c025a6c592379698366add79aef44c691a9df815132b039e9611",
       "portable_verifier": "proofs/validation/eq12087-formal/portable.py"
+    },
+    "eq17286": {
+      "status": "passed",
+      "equations": [
+        "Equation17286",
+        "Equation28626"
+      ],
+      "version": "4.33.1",
+      "report": "proofs/validation/eq17286-formal/README.md",
+      "manifest": "proofs/validation/eq17286-formal/summary.json",
+      "manifest_sha256": "54ef9f0f412000dbbd0fba95e0153c320772f80b43ffbc144f3f1a75380ef0d0",
+      "remote_judge_status": "accepted",
+      "remote_job_ids": {
+        "Equation17286": "d5ccb148a13d4648a13520ee3d457b00",
+        "Equation28626": "1287d4bc4fa6417ca2ced84608cfac13"
+      },
+      "remote_report": "proofs/validation/eq17286-formal/JUDGE.md"
     }
   }
 }

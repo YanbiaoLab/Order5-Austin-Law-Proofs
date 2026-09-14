@@ -1,0 +1,12 @@
+{
+  "job_id": "d5ccb148a13d4648a13520ee3d457b00",
+  "status": "queued",
+  "result": null,
+  "error": null,
+  "backend_url": null,
+  "attempts": 0,
+  "created_at": 1789381575.115043,
+  "updated_at": 1789381575.115043,
+  "started_at": null,
+  "finished_at": null
+}
