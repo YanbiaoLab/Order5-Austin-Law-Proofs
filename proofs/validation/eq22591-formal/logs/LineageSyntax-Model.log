@@ -1,0 +1,4 @@
+'Equation22446Lineage.equation22446' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.normalTower_nontrivial' does not depend on any axioms
+'Equation22446Lineage.model_nontrivial' does not depend on any axioms
+'Equation22446Lineage.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]

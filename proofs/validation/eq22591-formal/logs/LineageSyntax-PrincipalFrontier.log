@@ -1,0 +1,3 @@
+'Equation22446Lineage.principal_unique_iff_zero_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.principal_conflict_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.source_from_zero_principal_conditions' depends on axioms: [propext, Classical.choice, Quot.sound]

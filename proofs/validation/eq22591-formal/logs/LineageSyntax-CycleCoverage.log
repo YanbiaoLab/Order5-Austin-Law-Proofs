@@ -1,0 +1,5 @@
+'Equation22446Lineage.second_cycle_covered' depends on axioms: [propext]
+'Equation22446Lineage.cycle_return_covered' depends on axioms: [propext]
+'Equation22446Lineage.returned_coverage_of_rectangle' depends on axioms: [propext]
+'Equation22446Lineage.returned_coverage_iff_rectangle' depends on axioms: [propext]
+'Equation22446Lineage.source_from_rectangle_obligations' depends on axioms: [propext, Classical.choice, Quot.sound]

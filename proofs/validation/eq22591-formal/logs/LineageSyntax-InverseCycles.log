@@ -1,0 +1,4 @@
+'Equation22446Lineage.strict_part_pair_children' does not depend on any axioms
+'Equation22446Lineage.normal_inverse_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.raw_double_cycle_target' does not depend on any axioms
+'Equation22446Lineage.second_raw_cycle_covered' does not depend on any axioms

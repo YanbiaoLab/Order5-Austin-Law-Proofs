@@ -1,0 +1,7 @@
+'Equation22446Lineage.normal_literal_diagonal' depends on axioms: [propext]
+'Equation22446Lineage.normal_diagonal_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.diagonal_cycle_false' does not depend on any axioms
+'Equation22446Lineage.normal_diagonal_guard_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.normal_diagonal_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.chosen_square_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.multiplication_square' depends on axioms: [propext, Classical.choice, Quot.sound]

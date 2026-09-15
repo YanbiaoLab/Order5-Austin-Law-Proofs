@@ -63,4 +63,4 @@ t_0=Se,\qquad t_{n+1}=P(e,t_n).
 验证见 [本机核验](../validation/eq22446-infinite-model/README.md)和
 [远端验收](../validation/aurora/Equation22446/README.md)。
 单射端点不依赖任何公理；最终模型端点只用 `propext`、`Classical.choice`、`Quot.sound`。
-本次只归档 E22446。E22591 的独立 Lean 包装与验收记录仍需另行补入。
+对偶 [E22591 的独立 Lean 包装](../Equation22591/InfiniteModel.lean)与[远端验收](../validation/aurora/Equation22591/README.md)随后已补齐；它使用同一载体上的反向乘法。

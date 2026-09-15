@@ -1,0 +1,4 @@
+'Equation22446Lineage.column_adjacent_bases_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.lineage_shifted_image_false' depends on axioms: [propext]
+'Equation22446Lineage.lineage_shifted_endpoints_false' does not depend on any axioms
+'Equation22446Lineage.lineage_successor_column_false' depends on axioms: [propext, Quot.sound]

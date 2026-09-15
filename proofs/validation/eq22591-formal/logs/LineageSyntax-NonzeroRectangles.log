@@ -1,0 +1,4 @@
+'Equation22446Lineage.rectangle_nonzero_right_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.guard_nonzero_right_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.rectangle_unique_iff_zero_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.source_from_zero_right_rectangles' depends on axioms: [propext, Classical.choice, Quot.sound]

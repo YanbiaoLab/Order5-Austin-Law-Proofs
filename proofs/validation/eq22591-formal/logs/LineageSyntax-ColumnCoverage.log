@@ -1,0 +1,5 @@
+'Equation22446Lineage.shrinking_inverse_lineage' depends on axioms: [propext]
+'Equation22446Lineage.cycle_return_column' depends on axioms: [propext]
+'Equation22446Lineage.guard_column' depends on axioms: [propext]
+'Equation22446Lineage.product_column' depends on axioms: [propext]
+'Equation22446Lineage.chosen_column' depends on axioms: [propext, Classical.choice, Quot.sound]
