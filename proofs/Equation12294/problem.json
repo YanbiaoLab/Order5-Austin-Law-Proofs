@@ -1,0 +1,7 @@
+{
+  "id": "order5-Equation12294-universally-trivial",
+  "eq1_id": 12294,
+  "eq2_id": 2,
+  "equation1": "x = y ◇ (((z ◇ y) ◇ x) ◇ (x ◇ y))",
+  "equation2": "x = y"
+}

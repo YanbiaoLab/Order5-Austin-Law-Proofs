@@ -1,0 +1,39 @@
+{
+  "problem": {
+    "id": "order5-Equation33856-universally-trivial",
+    "eq1_id": 33856,
+    "eq2_id": 2,
+    "equation1": "x = ((y ◇ x) ◇ (x ◇ (y ◇ z))) ◇ y",
+    "equation2": "x = y"
+  },
+  "verdict": "true",
+  "certificate_sha256": "cbea0aa9706bad6ca77eaf2da51ca0cd22b8ad1d458b7e9e0a73e6bcc6b1f287",
+  "certificate_bytes": 11084,
+  "verified_at_utc": "2026-09-15T02:38:28.752800+00:00",
+  "record_kind": "fresh_judge_v3_acceptance_excerpt",
+  "job_id": "3c2e09318f86444898b07387659df182",
+  "status": "accepted",
+  "error_code": "ACCEPTED",
+  "message": "certificate accepted",
+  "axioms": [],
+  "direct_declarations": [
+    "EquationLHS",
+    "Goal",
+    "Magma",
+    "Magma.op",
+    "submission",
+    "submission.Equation33856Standalone.original_equation_forces_equality"
+  ],
+  "elapsed_ms": 3705,
+  "service_rev": "judge-v3-repl-380d1b2c0dd5-lean-4a7ab54d-mathlib-0df444a360ea",
+  "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+  "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+  "cache_mode": "off",
+  "submission_attempt": 1,
+  "problem_sha256": "6386f2eb32d921ce265fe68c74899ae5e9e4bee9cf1a149da71f0b0aa26a9d26",
+  "problem_hash_definition": "SHA-256 of UTF-8 sorted-key compact JSON containing exactly id, eq1_id, eq2_id, equation1, equation2",
+  "judge_problem_module": "Reconstructed locally from the exact submitted problem; the remote Judge supplied its own trusted target module.",
+  "response_record": "proofs/validation/eq12294-33856-triviality/Equation33856/response.json",
+  "response_record_sha256": "8dc91e9e8953d11e266a1c756fc15afbf8f6fea6bc426bb1e9260e020cda86a4",
+  "response_redaction": "Private backend_url omitted; result, job ID and timestamps preserved."
+}

@@ -1,0 +1,291 @@
+{
+  "status": "passed",
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "equations": [
+    12294,
+    33856
+  ],
+  "units": 10,
+  "results": [
+    {
+      "equation": 12294,
+      "module": "JudgeMagma.Magma",
+      "status": "passed",
+      "source": "proofs/validation/eq12294-33856-triviality/Magma.lean",
+      "source_sha256": "7eb1c0003c4df3293525402601f9a67e91d8a7997a86f75479dcbb3f9a37ce3f",
+      "log": "logs/Equation12294-JudgeMagma-Magma.log",
+      "log_sha256": "fb20760194f2e45ce372225ab1d2e170bd12f03c5b0c5c614e853bb48a7636c1",
+      "seconds": 0.239352458,
+      "sampled_peak_rss_bytes": 83886080,
+      "process_max_rss_bytes": 92749824,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/JudgeMagma.Magma.olean",
+        "JudgeMagma/Magma.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": []
+    },
+    {
+      "equation": 12294,
+      "module": "JudgeProblem",
+      "status": "passed",
+      "source": "proofs/Equation12294/JudgeProblem.lean",
+      "source_sha256": "a7d2b945b8b27cfe1c830a617096fe52fd66cb54749e44ce5468cf38b3438b1e",
+      "log": "logs/Equation12294-JudgeProblem.log",
+      "log_sha256": "7db44ded98aec6e738c66d1c6f0e64ae86b25365a56babe2e59185553c826673",
+      "seconds": 0.12308591599999996,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 83132416,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/JudgeProblem.olean",
+        "JudgeProblem.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": []
+    },
+    {
+      "equation": 12294,
+      "module": "Triviality",
+      "status": "passed",
+      "source": "proofs/Equation12294/Triviality.lean",
+      "source_sha256": "e594322cd9a5652ecbf6a124316acdec468efef94be6ec1ea87f5280b8e85675",
+      "log": "logs/Equation12294-Triviality.log",
+      "log_sha256": "77c4965fe28d8a86695e74999999117324ae9ec2608c51e92ce09696dbd145e4",
+      "seconds": 0.12026937500000001,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 95846400,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/Triviality.olean",
+        "Triviality.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": []
+    },
+    {
+      "equation": 12294,
+      "module": "Audit",
+      "status": "passed",
+      "source": "proofs/validation/eq12294-33856-triviality/Audit.lean",
+      "source_sha256": "1be1f2eeeec5aeeb449703f626d5ed4e92fae20e7923c47a73743868c5e45e09",
+      "log": "logs/Equation12294-Audit.log",
+      "log_sha256": "642de2a2f663271c966ccf109da2a6917a189c8d733f70f16fd1b79414ed010b",
+      "seconds": 0.12050962500000006,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 79642624,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/Audit.olean",
+        "Audit.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": [
+        "submission"
+      ]
+    },
+    {
+      "equation": 12294,
+      "module": "AllModelsTrivial",
+      "status": "passed",
+      "source": "proofs/Equation12294/AllModelsTrivial.lean",
+      "source_sha256": "184bac106b0274339f8970bc8fc3930dbf5d079e75f4c60f745f5c9675040a15",
+      "log": "logs/Equation12294-AllModelsTrivial.log",
+      "log_sha256": "facafd26c1f5c8fd805d12f5f2fb0880ce43703e248c7c43abee5c6913fdabf0",
+      "seconds": 0.12347150000000007,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 94584832,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/AllModelsTrivial.olean",
+        "AllModelsTrivial.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": [
+        "Equation12294Standalone.selfdivision_square",
+        "Equation12294Standalone.companion_equals_selfdivision",
+        "Equation12294Standalone.every_element_idempotent",
+        "Equation12294Standalone.right_projection",
+        "Equation12294Standalone.all_models_trivial",
+        "Equation12294Standalone.original_equation_forces_equality",
+        "Equation12294Standalone.nontrivial_model_impossible"
+      ]
+    },
+    {
+      "equation": 33856,
+      "module": "JudgeMagma.Magma",
+      "status": "passed",
+      "source": "proofs/validation/eq12294-33856-triviality/Magma.lean",
+      "source_sha256": "7eb1c0003c4df3293525402601f9a67e91d8a7997a86f75479dcbb3f9a37ce3f",
+      "log": "logs/Equation33856-JudgeMagma-Magma.log",
+      "log_sha256": "4a6e9584141f54ef3eb95be2eea6d5fe128a70358ce39b4d3f29af7b226ad6f2",
+      "seconds": 0.11550887500000007,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 92618752,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/JudgeMagma.Magma.olean",
+        "JudgeMagma/Magma.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": []
+    },
+    {
+      "equation": 33856,
+      "module": "JudgeProblem",
+      "status": "passed",
+      "source": "proofs/Equation33856/JudgeProblem.lean",
+      "source_sha256": "c639bf5842cfdf8334cca3d7862993e577ae2d3f583c33cfd434451bbf39af2e",
+      "log": "logs/Equation33856-JudgeProblem.log",
+      "log_sha256": "7cbf97b0eb093bc67ba218bb3ad29a455e854cdf218b7e158b6e1408184e22ca",
+      "seconds": 0.1149063330000002,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 82935808,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/JudgeProblem.olean",
+        "JudgeProblem.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": []
+    },
+    {
+      "equation": 33856,
+      "module": "Triviality",
+      "status": "passed",
+      "source": "proofs/Equation33856/Triviality.lean",
+      "source_sha256": "cbea0aa9706bad6ca77eaf2da51ca0cd22b8ad1d458b7e9e0a73e6bcc6b1f287",
+      "log": "logs/Equation33856-Triviality.log",
+      "log_sha256": "baf8111402b12ccde3258b940dcff0d229bed9a7039d53a49c95787399be90b5",
+      "seconds": 0.1228800000000001,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 96059392,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/Triviality.olean",
+        "Triviality.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": []
+    },
+    {
+      "equation": 33856,
+      "module": "Audit",
+      "status": "passed",
+      "source": "proofs/validation/eq12294-33856-triviality/Audit.lean",
+      "source_sha256": "1be1f2eeeec5aeeb449703f626d5ed4e92fae20e7923c47a73743868c5e45e09",
+      "log": "logs/Equation33856-Audit.log",
+      "log_sha256": "9cb28eebc73528b2bef7c17706aef16d65f3c8e962d8240156d13c2de4959ba3",
+      "seconds": 0.11805358300000002,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 79429632,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/Audit.olean",
+        "Audit.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": [
+        "submission"
+      ]
+    },
+    {
+      "equation": 33856,
+      "module": "AllModelsTrivial",
+      "status": "passed",
+      "source": "proofs/Equation33856/AllModelsTrivial.lean",
+      "source_sha256": "e3dcb1917df78b1b5b738164e9f49e2b40ab6862b575781526a9df3ea6d6ff31",
+      "log": "logs/Equation33856-AllModelsTrivial.log",
+      "log_sha256": "e6d5858f1aa9381bebbe7f72497e1da38379043dcbdb8b5da9556ce1dbb8f806",
+      "seconds": 0.12321679200000002,
+      "sampled_peak_rss_bytes": 1359872,
+      "process_max_rss_bytes": 94994432,
+      "exit_code": 0,
+      "command_template": [
+        "lean",
+        "+leanprover/lean4:v4.33.1",
+        "-j1",
+        "-M96",
+        "-DwarningAsError=true",
+        "-o",
+        "<temporary-build>/AllModelsTrivial.olean",
+        "AllModelsTrivial.lean"
+      ],
+      "command_note": "Executed in a fresh source directory; temporary absolute paths omitted.",
+      "axiom_free_declarations": [
+        "Equation12294Standalone.selfdivision_square",
+        "Equation12294Standalone.companion_equals_selfdivision",
+        "Equation12294Standalone.every_element_idempotent",
+        "Equation12294Standalone.right_projection",
+        "Equation12294Standalone.all_models_trivial",
+        "Equation12294Standalone.original_equation_forces_equality",
+        "Equation12294Standalone.nontrivial_model_impossible",
+        "Equation33856Standalone.original_equation_forces_equality",
+        "Equation33856Standalone.nontrivial_model_impossible"
+      ]
+    }
+  ],
+  "temporary_builds_removed": true,
+  "reused_oleans": false,
+  "limits": {
+    "threads": 1,
+    "lean_internal_mib": 96,
+    "rss_stop_mib": 160,
+    "seconds_per_module": 15
+  }
+}
