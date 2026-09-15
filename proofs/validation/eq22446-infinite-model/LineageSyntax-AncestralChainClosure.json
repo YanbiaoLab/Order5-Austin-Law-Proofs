@@ -1,0 +1,39 @@
+{
+  "module": "LineageSyntax-AncestralChainClosure",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.25,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/AncestralChainClosure.lean",
+  "sha256": "ebc38479ce3d64ffb2c4f3067b7177c3500f35f9344bf38474e94de7f59b8f95",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/AncestralChainClosure.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/AncestralChainClosure.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-AncestralChainClosure.log",
+  "axioms": {
+    "Equation22446Lineage.image_phase_one_nongrowing": [],
+    "Equation22446Lineage.column_joined_lineages_false": [],
+    "Equation22446Lineage.column_chain_ancestral_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "8fb1bbf462b16365ede7bf4602b6c1b96e4a1aa103cc97db5c7c14477bbf730f"
+}

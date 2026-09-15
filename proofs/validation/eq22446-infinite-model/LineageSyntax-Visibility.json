@@ -1,0 +1,39 @@
+{
+  "module": "LineageSyntax-Visibility",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.217,
+  "peak_rss_mib": 4.27,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/Visibility.lean",
+  "sha256": "b18e20772912836c5174c6c4aed5700e31004a451067eb596c6a7b0a5dc559a3",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/Visibility.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/Visibility.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-Visibility.log",
+  "axioms": {
+    "Equation22446Lineage.part_S_source": [],
+    "Equation22446Lineage.part_unS_source": [],
+    "Equation22446Lineage.lineage_part": [],
+    "Equation22446Lineage.image_phase_two_part": [],
+    "Equation22446Lineage.column_phase_two_part": [],
+    "Equation22446Lineage.column_visible_unless_phase_two": [],
+    "Equation22446Lineage.rectangle_target_visible": []
+  },
+  "log_sha256": "7baf5b75a77baff298a8966a55c6021ca1e51a02a83af0f6286e898b189d8d96"
+}

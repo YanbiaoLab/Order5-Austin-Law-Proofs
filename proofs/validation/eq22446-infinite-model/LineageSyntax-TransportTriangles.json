@@ -1,0 +1,36 @@
+{
+  "module": "LineageSyntax-TransportTriangles",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/TransportTriangles.lean",
+  "sha256": "3bf1d37284da8026c88294d46dc362cc8da291673f0f8c69e25d706fe8e1728f",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/TransportTriangles.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/TransportTriangles.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-TransportTriangles.log",
+  "axioms": {
+    "Equation22446Lineage.image_transport_common_column": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "9a8bd5098ab84c13437d4e192da24457b423cd4a597f67cfe0ff359e5a002bc8"
+}

@@ -1,0 +1,35 @@
+{
+  "module": "LineageSyntax-TriangleColumnExtras",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.213,
+  "peak_rss_mib": 4.08,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/TriangleColumnExtras.lean",
+  "sha256": "9773d47e4b7416a2db2d4672dbaa1d78e7512ce853189010cb62d0b089478021",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/TriangleColumnExtras.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/TriangleColumnExtras.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-TriangleColumnExtras.log",
+  "axioms": {
+    "Equation22446Lineage.column_non_two_base_bound": [],
+    "Equation22446Lineage.column_phase_one_base_non_two": [],
+    "Equation22446Lineage.column_tall_head_chain_false": []
+  },
+  "log_sha256": "e738b93f2af8d9755f59e8356192e01e443bc0faf86c9912ae55d4a6ea7eb22a"
+}

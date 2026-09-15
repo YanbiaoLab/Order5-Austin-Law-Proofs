@@ -1,0 +1,39 @@
+{
+  "module": "GuardedSyntax-Tree",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.218,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation22446/Lean/GuardedSyntax/Tree.lean",
+  "sha256": "6ac8634d31ad6b338ad0d787c8089350b93842c8403ea6fc756cc74ba8726a99",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/GuardedSyntax/Tree.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/GuardedSyntax/Tree.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/GuardedSyntax-Tree.log",
+  "axioms": {
+    "Equation22446Guarded.cube": [],
+    "Equation22446Guarded.S_injective": [],
+    "Equation22446Guarded.S_ne": [],
+    "Equation22446Guarded.SS_ne": [],
+    "Equation22446Guarded.nodes_S": [],
+    "Equation22446Guarded.children_bound": [],
+    "Equation22446Guarded.phase_two_or_square_nonzero": []
+  },
+  "log_sha256": "02f3337e277310f1672b8c69629cdf58ed560858f5675e9b773a0a59ea493ff7"
+}

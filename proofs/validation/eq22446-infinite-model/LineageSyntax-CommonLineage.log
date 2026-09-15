@@ -1,0 +1,4 @@
+'Equation22446Lineage.lineage_common_comparable' does not depend on any axioms
+'Equation22446Lineage.column_lineage_forward_false' does not depend on any axioms
+'Equation22446Lineage.common_lineage_column_false' does not depend on any axioms
+'Equation22446Lineage.column_triangle_base_phase_two' depends on axioms: [propext, Classical.choice, Quot.sound]

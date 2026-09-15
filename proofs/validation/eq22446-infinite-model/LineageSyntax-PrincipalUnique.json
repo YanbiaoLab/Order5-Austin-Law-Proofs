@@ -1,0 +1,54 @@
+{
+  "module": "LineageSyntax-PrincipalUnique",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.44,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/PrincipalUnique.lean",
+  "sha256": "6d426c3ceac922a1b81b01cc8ffebcccad49fd6c059691655516e9bfa9eddbd5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/PrincipalUnique.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/PrincipalUnique.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-PrincipalUnique.log",
+  "axioms": {
+    "Equation22446Lineage.non_one_base_cases": [],
+    "Equation22446Lineage.principal_non_one_unique": [
+      "propext"
+    ],
+    "Equation22446Lineage.principal_common_ancestry_unique": [
+      "propext"
+    ],
+    "Equation22446Lineage.principal_one_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.principal_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.guard_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "d9e4b9e23d911ab01ed3cb01bec14a67c8768684cd21d16856be6059d861ed42"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "change": "remove_comments_only",
+  "old_certificate_sha256": "8f6d5c7e4c8c1322bc9063098413d14f65dd7e6fb7e5fb01c6d9b27a0df02405",
+  "new_certificate_sha256": "2065d90f6e43c362723bfea4b6d41bb6c710ad9eedac4ee9f57059d1e705e95c",
+  "comment_free_whitespace_normalized_text_equal": true
+}

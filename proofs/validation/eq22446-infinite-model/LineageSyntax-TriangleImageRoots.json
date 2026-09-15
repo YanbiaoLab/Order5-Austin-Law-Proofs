@@ -1,0 +1,42 @@
+{
+  "module": "LineageSyntax-TriangleImageRoots",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.33,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/TriangleImageRoots.lean",
+  "sha256": "0f836829559d39ae91e16dd194cf053a08e72e3b11c8cd54fcf8509a89056b26",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/TriangleImageRoots.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/TriangleImageRoots.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-TriangleImageRoots.log",
+  "axioms": {
+    "Equation22446Lineage.image_literal_triangle_false": [],
+    "Equation22446Lineage.cycle_followup_input_eq": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_inverse_triangle_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_rotated_pair_triangle_false": [
+      "propext"
+    ]
+  },
+  "log_sha256": "6eb6c353f161a99ebacc9c35edc49946d2c5e8cd5d732224a410d0fb6805545b"
+}

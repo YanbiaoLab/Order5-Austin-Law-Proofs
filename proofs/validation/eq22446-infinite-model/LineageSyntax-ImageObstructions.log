@@ -1,0 +1,9 @@
+'Equation22446Lineage.image_no_successor' does not depend on any axioms
+'Equation22446Lineage.lineage_trans' does not depend on any axioms
+'Equation22446Lineage.lineage_image_inverse_false' does not depend on any axioms
+'Equation22446Lineage.column_left_pair_image_false' depends on axioms: [propext]
+'Equation22446Lineage.cycle_followup_not_self' does not depend on any axioms
+'Equation22446Lineage.image_self_eq_false' depends on axioms: [propext]
+'Equation22446Lineage.image_no_self' depends on axioms: [propext]
+'Equation22446Lineage.image_rotated_lineage_false' depends on axioms: [propext]
+'Equation22446Lineage.image_pair_flip_false' depends on axioms: [propext]

@@ -1,0 +1,44 @@
+{
+  "module": "LineageSyntax-RightSquareObstructions",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.14,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/RightSquareObstructions.lean",
+  "sha256": "d892c0cefe1a55078e63e4cecd47f5bf4a4d4326a2a5241718c79e198f7db640",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/RightSquareObstructions.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/RightSquareObstructions.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-RightSquareObstructions.log",
+  "axioms": {
+    "Equation22446Lineage.column_pair_successor_tail_false": [],
+    "Equation22446Lineage.image_nonzero_target": [],
+    "Equation22446Lineage.image_no_successive_outputs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.raw_column_square_image_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "475e7ecc18a9c7533356e545d5700e57a61e16ea61db2991aa90aa2928808d8a"
+}

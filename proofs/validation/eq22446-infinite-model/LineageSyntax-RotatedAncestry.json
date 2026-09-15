@@ -1,0 +1,46 @@
+{
+  "module": "LineageSyntax-RotatedAncestry",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/RotatedAncestry.lean",
+  "sha256": "c560cf06d98d4ec8f199d8c111239d6078288ad29181bf154cab962d248d741b",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/RotatedAncestry.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/RotatedAncestry.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-RotatedAncestry.log",
+  "axioms": {
+    "Equation22446Lineage.shared_column_phase_zero_bound": [],
+    "Equation22446Lineage.lineage_inverse_image_prev_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.column_square_image_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.column_self_image_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "d0c2130a06b693edaf43ecd7b1c9937a81b3a064b585e16fc9b2abd9c9592634"
+}

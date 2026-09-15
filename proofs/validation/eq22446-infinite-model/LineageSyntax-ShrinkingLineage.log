@@ -1,0 +1,4 @@
+'Equation22446Lineage.column_zero_to_two' does not depend on any axioms
+'Equation22446Lineage.cycle_followup_size_bound' does not depend on any axioms
+'Equation22446Lineage.image_shrinking_lineage' depends on axioms: [propext]
+'Equation22446Lineage.column_shrinking_lineage' depends on axioms: [propext]

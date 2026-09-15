@@ -1,0 +1,4 @@
+'Equation22446Lineage.rotated_column_canonical_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.rotated_column_completed_target' depends on axioms: [propext, Quot.sound]
+'Equation22446Lineage.rotated_column_inverse_ancestry_target' does not depend on any axioms
+'Equation22446Lineage.rotated_column_inverse_literal_false' does not depend on any axioms

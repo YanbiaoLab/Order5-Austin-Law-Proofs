@@ -1,0 +1,11 @@
+'Equation22446Guarded.part_nodes' does not depend on any axioms
+'Equation22446Guarded.guard_subterm' does not depend on any axioms
+'Equation22446Guarded.guard_decreases' does not depend on any axioms
+'Equation22446Guarded.diagonal_guard' does not depend on any axioms
+'Equation22446Guarded.normal_rotate' does not depend on any axioms
+'Equation22446Guarded.normal_part' does not depend on any axioms
+'Equation22446Guarded.normal_guard_output' does not depend on any axioms
+'Equation22446Guarded.eval_normal' does not depend on any axioms
+'Equation22446Guarded.eval_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Guarded.normal_evaluates_self' does not depend on any axioms
+'Equation22446Guarded.eval_normal_fixed' does not depend on any axioms

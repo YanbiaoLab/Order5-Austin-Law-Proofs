@@ -1,0 +1,10 @@
+'Equation22446Lineage.eval_normal' does not depend on any axioms
+'Equation22446Lineage.eval_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.normal_evaluates_self' does not depend on any axioms
+'Equation22446Lineage.eval_normal_fixed' does not depend on any axioms
+'Equation22446Lineage.normal_pair_eval_product' does not depend on any axioms
+'Equation22446Lineage.product_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.product_normal' does not depend on any axioms
+'Equation22446Lineage.chosen_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.chosen_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.diagonal_guard' does not depend on any axioms

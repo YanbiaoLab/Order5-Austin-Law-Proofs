@@ -1,0 +1,39 @@
+{
+  "module": "LineageSyntax-ReturnedFrontier",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.41,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/ReturnedFrontier.lean",
+  "sha256": "7586bfaaa810e01a9bb626c0e62a1fed4bc47ee21782a84311aa811e299cd63b",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/ReturnedFrontier.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/ReturnedFrontier.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-ReturnedFrontier.log",
+  "axioms": {
+    "Equation22446Lineage.image_pair_tail_false": [],
+    "Equation22446Lineage.guard_pair_tail_false": [],
+    "Equation22446Lineage.product_pair_tail_root": [],
+    "Equation22446Lineage.second_inverse_covered": [],
+    "Equation22446Lineage.second_return_covered": [],
+    "Equation22446Lineage.returned_coverage_of_rectangle_cycle": [],
+    "Equation22446Lineage.returned_coverage_iff_rectangle_cycle": []
+  },
+  "log_sha256": "0d930d7359a769d7c1dff0f2ca9568a6b881301c4569873ee7a0101756f413b3"
+}

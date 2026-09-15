@@ -1,0 +1,8 @@
+'Equation22446Lineage.special_guard' does not depend on any axioms
+'Equation22446Lineage.guard_rectangle_or_special' does not depend on any axioms
+'Equation22446Lineage.special_outputs_equal' does not depend on any axioms
+'Equation22446Lineage.special_unique' does not depend on any axioms
+'Equation22446Lineage.guard_unique_of_rectangle' does not depend on any axioms
+'Equation22446Lineage.rectangle_unique_of_guard' does not depend on any axioms
+'Equation22446Lineage.guard_unique_iff_rectangle' does not depend on any axioms
+'Equation22446Lineage.source_from_rectangle_conditions' depends on axioms: [propext, Classical.choice, Quot.sound]

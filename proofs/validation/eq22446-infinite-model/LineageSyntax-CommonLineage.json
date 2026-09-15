@@ -1,0 +1,40 @@
+{
+  "module": "LineageSyntax-CommonLineage",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.23,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/CommonLineage.lean",
+  "sha256": "fc224fbaa43295c28fcfed15614780c59fa1b9836524b059b2fdb86a2d4af47a",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/CommonLineage.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/CommonLineage.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-CommonLineage.log",
+  "axioms": {
+    "Equation22446Lineage.lineage_common_comparable": [],
+    "Equation22446Lineage.column_lineage_forward_false": [],
+    "Equation22446Lineage.common_lineage_column_false": [],
+    "Equation22446Lineage.column_triangle_base_phase_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "24122e4842b6810d3cea48cbfa8e4e8d1af1ab27f07fb1d95dc7ae1296a9461a"
+}

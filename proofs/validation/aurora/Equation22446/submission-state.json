@@ -1,0 +1,13 @@
+{
+  "base_url": "http://10.220.69.172:8900",
+  "equation": "Equation22446",
+  "certificate": "proofs/Equation22446/JudgeSubmission.lean",
+  "certificate_sha256": "2065d90f6e43c362723bfea4b6d41bb6c710ad9eedac4ee9f57059d1e705e95c",
+  "request_sha256": "39c7751d927c6346479ae9e6d59afe801f0f7721d4d4be00e66ff08fd0404695",
+  "phase": "terminal",
+  "post_attempts": 1,
+  "submitted_at": "2026-09-15T01:40:01.913594+00:00",
+  "job_id": "a10791d664bd43df97dad1531bb1acfa",
+  "last_status": "done",
+  "last_observed_at": "2026-09-15T01:40:19.556243+00:00"
+}

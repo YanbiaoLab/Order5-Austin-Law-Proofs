@@ -10,24 +10,26 @@ The table classifications follow [Order 5 Austin laws](https://teorth.github.io/
 |---|---:|---:|---:|---:|---:|
 | 20.1 | 10 | 0 | 10 | 0 | 0 |
 | 20.2 | 96 | 0 | 92 | 2 | 2 |
-| 20.3 | 24 | 10 | 18 | 0 | 6 |
-| **Total** | **130** | **10** | **120** | **2** | **8** |
+| 20.3 | 24 | 10 | 19 | 0 | 5 |
+| **Total** | **130** | **10** | **121** | **2** | **7** |
 
 Original categories: Table 20.1 lists known Austin laws; Table 20.2 has finite triviality established but the infinite case originally open; Table 20.3 originally leaves the existence of nontrivial finite models open.
 
 <!-- certificate-counts:start -->
-The archive contains **120 finite-triviality certificates**. The infinite case has **120 model certificates, 2 proved impossible, and 8 open**, totaling 130 equations. E5834/E40037 are proved impossible and excluded from the open count.
+The archive contains **120 finite-triviality certificates**. The infinite side has **121 model certificates, 2 proved impossible, and 7 awaiting certificates**, totaling 130 equations. E5834/E40037 are excluded from the pending count.
 <!-- certificate-counts:end -->
 
 <!-- current-proof-status:start -->
-**As of 2026-09-14: 10 equations remain open in the finite case and 8 in the infinite case.** One-element models always exist; the finite task is to prove all finite models trivial or construct a nontrivial finite model.
+**As of 2026-09-15: 10 equations remain open on the finite side, and 7 still await archived infinite-model certificates.** One-element models always exist; the finite task is to prove all finite models trivial or construct a nontrivial finite model.
 
-This update completes **Equation17286 / Equation28626 as two Austin laws**. The relational tree model proves each exact identity, nontriviality, and a Nat injection in eight fresh Lean 4.33.1 compilation units. Both standalone certificates subsequently received **ACCEPTED** on their first remote Judge submission with caching disabled; see the [remote acceptance record](proofs/validation/eq17286-formal/JUDGE.md). Current totals are **120 model certificates, 92 explicit infinitude proofs, and 112 equations with both certificates**. See the [model and retrospective](proofs/Equation17286/MODEL.zh-CN.md) and [verification report](proofs/validation/eq17286-formal/README.md).
+This update completes **Equation22446 as an Austin law**. The exact identity, nontriviality and a Nat injection passed a 58-module Lean 4.33.1 build; the [complete standalone certificate](proofs/Equation22446/JudgeSubmission.lean) received **ACCEPTED** from the remote Judge. Totals are now **121 model certificates, 93 explicit infinitude proofs, and 113 equations with both certificates**. See the [construction](proofs/Equation22446/MODEL.zh-CN.md) and [acceptance report](proofs/validation/aurora/Equation22446/README.md). E22591 still awaits its separate archived Lean wrapper and remains in the pending-certificate list.
+
+The preceding update completed **Equation17286 / Equation28626 as two Austin laws**. The relational tree model proves each exact identity, nontriviality, and a Nat injection in eight fresh Lean 4.33.1 compilation units. Both standalone certificates subsequently received **ACCEPTED** on their first remote Judge submission with caching disabled; see the [remote acceptance record](proofs/validation/eq17286-formal/JUDGE.md). After that update, totals were **120 model certificates, 92 explicit infinitude proofs, and 112 equations with both certificates**. See the [model and retrospective](proofs/Equation17286/MODEL.zh-CN.md) and [verification report](proofs/validation/eq17286-formal/README.md).
 
 Previous completions: [E12087/E33884 acceptance](proofs/validation/eq12087-formal/JUDGE.md) and [E18137/E27863 archive](proofs/validation/2026-09-14-tree-dual/README.md). Their local and remote evidence remains recorded separately.
 
 - **Finite case open (5 dual pairs, 10 equations)**: [Equation13102](proofs/Equation13102/README.md) / [Equation33273](proofs/Equation33273/README.md); [Equation17260](proofs/Equation17260/README.md) / [Equation28740](proofs/Equation28740/README.md); [Equation20911](proofs/Equation20911/README.md) / [Equation25087](proofs/Equation25087/README.md); [Equation23337](proofs/Equation23337/README.md) / [Equation23354](proofs/Equation23354/README.md); [Equation23357](proofs/Equation23357/README.md) / [Equation23653](proofs/Equation23653/README.md).
-- **Infinite case open (4 dual pairs, 8 equations)**: [Equation9663](proofs/Equation9663/README.md) / [Equation36487](proofs/Equation36487/README.md); [Equation12294](proofs/Equation12294/README.md) / [Equation33856](proofs/Equation33856/README.md); [Equation22446](proofs/Equation22446/README.md) / [Equation22591](proofs/Equation22591/README.md); [Equation23357](proofs/Equation23357/README.md) / [Equation23653](proofs/Equation23653/README.md).
+- **Infinite-model certificates pending (7 equations)**: [Equation9663](proofs/Equation9663/README.md); [Equation36487](proofs/Equation36487/README.md); [Equation12294](proofs/Equation12294/README.md); [Equation33856](proofs/Equation33856/README.md); [Equation22591](proofs/Equation22591/README.md); [Equation23357](proofs/Equation23357/README.md); [Equation23653](proofs/Equation23653/README.md).
 <!-- current-proof-status:end -->
 
 A “proof of finite triviality” means `∀ (G : Type) [Magma G] [Finite G], EquationN G → Equation2 G`: every finite model is trivial. A one-element model always exists for these identities; proving its existence alone does not help classify them. Deriving Equation2 without a finiteness assumption is a stronger result that also rules out nontrivial infinite models.
@@ -180,7 +182,7 @@ Follow the equation links below for each formula, its dual, sources, and remaini
 | [Equation24197](proofs/Equation24197/README.md) | Equation21865 | 20.3 | Proved trivial (Lean) | [FiniteTrivial.lean](proofs/Equation24197/FiniteTrivial.lean) | Verified | [InfiniteModel.lean](proofs/Equation24197/InfiniteModel.lean) |
 | [Equation21866](proofs/Equation21866/README.md) | Equation24201 | 20.3 | Proved trivial (Lean) | [FiniteTrivial.lean](proofs/Equation21866/FiniteTrivial.lean) | Verified | [InfiniteModel.lean](proofs/Equation21866/InfiniteModel.lean) |
 | [Equation24201](proofs/Equation24201/README.md) | Equation21866 | 20.3 | Proved trivial (Lean) | [FiniteTrivial.lean](proofs/Equation24201/FiniteTrivial.lean) | Verified | [InfiniteModel.lean](proofs/Equation24201/InfiniteModel.lean) |
-| [Equation22446](proofs/Equation22446/README.md) | Equation22591 | 20.3 | Proved trivial (Lean) | [FiniteTrivial.lean](proofs/Equation22446/FiniteTrivial.lean) | Not archived | Not archived |
+| [Equation22446](proofs/Equation22446/README.md) | Equation22591 | 20.3 | Proved trivial (Lean) | [FiniteTrivial.lean](proofs/Equation22446/FiniteTrivial.lean) | Verified (Lean + Judge) | [InfiniteModel.lean](proofs/Equation22446/InfiniteModel.lean) |
 | [Equation22591](proofs/Equation22591/README.md) | Equation22446 | 20.3 | Proved trivial (Lean) | [FiniteTrivial.lean](proofs/Equation22591/FiniteTrivial.lean) | Not archived | Not archived |
 | [Equation23337](proofs/Equation23337/README.md) | Equation23354 | 20.3 | Unknown | Not archived | Verified | [InfiniteModel.lean](proofs/Equation23337/InfiniteModel.lean) |
 | [Equation23354](proofs/Equation23354/README.md) | Equation23337 | 20.3 | Unknown | Not archived | Verified | [InfiniteModel.lean](proofs/Equation23354/InfiniteModel.lean) |

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-09-14",
+  "updated_on": "2026-09-15",
   "source_repository": "/Users/zetyun2026/bing/projects/math-distill-equational-stage2",
   "scope": "Blueprint Tables 20.1–20.3; audited v1 accepted certificates and selected upstream finite theorems; 24 additional historical Judge v3 accepted certificates; restored 2 missing original-paper certificates (Candidate-96 total: 56 distinct IDs); 2 Austin-96 candidates excluded by fresh Judge v3 accepted unrestricted true proofs; branch finite certificates reconciled with main while preserving main model archives; two accepted Table20.3 rational infinite models archived on 2026-09-10; ten additional equations completed as Austin laws by archiving verified infinite models on 2026-09-11",
   "equations": [
@@ -9374,12 +9374,81 @@
         "theorem": "Equation22446Finite.finite_trivial",
         "method": "finite_incidence_triple_bijection_and_absorption"
       },
-      "infinite_model_proof": null,
-      "explicit_infinity": false,
+      "infinite_model_proof": {
+        "path": "proofs/Equation22446/InfiniteModel.lean",
+        "sha256": "901f2d263067605b1ca1bcc63c7bfd862f6a267e7ff93f530ac47b87f9de462f",
+        "origin": "local_formalization",
+        "validation": "local_lean_recompiled_axioms_checked",
+        "source": "Normal three-color finite trees; lineage-completed image and column certificates; unique guarded multiplication",
+        "goal": "Exact Equation22446, nontriviality, and an explicit injection from Nat",
+        "dependencies": {
+          "proofs/Equation22446/Lean/JudgeMagma/Magma.lean": "f8c9a0c63bd4a3da395a3939c75ad7a042773e3f1681642b8d0d8b067e323056",
+          "proofs/Equation22446/JudgeProblem.lean": "763e8b00d3d6e5426bda5e284b2b792170721063cef2c7c7ed7d3612057ec55a",
+          "proofs/Equation22446/Lean/GuardedSyntax/Tree.lean": "6ac8634d31ad6b338ad0d787c8089350b93842c8403ea6fc756cc74ba8726a99",
+          "proofs/Equation22446/Lean/LineageSyntax/Relations.lean": "39e4e379a7ec9642ea3a00c84982a10f9a25a8d568aa87947f44f2c57157edfa",
+          "proofs/Equation22446/Lean/GuardedSyntax/Relations.lean": "60ed023d78200ef0f6a881674ad9c7b8e477790bfae06aa871dbaf6282f1ec43",
+          "proofs/Equation22446/Lean/GuardedSyntax/Decoder.lean": "120f163c4cb9fccd1dbfb99f8eafd6e12b731d6520d2fd510be6289a207c06d1",
+          "proofs/Equation22446/Lean/LineageSyntax/Decoder.lean": "5daf7efc8871044dd5a4275ee9ef2d41ea6064ee5386b38f80e044e49b23c925",
+          "proofs/Equation22446/Lean/LineageSyntax/Evaluation.lean": "53bb0b127f62f569efc344ea8638860b9d5d05521b49c0200d2d4213414e2fc2",
+          "proofs/Equation22446/Lean/LineageSyntax/RightBounds.lean": "71ff285992be1360a2a292ab786a4f592ec18f40c26ddd25791a51f7593aeb99",
+          "proofs/Equation22446/Lean/LineageSyntax/RawCoverage.lean": "01304a656ed7871bdd4e7da39febbd2f1b6e713d4868e2e390f969aeded1a3b1",
+          "proofs/Equation22446/Lean/LineageSyntax/ShrinkingLineage.lean": "b3db15b413dbf547b7ccc3d730cb9ded242776d8dd0237a7bd301c91f0bea476",
+          "proofs/Equation22446/Lean/LineageSyntax/ColumnCoverage.lean": "944410df04c4a2f8b866606dcc576e80a789c1dee03ed385ee2e170efcdf6ced",
+          "proofs/Equation22446/Lean/LineageSyntax/Visibility.lean": "b18e20772912836c5174c6c4aed5700e31004a451067eb596c6a7b0a5dc559a3",
+          "proofs/Equation22446/Lean/LineageSyntax/CleanTower.lean": "a54dbf7c28e46e0872e4909484ad36daff0f89c407d437650cda8c2cc1d240c1",
+          "proofs/Equation22446/Lean/LineageSyntax/ModelObligations.lean": "6ca0a4ba7a2f4b4144452ac37bfb751c4dfb9d3d79e742054ab4182b8551a632",
+          "proofs/Equation22446/Lean/LineageSyntax/ReturnedFrontier.lean": "7586bfaaa810e01a9bb626c0e62a1fed4bc47ee21782a84311aa811e299cd63b",
+          "proofs/Equation22446/Lean/LineageSyntax/InverseCycles.lean": "fe7e7d191dfc1bcd8178b9799ead9a6cb0b92e7450f2dec682aeae3c5478558b",
+          "proofs/Equation22446/Lean/LineageSyntax/ImageObstructions.lean": "c377f65dbfee695bfe310713a9189118d57c23b3cd0fe25b96a52b0ca9118044",
+          "proofs/Equation22446/Lean/LineageSyntax/CycleCoverage.lean": "43cbc3816a27ea247cfb8f9737961cf7efecb0f766bb4532fff84652cb6b0c14",
+          "proofs/Equation22446/Lean/LineageSyntax/DiagonalSupport.lean": "2b3d1d31428d36c95226953873b01b700bf4f0eab3e4255052b514408382dbdf",
+          "proofs/Equation22446/Lean/LineageSyntax/NormalDiagonal.lean": "5f0717971eb20748e27d0774fac144bdc889da945df87a5d11f7b9af4107b93d",
+          "proofs/Equation22446/Lean/LineageSyntax/CycleUniqueness.lean": "9068c6f66ef0e9eadbdc8ae02e794c19a12046e19432427092ab2f5215366078",
+          "proofs/Equation22446/Lean/LineageSyntax/SpecialUniqueness.lean": "9914c6651a1adfcf425fde0f072b3870dafe5272b23136e4923d4543508d7660",
+          "proofs/Equation22446/Lean/LineageSyntax/RightSquareObstructions.lean": "d892c0cefe1a55078e63e4cecd47f5bf4a4d4326a2a5241718c79e198f7db640",
+          "proofs/Equation22446/Lean/LineageSyntax/NonzeroRectangles.lean": "7a680969734defa3d53aa89234b75c7f2df06b98f960e67d84f5207c5d51a05e",
+          "proofs/Equation22446/Lean/LineageSyntax/PhaseOneOrigins.lean": "06d25e8ccf57ed1f44650e6de07cd0d3af9827c90f23c654796e47345f65548f",
+          "proofs/Equation22446/Lean/LineageSyntax/AncestralBounds.lean": "efb399b3a27b63095662f16a5e6b7f2ba5eedebc2274b95a407f2d1bdd958297",
+          "proofs/Equation22446/Lean/LineageSyntax/LineageReversal.lean": "05e0aa469f785d0219199d10271f5f3f1c289dcb50edb72f891497f544b34500",
+          "proofs/Equation22446/Lean/LineageSyntax/NonzeroCoverage.lean": "be8e04f53f7d6d1d534e2492bbde72ae07344d9d341134f19d9ea9c962b91085",
+          "proofs/Equation22446/Lean/LineageSyntax/PrincipalPairs.lean": "dc10ac922059a00d846072e29c1976751a95761f352600681b8ae209be7fd6ac",
+          "proofs/Equation22446/Lean/LineageSyntax/SpecialExclusion.lean": "5395dcacf45de77b7724c8bf5415780e9e94778a683091a8818f47928368e7d0",
+          "proofs/Equation22446/Lean/LineageSyntax/PrincipalFrontier.lean": "1580aa7d49e4a04989b9235ec0e5868fc3447ed978ef1362745bb74c37ed1230",
+          "proofs/Equation22446/Lean/LineageSyntax/RotatedAncestry.lean": "c560cf06d98d4ec8f199d8c111239d6078288ad29181bf154cab962d248d741b",
+          "proofs/Equation22446/Lean/LineageSyntax/AncestralColumns.lean": "daee8f20ef7e2c32374eaed584ec52cf92d7cb3116d36cefe2bdc1c29d351e68",
+          "proofs/Equation22446/Lean/LineageSyntax/ColumnTriangleFrontier.lean": "452ee55406df01487e63ffd5a31538367afc1d44161c9108aa9d9b361b1453da",
+          "proofs/Equation22446/Lean/LineageSyntax/LineageForward.lean": "62974ca5dd22b219d2f4f5cc4abd90e58198f52c497dd61957f929654e021bac",
+          "proofs/Equation22446/Lean/LineageSyntax/CommonLineage.lean": "fc224fbaa43295c28fcfed15614780c59fa1b9836524b059b2fdb86a2d4af47a",
+          "proofs/Equation22446/Lean/LineageSyntax/CommonRootExclusion.lean": "2f69a1fd25be623954be89c8bcb40b1e607a4222cc65a7a73a268c0668f106a5",
+          "proofs/Equation22446/Lean/LineageSyntax/PhaseOneLineageRoots.lean": "ccd6e50bebc68a45b05eec92a9816ffa5bda0152b9559d2367e050fd5e40f099",
+          "proofs/Equation22446/Lean/LineageSyntax/ColumnChains.lean": "ee77cbca5ab90189d855a9a3e9d55024bea2d14beaee39e7f524bd951376bb21",
+          "proofs/Equation22446/Lean/LineageSyntax/AncestralChainClosure.lean": "ebc38479ce3d64ffb2c4f3067b7177c3500f35f9344bf38474e94de7f59b8f95",
+          "proofs/Equation22446/Lean/LineageSyntax/TriangleColumnExtras.lean": "9773d47e4b7416a2db2d4672dbaa1d78e7512ce853189010cb62d0b089478021",
+          "proofs/Equation22446/Lean/LineageSyntax/TriangleImageRoots.lean": "0f836829559d39ae91e16dd194cf053a08e72e3b11c8cd54fcf8509a89056b26",
+          "proofs/Equation22446/Lean/LineageSyntax/TransportTriangles.lean": "3bf1d37284da8026c88294d46dc362cc8da291673f0f8c69e25d706fe8e1728f",
+          "proofs/Equation22446/Lean/LineageSyntax/TriangleInduction.lean": "c662b9641a29b49c0fb68be3466c7c5abef2121017f0e5b454ed98650e420dc9",
+          "proofs/Equation22446/Lean/LineageSyntax/FullImageCoverage.lean": "141dee01caac54bd63951aa4f606546be500c95fe25353afe0861c3ef87fdc7b",
+          "proofs/Equation22446/Lean/LineageSyntax/PhaseTwoUniqueness.lean": "187f775fb0809dd26a70160f4fadb0b6096d42bed73090245bf41f8e4e5a4fc5",
+          "proofs/Equation22446/Lean/LineageSyntax/AtomOrZeroBases.lean": "62fa0d1f8f610704e7552afc0ed682fd735d19d0ec8deaa8f187edf2fe7a653c",
+          "proofs/Equation22446/Lean/LineageSyntax/MixedPrincipalDescent.lean": "97dd629c0168a99867874f0b44a5502dcae3306d55a82720decd738a46badd36",
+          "proofs/Equation22446/Lean/LineageSyntax/LineageImageUniqueness.lean": "c6f028d1e148d860f76bdcb48290c4e57e56dd026bad06aafd09c68facb3ef28",
+          "proofs/Equation22446/Lean/LineageSyntax/OneTwoRootBounds.lean": "16fca0471fa95ada75d1eec0ed4802d4d8d5788fd44ec651b26b0a420ea030a8",
+          "proofs/Equation22446/Lean/LineageSyntax/CanonicalColumnTools.lean": "2429a3f6dfba470698a9daa5b8a713e0e9f9a84cdaafd45c97da1d9b45cefcfb",
+          "proofs/Equation22446/Lean/LineageSyntax/ColumnLineageChains.lean": "216e6161feb3bd75219b367337f9e9909375365f456677d202e143c988e8601b",
+          "proofs/Equation22446/Lean/LineageSyntax/RotatedColumnOrigins.lean": "be41aa2b76eaf004b15b4600937c5874eab1e349e9bfcb1f2e3ed6e6659b0be9",
+          "proofs/Equation22446/Lean/LineageSyntax/CanonicalInduction.lean": "3d93c3cb5a6f5babae303ed96298f249515b1d79d771e91f0b1304cc0547a4fb",
+          "proofs/Equation22446/Lean/LineageSyntax/PrincipalUnique.lean": "6d426c3ceac922a1b81b01cc8ffebcccad49fd6c059691655516e9bfa9eddbd5",
+          "proofs/Equation22446/Lean/LineageSyntax/Model.lean": "d0326abcea1cee37c71a2e1ff8f38da53c238064c6b74943b553f231bf3b216a"
+        },
+        "report": "proofs/Equation22446/MODEL.zh-CN.md"
+      },
+      "explicit_infinity": true,
       "historical_status": "timeout",
-      "local_lean_validation": "not_run",
+      "local_lean_validation": "passed_for_local_formalization",
       "notes": [
-        "2026-09-11: 完整有限平凡性证明及原 Lean 4.33.1 成功记录已归档；无限侧仍待解。"
+        "2026-09-11: 完整有限平凡性证明及原 Lean 4.33.1 成功记录已归档；无限侧仍待解。",
+        "2026-09-15: 祖先补全的正规三色树模型完成；58 个模块空目录串行重建及 291 条端点公理报告通过，原式、非平凡性与显式 Nat 单射已证。最后的 PrincipalUnique 已无条件关闭。有限侧核对原源码和日志哈希；本次未提交远端 Judge。",
+        "2026-09-15: 完整单文件证书经远端 Judge 返回 ACCEPTED，任务 a10791d664bd43df97dad1531bb1acfa。首次提交仅因注释单词 syntax 被词法预检误判而退回；删除注释并重新分段核验后通过，数学证明代码未改动。"
       ],
       "finite_compilation": {
         "status": "passed",
@@ -9397,6 +9466,64 @@
         "elapsed_seconds": 1.049,
         "sampled_peak_rss_mib": 1290.73,
         "validation_record": "proofs/validation/finite130/finite-incidence/Equation22446.json"
+      },
+      "explicit_infinity_proof": {
+        "path": "proofs/Equation22446/InfiniteModel.lean",
+        "sha256": "901f2d263067605b1ca1bcc63c7bfd862f6a267e7ff93f530ac47b87f9de462f",
+        "theorem": "submission.CM.tower_injective",
+        "validation": "local_lean_recompiled_axioms_checked"
+      },
+      "model_compilation": {
+        "status": "passed",
+        "checked_sha256": "901f2d263067605b1ca1bcc63c7bfd862f6a267e7ff93f530ac47b87f9de462f",
+        "version": "4.33.1",
+        "log": "proofs/validation/eq22446-infinite-model/InfiniteModel.log",
+        "log_sha256": "4258bf375e8bd486dd0902dede12d5ff34a2b9a3f7508ee2bdd1d4db008674e5",
+        "axioms": {
+          "submission.CM.tower_injective": [],
+          "submission": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.source_law": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "submission.nontrivial": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Equation22446Lineage.infinite_model": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "elapsed_seconds": 0.217,
+        "sampled_peak_rss_mib": 4.36,
+        "dependency_manifest": "proofs/validation/eq22446-infinite-model/summary.json"
+      },
+      "aurora_validation": {
+        "status": "accepted",
+        "job_id": "a10791d664bd43df97dad1531bb1acfa",
+        "base_url": "http://10.220.69.172:8900",
+        "certificate": "proofs/validation/aurora/Equation22446/certificate.lean",
+        "certificate_sha256": "2065d90f6e43c362723bfea4b6d41bb6c710ad9eedac4ee9f57059d1e705e95c",
+        "result": "proofs/validation/aurora/Equation22446/latest.json",
+        "result_sha256": "afb6e134b5ee2e2a79e8300e9f8cab7f92aa71b0cafed630079f128d4900e62b",
+        "request_sha256": "39c7751d927c6346479ae9e6d59afe801f0f7721d4d4be00e66ff08fd0404695",
+        "execution_fingerprint": "judge-v3-repl-execution-v3:af7f7e7e485aeb262fc3d44963ca9a3dc0b2dc40ec3be87ffc5b1ea8437e689f",
+        "proof_policy_rev": "judge-v3-repl-proof-policy-v3:official=stage2-official-proof-policy-v1:94ce33cf6c7c:default_timeout=86400:timeout_cap=86400:max_code=10485760:max_false=10485760:timeout_contract=participant-lean-module-shared-v2:repl_protocol=stage2-staged-v2:repl_process_policy=one-problem-per-process:module_boundary=JudgeProblem+Submission+clean-root-check-v2",
+        "finished_at": 1789436419.6279178
+      },
+      "archive_validation": {
+        "report": "proofs/validation/eq22446-infinite-model/README.md",
+        "verifier": "proofs/validation/eq22446-infinite-model/verify.py",
+        "manifest": "proofs/validation/eq22446-infinite-model/archive-manifest.json",
+        "status": "passed"
       }
     },
     {
@@ -9782,7 +9909,7 @@
     "proofs/Equation24197/README.md": "fa47808514984a397939548f0a006a275c77a451ff86b401563436dbdb4d972a",
     "proofs/Equation21866/README.md": "965d469a3b8f533cba450ab0618336cb685d457a70c1268e4ab9c4229ea53665",
     "proofs/Equation24201/README.md": "b5c757f014a18b929945b890ae74e73fa11a5157dd483d49e5d6025370dd8805",
-    "proofs/Equation22446/README.md": "3e35c98f60d99ee4bb5f06a29d92b5a8ebfada262a2d379c74ca98f992316e14",
+    "proofs/Equation22446/README.md": "e6356e0f475f96ee7bccb5caab3bd75e6a478e53e6fd296305dd1deec52c17a6",
     "proofs/Equation22591/README.md": "8a86a9000e4c72f9ac69a3718f5dcebbf4ca6014f0b2e815c383337e97c6b562",
     "proofs/Equation23337/README.md": "329587b5c0adc138cf49dff988839d9d7b4b813e91a6923b4aad8d4aafa9c9ca",
     "proofs/Equation23354/README.md": "ce7745d7db0f9f57f27f1497050ac7709a5e81b7bd40c6a0c4a089b33f7bce9e",
@@ -9795,7 +9922,7 @@
     "proofs/validation/aurora/Equation5947/JudgeProblem.lean": "0305c19031854608051bc9f67bcfab3d040291aa416b6d304b4e207a2c53c577",
     "proofs/Equation5951/InfiniteModel.lean": "b5421c74abf67a258212f449a4ccc491ca7e3828b766a76501d1f592aca45708",
     "proofs/Equation40208/InfiniteModel.lean": "0c2e3bbccd1f215aca362ac03c6043752bfe4b080e92addac7e29f77108b136a",
-    "README.md": "1f62cff1ba3f633f5da3a0ed179c0d287a93c13c2d585014cf4323756132a802",
+    "README.md": "0bdf1c95ec3333d8899296a3b67b3a82de6a29e84b6cea7001db166f26f8a7b5",
     "proofs/validation/aurora/Equation6820/local-flat-check.json": "dd4476124e8a11c92bada057614072d68fd74416f49aa646543b843146e396a3",
     "proofs/validation/aurora/Equation8485/job.json": "a78643db915dcf2b063ccdbe29f5bfde2e700a44c789a0c89af1e8613cf33159",
     "proofs/Equation37519/InfiniteModel.lean": "18428f681ce9d6c381238cc3a42c60bbafc27454a2ed7c8b1308648b7e97ac1f",
@@ -10149,7 +10276,7 @@
     "proofs/validation/aurora/Equation40057/local-flat-check.json": "148852a26b30a18a39b42fb0916233165260504bd4b1b944140ea22d7b3fd67f",
     "proofs/Equation37519/JudgeProblem.lean": "0f4baed719adcef2b46466db54c7a9e4624f1cb77183c4f7492ceac006003227",
     "proofs/validation/aurora/Equation7763/job.json": "e0d96eb96dc2a2dfc6fd329cb9e17b2bf03f12fa5793cfe39706f96f6a90f64c",
-    "proofs/README.md": "7d831498939e9996b61d1900c169083d67fca39e1ddb1519c6246a70e50a29cf",
+    "proofs/README.md": "2da8c709b1db2a575ae388f04bafde26d4ebcac35ccce1f9c3548b08540b2f1a",
     "proofs/validation/aurora/Equation12073/JudgeProblem.lean": "5411334ecc7537b0b29b2f2dec1389faf88597a05282277b0586626c58fea6e5",
     "proofs/validation/aurora/Equation32280/request.json": "51a4865dee33a46380d618c04764992718465ef0af55544613472e84c8d1f249",
     "proofs/validation/aurora/Equation32281/job.json": "10e03efa39fad6b37e5014ac387552de7cc5b4ef33efc16ef816b247c7508b34",
@@ -10670,7 +10797,7 @@
     "proofs/validation/2026-09-10-open24-two-models/manifest.json": "16046964e578e08ec3f36e6ec730c40ee2e85e3f3daba23319b8f5b1ad54b555",
     "proofs/validation/2026-09-10-open24-two-models/README.md": "c3726bbd1fe06c6d374ea9e25b005216f9369d9dbc48b1740039217b856c49cd",
     "proofs/validation/2026-09-10-open24-two-models/verify.py": "3db32ac3ee0295b469a14f74092d1ee658be35cd40b08b8480fb00c49cd297d8",
-    "README.zh-CN.md": "1b695c0866e553b4708cce9eecd0128a8bc5efe8751f8b9a9efe893544643306",
+    "README.zh-CN.md": "20c10922ef3949117d0f37c77d33ee1942ce2dcf7be8e7b0e90d87ed4c070b84",
     "proofs/Equation12294/FiniteTrivial.lean": "f2134b2173b4fda16bdd678e7290941e93b4c3138e359f49284c03e3fbdc76fd",
     "proofs/Equation13102/InfiniteModel.lean": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
     "proofs/Equation13102/JudgeProblem.lean": "6809f00aa95a2f622de9e456b30de83e05c3fcb7a2f1f1ff61d240e082e280bd",

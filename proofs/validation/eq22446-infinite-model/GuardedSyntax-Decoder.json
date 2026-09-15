@@ -1,0 +1,47 @@
+{
+  "module": "GuardedSyntax-Decoder",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/GuardedSyntax/Decoder.lean",
+  "sha256": "120f163c4cb9fccd1dbfb99f8eafd6e12b731d6520d2fd510be6289a207c06d1",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/GuardedSyntax/Decoder.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/GuardedSyntax/Decoder.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/GuardedSyntax-Decoder.log",
+  "axioms": {
+    "Equation22446Guarded.part_nodes": [],
+    "Equation22446Guarded.guard_subterm": [],
+    "Equation22446Guarded.guard_decreases": [],
+    "Equation22446Guarded.diagonal_guard": [],
+    "Equation22446Guarded.normal_rotate": [],
+    "Equation22446Guarded.normal_part": [],
+    "Equation22446Guarded.normal_guard_output": [],
+    "Equation22446Guarded.eval_normal": [],
+    "Equation22446Guarded.normal_evaluates_self": [],
+    "Equation22446Guarded.eval_normal_fixed": [],
+    "Equation22446Guarded.eval_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "bf673541cab8706c9c1677f7e2f86937418547071b5c31978eb2f9a34fa29ff6"
+}

@@ -1,0 +1,37 @@
+{
+  "module": "LineageSyntax-PrincipalPairs",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/PrincipalPairs.lean",
+  "sha256": "dc10ac922059a00d846072e29c1976751a95761f352600681b8ae209be7fd6ac",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/PrincipalPairs.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/PrincipalPairs.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-PrincipalPairs.log",
+  "axioms": {
+    "Equation22446Lineage.image_no_left_pair": [],
+    "Equation22446Lineage.principal_pair_target": [],
+    "Equation22446Lineage.principal_pair_inner_image": [],
+    "Equation22446Lineage.rectangle_inverse_double_false": [],
+    "Equation22446Lineage.rectangle_image_return_false": []
+  },
+  "log_sha256": "bb37ff520551d532f1243763416d46f2674234867467ae017892797fa7c33314"
+}

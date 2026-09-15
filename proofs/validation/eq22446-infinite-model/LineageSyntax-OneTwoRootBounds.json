@@ -1,0 +1,35 @@
+{
+  "module": "LineageSyntax-OneTwoRootBounds",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.31,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/OneTwoRootBounds.lean",
+  "sha256": "16fca0471fa95ada75d1eec0ed4802d4d8d5788fd44ec651b26b0a420ea030a8",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/OneTwoRootBounds.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/OneTwoRootBounds.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-OneTwoRootBounds.log",
+  "axioms": {
+    "Equation22446Lineage.one_two_columns_nongrowing_inverse": [],
+    "Equation22446Lineage.one_two_images_nongrowing_false_at_size": [],
+    "Equation22446Lineage.image_one_two_root_bound": []
+  },
+  "log_sha256": "b8863c10bc66aa1b57cb79855fb3d917382cbe407f61cc6368afa7fc7a90fff0"
+}

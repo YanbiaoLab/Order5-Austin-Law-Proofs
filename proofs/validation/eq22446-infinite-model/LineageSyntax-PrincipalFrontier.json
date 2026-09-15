@@ -1,0 +1,47 @@
+{
+  "module": "LineageSyntax-PrincipalFrontier",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.212,
+  "peak_rss_mib": 4.3,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/PrincipalFrontier.lean",
+  "sha256": "1580aa7d49e4a04989b9235ec0e5868fc3447ed978ef1362745bb74c37ed1230",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/PrincipalFrontier.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/PrincipalFrontier.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-PrincipalFrontier.log",
+  "axioms": {
+    "Equation22446Lineage.principal_unique_iff_zero_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.principal_conflict_shape": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.source_from_zero_principal_conditions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "46dc6544721ded6b9355655282793b2257dc68c653c40b6538f42e5c9dec9ef5"
+}

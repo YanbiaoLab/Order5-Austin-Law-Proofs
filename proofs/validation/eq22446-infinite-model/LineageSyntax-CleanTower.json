@@ -1,0 +1,41 @@
+{
+  "module": "LineageSyntax-CleanTower",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/CleanTower.lean",
+  "sha256": "a54dbf7c28e46e0872e4909484ad36daff0f89c407d437650cda8c2cc1d240c1",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/CleanTower.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/CleanTower.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-CleanTower.log",
+  "axioms": {
+    "Equation22446Lineage.tower_ne_leaf": [],
+    "Equation22446Lineage.tower_ne_double_leaf": [],
+    "Equation22446Lineage.leaf_ne_next_tower": [],
+    "Equation22446Lineage.image_tower_root": [],
+    "Equation22446Lineage.column_leaf_base": [],
+    "Equation22446Lineage.tower_pair_no_guard": [],
+    "Equation22446Lineage.tower_normal": [],
+    "Equation22446Lineage.tower_nodes": [],
+    "Equation22446Lineage.normalTower_injective": []
+  },
+  "log_sha256": "a9fe31ba792431e9f43acd36587a12654d6c96026e1b45a8ce75e15587e7c8d1"
+}

@@ -1,0 +1,49 @@
+{
+  "module": "LineageSyntax-ColumnCoverage",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/ColumnCoverage.lean",
+  "sha256": "944410df04c4a2f8b866606dcc576e80a789c1dee03ed385ee2e170efcdf6ced",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/ColumnCoverage.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/ColumnCoverage.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-ColumnCoverage.log",
+  "axioms": {
+    "Equation22446Lineage.shrinking_inverse_lineage": [
+      "propext"
+    ],
+    "Equation22446Lineage.cycle_return_column": [
+      "propext"
+    ],
+    "Equation22446Lineage.guard_column": [
+      "propext"
+    ],
+    "Equation22446Lineage.product_column": [
+      "propext"
+    ],
+    "Equation22446Lineage.chosen_column": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "442c5029320fe3994cd7810a4acf6cfa7ce0b974b9f76660f000c1b884582eca"
+}

@@ -1,0 +1,61 @@
+{
+  "module": "LineageSyntax-NormalDiagonal",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.34,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/NormalDiagonal.lean",
+  "sha256": "5f0717971eb20748e27d0774fac144bdc889da945df87a5d11f7b9af4107b93d",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/NormalDiagonal.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/NormalDiagonal.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-NormalDiagonal.log",
+  "axioms": {
+    "Equation22446Lineage.diagonal_cycle_false": [],
+    "Equation22446Lineage.normal_literal_diagonal": [
+      "propext"
+    ],
+    "Equation22446Lineage.normal_diagonal_target": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.normal_diagonal_guard_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.normal_diagonal_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.chosen_square_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.multiplication_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "10466b131aa49f261bcab713e89e6e620e30222365f559ef7aff5e71bccc986d"
+}

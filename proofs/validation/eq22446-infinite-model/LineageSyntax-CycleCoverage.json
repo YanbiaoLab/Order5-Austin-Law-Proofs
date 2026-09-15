@@ -1,0 +1,49 @@
+{
+  "module": "LineageSyntax-CycleCoverage",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.209,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/CycleCoverage.lean",
+  "sha256": "43cbc3816a27ea247cfb8f9737961cf7efecb0f766bb4532fff84652cb6b0c14",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/CycleCoverage.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/CycleCoverage.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-CycleCoverage.log",
+  "axioms": {
+    "Equation22446Lineage.second_cycle_covered": [
+      "propext"
+    ],
+    "Equation22446Lineage.cycle_return_covered": [
+      "propext"
+    ],
+    "Equation22446Lineage.returned_coverage_of_rectangle": [
+      "propext"
+    ],
+    "Equation22446Lineage.returned_coverage_iff_rectangle": [
+      "propext"
+    ],
+    "Equation22446Lineage.source_from_rectangle_obligations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "801b35fdd6183a46473022eed2ec2045c93cceeb7deca22bd88c7fa163c67a72"
+}

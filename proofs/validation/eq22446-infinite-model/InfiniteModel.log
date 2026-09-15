@@ -1,0 +1,5 @@
+'submission' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.source_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.nontrivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'submission.CM.tower_injective' does not depend on any axioms
+'Equation22446Lineage.infinite_model' depends on axioms: [propext, Classical.choice, Quot.sound]
