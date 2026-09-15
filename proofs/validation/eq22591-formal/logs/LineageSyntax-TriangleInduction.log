@@ -1,0 +1,3 @@
+'Equation22446Lineage.joint_triangle_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.image_triangle_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.column_triangle_false' depends on axioms: [propext, Classical.choice, Quot.sound]

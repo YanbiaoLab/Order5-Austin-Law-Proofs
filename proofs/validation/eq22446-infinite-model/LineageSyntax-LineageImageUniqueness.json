@@ -1,0 +1,42 @@
+{
+  "module": "LineageSyntax-LineageImageUniqueness",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/LineageImageUniqueness.lean",
+  "sha256": "c6f028d1e148d860f76bdcb48290c4e57e56dd026bad06aafd09c68facb3ef28",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/LineageImageUniqueness.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/LineageImageUniqueness.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-LineageImageUniqueness.log",
+  "axioms": {
+    "Equation22446Lineage.column_two_value_inverse": [],
+    "Equation22446Lineage.joint_lineage_query_unique": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_lineage_roots_unique": [
+      "propext"
+    ],
+    "Equation22446Lineage.column_lineage_values_unique": [
+      "propext"
+    ]
+  },
+  "log_sha256": "5988708ac8b8b2f70364c52c8a9afab4985ec12d64038df8ce893ead2df8c4d6"
+}

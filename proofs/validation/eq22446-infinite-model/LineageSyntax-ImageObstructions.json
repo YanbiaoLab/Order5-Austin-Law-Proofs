@@ -1,0 +1,51 @@
+{
+  "module": "LineageSyntax-ImageObstructions",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.207,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/ImageObstructions.lean",
+  "sha256": "c377f65dbfee695bfe310713a9189118d57c23b3cd0fe25b96a52b0ca9118044",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/ImageObstructions.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/ImageObstructions.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-ImageObstructions.log",
+  "axioms": {
+    "Equation22446Lineage.image_no_successor": [],
+    "Equation22446Lineage.lineage_trans": [],
+    "Equation22446Lineage.lineage_image_inverse_false": [],
+    "Equation22446Lineage.cycle_followup_not_self": [],
+    "Equation22446Lineage.column_left_pair_image_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_self_eq_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_no_self": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_rotated_lineage_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_pair_flip_false": [
+      "propext"
+    ]
+  },
+  "log_sha256": "be353e16af050b82109ee560bb8c9fcc1d7e0b11c3a84729d1aec6480c360842"
+}

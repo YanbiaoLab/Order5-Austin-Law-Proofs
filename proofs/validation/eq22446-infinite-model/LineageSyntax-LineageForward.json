@@ -1,0 +1,34 @@
+{
+  "module": "LineageSyntax-LineageForward",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/LineageForward.lean",
+  "sha256": "62974ca5dd22b219d2f4f5cc4abd90e58198f52c497dd61957f929654e021bac",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/LineageForward.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/LineageForward.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-LineageForward.log",
+  "axioms": {
+    "Equation22446Lineage.image_lineage_next_false": [],
+    "Equation22446Lineage.column_lineage_reverse_false": []
+  },
+  "log_sha256": "ae29f38154d280904291eb991fecc2856c944c85a5463899b290162af2dda36e"
+}

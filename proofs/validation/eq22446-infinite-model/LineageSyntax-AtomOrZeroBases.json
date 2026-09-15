@@ -1,0 +1,39 @@
+{
+  "module": "LineageSyntax-AtomOrZeroBases",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/AtomOrZeroBases.lean",
+  "sha256": "62fa0d1f8f610704e7552afc0ed682fd735d19d0ec8deaa8f187edf2fe7a653c",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/AtomOrZeroBases.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/AtomOrZeroBases.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-AtomOrZeroBases.log",
+  "axioms": {
+    "Equation22446Lineage.atom_or_zero_not_one": [],
+    "Equation22446Lineage.atom_or_zero_not_two": [],
+    "Equation22446Lineage.atom_or_zero_next_nonzero": [],
+    "Equation22446Lineage.atom_or_zero_double_nonzero": [],
+    "Equation22446Lineage.shared_column_atom_or_zero_bound": [],
+    "Equation22446Lineage.column_double_atom_or_zero_unique": [],
+    "Equation22446Lineage.column_atom_or_zero_unique": []
+  },
+  "log_sha256": "ed99a69a1b30a257c9625e223cd4f7f94b3f6752716b82d444da40535e61e5b7"
+}

@@ -1,0 +1,32 @@
+{
+  "module": "ExportLineageSyntaxTriangleInduction",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.207,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/validation/eq22446-judge-export-v2/parts/ExportLineageSyntaxTriangleInduction.lean",
+  "sha256": "6945221157dce9f1575c61249407f998acc75f1b88fef046d41c9b39af7b7721",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss/ExportLineageSyntaxTriangleInduction.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq22446-judge-export-v2/parts/ExportLineageSyntaxTriangleInduction.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss"
+  ],
+  "log": "proofs/validation/eq22446-judge-export-v2/ExportLineageSyntaxTriangleInduction.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "85bb9ea7ee20a9b556a6a48f040c651a28f4240590194fd69bab5593f88223c7"
+}

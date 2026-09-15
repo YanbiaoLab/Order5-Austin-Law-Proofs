@@ -1,0 +1,46 @@
+{
+  "module": "LineageSyntax-DiagonalSupport",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.33,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/DiagonalSupport.lean",
+  "sha256": "2b3d1d31428d36c95226953873b01b700bf4f0eab3e4255052b514408382dbdf",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/DiagonalSupport.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/DiagonalSupport.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-DiagonalSupport.log",
+  "axioms": {
+    "Equation22446Lineage.lineage_nonincreasing_eq": [],
+    "Equation22446Lineage.image_phase_two_strict": [],
+    "Equation22446Lineage.image_no_swapped_successors": [
+      "propext"
+    ],
+    "Equation22446Lineage.image_lineage_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.column_image_next_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.strict_cycle_square_right_false": [
+      "propext"
+    ]
+  },
+  "log_sha256": "7259e8475ec5628d0504b3ed9bd5cae4320c384cbb976da07fc4767dfcd8524d"
+}

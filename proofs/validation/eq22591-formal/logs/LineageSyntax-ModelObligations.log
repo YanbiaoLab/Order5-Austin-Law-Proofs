@@ -1,0 +1,6 @@
+'Equation22446Lineage.chosen_of_guard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.chosen_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.chosen_double_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.chosen_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.normal_tree_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.infinite_model_if' depends on axioms: [propext, Classical.choice, Quot.sound]

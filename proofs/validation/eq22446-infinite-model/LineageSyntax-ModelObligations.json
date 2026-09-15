@@ -1,0 +1,62 @@
+{
+  "module": "LineageSyntax-ModelObligations",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.31,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/ModelObligations.lean",
+  "sha256": "6ca0a4ba7a2f4b4144452ac37bfb751c4dfb9d3d79e742054ab4182b8551a632",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/ModelObligations.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/ModelObligations.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-ModelObligations.log",
+  "axioms": {
+    "Equation22446Lineage.chosen_of_guard": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.chosen_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.chosen_double_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.chosen_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.normal_tree_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.infinite_model_if": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "f6edb348ac96a0292ea5d9b40444b256864d0d08a2f251e46dbd1f2f3da19138"
+}

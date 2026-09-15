@@ -1,0 +1,36 @@
+{
+  "module": "LineageSyntax-RawCoverage",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/RawCoverage.lean",
+  "sha256": "01304a656ed7871bdd4e7da39febbd2f1b6e713d4868e2e390f969aeded1a3b1",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/RawCoverage.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/RawCoverage.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-RawCoverage.log",
+  "axioms": {
+    "Equation22446Lineage.visible_target_smaller": [],
+    "Equation22446Lineage.cycle_raw_followup": [],
+    "Equation22446Lineage.guard_raw_followup": [],
+    "Equation22446Lineage.product_raw_followup": []
+  },
+  "log_sha256": "dda6b278e69f2837c6da31d889b6700a375195715f41b8d1222b4d27fe8ec9ab"
+}

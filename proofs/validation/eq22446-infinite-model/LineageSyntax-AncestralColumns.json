@@ -1,0 +1,45 @@
+{
+  "module": "LineageSyntax-AncestralColumns",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.33,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/AncestralColumns.lean",
+  "sha256": "daee8f20ef7e2c32374eaed584ec52cf92d7cb3116d36cefe2bdc1c29d351e68",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/AncestralColumns.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/AncestralColumns.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-AncestralColumns.log",
+  "axioms": {
+    "Equation22446Lineage.lineage_shifted_endpoints_false": [],
+    "Equation22446Lineage.column_adjacent_bases_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.lineage_shifted_image_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.lineage_successor_column_false": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "a24412d067c5cc5becafde75fccdc62ca8b5ce95c3e88d08c8ff5e408ea3798e"
+}

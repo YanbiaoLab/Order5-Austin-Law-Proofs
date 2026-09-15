@@ -1,0 +1,54 @@
+{
+  "module": "ExportWrapper",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.21,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/validation/eq22446-judge-export-v2/parts/ExportWrapper.lean",
+  "sha256": "30cba672031defe816a2d9736c714c01b7527774a4be8e2f6a901b86547fe36a",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss/ExportWrapper.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq22446-judge-export-v2/parts/ExportWrapper.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss"
+  ],
+  "log": "proofs/validation/eq22446-judge-export-v2/ExportWrapper.log",
+  "axioms": {
+    "submission.CM.tower_injective": [],
+    "submission": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.source_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.nontrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "submission.Equation22446Lineage.infinite_model": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "9b9cf2e448b2e017117ea5a1e0619be100a22050022c47a89921850e7a3f8b27",
+  "olean_sha256": "a77970c6199d526e28decd5a51d58950f01faf78abebab8931bf81526d36d2ae"
+}

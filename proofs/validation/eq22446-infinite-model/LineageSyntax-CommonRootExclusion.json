@@ -1,0 +1,36 @@
+{
+  "module": "LineageSyntax-CommonRootExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 3.7,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/CommonRootExclusion.lean",
+  "sha256": "2f69a1fd25be623954be89c8bcb40b1e607a4222cc65a7a73a268c0668f106a5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/CommonRootExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/CommonRootExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-CommonRootExclusion.log",
+  "axioms": {
+    "Equation22446Lineage.lineage_phase_two_preserved": [],
+    "Equation22446Lineage.column_large_ancestor_false": [],
+    "Equation22446Lineage.image_common_root_next_false": [],
+    "Equation22446Lineage.column_common_root_false": []
+  },
+  "log_sha256": "5d63bdb51c5a556e54f084ac84e8a92b0215582f92564341d1062a6a0eca8f97"
+}

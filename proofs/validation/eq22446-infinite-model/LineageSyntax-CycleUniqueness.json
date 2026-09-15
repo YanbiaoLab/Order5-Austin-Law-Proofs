@@ -1,0 +1,37 @@
+{
+  "module": "LineageSyntax-CycleUniqueness",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/CycleUniqueness.lean",
+  "sha256": "9068c6f66ef0e9eadbdc8ae02e794c19a12046e19432427092ab2f5215366078",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/CycleUniqueness.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/CycleUniqueness.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-CycleUniqueness.log",
+  "axioms": {
+    "Equation22446Lineage.cycle_target_alternatives": [],
+    "Equation22446Lineage.cycle_target_unique": [],
+    "Equation22446Lineage.cycle_guard_outputs_equal": [],
+    "Equation22446Lineage.inverse_cycle_overlap": [],
+    "Equation22446Lineage.image_return_cycle_overlap": []
+  },
+  "log_sha256": "e8e217fcdc1f61d2db96f0f3b0b0edd7aab235a52bdca0a87fb82fb4124623c0"
+}

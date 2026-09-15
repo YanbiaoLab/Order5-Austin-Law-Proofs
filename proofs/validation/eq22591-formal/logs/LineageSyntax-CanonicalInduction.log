@@ -1,0 +1,4 @@
+'Equation22446Lineage.image_literal_target_cases' does not depend on any axioms
+'Equation22446Lineage.joint_canonical_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.normal_canonical_principal_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.normal_rotated_column_target' depends on axioms: [propext, Classical.choice, Quot.sound]

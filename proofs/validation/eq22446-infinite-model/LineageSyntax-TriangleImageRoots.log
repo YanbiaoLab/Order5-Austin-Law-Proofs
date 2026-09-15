@@ -1,0 +1,4 @@
+'Equation22446Lineage.cycle_followup_input_eq' depends on axioms: [propext]
+'Equation22446Lineage.image_literal_triangle_false' does not depend on any axioms
+'Equation22446Lineage.image_inverse_triangle_false' depends on axioms: [propext]
+'Equation22446Lineage.image_rotated_pair_triangle_false' depends on axioms: [propext]

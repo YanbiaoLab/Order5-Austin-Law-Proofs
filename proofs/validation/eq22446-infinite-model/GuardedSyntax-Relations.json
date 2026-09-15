@@ -1,0 +1,41 @@
+{
+  "module": "GuardedSyntax-Relations",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.206,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/GuardedSyntax/Relations.lean",
+  "sha256": "60ed023d78200ef0f6a881674ad9c7b8e477790bfae06aa871dbaf6282f1ec43",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/GuardedSyntax/Relations.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/GuardedSyntax/Relations.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/GuardedSyntax-Relations.log",
+  "axioms": {
+    "Equation22446Guarded.image_nonzero_output": [],
+    "Equation22446Guarded.image_phase_two_bound": [],
+    "Equation22446Guarded.column_phase_two_bound": [],
+    "Equation22446Guarded.image_right_child": [],
+    "Equation22446Guarded.column_right_child": [],
+    "Equation22446Guarded.image_phase_two_strict": [],
+    "Equation22446Guarded.image_no_successor": [],
+    "Equation22446Guarded.all_color_column_right_bound_false": [],
+    "Equation22446Guarded.all_color_image_right_bound_false": []
+  },
+  "log_sha256": "52e09620942bcd932b88f150c9ab2bbdca9e1d80e10bfdc0f9e65dcc08167858"
+}

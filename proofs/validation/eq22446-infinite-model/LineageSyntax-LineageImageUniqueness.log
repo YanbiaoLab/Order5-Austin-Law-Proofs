@@ -1,0 +1,4 @@
+'Equation22446Lineage.column_two_value_inverse' does not depend on any axioms
+'Equation22446Lineage.joint_lineage_query_unique' depends on axioms: [propext]
+'Equation22446Lineage.image_lineage_roots_unique' depends on axioms: [propext]
+'Equation22446Lineage.column_lineage_values_unique' depends on axioms: [propext]

@@ -1,0 +1,32 @@
+{
+  "module": "ExportLineageSyntaxCycleUniqueness",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.21,
+  "peak_rss_mib": 4.42,
+  "source": "proofs/validation/eq22446-judge-export-v2/parts/ExportLineageSyntaxCycleUniqueness.lean",
+  "sha256": "0a6aeb4e3b107d1420dd88359f429a8abad0acfce91a9d2ab0b0dd4f629966ca",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss/ExportLineageSyntaxCycleUniqueness.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq22446-judge-export-v2/parts/ExportLineageSyntaxCycleUniqueness.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss"
+  ],
+  "log": "proofs/validation/eq22446-judge-export-v2/ExportLineageSyntaxCycleUniqueness.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "6c5ca0972f8ad35e5e0abde7997a71c583439e7a9442420469d52657365b3a8e"
+}

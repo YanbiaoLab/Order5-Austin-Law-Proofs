@@ -1,0 +1,13 @@
+'Equation22446Lineage.image_next_pair_tail_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.principal_pair_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.image_pair_no_guard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.rectangle_double_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.rectangle_return_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.returned_image_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.product_double_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.chosen_double_image_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.source_with_principal_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.infinite_model_with_principal_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.source_with_zero_right_principal_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

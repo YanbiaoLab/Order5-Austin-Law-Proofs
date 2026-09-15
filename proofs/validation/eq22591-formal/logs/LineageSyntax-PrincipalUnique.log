@@ -1,0 +1,6 @@
+'Equation22446Lineage.non_one_base_cases' does not depend on any axioms
+'Equation22446Lineage.principal_non_one_unique' depends on axioms: [propext]
+'Equation22446Lineage.principal_common_ancestry_unique' depends on axioms: [propext]
+'Equation22446Lineage.principal_one_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.principal_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.guard_unique' depends on axioms: [propext, Classical.choice, Quot.sound]

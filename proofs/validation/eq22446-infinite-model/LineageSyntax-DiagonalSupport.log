@@ -1,0 +1,6 @@
+'Equation22446Lineage.lineage_nonincreasing_eq' does not depend on any axioms
+'Equation22446Lineage.image_phase_two_strict' does not depend on any axioms
+'Equation22446Lineage.image_no_swapped_successors' depends on axioms: [propext]
+'Equation22446Lineage.image_lineage_false' depends on axioms: [propext]
+'Equation22446Lineage.column_image_next_false' depends on axioms: [propext]
+'Equation22446Lineage.strict_cycle_square_right_false' depends on axioms: [propext]

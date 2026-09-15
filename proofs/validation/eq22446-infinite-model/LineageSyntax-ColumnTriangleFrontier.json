@@ -1,0 +1,43 @@
+{
+  "module": "LineageSyntax-ColumnTriangleFrontier",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.09,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/ColumnTriangleFrontier.lean",
+  "sha256": "452ee55406df01487e63ffd5a31538367afc1d44161c9108aa9d9b361b1453da",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/ColumnTriangleFrontier.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/ColumnTriangleFrontier.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-ColumnTriangleFrontier.log",
+  "axioms": {
+    "Equation22446Lineage.literal_column_triangle_false": [],
+    "Equation22446Lineage.ancestral_column_triangle_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.column_triangle_inverse_origin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "5f9cf634010cb119da8b81f8643bd8ef6bc0a4e3916c218e52266deadcd65414"
+}

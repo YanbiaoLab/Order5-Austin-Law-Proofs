@@ -1,0 +1,47 @@
+{
+  "module": "LineageSyntax-TriangleInduction",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.31,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/TriangleInduction.lean",
+  "sha256": "c662b9641a29b49c0fb68be3466c7c5abef2121017f0e5b454ed98650e420dc9",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/TriangleInduction.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/TriangleInduction.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-TriangleInduction.log",
+  "axioms": {
+    "Equation22446Lineage.joint_triangle_exclusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.image_triangle_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.column_triangle_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "f31c8b2e386bd87f22e88d26b66242ab74342b551c1a5f774771a5f344b4a463"
+}

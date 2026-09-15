@@ -1,0 +1,36 @@
+{
+  "module": "LineageSyntax-LineageReversal",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.28,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/LineageReversal.lean",
+  "sha256": "05e0aa469f785d0219199d10271f5f3f1c289dcb50edb72f891497f544b34500",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/LineageReversal.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/LineageReversal.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-LineageReversal.log",
+  "axioms": {
+    "Equation22446Lineage.lineage_inverse_image_false": [],
+    "Equation22446Lineage.lineage_inverse_column_false": [],
+    "Equation22446Lineage.column_self_eq_false": [],
+    "Equation22446Lineage.column_no_self": []
+  },
+  "log_sha256": "6fabf7ec101b095ebafcd3aa034c4b8cbe119cbe1a171d04e1efca64568b56ad"
+}

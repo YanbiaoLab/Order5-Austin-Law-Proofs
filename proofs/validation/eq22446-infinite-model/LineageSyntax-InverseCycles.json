@@ -1,0 +1,40 @@
+{
+  "module": "LineageSyntax-InverseCycles",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/InverseCycles.lean",
+  "sha256": "fe7e7d191dfc1bcd8178b9799ead9a6cb0b92e7450f2dec682aeae3c5478558b",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/InverseCycles.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/InverseCycles.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-InverseCycles.log",
+  "axioms": {
+    "Equation22446Lineage.strict_part_pair_children": [],
+    "Equation22446Lineage.raw_double_cycle_target": [],
+    "Equation22446Lineage.second_raw_cycle_covered": [],
+    "Equation22446Lineage.normal_inverse_cycle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "e4849ed02e749b268025c294f5d3f5b166f63dea5f713c5b86c41e15e9fd73ce"
+}

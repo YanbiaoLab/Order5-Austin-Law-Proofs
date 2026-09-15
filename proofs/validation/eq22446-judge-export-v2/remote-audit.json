@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "equation": "Equation22446",
+  "remote_status": "accepted",
+  "error_code": "ACCEPTED",
+  "remote_job_id": "a10791d664bd43df97dad1531bb1acfa",
+  "elapsed_ms": 17413,
+  "remote_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "certificate_sha256": "2065d90f6e43c362723bfea4b6d41bb6c710ad9eedac4ee9f57059d1e705e95c",
+  "request_sha256": "39c7751d927c6346479ae9e6d59afe801f0f7721d4d4be00e66ff08fd0404695",
+  "receipt": "proofs/validation/aurora/Equation22446/latest.json",
+  "receipt_sha256": "afb6e134b5ee2e2a79e8300e9f8cab7f92aa71b0cafed630079f128d4900e62b",
+  "local_manifest": "proofs/validation/eq22446-judge-export-v2/summary.json",
+  "local_manifest_sha256": "3c1426494f8516988e675487f01d6e2fd95af56f3b7d0b262ca26f4219a90505",
+  "local_export_modules": 58,
+  "monolithic_remote_pass": true,
+  "monolithic_local_pass": false,
+  "certificate_versions_submitted": 2,
+  "post_attempts_per_version": 1,
+  "first_job_id": "f6e7859371cb44d78bc9a2b3a05b5f87",
+  "first_result": "BANNED_PLACEHOLDER",
+  "revision": "Remove explanatory comments only; proof code unchanged",
+  "cache_mode": "off"
+}

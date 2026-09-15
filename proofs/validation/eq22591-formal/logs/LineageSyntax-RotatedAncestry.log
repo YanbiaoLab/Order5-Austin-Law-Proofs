@@ -1,0 +1,4 @@
+'Equation22446Lineage.lineage_inverse_image_prev_false' depends on axioms: [propext]
+'Equation22446Lineage.column_square_image_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.column_self_image_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Equation22446Lineage.shared_column_phase_zero_bound' does not depend on any axioms

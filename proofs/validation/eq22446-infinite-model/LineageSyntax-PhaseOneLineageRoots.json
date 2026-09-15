@@ -1,0 +1,34 @@
+{
+  "module": "LineageSyntax-PhaseOneLineageRoots",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.23,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/PhaseOneLineageRoots.lean",
+  "sha256": "ccd6e50bebc68a45b05eec92a9816ffa5bda0152b9559d2367e050fd5e40f099",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/PhaseOneLineageRoots.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/PhaseOneLineageRoots.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-PhaseOneLineageRoots.log",
+  "axioms": {
+    "Equation22446Lineage.image_small_phase_one_common_root": [],
+    "Equation22446Lineage.column_small_phase_one_common_root": []
+  },
+  "log_sha256": "33f0a7e49182e7b9d0d170af1717cb911ceb4c4b01ba215127e7cc34d8b02e54"
+}

@@ -1,0 +1,53 @@
+{
+  "module": "LineageSyntax-SpecialExclusion",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.31,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/SpecialExclusion.lean",
+  "sha256": "5395dcacf45de77b7724c8bf5415780e9e94778a683091a8818f47928368e7d0",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/SpecialExclusion.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/SpecialExclusion.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-SpecialExclusion.log",
+  "axioms": {
+    "Equation22446Lineage.principal_of_rectangle_guard_unique": [],
+    "Equation22446Lineage.cycle_target_literal": [
+      "propext"
+    ],
+    "Equation22446Lineage.rectangle_cycle_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.rectangle_special_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.rectangle_guard_unique_of_principal": [
+      "propext"
+    ],
+    "Equation22446Lineage.guard_unique_iff_principal": [
+      "propext"
+    ],
+    "Equation22446Lineage.source_from_principal_conditions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "240cb213074d417bc3e5d3922907b43bca8b5a06fc077b1a8bd4d574624312c2"
+}

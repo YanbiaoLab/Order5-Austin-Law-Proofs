@@ -1,0 +1,40 @@
+{
+  "module": "LineageSyntax-RightBounds",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.214,
+  "peak_rss_mib": 4.53,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/RightBounds.lean",
+  "sha256": "71ff285992be1360a2a292ab786a4f592ec18f40c26ddd25791a51f7593aeb99",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/RightBounds.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/RightBounds.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-RightBounds.log",
+  "axioms": {
+    "Equation22446Lineage.image_right_child": [],
+    "Equation22446Lineage.column_right_child": [],
+    "Equation22446Lineage.cycle_input_right_bound": [],
+    "Equation22446Lineage.column_phase_two_base_shape": [],
+    "Equation22446Lineage.cycle_target_phase_two": [],
+    "Equation22446Lineage.cycle_left_phase_zero": [],
+    "Equation22446Lineage.old_phase_one_column_left_bound_false": [],
+    "Equation22446Lineage.old_phase_one_image_left_bound_false": []
+  },
+  "log_sha256": "3cb3176a2fe0fae180430db8121095c244d0b3f6e4a3f5000452281b41d269ed"
+}

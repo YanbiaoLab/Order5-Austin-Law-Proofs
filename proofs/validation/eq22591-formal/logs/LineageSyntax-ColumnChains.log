@@ -1,0 +1,4 @@
+'Equation22446Lineage.column_chain_completed_false' does not depend on any axioms
+'Equation22446Lineage.phase_one_or_double_nonzero' does not depend on any axioms
+'Equation22446Lineage.column_image_prev_false' does not depend on any axioms
+'Equation22446Lineage.column_inverse_pair_chain_false' depends on axioms: [propext, Quot.sound]

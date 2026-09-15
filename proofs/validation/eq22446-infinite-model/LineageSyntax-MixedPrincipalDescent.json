@@ -1,0 +1,39 @@
+{
+  "module": "LineageSyntax-MixedPrincipalDescent",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/MixedPrincipalDescent.lean",
+  "sha256": "97dd629c0168a99867874f0b44a5502dcae3306d55a82720decd738a46badd36",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/MixedPrincipalDescent.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/MixedPrincipalDescent.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-MixedPrincipalDescent.log",
+  "axioms": {
+    "Equation22446Lineage.low_two_shared_transport_inverse": [],
+    "Equation22446Lineage.low_two_principal_false_at_size": [
+      "propext"
+    ],
+    "Equation22446Lineage.low_two_principal_false": [
+      "propext"
+    ]
+  },
+  "log_sha256": "3e7825fb64b9e21d5e17d6db198df9e32ef0dcc640d16d02d4cdf8b38b8b6f78"
+}

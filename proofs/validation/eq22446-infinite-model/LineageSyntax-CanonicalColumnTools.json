@@ -1,0 +1,38 @@
+{
+  "module": "LineageSyntax-CanonicalColumnTools",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.215,
+  "peak_rss_mib": 4.06,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/CanonicalColumnTools.lean",
+  "sha256": "2429a3f6dfba470698a9daa5b8a713e0e9f9a84cdaafd45c97da1d9b45cefcfb",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/CanonicalColumnTools.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/CanonicalColumnTools.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-CanonicalColumnTools.log",
+  "axioms": {
+    "Equation22446Lineage.column_pair_cases": [],
+    "Equation22446Lineage.column_pair_non_two_cases": [],
+    "Equation22446Lineage.column_zero_pair_literal": [],
+    "Equation22446Lineage.lineage_pair_without_image_root": [],
+    "Equation22446Lineage.column_zero_pair_rotated_chain_false": [],
+    "Equation22446Lineage.canonical_square_transport_target": []
+  },
+  "log_sha256": "793f28f2fccd31f9f222d1780f48c6966cea68cbf2470db54463543e0d08b129"
+}

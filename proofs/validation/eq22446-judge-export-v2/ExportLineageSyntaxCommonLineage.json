@@ -1,0 +1,32 @@
+{
+  "module": "ExportLineageSyntaxCommonLineage",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.205,
+  "peak_rss_mib": 4.47,
+  "source": "proofs/validation/eq22446-judge-export-v2/parts/ExportLineageSyntaxCommonLineage.lean",
+  "sha256": "648cf7d9691e299458f5e4ec8221bd57a398444df1454cbebd597a5c467e7098",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss/ExportLineageSyntaxCommonLineage.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/validation/eq22446-judge-export-v2/parts/ExportLineageSyntaxCommonLineage.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-judge-export-vrxh8dss"
+  ],
+  "log": "proofs/validation/eq22446-judge-export-v2/ExportLineageSyntaxCommonLineage.log",
+  "axioms": {},
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "olean_sha256": "38ca5f558f778fe2b5748928a411be16946eacd6bec3da73ca797c7d028e4319"
+}

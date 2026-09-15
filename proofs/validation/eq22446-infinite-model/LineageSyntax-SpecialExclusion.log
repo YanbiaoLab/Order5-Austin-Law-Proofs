@@ -1,0 +1,7 @@
+'Equation22446Lineage.cycle_target_literal' depends on axioms: [propext]
+'Equation22446Lineage.rectangle_cycle_false' depends on axioms: [propext]
+'Equation22446Lineage.rectangle_special_false' depends on axioms: [propext]
+'Equation22446Lineage.rectangle_guard_unique_of_principal' depends on axioms: [propext]
+'Equation22446Lineage.principal_of_rectangle_guard_unique' does not depend on any axioms
+'Equation22446Lineage.guard_unique_iff_principal' depends on axioms: [propext]
+'Equation22446Lineage.source_from_principal_conditions' depends on axioms: [propext, Classical.choice, Quot.sound]

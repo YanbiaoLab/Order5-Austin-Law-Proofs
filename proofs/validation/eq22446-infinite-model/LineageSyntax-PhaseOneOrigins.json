@@ -1,0 +1,40 @@
+{
+  "module": "LineageSyntax-PhaseOneOrigins",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 3.58,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/PhaseOneOrigins.lean",
+  "sha256": "06d25e8ccf57ed1f44650e6de07cd0d3af9827c90f23c654796e47345f65548f",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/PhaseOneOrigins.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/PhaseOneOrigins.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-PhaseOneOrigins.log",
+  "axioms": {
+    "Equation22446Lineage.image_small_phase_one_origin": [],
+    "Equation22446Lineage.column_small_phase_one_origin": [],
+    "Equation22446Lineage.column_zero_phase_one_origin": [],
+    "Equation22446Lineage.lineage_non_two_roots_unique": [],
+    "Equation22446Lineage.column_phase_zero_unique": [],
+    "Equation22446Lineage.old_phase_one_head_equality_false": [
+      "propext"
+    ]
+  },
+  "log_sha256": "1e74cac90909599e2e71ab1f2d82925a4cf9a828fbb051a42b67a22db2e44fcf"
+}

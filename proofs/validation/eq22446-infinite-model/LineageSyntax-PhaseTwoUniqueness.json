@@ -1,0 +1,36 @@
+{
+  "module": "LineageSyntax-PhaseTwoUniqueness",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.38,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/PhaseTwoUniqueness.lean",
+  "sha256": "187f775fb0809dd26a70160f4fadb0b6096d42bed73090245bf41f8e4e5a4fc5",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/PhaseTwoUniqueness.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/PhaseTwoUniqueness.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-PhaseTwoUniqueness.log",
+  "axioms": {
+    "Equation22446Lineage.column_two_to_two_inverse": [],
+    "Equation22446Lineage.image_phase_two_roots_unique_at_size": [],
+    "Equation22446Lineage.image_phase_two_roots_unique": [],
+    "Equation22446Lineage.column_phase_two_values_unique": []
+  },
+  "log_sha256": "334c4e9e42cb75d996160885d08fd69b7e911f8d01876a3134b9aa07bbdaea93"
+}

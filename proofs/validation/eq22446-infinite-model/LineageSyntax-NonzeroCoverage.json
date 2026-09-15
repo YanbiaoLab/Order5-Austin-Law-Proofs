@@ -1,0 +1,48 @@
+{
+  "module": "LineageSyntax-NonzeroCoverage",
+  "status": "passed",
+  "exit_code": 0,
+  "elapsed_seconds": 0.216,
+  "peak_rss_mib": 4.36,
+  "source": "proofs/Equation22446/Lean/LineageSyntax/NonzeroCoverage.lean",
+  "sha256": "be8e04f53f7d6d1d534e2492bbde72ae07344d9d341134f19d9ea9c962b91085",
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "memory_limit_mib": 192,
+  "rss_limit_mib": 256,
+  "command": [
+    "lean",
+    "+leanprover/lean4:v4.33.1",
+    "-j1",
+    "-M192",
+    "-DwarningAsError=true",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.defProp=false",
+    "-o",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model/LineageSyntax/NonzeroCoverage.olean",
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/proofs/Equation22446/Lean/LineageSyntax/NonzeroCoverage.lean"
+  ],
+  "lean_path": [
+    "/Users/zetyun2026/bing/projects/Order5-Austin-Law-Proofs/.build/eq22446-infinite-model"
+  ],
+  "log": "proofs/validation/eq22446-infinite-model/LineageSyntax-NonzeroCoverage.log",
+  "axioms": {
+    "Equation22446Lineage.nonzero_rectangle_double_false": [
+      "propext"
+    ],
+    "Equation22446Lineage.product_double_image_nonzero_right": [
+      "propext"
+    ],
+    "Equation22446Lineage.rectangle_coverage_iff_zero_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Equation22446Lineage.source_from_zero_right_conditions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log_sha256": "132cfc384523bb8f07bcb374656dad856fc58b5a56d3bd251d8e0a369464a209"
+}

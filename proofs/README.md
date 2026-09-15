@@ -1,7 +1,6 @@
 # 证明归档约定
 
-2026-09-14 最新增补：**Equation17286 / Equation28626 两条 Austin 律完成**。
-辅助列关系树模型的解码唯一性、完整原式、非平凡性和自然数单射均通过 Lean 4.33.1；四核心模块及两份精确独立证书共八个编译单元从空目录核验。两份独立证书随后均获远端 **ACCEPTED**，见[回执与审计](validation/eq17286-formal/JUDGE.md)。见[模型与成功复盘](Equation17286/MODEL.zh-CN.md)和[核验报告](validation/eq17286-formal/README.md)。
+当前归档（2026-09-15）：**120 份有限平凡性证书、122 份非平凡模型证书、94 份显式无限性证明**。两侧证书齐全为 114 条；另 2 条已有所有模型平凡的证明。有限侧剩 10 条待解，无限侧尚有 6 条待补独立证书。本批 E22446 / E22591 的完整模型、显式 Nat 单射与两份远端 ACCEPTED 证书均已归档，详见 [E22446 核验](validation/eq22446-infinite-model/README.md)和 [E22591 核验](validation/eq22591-formal/README.md)。以下早期批次数字保留为历史记录。
 
 2026-09-14 前批增补：**Equation12087 / Equation33884 完整非平凡无限模型完成**。
 正规树总运算的最后低列分支已关闭；完整原式、非平凡性、显式 Nat 单射均通过本地 Lean 4.33.1 核验。
@@ -19,11 +18,14 @@
 有限侧剩 **10 条**、无限侧剩 **12 条**待解。以下早期批次数字保留为历史记录；
 上一批六份有限证书与四份模型证书见[2026-09-11 同步报告](validation/2026-09-11-latest-proofs/README.md)。
 
-当前 E17286/E28626 的本地证据、远端回执与索引绑定审计（Python 标准库）：
+本批本地证据、远端回执、索引与双语 README 审计（Python 标准库）：
 
 ```sh
-python3 proofs/validation/eq17286-formal/audit_remote.py
+python3 proofs/validation/eq22446-infinite-model/verify.py
+python3 proofs/validation/eq22591-formal/archive.py
 ```
+
+E17286/E28626 的审计入口仍为 `proofs/validation/eq17286-formal/audit_remote.py`。
 
 本批源码的低内存串行 Lean 重编译入口见上述报告。
 旧批次的清单和脚本保留各自日期的快照，不代表当前总量。
