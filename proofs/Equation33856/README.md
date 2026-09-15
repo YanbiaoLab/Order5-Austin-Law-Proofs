@@ -1,14 +1,14 @@
 # Equation33856
 
+**已证明所有模型平凡，并获远端 Judge accepted / ACCEPTED / true。** 精确命题为 `Equation33856 → Equation2`，不带有限性或额外消去律假设，公理依赖为空。因此不存在非平凡无限模型，本题不是 Austin 律。
+
+- 原式：`x = ((y ◇ x) ◇ (x ◇ (y ◇ z))) ◇ y`
 - 对偶：[Equation12294](../Equation12294/README.md)
-- 原表：20.3
-- 方程：`x = ((y ◇ x) ◇ (x ◇ (y ◇ z))) ◇ y`
-- 有限侧数学状态：已证所有有限模型平凡（Lean 4.33.1）
+- [Judge 接受的原字节证书](Triviality.lean)、[接受回执](judge_acceptance.json)
+- [只依赖 Init 的独立证书](AllModelsTrivial.lean)：`Equation33856Standalone.original_equation_forces_equality`
+- [精确题目](problem.json)、[本地重建的对应目标](JudgeProblem.lean)
+- [完整数学证明](../Equation12294/PROOF.zh-CN.md)、[本机重编译与远端验收](../validation/eq12294-33856-triviality/README.md)
 
-有限侧 Lean：[FiniteTrivial.lean](FiniteTrivial.lean)，完整定理 `finite_trivial_dual` 在 `[Finite G]` 下证明源方程推出 `Equation2 G`。独立证书包含对偶转移所需的证明（如适用）。
+证明定义相反运算 `a ⋆ b = b ◇ a`，使本题成为 ⋆ 的 E12294 原式。完整 E12294 基础证明嵌入单文件；本题使用独立精确目标单独取得 Judge 接受，不依赖另一题的远端状态。
 
-原本机 Lean 4.33.1 验证已通过；[运行记录](../../proofs/validation/finite130/division-images/Equation33856.json)和[公理日志](../../proofs/validation/finite130/division-images/Equation33856.log)绑定原证书哈希。本次只核对保存的证据，未重新编译或提交云端。
-
-无限侧仍待解，尚无非平凡无限模型证书，因此尚未确认为 Austin 律。单元素平凡模型存在。
-
-详见[本批归档报告](../../proofs/validation/2026-09-11-latest-proofs/README.md)、[总索引](../index.json)。历史 timeout 仅记录历史搜索结果。
+原表为 20.3；原有 [FiniteTrivial.lean](FiniteTrivial.lean) 和历史搜索记录保持原样。历史 timeout 不再表示当前数学状态。

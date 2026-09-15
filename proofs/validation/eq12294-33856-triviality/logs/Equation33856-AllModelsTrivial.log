@@ -1,0 +1,27 @@
+'Equation12294Standalone.selfdivision_square' does not depend on any axioms
+'Equation12294Standalone.companion_equals_selfdivision' does not depend on any axioms
+'Equation12294Standalone.every_element_idempotent' does not depend on any axioms
+'Equation12294Standalone.right_projection' does not depend on any axioms
+'Equation12294Standalone.all_models_trivial' does not depend on any axioms
+'Equation12294Standalone.original_equation_forces_equality' does not depend on any axioms
+'Equation12294Standalone.nontrivial_model_impossible' does not depend on any axioms
+'Equation33856Standalone.original_equation_forces_equality' does not depend on any axioms
+'Equation33856Standalone.nontrivial_model_impossible' does not depend on any axioms
+        0.10 real         0.08 user         0.01 sys
+            94994432  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                7226  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 619  involuntary context switches
+          1085426725  instructions retired
+           404995541  cycles elapsed
+            33605000  peak memory footprint

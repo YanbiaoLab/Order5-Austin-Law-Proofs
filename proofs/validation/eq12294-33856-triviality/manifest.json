@@ -1,0 +1,182 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "1d3b93168fcdbe96ffdc43936057bd800364ba2d917371f30be0a0ba03fe36d8",
+    "bytes": 41951
+  },
+  {
+    "path": "README.zh-CN.md",
+    "sha256": "e0320185c160593fd65772e0484eb76ca62fb067b81be36d38f2647aa1c573cd",
+    "bytes": 40172
+  },
+  {
+    "path": "proofs/Equation12294/AllModelsTrivial.lean",
+    "sha256": "184bac106b0274339f8970bc8fc3930dbf5d079e75f4c60f745f5c9675040a15",
+    "bytes": 10765
+  },
+  {
+    "path": "proofs/Equation12294/JudgeProblem.lean",
+    "sha256": "a7d2b945b8b27cfe1c830a617096fe52fd66cb54749e44ce5468cf38b3438b1e",
+    "bytes": 401
+  },
+  {
+    "path": "proofs/Equation12294/PROOF.zh-CN.md",
+    "sha256": "5e303ccbdc2eceda5d79b61a6299fad03e5567a9b8a23d283b479afa9dd0d376",
+    "bytes": 5221
+  },
+  {
+    "path": "proofs/Equation12294/README.md",
+    "sha256": "8a4c0034d7a739375781be10beb5fdb6a2f93314fc5c66d2e704ffe16f995f56",
+    "bytes": 1111
+  },
+  {
+    "path": "proofs/Equation12294/Triviality.lean",
+    "sha256": "e594322cd9a5652ecbf6a124316acdec468efef94be6ec1ea87f5280b8e85675",
+    "bytes": 10517
+  },
+  {
+    "path": "proofs/Equation12294/judge_acceptance.json",
+    "sha256": "7b989e7cfb2852edea62aab223554fe349eb30da941a0d6c16f09e4067a10c1d",
+    "bytes": 2095
+  },
+  {
+    "path": "proofs/Equation12294/problem.json",
+    "sha256": "45a95a2a12e3d0e0670f0208517ead34d6608f8d3a912bc5af6ff60b81112540",
+    "bytes": 175
+  },
+  {
+    "path": "proofs/Equation33856/AllModelsTrivial.lean",
+    "sha256": "e3dcb1917df78b1b5b738164e9f49e2b40ab6862b575781526a9df3ea6d6ff31",
+    "bytes": 11422
+  },
+  {
+    "path": "proofs/Equation33856/JudgeProblem.lean",
+    "sha256": "c639bf5842cfdf8334cca3d7862993e577ae2d3f583c33cfd434451bbf39af2e",
+    "bytes": 401
+  },
+  {
+    "path": "proofs/Equation33856/README.md",
+    "sha256": "1179db2c23bff60a80d22b9719651be20d90d940dc65affb15c5ff6dbeef8164",
+    "bytes": 1203
+  },
+  {
+    "path": "proofs/Equation33856/Triviality.lean",
+    "sha256": "cbea0aa9706bad6ca77eaf2da51ca0cd22b8ad1d458b7e9e0a73e6bcc6b1f287",
+    "bytes": 11084
+  },
+  {
+    "path": "proofs/Equation33856/judge_acceptance.json",
+    "sha256": "64fce4d80c89892382366ecbcce034a63840eabc496433d70d61313f687ef591",
+    "bytes": 2095
+  },
+  {
+    "path": "proofs/Equation33856/problem.json",
+    "sha256": "e740c06bfec55e2f99ab142ecb19068cb7b9fcadb75870d89f4ebd96bf8de81b",
+    "bytes": 175
+  },
+  {
+    "path": "proofs/README.md",
+    "sha256": "4098783ad0b9bbf191b41dd61db70c4c97d231a80a4fe56f183ebc7baf413cb7",
+    "bytes": 10533
+  },
+  {
+    "path": "proofs/index.json",
+    "sha256": "1ab3642e27e44456e3a23a2bd4d7be5c5b7a00a76c79b2265ac125a4e5096e86",
+    "bytes": 901719
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/Audit.lean",
+    "sha256": "1be1f2eeeec5aeeb449703f626d5ed4e92fae20e7923c47a73743868c5e45e09",
+    "bytes": 70
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/Equation12294/request.json",
+    "sha256": "e2d433d9d1e4a59062401d4426fc5252d8d87b62c1697277a5508abcf59a05f7",
+    "bytes": 11080
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/Equation12294/response.json",
+    "sha256": "13de3041c10a4b2c7141b79c42ce647cef4c4b915aeba2683a56b60f93fc4551",
+    "bytes": 1247
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/Equation33856/request.json",
+    "sha256": "35189dc2df9bbd8a471eda6ed575a661b19f67e788698bd90c3107ac7594ddd6",
+    "bytes": 11662
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/Equation33856/response.json",
+    "sha256": "8dc91e9e8953d11e266a1c756fc15afbf8f6fea6bc426bb1e9260e020cda86a4",
+    "bytes": 1241
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/Magma.lean",
+    "sha256": "7eb1c0003c4df3293525402601f9a67e91d8a7997a86f75479dcbb3f9a37ce3f",
+    "bytes": 169
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/README.md",
+    "sha256": "a814c7cd3119b925f08e93d8bff6ca32a3209e860689d6931aabd37e510ab23b",
+    "bytes": 4122
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/check.py",
+    "sha256": "9e9994744cfa439b2ff38a63148dec3ecc5a5fb46f1bd5d996bf74fb84c998b3",
+    "bytes": 11989
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation12294-AllModelsTrivial.log",
+    "sha256": "facafd26c1f5c8fd805d12f5f2fb0880ce43703e248c7c43abee5c6913fdabf0",
+    "bytes": 1342
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation12294-Audit.log",
+    "sha256": "642de2a2f663271c966ccf109da2a6917a189c8d733f70f16fd1b79414ed010b",
+    "bytes": 838
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation12294-JudgeMagma-Magma.log",
+    "sha256": "fb20760194f2e45ce372225ab1d2e170bd12f03c5b0c5c614e853bb48a7636c1",
+    "bytes": 777
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation12294-JudgeProblem.log",
+    "sha256": "7db44ded98aec6e738c66d1c6f0e64ae86b25365a56babe2e59185553c826673",
+    "bytes": 777
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation12294-Triviality.log",
+    "sha256": "77c4965fe28d8a86695e74999999117324ae9ec2608c51e92ce09696dbd145e4",
+    "bytes": 777
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation33856-AllModelsTrivial.log",
+    "sha256": "e6d5858f1aa9381bebbe7f72497e1da38379043dcbdb8b5da9556ce1dbb8f806",
+    "bytes": 1516
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation33856-Audit.log",
+    "sha256": "9cb28eebc73528b2bef7c17706aef16d65f3c8e962d8240156d13c2de4959ba3",
+    "bytes": 838
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation33856-JudgeMagma-Magma.log",
+    "sha256": "4a6e9584141f54ef3eb95be2eea6d5fe128a70358ce39b4d3f29af7b226ad6f2",
+    "bytes": 777
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation33856-JudgeProblem.log",
+    "sha256": "7cbf97b0eb093bc67ba218bb3ad29a455e854cdf218b7e158b6e1408184e22ca",
+    "bytes": 777
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/logs/Equation33856-Triviality.log",
+    "sha256": "baf8111402b12ccde3258b940dcff0d229bed9a7039d53a49c95787399be90b5",
+    "bytes": 777
+  },
+  {
+    "path": "proofs/validation/eq12294-33856-triviality/summary.json",
+    "sha256": "d7f794b6b689f4e525ba09b7753f60fbbffa00eb6ad5984738135f98cb043285",
+    "bytes": 10534
+  }
+]
