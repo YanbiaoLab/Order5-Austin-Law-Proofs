@@ -34,6 +34,35 @@ Previous completions: [E12087/E33884 acceptance](proofs/validation/eq12087-forma
 - **Infinite-model certificates pending (4 equations)**: [Equation9663](proofs/Equation9663/README.md); [Equation36487](proofs/Equation36487/README.md); [Equation23357](proofs/Equation23357/README.md); [Equation23653](proofs/Equation23653/README.md).
 <!-- current-proof-status:end -->
 
+## Infinite-model families and equation coverage
+
+As of **2026-09-17**, the archived models can be organized into **9 construction families covering 122 distinct equations**, based on their carriers, operation definitions, and core construction methods. A family can contain several different rule systems; an operation and its opposite belong to the same family. These counts describe certified applications across the repository, not isomorphism classes or just the current search backends.
+
+| Infinite-model family | Equations covered | Construction |
+|---|---:|---|
+| Step/Code relational decoding on free trees | **42** | Define decoding through operation traces and prove output uniqueness |
+| Direct decoding or recursive inverse queries on free trees | **26** | Use pattern matching, partial inverses, image queries, or well-founded recursion |
+| Normal trees with finitely many pattern rules | **16** | Specify finitely many return rules and restrict the carrier to normal trees |
+| Terminating confluent rewriting / quotient trees | **14** | Introduce auxiliary symbols and define multiplication through quotients or unique normal forms |
+| Normal trees with cyclic colors | **6** | Three-, five-, and six-color constructions each cover 2 equations |
+| Normal trees with auxiliary nodes and partial inverses | **4** | The E10222 and E12087 constructions each cover one dual pair |
+| Row-image relational trees | **10** | The E21866 construction covers 8 equations; the E23354 construction covers 2 |
+| Auxiliary column and target relational trees | **4** | The E18137 and E17286 constructions each cover one dual pair |
+| Piecewise-linear operations on the rationals | **4** | One Le Floch construction and its opposite operation |
+| **Total** | **126 coverage entries, 122 distinct equations** | Two dual pairs each occur in two families |
+
+The overlaps are **E5833/E40070** (direct recursive and Step/Code models) and **E6878/E39126** (finite-rule normal trees and recursive decoding on free trees). The family counts therefore cannot simply be added to obtain the number of distinct equations.
+
+Concrete constructions reused across multiple dual pairs include:
+
+- The [E21866 four-rule row-image model](proofs/Equation21866/Lean/Austin21866/Model.lean) covers **8 equations**: E21714/E24200, E21864/E24199, E21865/E24197, and E21866/E24201.
+- The [Le Floch piecewise rational model](proofs/Equation13102/InfiniteModel.lean) covers **4 equations**: E13102/E33273 and E20911/E25087.
+- The remaining equations can be covered by **55 representative constructions, each assigned one dual pair**. Thus **57 representative construction groups** cover all 122 equations (55×2+8+4). This neither establishes that the models are pairwise non-isomorphic nor limits the identities they may satisfy.
+
+Of these equations, **94** have separately recorded explicit infinitude proofs; the other **28** use infinite inductive tree carriers without a separate infinitude theorem. See the [full classification and certificate list](docs/INFINITE-MODEL-FAMILIES.md) and [machine-readable inventory](docs/infinite-model-families.json) for equation identifiers, historical alternatives, and counting conventions.
+
+## Certificate conventions and archive history
+
 A “proof of finite triviality” means `∀ (G : Type) [Magma G] [Finite G], EquationN G → Equation2 G`: every finite model is trivial. A one-element model always exists for these identities; proving its existence alone does not help classify them. Deriving Equation2 without a finiteness assumption is a stronger result that also rules out nontrivial infinite models.
 
 A “proof of an infinite model” must construct a model satisfying the source equation and prove that its carrier is infinite, for example by providing an injection from `Nat` into the carrier. The Judge target `EquationN ↛ Equation2` directly requires only nontriviality. The “Nontrivial infinite model Lean certificate” column links to archived model certificates; the equation detail pages specify whether each certificate also includes an explicit infinitude theorem.
