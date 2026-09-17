@@ -1,0 +1,1532 @@
+{
+  "audit_date": "2026-09-17",
+  "index_updated_on": "2026-09-15",
+  "index_sha256": "930bb509a9193e5139c585ac9f4f5bbe1fd96ceeac7db3410a6e3f481321de83",
+  "scope": "Construction families and certified equation coverage; not isomorphism classes or all identities satisfied.",
+  "unique_equations": 122,
+  "explicit_infinity_equations": 94,
+  "family_count": 9,
+  "overlap_equations": [
+    5833,
+    6878,
+    39126,
+    40070
+  ],
+  "files_hash_checked": 126,
+  "families": [
+    {
+      "key": "code_step",
+      "coverage": 42,
+      "representative_coverage": 42,
+      "equations": [
+        4952,
+        4957,
+        5012,
+        5066,
+        5141,
+        5295,
+        5833,
+        7701,
+        7755,
+        7763,
+        9345,
+        9384,
+        9603,
+        9667,
+        9680,
+        10218,
+        11081,
+        11116,
+        11205,
+        11280,
+        12234,
+        33883,
+        34778,
+        34888,
+        35036,
+        35100,
+        35685,
+        36514,
+        36524,
+        36638,
+        36713,
+        36714,
+        38249,
+        38303,
+        38565,
+        40070,
+        40909,
+        40914,
+        40917,
+        41239,
+        41252,
+        41253
+      ]
+    },
+    {
+      "key": "recursive",
+      "coverage": 26,
+      "representative_coverage": 24,
+      "equations": [
+        5093,
+        5107,
+        5833,
+        5947,
+        5951,
+        6820,
+        6878,
+        6895,
+        7587,
+        8485,
+        9337,
+        12883,
+        22619,
+        22634,
+        33020,
+        36867,
+        37519,
+        38316,
+        39126,
+        39163,
+        39485,
+        40057,
+        40070,
+        40208,
+        40951,
+        41179
+      ]
+    },
+    {
+      "key": "finite_rules",
+      "coverage": 16,
+      "representative_coverage": 14,
+      "equations": [
+        4916,
+        6878,
+        15535,
+        17260,
+        17522,
+        19966,
+        20034,
+        22455,
+        22818,
+        25964,
+        26105,
+        28740,
+        28770,
+        30591,
+        39126,
+        41082
+      ]
+    },
+    {
+      "key": "rewrite",
+      "coverage": 14,
+      "representative_coverage": 14,
+      "equations": [
+        5837,
+        12073,
+        12857,
+        13764,
+        13849,
+        13992,
+        18212,
+        27859,
+        32280,
+        32281,
+        32294,
+        33436,
+        33998,
+        40221
+      ]
+    },
+    {
+      "key": "colored",
+      "coverage": 6,
+      "representative_coverage": 6,
+      "equations": [
+        6912,
+        11082,
+        22446,
+        22591,
+        34889,
+        39214
+      ]
+    },
+    {
+      "key": "normal_inverse",
+      "coverage": 4,
+      "representative_coverage": 4,
+      "equations": [
+        10222,
+        12087,
+        33884,
+        35836
+      ]
+    },
+    {
+      "key": "row",
+      "coverage": 10,
+      "representative_coverage": 10,
+      "equations": [
+        21714,
+        21864,
+        21865,
+        21866,
+        23337,
+        23354,
+        24197,
+        24199,
+        24200,
+        24201
+      ]
+    },
+    {
+      "key": "column",
+      "coverage": 4,
+      "representative_coverage": 4,
+      "equations": [
+        17286,
+        18137,
+        27863,
+        28626
+      ]
+    },
+    {
+      "key": "rational",
+      "coverage": 4,
+      "representative_coverage": 4,
+      "equations": [
+        13102,
+        20911,
+        25087,
+        33273
+      ]
+    }
+  ],
+  "coverage_rows": [
+    {
+      "family": "code_step",
+      "equations": [
+        4952,
+        41252
+      ],
+      "representative": true,
+      "construction_group": "code_step-4952",
+      "sources": [
+        {
+          "path": "proofs/Equation4952/InfiniteModel.lean",
+          "sha256": "a79d6bb769ff487649821f3ce61a9d7a7696cd59bb12d6c7b66e2b5efbe5671c",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation41252/InfiniteModel.lean",
+          "sha256": "094f552aeebcf81b621fd21610188e21bfbf190f8b2e7c481232a4f6dcaf3243",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        4957,
+        40914
+      ],
+      "representative": true,
+      "construction_group": "code_step-4957",
+      "sources": [
+        {
+          "path": "proofs/Equation4957/InfiniteModel.lean",
+          "sha256": "c21ca1fd4f2d1f73484d3d3c6e4459c35ab4fd05b6dfd8e2968ab848ceaddbcf",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation40914/InfiniteModel.lean",
+          "sha256": "ae0cec5bc6da4dd69b5ebc7263d04b1cf2cd65ed6ab66cdb40ad65ea862552df",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        5012,
+        41253
+      ],
+      "representative": true,
+      "construction_group": "code_step-5012",
+      "sources": [
+        {
+          "path": "proofs/Equation5012/InfiniteModel.lean",
+          "sha256": "b82476601e1613e15fd85f8d8832da002082dc4bac7c4c0ae70b518cac86c2e7",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation41253/InfiniteModel.lean",
+          "sha256": "406df04047362e6dfe067bc1b7a0a9a8773387d7b714df5e830be373ed98d130",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        5066,
+        41239
+      ],
+      "representative": true,
+      "construction_group": "code_step-5066",
+      "sources": [
+        {
+          "path": "proofs/Equation5066/InfiniteModel.lean",
+          "sha256": "117f0a08c346466e032617b96f74008c79cd9d7b88b1a49bd9f6c2754d649e47",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation41239/InfiniteModel.lean",
+          "sha256": "e989c0250bdf1833adabfe75ad6e9caec2860f5b8e4c76917d74946c0c3520c5",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        5141,
+        40917
+      ],
+      "representative": true,
+      "construction_group": "code_step-5141",
+      "sources": [
+        {
+          "path": "proofs/Equation5141/InfiniteModel.lean",
+          "sha256": "8b29cea48b42b96ec7fa36e4f9955cc3bf3f0563329b56e9b6e69503a9ed4e8b",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation40917/InfiniteModel.lean",
+          "sha256": "c87e71495b0582c566e2bb0d001f3092dfa6957bcca8ffd61c7531a3398517aa",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        5295,
+        40909
+      ],
+      "representative": true,
+      "construction_group": "code_step-5295",
+      "sources": [
+        {
+          "path": "proofs/Equation5295/InfiniteModel.lean",
+          "sha256": "eeb94842e1d87dd16472106648ea3e2e2c680fee0313f0c5576ce3476a906d10",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation40909/InfiniteModel.lean",
+          "sha256": "92a5176426af1de5888861add5eea25f9a5d7b679f295ae5d352f9a4571c94be",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        5833,
+        40070
+      ],
+      "representative": true,
+      "construction_group": "code_step-5833",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation5833/certificate.lean",
+          "sha256": "9cd8e5788c039627f6810277b488b3aa910577fc76a7a2c83e4a618d6fa64312",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation40070/certificate.lean",
+          "sha256": "0b2aa36fe90469b56818645c354c439f90ecf623bbc1b09bcd43355841699708",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        7701,
+        38303
+      ],
+      "representative": true,
+      "construction_group": "code_step-7701",
+      "sources": [
+        {
+          "path": "proofs/Equation7701/InfiniteModel.lean",
+          "sha256": "3626fc200f9d7099806bfc3ffa10ba405e3dfdbdec42875b1162f0979752fc1f",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation38303/InfiniteModel.lean",
+          "sha256": "011682087873c7b12e786f0e40f6df72d32b3103b2c76b5ca73e1b636ca15754",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        7755,
+        38249
+      ],
+      "representative": true,
+      "construction_group": "code_step-7755",
+      "sources": [
+        {
+          "path": "proofs/Equation7755/InfiniteModel.lean",
+          "sha256": "7f6e8f62e4028e9b88ecec593b282c3d986803d940776fe6d006ac675db8c10d",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation38249/InfiniteModel.lean",
+          "sha256": "31e24c071f8ca6cf6c7fd5f0c60fc0fc469b1629e0bc5e2999fd87e8d2b1215e",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        7763,
+        38565
+      ],
+      "representative": true,
+      "construction_group": "code_step-7763",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation7763/certificate.lean",
+          "sha256": "85b64fcba14a5fd662b3096bd5f9f0eee808caf65736d2ebb59c5a0fa4915316",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation38565/certificate.lean",
+          "sha256": "8c754dcf672c593cb64f881709e49811835822bca1ab110722d3be577f10fbec",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        9345,
+        36713
+      ],
+      "representative": true,
+      "construction_group": "code_step-9345",
+      "sources": [
+        {
+          "path": "proofs/Equation9345/InfiniteModel.lean",
+          "sha256": "8011715a2ffb3070cea1f366cc7428cf05e0dca9e1bfe7de20cd97963dce32af",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation36713/InfiniteModel.lean",
+          "sha256": "2f6ab32700072f844c555cc3fb0f6ae54db412db689ba97f87380858d3394bbc",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        9384,
+        36714
+      ],
+      "representative": true,
+      "construction_group": "code_step-9384",
+      "sources": [
+        {
+          "path": "proofs/Equation9384/InfiniteModel.lean",
+          "sha256": "a0ace7da67cee9d108b089380cf2dd777742a259bc5b495ca2ecd2667cb0993c",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation36714/InfiniteModel.lean",
+          "sha256": "e599d31e042b0fc43b38ff3548b070604f9f0df40e9552b5e71e54fa7eb78631",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        9603,
+        36514
+      ],
+      "representative": true,
+      "construction_group": "code_step-9603",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation9603/certificate.lean",
+          "sha256": "fe4296ac586786f084b2b3324dde69c8d5aad4592f78d6285eb30b50a6eb4e77",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation36514/certificate.lean",
+          "sha256": "96db0b4b36368ba1e0778ca5d6ab55f89b1960320d308304ae8504d41cdcacb9",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        9667,
+        36638
+      ],
+      "representative": true,
+      "construction_group": "code_step-9667",
+      "sources": [
+        {
+          "path": "proofs/Equation9667/InfiniteModel.lean",
+          "sha256": "b3934371cbc4c9b49dbb860800246f108a07a621c2867f8bf6014f3029888a2d",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation36638/InfiniteModel.lean",
+          "sha256": "cd71154b6e9e51140c21a7fe372b513131abafdb372122b9ef89787cb4c4fde5",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        9680,
+        36524
+      ],
+      "representative": true,
+      "construction_group": "code_step-9680",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation9680/certificate.lean",
+          "sha256": "e9de5ba268a1a130d4e86e0e1a499113b4b2249d4dd71030b2c10e7df69f2f42",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation36524/certificate.lean",
+          "sha256": "2a80d246aa36d1dd05fd049da3ca9f27f26f5a5d2c11a2994e1cc859d6e8b3ec",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        10218,
+        35685
+      ],
+      "representative": true,
+      "construction_group": "code_step-10218",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation10218/certificate.lean",
+          "sha256": "85483dfa024243ec5d571bbccf9b6bc081392bad8ca0d3e910ddefe6f00f0ffe",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation35685/certificate.lean",
+          "sha256": "dcdf0c91e9d1dd7e91a5e8a17fdfbbb773992b3c6b2c51b065e56877f5678393",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        11081,
+        35036
+      ],
+      "representative": true,
+      "construction_group": "code_step-11081",
+      "sources": [
+        {
+          "path": "proofs/Equation11081/InfiniteModel.lean",
+          "sha256": "1aa5250b553c95a9aeccd2a0903fe210975b5004ad263ec636cf44b4ccafc9ed",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation35036/InfiniteModel.lean",
+          "sha256": "18f8130585c1586ddf65806632744256ed6de4e1dfcba85505d9b653456d4a12",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        11116,
+        34888
+      ],
+      "representative": true,
+      "construction_group": "code_step-11116",
+      "sources": [
+        {
+          "path": "proofs/Equation11116/InfiniteModel.lean",
+          "sha256": "fa846f50219e80ec758d647dd33141707e7cf717e9cde65c4135b10da4871bcd",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation34888/InfiniteModel.lean",
+          "sha256": "0dee10079b8df63d33873752feff37bfb4e3c459715720496c63b27b204c5dc4",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        11205,
+        35100
+      ],
+      "representative": true,
+      "construction_group": "code_step-11205",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation11205/certificate.lean",
+          "sha256": "ee307266114d2c4d6eed999d7578ad21b5d2fd3175c4fa6497265af12da7275b",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation35100/certificate.lean",
+          "sha256": "61645c58a91d9a3596329ad456e7fd46ad65318f65d572c3cd78d630165c41b5",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        11280,
+        34778
+      ],
+      "representative": true,
+      "construction_group": "code_step-11280",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation11280/certificate.lean",
+          "sha256": "0ac4276de741c69d93fbbe03c1bfe52d249d481b278f83fce3a87fb3edf1555d",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation34778/certificate.lean",
+          "sha256": "bb14a7db4a3e0420a3ddcd046f561f01faf345f2136dddca13798134385c1e50",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "code_step",
+      "equations": [
+        12234,
+        33883
+      ],
+      "representative": true,
+      "construction_group": "code_step-12234",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation12234/certificate.lean",
+          "sha256": "b11ebff279c1f3ab0ed1faf63bd75210bd9b6f456137cb4ad3bf8934ebc5c2b6",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation33883/certificate.lean",
+          "sha256": "cfd4ff66baad3b4e6ca345d16e9aedea24cd28055afc770984cbc633f6a45633",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        5093,
+        41179
+      ],
+      "representative": true,
+      "construction_group": "recursive-5093",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation5093/certificate.lean",
+          "sha256": "d62b140fae60f10510a39020b7f70f21867496086398ba253577fb1d2fcb7a0a",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation41179/certificate.lean",
+          "sha256": "90fff01e5cf0970637a7072741ed4904bcc0d9fac2092eb1c2fefab9527d2e1a",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        5107,
+        40951
+      ],
+      "representative": true,
+      "construction_group": "recursive-5107",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation5107/certificate.lean",
+          "sha256": "ce1bc372921c2c0a63c63ee305b28f36e150b5b0c80d031a97ceeec5b5240086",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation40951/certificate.lean",
+          "sha256": "ee182fc5e48e7ba977e65b59b7739caf462192de33950fbc52ea9c164b885b1c",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        5947,
+        40057
+      ],
+      "representative": true,
+      "construction_group": "recursive-5947",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation5947/certificate.lean",
+          "sha256": "816006d0323df66536ebb55674e4a05ae895aa88ee6c72af35946f6bf564db49",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation40057/certificate.lean",
+          "sha256": "9c270ec7b40a3889ef62d3e5b9e46fbda35c291562a9ad30e9fd7f2b7d691364",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        5951,
+        40208
+      ],
+      "representative": true,
+      "construction_group": "recursive-5951",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation5951/certificate.lean",
+          "sha256": "b5421c74abf67a258212f449a4ccc491ca7e3828b766a76501d1f592aca45708",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation40208/certificate.lean",
+          "sha256": "0c2e3bbccd1f215aca362ac03c6043752bfe4b080e92addac7e29f77108b136a",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        6820,
+        39485
+      ],
+      "representative": true,
+      "construction_group": "recursive-6820",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation6820/certificate.lean",
+          "sha256": "5eaa0bf7555d0ea5562bfec04a624d472fc61db018d51f7725dbd89e949daea5",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation39485/certificate.lean",
+          "sha256": "d6a9dd11f4dbeb9cea0d3bbefb579194c943a3856ec0545e24a4cbeba2bd2336",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        6878,
+        39126
+      ],
+      "representative": true,
+      "construction_group": "recursive-6878",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation6878/certificate.lean",
+          "sha256": "05d53f262fa1365aad83aa562a7ea8f5ff44f86d875d236f06173f84af684982",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation39126/certificate.lean",
+          "sha256": "e060f4efa3939ff10ee1f956be56695cadc06d6682055c7fac94933c680d0e8d",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        6895,
+        39163
+      ],
+      "representative": true,
+      "construction_group": "recursive-6895",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation6895/certificate.lean",
+          "sha256": "974380fb39cf9166978d36d85d074c39cdfa041f8564d5a6eb3bdd8a4394be99",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation39163/certificate.lean",
+          "sha256": "8af1b14f662549d29ca5de4bba22ff65706e0754c8bef49a6de12e77114b55d2",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        7587,
+        38316
+      ],
+      "representative": true,
+      "construction_group": "recursive-7587",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation7587/certificate.lean",
+          "sha256": "1b6dfb5ef18e752a555b86c86d6c5c4a1cb8e4f11f7c77364766cc9dcf300da5",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation38316/certificate.lean",
+          "sha256": "6b7a20e879acde7434ad9a7d23bb09df36a52029e5ac0667304f6ce67d4d662c",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        8485,
+        37519
+      ],
+      "representative": true,
+      "construction_group": "recursive-8485",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation8485/certificate.lean",
+          "sha256": "d7156977016b37819fc6f361214b702e9985c1a6c5e79a9fbb4bc094b16af611",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation37519/certificate.lean",
+          "sha256": "18428f681ce9d6c381238cc3a42c60bbafc27454a2ed7c8b1308648b7e97ac1f",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        9337,
+        36867
+      ],
+      "representative": true,
+      "construction_group": "recursive-9337",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation9337/certificate.lean",
+          "sha256": "c6d8885b8bad28c9db87b79be5871a832da4312d42cce28c325575c6fec69631",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation36867/certificate.lean",
+          "sha256": "6b75efeeb97e533c7ddebd202ead64c9dbc31cb86db2619d57795b4b642703bf",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        12883,
+        33020
+      ],
+      "representative": true,
+      "construction_group": "recursive-12883",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation12883/certificate.lean",
+          "sha256": "c394b4f18967692b6dbeb4e1faf453d48a652ce54d36f89ac4a4e46875ed8dfc",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation33020/certificate.lean",
+          "sha256": "515f22bfbedc1d9bc5d5d4f8173606e84693c4cd258ae2a0bc30b77278a188fe",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        22619,
+        22634
+      ],
+      "representative": true,
+      "construction_group": "recursive-22619",
+      "sources": [
+        {
+          "path": "proofs/Equation22619/InfiniteModel.lean",
+          "sha256": "5d65a6b6320334aff5df1f9b3a2050004ca970797cf3c4e6070fc0563e128e11",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation22634/InfiniteModel.lean",
+          "sha256": "2d3111eed3c1aaaaa24b65a250f3a2e7f3004515fe2e77af744f246e274de54d",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        4916,
+        41082
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-4916",
+      "sources": [
+        {
+          "path": "proofs/Equation4916/InfiniteModel.lean",
+          "sha256": "a4106c269953231f6e49a02d212113f377abe72bff765cf9742c87edf453bac3",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation41082/InfiniteModel.lean",
+          "sha256": "bd86b917f359e75f77370e6b3d662c2be93371281fb1fa41a73b1cf9c0299d44",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        15535,
+        30591
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-15535",
+      "sources": [
+        {
+          "path": "proofs/Equation15535/InfiniteModel.lean",
+          "sha256": "000c038e1f3e388f151c485e3d81a8320f375822ed19c7016d9010002fa2e058",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation30591/InfiniteModel.lean",
+          "sha256": "f7a72d83f00c572c0f3c2aba4682a1d3215ed2c93154381341a5be1b3f52a3c6",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        17522,
+        28770
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-17522",
+      "sources": [
+        {
+          "path": "proofs/Equation17522/InfiniteModel.lean",
+          "sha256": "5653c0f6156f621dac54a415f055fb4ad8a7cca09072dbbd7d97326a6a4db765",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation28770/InfiniteModel.lean",
+          "sha256": "5bf1357b80e910b9fdfbafc19d0ee6387dff9128014225808c05c32bcb9adf7b",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        20034,
+        25964
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-20034",
+      "sources": [
+        {
+          "path": "proofs/Equation20034/InfiniteModel.lean",
+          "sha256": "2f0ab52deee96952effcafe28e1b5503f9109d8e9e7891a9351c0dd6cc607259",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation25964/InfiniteModel.lean",
+          "sha256": "e86ca61b5736c0cdaebd296ae960873cd452819136fc23addffd37762b7f718f",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        22455,
+        22818
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-22455",
+      "sources": [
+        {
+          "path": "proofs/Equation22455/InfiniteModel.lean",
+          "sha256": "161b6dca1c8ab85d567db46f8ef56aae936c4e9e6b7eb5430abca2e596fcf3b7",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation22818/InfiniteModel.lean",
+          "sha256": "8bddd7c1a6a58ae72d379463b7045fa1c7d4fa46b51b5034b4f1d23ddc1aaa30",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        19966,
+        26105
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-19966",
+      "sources": [
+        {
+          "path": "proofs/Equation19966/InfiniteModel.lean",
+          "sha256": "0e1e14dbed48b5fbabbb690d21d7186cd004b253df08706a34b75cd38d984419",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation26105/InfiniteModel.lean",
+          "sha256": "a146e099576e34f204424c21705d50b6597e85707d83c0122a6b1551aca6a069",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        17260,
+        28740
+      ],
+      "representative": true,
+      "construction_group": "finite_rules-17260",
+      "sources": [
+        {
+          "path": "proofs/Equation17260/InfiniteModel.lean",
+          "sha256": "c282fcb31dd5f3e7fa8edf8e091823f68edc8022b178e5d9366d0cbb1e779cb3",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation28740/InfiniteModel.lean",
+          "sha256": "beb1c4183486fb3ed80ae21afd0ed98cb23bdef7a263feb7d0255aa8af4c7041",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        5837,
+        40221
+      ],
+      "representative": true,
+      "construction_group": "rewrite-5837",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation5837/certificate.lean",
+          "sha256": "4329d6edd34f319a82a333c464af8d320ce466891653e3260281a0c6d0fab325",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation40221/certificate.lean",
+          "sha256": "41c22441c3567a126360fc0de94fd21c697986904830e5d9884fdfbd4efbf2a6",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        12073,
+        33998
+      ],
+      "representative": true,
+      "construction_group": "rewrite-12073",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation12073/certificate.lean",
+          "sha256": "7b507b716098af0fc815a6a289ab80d19765e39f264e847b957d995f5de84da6",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation33998/certificate.lean",
+          "sha256": "25eb5481c19a4d343d8f954925b6a5099717a1a67101938eb353b5120b3eec22",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        12857,
+        33436
+      ],
+      "representative": true,
+      "construction_group": "rewrite-12857",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation12857/attempt02/certificate.lean",
+          "sha256": "299d7af9373bcf656b705dcf69852c9e9aa185bf0c90e2e49df67568deaecb24",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation33436/certificate.lean",
+          "sha256": "114bd9921105a083b02ad282f35dfc7e4a0aba7e47afd5a3ce1303d3537952b4",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        13764,
+        32294
+      ],
+      "representative": true,
+      "construction_group": "rewrite-13764",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation13764/certificate.lean",
+          "sha256": "cb3835974a8cad16879f99d23ac328e2702955ab8923d86329bcf14302478be2",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation32294/certificate.lean",
+          "sha256": "05c4b002f3636482c3cffbcc641ab2f41d800a350e28083ccc1384e6a6028cda",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        13849,
+        32281
+      ],
+      "representative": true,
+      "construction_group": "rewrite-13849",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation13849/certificate.lean",
+          "sha256": "fb38ec458adb5aa66dcfb5a0c109aba7e7f74fdd0167f787e6c78104f9572a84",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation32281/certificate.lean",
+          "sha256": "b2db0f13d058b68eab472d7237bdef5a2c801d60526b96b0a8420d00da819ace",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        13992,
+        32280
+      ],
+      "representative": true,
+      "construction_group": "rewrite-13992",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation13992/certificate.lean",
+          "sha256": "b5531519515cc9ff3ba809ee3cf463b183ab8a0b54202dc2f4000d9ceb21e0f7",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation32280/certificate.lean",
+          "sha256": "3c79ebb968d1dc2651c7e605efd1b458bdd2a7502f3a1b902627afab70e24435",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "rewrite",
+      "equations": [
+        18212,
+        27859
+      ],
+      "representative": true,
+      "construction_group": "rewrite-18212",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation18212/certificate.lean",
+          "sha256": "38481ac49a2ce1e6302ea8e9b20b8133c82b3c2e2a2e6414df4aafcb53e240e3",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation27859/certificate.lean",
+          "sha256": "605e3738ab1cf66d94e0996e438bbe532414242fd2eedd41c1033f85bf18e102",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "colored",
+      "equations": [
+        6912,
+        39214
+      ],
+      "representative": true,
+      "construction_group": "colored-6912",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation6912/certificate.lean",
+          "sha256": "51a1d40b53f71a0398cf732c58b88dc107226c35d80258c1ef7cd527250d20fc",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation39214/certificate.lean",
+          "sha256": "ad0c623ff2092dc3beacb842d327ea792436fe6d11d880b8ffc440f951407a5a",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "colored",
+      "equations": [
+        11082,
+        34889
+      ],
+      "representative": true,
+      "construction_group": "colored-11082",
+      "sources": [
+        {
+          "path": "proofs/validation/aurora/Equation11082/certificate.lean",
+          "sha256": "c9fe7e16f1d5ae176e3b0c65ebd6f69d722a1d0c1f231241a7e750c711f88e0f",
+          "validation": "aurora_judge_v3_repl_accepted"
+        },
+        {
+          "path": "proofs/validation/aurora/Equation34889/certificate.lean",
+          "sha256": "dc306e603c9cbcb6a9955a5b9990466ec304f0157837c6dad87f2481da385fdb",
+          "validation": "aurora_judge_v3_repl_accepted"
+        }
+      ]
+    },
+    {
+      "family": "colored",
+      "equations": [
+        22446,
+        22591
+      ],
+      "representative": true,
+      "construction_group": "colored-22446",
+      "sources": [
+        {
+          "path": "proofs/Equation22446/InfiniteModel.lean",
+          "sha256": "901f2d263067605b1ca1bcc63c7bfd862f6a267e7ff93f530ac47b87f9de462f",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation22591/InfiniteModel.lean",
+          "sha256": "43505693cbe0171719ec737bddd11d42b8fe39f93576f9767e4b68688c72d1bd",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "normal_inverse",
+      "equations": [
+        10222,
+        35836
+      ],
+      "representative": true,
+      "construction_group": "normal_inverse-10222",
+      "sources": [
+        {
+          "path": "proofs/Equation10222/InfiniteModel.lean",
+          "sha256": "6f32eb62c2d98e70526cc6f0fefb0182c4d28deda6e6e687dfb01cc04fc5a847",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation35836/InfiniteModel.lean",
+          "sha256": "1814faff7068ae51a8e65139e294d9ced0a0240e1e1a1a8517210050ab43d547",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "normal_inverse",
+      "equations": [
+        12087,
+        33884
+      ],
+      "representative": true,
+      "construction_group": "normal_inverse-12087",
+      "sources": [
+        {
+          "path": "proofs/Equation12087/InfiniteModel.lean",
+          "sha256": "73046a5b1c4d0a9a2805adc829bd3c85e69dc8938415af484dd11a5160395af3",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation33884/InfiniteModel.lean",
+          "sha256": "6a8378c59a6af9c55cde4a43d4bc01557bede713958d15607f63f33264cc6cd0",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "row",
+      "equations": [
+        21714,
+        24200
+      ],
+      "representative": true,
+      "construction_group": "row-21866",
+      "sources": [
+        {
+          "path": "proofs/Equation21714/InfiniteModel.lean",
+          "sha256": "48609ac1ac9c931141fe5f50170553c2e581e9500df2ef4cc449c0959c904e2c",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation24200/InfiniteModel.lean",
+          "sha256": "200dff80114da1845d41b52e25ca382578411dd267bbd8ff5c8ba8f125991ac9",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "row",
+      "equations": [
+        21864,
+        24199
+      ],
+      "representative": true,
+      "construction_group": "row-21866",
+      "sources": [
+        {
+          "path": "proofs/Equation21864/InfiniteModel.lean",
+          "sha256": "2dbe83fbb6ece6dff08aad2b8f04f04db0cb83cc9c05cb657841097e840b29f0",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation24199/InfiniteModel.lean",
+          "sha256": "2423203f952f1c56650c3cf0e22796f229d72bc7329f54b22829a7cbe4128ab3",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "row",
+      "equations": [
+        21865,
+        24197
+      ],
+      "representative": true,
+      "construction_group": "row-21866",
+      "sources": [
+        {
+          "path": "proofs/Equation21865/InfiniteModel.lean",
+          "sha256": "cf7175bd3b9368c7f0bc55aa59e3211baf69422c99ed43d3901bed17b529656f",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation24197/InfiniteModel.lean",
+          "sha256": "33b5f251793cc95e80213a9507150233d83b012f8ef714486a2350de053c213b",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "row",
+      "equations": [
+        21866,
+        24201
+      ],
+      "representative": true,
+      "construction_group": "row-21866",
+      "sources": [
+        {
+          "path": "proofs/Equation21866/InfiniteModel.lean",
+          "sha256": "d38e8d0db611f51357fc115f41c8ecb0faf3e7c1e9816a1694c8b715fbb53611",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation24201/InfiniteModel.lean",
+          "sha256": "17ad3db1c5f0184a60505dfde6871833541756f83b770b804fdd74a13b4a1145",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "row",
+      "equations": [
+        23337,
+        23354
+      ],
+      "representative": true,
+      "construction_group": "row-23337",
+      "sources": [
+        {
+          "path": "proofs/Equation23337/InfiniteModel.lean",
+          "sha256": "830025ef83f4f8314e21eab792253fb446bf5a96dfc596939aa603317420a0e8",
+          "validation": "included_in_accepted_aurora_certificate"
+        },
+        {
+          "path": "proofs/Equation23354/InfiniteModel.lean",
+          "sha256": "4d1df513dfb294be4160cbae9a6801849db28fbba0f06ff04d461985f3aa5085",
+          "validation": "included_in_accepted_aurora_certificate"
+        }
+      ]
+    },
+    {
+      "family": "column",
+      "equations": [
+        18137,
+        27863
+      ],
+      "representative": true,
+      "construction_group": "column-18137",
+      "sources": [
+        {
+          "path": "proofs/Equation18137/InfiniteModel.lean",
+          "sha256": "80f1d61cabd487ebc4b43dfcd14034c58061e3340865ed3d12447ccffd56050c",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation27863/InfiniteModel.lean",
+          "sha256": "c21104d9525bf39facb0b7a8638f72c60b5df516096ddb479ce239f4bf8acc22",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "column",
+      "equations": [
+        17286,
+        28626
+      ],
+      "representative": true,
+      "construction_group": "column-17286",
+      "sources": [
+        {
+          "path": "proofs/Equation17286/InfiniteModel.lean",
+          "sha256": "9a04b41870ab41845263fd561a6b3843392b0f05049ab096c4f61ae34d924c43",
+          "validation": "local_lean_recompiled_axioms_checked"
+        },
+        {
+          "path": "proofs/Equation28626/InfiniteModel.lean",
+          "sha256": "a0c863fa8a999f4e3e8131ab6507bcf860a7445bb4358f58b4f18f8369ba9969",
+          "validation": "local_lean_recompiled_axioms_checked"
+        }
+      ]
+    },
+    {
+      "family": "rational",
+      "equations": [
+        13102,
+        33273
+      ],
+      "representative": true,
+      "construction_group": "rational-le-floch",
+      "sources": [
+        {
+          "path": "proofs/Equation13102/InfiniteModel.lean",
+          "sha256": "b4d64ebf9535df265f08048e4510300c0040c2f13af6980381bb6040b1dcdb7b",
+          "validation": "included_in_accepted_aurora_certificate"
+        },
+        {
+          "path": "proofs/Equation33273/InfiniteModel.lean",
+          "sha256": "4dfa22c85647c386ff31997ea1becc331a18eedff0af554acc525a6d37da23f3",
+          "validation": "included_in_accepted_aurora_certificate"
+        }
+      ]
+    },
+    {
+      "family": "rational",
+      "equations": [
+        20911,
+        25087
+      ],
+      "representative": true,
+      "construction_group": "rational-le-floch",
+      "sources": [
+        {
+          "path": "proofs/Equation20911/InfiniteModel.lean",
+          "sha256": "eb3fa642caa3c0532a5060a09b216ca4fb984c45a1cc16c0eb5bf286d26ee185",
+          "validation": "historical_judge_v3_accepted_module_contains_explicit_infinity"
+        },
+        {
+          "path": "proofs/Equation25087/InfiniteModel.lean",
+          "sha256": "c34100d47dd51620bb4d19e3b4241a191353886e20a4be7b7e8e6e41182c1441",
+          "validation": "historical_judge_v3_accepted_module_contains_explicit_infinity"
+        }
+      ]
+    },
+    {
+      "family": "recursive",
+      "equations": [
+        5833,
+        40070
+      ],
+      "representative": false,
+      "construction_group": "recursive-5833-historical",
+      "sources": [
+        {
+          "path": "proofs/Equation5833/InfiniteModel.lean",
+          "sha256": "9e562a7201150025335f12548a3bd662e279c458bb34763d43f3cab90ee4a09b",
+          "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked"
+        },
+        {
+          "path": "proofs/Equation40070/InfiniteModel.lean",
+          "sha256": "e67b9eddb69ab9ef3c9317ddfe03c5ca0f5fb80034c69990c3ea2ef181800034",
+          "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked"
+        }
+      ]
+    },
+    {
+      "family": "finite_rules",
+      "equations": [
+        6878,
+        39126
+      ],
+      "representative": false,
+      "construction_group": "finite_rules-6878-historical",
+      "sources": [
+        {
+          "path": "proofs/Equation6878/InfiniteModel.lean",
+          "sha256": "7087715d12994f6d82785c62453eb867c49fbe0abe395049864f6319189be822",
+          "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked"
+        },
+        {
+          "path": "proofs/Equation39126/InfiniteModel.lean",
+          "sha256": "7144111eab0122bc7c446cb006a9f53f42aa87819919d65549ed5fe032984640",
+          "validation": "historical_judge_v3_accepted_hash_and_problem_binding_checked"
+        }
+      ]
+    }
+  ]
+}
